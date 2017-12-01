@@ -3,3 +3,8 @@
 //
 
 #include "PDU.h"
+
+int main(void)
+{
+    exit(0);
+}
