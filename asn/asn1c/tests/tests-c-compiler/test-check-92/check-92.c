@@ -1,1 +1,0 @@
-.././check-src/check-92.c

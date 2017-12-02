@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= INTEGER { foo(0), bar(1), baz(2) }
--- in ./bundles/02-INTEGER-bundle.txt 10
-END

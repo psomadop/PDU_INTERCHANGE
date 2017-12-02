@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= ENUMERATED { foo(-2147483648), ..., baz(2147483647) }
--- in ./bundles/03-ENUMERATED-bundle.txt 10
-END

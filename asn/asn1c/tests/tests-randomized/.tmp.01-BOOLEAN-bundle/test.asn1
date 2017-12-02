@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= BOOLEAN (FALSE..TRUE,...)
--- in ./bundles/01-BOOLEAN-bundle.txt 8
-END

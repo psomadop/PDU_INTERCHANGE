@@ -1,1 +1,0 @@
-/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger_oer.c

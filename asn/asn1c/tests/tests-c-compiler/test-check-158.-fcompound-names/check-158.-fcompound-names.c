@@ -1,1 +1,0 @@
-.././check-src/check-158.-fcompound-names.c

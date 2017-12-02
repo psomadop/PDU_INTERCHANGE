@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= SET (SIZE(1..2,...)) OF OCTET STRING (SIZE(1))
--- in ./bundles/19-SET-OF-bundle.txt 38
-END

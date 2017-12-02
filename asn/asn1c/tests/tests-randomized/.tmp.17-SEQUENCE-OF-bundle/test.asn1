@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= SEQUENCE (SIZE(1..2,...)) OF OCTET STRING (SIZE(1))
--- in ./bundles/17-SEQUENCE-OF-bundle.txt 38
-END

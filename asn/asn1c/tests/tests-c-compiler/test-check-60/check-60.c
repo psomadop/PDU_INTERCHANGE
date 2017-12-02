@@ -1,1 +1,0 @@
-.././check-src/check-60.c

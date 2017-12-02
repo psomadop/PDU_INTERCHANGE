@@ -1,1 +1,0 @@
-.././check-src/check-72.-fcompound-names.c

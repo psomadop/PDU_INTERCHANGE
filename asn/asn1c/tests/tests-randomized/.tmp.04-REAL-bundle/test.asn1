@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= Real64 Real64 ::= REAL (WITH COMPONENTS { mantissa (-9007199254740991..9007199254740991), base (2), exponent (-1074..971)})
--- in ./bundles/04-REAL-bundle.txt 7
-END

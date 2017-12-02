@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= BMPString (FROM("A".."Z") INTERSECTION SIZE(3))
--- in ./bundles/11-BMPString-bundle.txt 7
-END

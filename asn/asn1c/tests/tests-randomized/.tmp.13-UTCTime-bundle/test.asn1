@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= UTCTime
--- in ./bundles/13-UTCTime-bundle.txt 1
-END

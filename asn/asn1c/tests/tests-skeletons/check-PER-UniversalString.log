@@ -1,7 +1,0 @@
-UniversalString: invalid size 1 not divisible by 4 (UniversalString.c:76)
-UniversalString: invalid size 2 not divisible by 4 (UniversalString.c:76)
-UniversalString: invalid size 3 not divisible by 4 (UniversalString.c:76)
-UniversalString: invalid size 5 not divisible by 4 (UniversalString.c:76)
-UniversalString: invalid size 6 not divisible by 4 (UniversalString.c:76)
-UniversalString: invalid size 7 not divisible by 4 (UniversalString.c:76)
-PASS check-PER-UniversalString (exit status: 0)

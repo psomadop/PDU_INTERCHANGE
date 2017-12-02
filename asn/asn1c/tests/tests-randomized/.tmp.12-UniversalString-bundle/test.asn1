@@ -1,3 +1,0 @@
-Test DEFINITIONS ::= BEGIN T ::= UniversalString (FROM("A".."Z") INTERSECTION SIZE(3))
--- in ./bundles/12-UniversalString-bundle.txt 7
-END

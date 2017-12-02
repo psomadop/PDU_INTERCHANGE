@@ -1,1 +1,0 @@
-.././check-src/check-65.c
