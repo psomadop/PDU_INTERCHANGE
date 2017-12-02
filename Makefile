@@ -1,4 +1,4 @@
-CC=gcc
+CC=gcc -g -DEMIT_ASN_DEBUG=1 -D_REENTRANT
 INCLUDE=asn_enc_dec
 ASN_SRC=asn_enc_dec
 OUT=demo
