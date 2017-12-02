@@ -118,6 +118,8 @@ int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
 {
     asn_dec_rval_t   dr;        //!< Decoder's result.
     struct PDU       asn_pdu;   //!< Decoded PDU.
+  
+    memset(&asn_pdu, 0, sizeof(asn_pdu));    
 
     /** 
      * Brain-damaged interface for the decoder, but I'm now used to that.
@@ -133,10 +135,12 @@ int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
     {
         return -1;
     }
+    
+    /* Let's see what we decoded. Not that I expect it to work...*/
+    xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
+   
+    /* Now let's take stuff from ASN.1 structure to human-friendly PDU. */
 
-    /* Let's see what we decoded. */
-    //xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
-
-
-    return 0;
+     
+    return dr.consumed;
 }
