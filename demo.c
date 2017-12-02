@@ -1,10 +1,46 @@
-//
-// Created by Tasos Psomadopoulos on 30/11/2017.
-//
-
 #include "PDU.h"
+#include <stdio.h>
+
+#include "pdu_types.h"
+#include "pdu_transcoder.h"
 
 int main(void)
 {
+    /* My data types. */
+    CELL    cell_a, cell_b, cell_c, cell_d;
+    CELL    cells[4];
+
+    /* Buffer for ASN.1 encoded data. */
+    char    encoded[8192];
+    int     encoded_len = 8192;
+
+    /* Just populate my data types to encode. */
+    cell_a.type = CELL_TYPE_INT;
+    cell_a.u.int_val = 2;
+
+    cell_b.type = CELL_TYPE_BOOL;
+    cell_b.u.bool_val = TRUE;
+
+    cell_c.type = CELL_TYPE_MESSAGE;
+    cell_c.u.message.clock_ticks = 34332;
+    cell_c.u.message.integers[0] = 1;
+    cell_c.u.message.integers[1] = 2;
+    cell_c.u.message.integers[2] = 3;
+    cell_c.u.message.integers[3] = 4;
+
+    cell_d.type = CELL_TYPE_NAME;
+    cell_d.u.name_val = "Tasos Psomadopoulos";
+
+    cells[0] = cell_a;
+    cells[1] = cell_b;
+    cells[2] = cell_c;
+    cells[3] = cell_d;
+
+    TX_PDU tx_pdu;
+    tx_pdu.cells = cells;
+    tx_pdu.num_cells = 4;
+    int success = pdu_encode(&tx_pdu, encoded, encoded_len);
+
+    printf ("ASN success indicator: %d.\n", (int)success);
     exit(0);
 }

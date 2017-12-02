@@ -7,7 +7,7 @@ AComplexType ::= SEQUENCE {
 }
 
 Cell ::= CHOICE {
-    intVal	        INTEGER,
+    intVal	        INTEGER  (0..4),           -- A 4-bit integer value.
     boolVal	        BOOLEAN,
     name            OCTET STRING,
     message         AComplexType

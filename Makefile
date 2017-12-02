@@ -14,9 +14,9 @@ ASN_SOURCES := $(filter-out $(ASN_SRC)/BIT_STRING.c, $(ASN_SRC_FILES))
 ASN_SOURCES := $(filter-out $(ASN_SRC)/converter-example.c, $(ASN_SOURCES))
 
 bit_string.o:	$(ASN_SRC)/BIT_STRING.c
-	$(CC) -c -std=c99 -DPDU=$(ASN1_ROOT_PDU) -DASN_DISABLE_OER_SUPPORT -oBIT_STRING.o -I$(INCLUDE) $(ASN_SRC)/BIT_STRING.c
+	$(CC) -c -DPDU=$(ASN1_ROOT_PDU) -DASN_DISABLE_OER_SUPPORT -oBIT_STRING.o -I$(INCLUDE) $(ASN_SRC)/BIT_STRING.c
 
 all: bit_string.o
-	$(CC) -std=c99 -DPDU=$(ASN1_ROOT_PDU) -o$(OUT) -I$(INCLUDE) demo.c BIT_STRING.o $(ASN_SOURCES)
+	$(CC)  -DPDU=$(ASN1_ROOT_PDU) -o$(OUT) -I. -I$(INCLUDE) demo.c pdu_transcoder.c BIT_STRING.o $(ASN_SOURCES)
 	rm BIT_STRING.o
 
