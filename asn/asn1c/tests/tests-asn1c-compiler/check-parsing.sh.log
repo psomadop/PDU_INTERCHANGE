@@ -1,0 +1,217 @@
+Checking ../../tests/tests-asn1c-compiler/03-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/03-enum-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/03-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/03-enum-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/04-enum-SE.asn1 against ../../tests/tests-asn1c-compiler/04-enum-SE.asn1.-E
+Checking ../../tests/tests-asn1c-compiler/07-int-OK.asn1 against ../../tests/tests-asn1c-compiler/07-int-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/100-class-ref-OK.asn1 against ../../tests/tests-asn1c-compiler/100-class-ref-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1 against ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1.-EF
+FATAL: Unknown type "REF-ID2" referenced by "REF-ID" at line 15 in ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID" referenced by "REF-ID2" at line 17 in ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1
+FATAL: Class field REF-ID.&id lookup at line 18 in something that is not a class: REF-ID2 at line 17 in ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&id" referenced by "field" at line 18 in ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&Type" referenced by "params" at line 20 in ../../tests/tests-asn1c-compiler/102-class-ref-SE.asn1
+Checking ../../tests/tests-asn1c-compiler/104-param-1-OK.asn1 against ../../tests/tests-asn1c-compiler/104-param-1-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/104-param-1-OK.asn1 against ../../tests/tests-asn1c-compiler/104-param-1-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/105-param-2-OK.asn1 against ../../tests/tests-asn1c-compiler/105-param-2-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/106-param-constr-OK.asn1 against ../../tests/tests-asn1c-compiler/106-param-constr-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/108-param-constr-3-OK.asn1 against ../../tests/tests-asn1c-compiler/108-param-constr-3-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/110-param-3-OK.asn1 against ../../tests/tests-asn1c-compiler/110-param-3-OK.asn1.-Pfcompound-names
+Checking ../../tests/tests-asn1c-compiler/112-param-class-OK.asn1 against ../../tests/tests-asn1c-compiler/112-param-class-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/117-real-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/117-real-constraint-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/118-per-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/118-per-constraint-OK.asn1.-EFprint-constraints
+Checking ../../tests/tests-asn1c-compiler/119-per-strings-OK.asn1 against ../../tests/tests-asn1c-compiler/119-per-strings-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/119-per-strings-OK.asn1 against ../../tests/tests-asn1c-compiler/119-per-strings-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/121-empty-imports-OK.asn1 against ../../tests/tests-asn1c-compiler/121-empty-imports-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/123-valueassignment-OK.asn1 against ../../tests/tests-asn1c-compiler/123-valueassignment-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/124-multiconstraint-OK.asn1 against ../../tests/tests-asn1c-compiler/124-multiconstraint-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/125-bitstring-constraint-OK.asn1.-X
+Checking ../../tests/tests-asn1c-compiler/126-per-extensions-OK.asn1 against ../../tests/tests-asn1c-compiler/126-per-extensions-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/127-per-long-OK.asn1 against ../../tests/tests-asn1c-compiler/127-per-long-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/129-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/129-enum-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/130-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/130-enum-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/131-per-empty-OK.asn1 against ../../tests/tests-asn1c-compiler/131-per-empty-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/134-per-long-OK.asn1 against ../../tests/tests-asn1c-compiler/134-per-long-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/136-oer-long-OK.asn1 against ../../tests/tests-asn1c-compiler/136-oer-long-OK.asn1.-Pgen-OER
+Checking ../../tests/tests-asn1c-compiler/137-oer-string-OK.asn1 against ../../tests/tests-asn1c-compiler/137-oer-string-OK.asn1.-Pgen-OER
+Checking ../../tests/tests-asn1c-compiler/138-oer-constraints-OK.asn1 against ../../tests/tests-asn1c-compiler/138-oer-constraints-OK.asn1.-Pgen-OER
+Checking ../../tests/tests-asn1c-compiler/139-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/139-component-relation-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/139-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/139-component-relation-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/14-resolver-OK.asn1 against ../../tests/tests-asn1c-compiler/14-resolver-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/140-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/140-component-relation-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/140-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/140-component-relation-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/141-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/141-component-relation-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/141-component-relation-OK.asn1 against ../../tests/tests-asn1c-compiler/141-component-relation-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/142-anonymous-types-deco-OK.asn1 against ../../tests/tests-asn1c-compiler/142-anonymous-types-deco-OK.asn1.-Pfcompound-names
+Checking ../../tests/tests-asn1c-compiler/143-inner-parameterization-OK.asn1 against ../../tests/tests-asn1c-compiler/143-inner-parameterization-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1 against ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1.-P
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/144-ios-parameterization-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1 against ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1.-Pgen-PER
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in ../../tests/tests-asn1c-compiler/146-ios-parameterization-per-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/147-inherit-per-constraints-OK.asn1 against ../../tests/tests-asn1c-compiler/147-inherit-per-constraints-OK.asn1.-Pgen-OER
+Checking ../../tests/tests-asn1c-compiler/147-inherit-per-constraints-OK.asn1 against ../../tests/tests-asn1c-compiler/147-inherit-per-constraints-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/149-with-components-SE.asn1 against ../../tests/tests-asn1c-compiler/149-with-components-SE.asn1.-E
+Checking ../../tests/tests-asn1c-compiler/150-with-components-OK.asn1 against ../../tests/tests-asn1c-compiler/150-with-components-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/151-per-b2110-OK.asn1 against ../../tests/tests-asn1c-compiler/151-per-b2110-OK.asn1.-EFprint-constraints
+Checking ../../tests/tests-asn1c-compiler/152-value-and-type-references-OK.asn1 against ../../tests/tests-asn1c-compiler/152-value-and-type-references-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/153-single-value-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/153-single-value-constraint-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1 against ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1 against ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1.-Pgen-OER
+Checking ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1 against ../../tests/tests-asn1c-compiler/154-with-REAL-components-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1 against ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1.-Pgen-PER
+WARNING: Parameterized type max-items expected for max-items at line 41 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in ../../tests/tests-asn1c-compiler/155-parameterization-more-than-two-level-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1 against ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1.-Pgen-PER
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in ../../tests/tests-asn1c-compiler/156-union-ios-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/157-per-canonical-order-OK.asn1 against ../../tests/tests-asn1c-compiler/157-per-canonical-order-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/158-sequence-of-sequence-nested-OK.asn1 against ../../tests/tests-asn1c-compiler/158-sequence-of-sequence-nested-OK.asn1.-Pfcompound-names
+Checking ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1.-EF
+FATAL: EXPORTS section of module ModuleTestConstraint2 in ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1 does not mention ten at line 29 in ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1.-EFprint-constraints
+FATAL: EXPORTS section of module ModuleTestConstraint2 in ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1 does not mention ten at line 29 in ../../tests/tests-asn1c-compiler/16-constraint-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/18-class-OK.asn1 against ../../tests/tests-asn1c-compiler/18-class-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/19-param-OK.asn1 against ../../tests/tests-asn1c-compiler/19-param-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/19-param-OK.asn1 against ../../tests/tests-asn1c-compiler/19-param-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/20-constr-OK.asn1 against ../../tests/tests-asn1c-compiler/20-constr-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/21-tags-OK.asn1 against ../../tests/tests-asn1c-compiler/21-tags-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/22-tags-OK.asn1 against ../../tests/tests-asn1c-compiler/22-tags-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/22-tags-OK.asn1 against ../../tests/tests-asn1c-compiler/22-tags-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/23-bits-OK.asn1 against ../../tests/tests-asn1c-compiler/23-bits-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/24-sequence-OK.asn1 against ../../tests/tests-asn1c-compiler/24-sequence-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/30-set-OK.asn1 against ../../tests/tests-asn1c-compiler/30-set-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1 against ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1 against ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1.-Pfcompound-names
+Checking ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1 against ../../tests/tests-asn1c-compiler/31-set-of-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/32-sequence-of-OK.asn1 against ../../tests/tests-asn1c-compiler/32-sequence-of-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/32-sequence-of-OK.asn1 against ../../tests/tests-asn1c-compiler/32-sequence-of-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/34-class-OK.asn1 against ../../tests/tests-asn1c-compiler/34-class-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/34-class-OK.asn1 against ../../tests/tests-asn1c-compiler/34-class-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/37-indirect-choice-OK.asn1 against ../../tests/tests-asn1c-compiler/37-indirect-choice-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/37-indirect-choice-OK.asn1 against ../../tests/tests-asn1c-compiler/37-indirect-choice-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/39-sequence-of-OK.asn1 against ../../tests/tests-asn1c-compiler/39-sequence-of-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/42-real-life-OK.asn1 against ../../tests/tests-asn1c-compiler/42-real-life-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/42-real-life-OK.asn1 against ../../tests/tests-asn1c-compiler/42-real-life-OK.asn1.-PR
+Checking ../../tests/tests-asn1c-compiler/43-recursion-OK.asn1 against ../../tests/tests-asn1c-compiler/43-recursion-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/44-choice-in-sequence-OK.asn1 against ../../tests/tests-asn1c-compiler/44-choice-in-sequence-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/45-undefined-type-SE.asn1 against ../../tests/tests-asn1c-compiler/45-undefined-type-SE.asn1.-EFfknown-extern-type=KnownExt
+Checking ../../tests/tests-asn1c-compiler/46-redefine-OK.asn1 against ../../tests/tests-asn1c-compiler/46-redefine-OK.asn1.-PR
+Checking ../../tests/tests-asn1c-compiler/47-set-ext-OK.asn1 against ../../tests/tests-asn1c-compiler/47-set-ext-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/49-real-life-OK.asn1 against ../../tests/tests-asn1c-compiler/49-real-life-OK.asn1.-E
+Checking ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1.-EFprint-constraints
+Checking ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1 against ../../tests/tests-asn1c-compiler/50-constraint-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/55-components-of-OK.asn1 against ../../tests/tests-asn1c-compiler/55-components-of-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/58-param-OK.asn1 against ../../tests/tests-asn1c-compiler/58-param-OK.asn1.-EF
+WARNING: Parameterized type ub-name expected for ub-name at line 19 in ../../tests/tests-asn1c-compiler/58-param-OK.asn1
+WARNING: Parameterized type ub-name expected for ub-name at line 19 in ../../tests/tests-asn1c-compiler/58-param-OK.asn1
+Checking ../../tests/tests-asn1c-compiler/59-choice-extended-OK.asn1 against ../../tests/tests-asn1c-compiler/59-choice-extended-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/60-any-OK.asn1 against ../../tests/tests-asn1c-compiler/60-any-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/60-any-OK.asn1 against ../../tests/tests-asn1c-compiler/60-any-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/62-any-OK.asn1 against ../../tests/tests-asn1c-compiler/62-any-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/65-multi-tag-OK.asn1 against ../../tests/tests-asn1c-compiler/65-multi-tag-OK.asn1.-Pfnative-types
+-fnative-types: Deprecated option
+Checking ../../tests/tests-asn1c-compiler/65-multi-tag-OK.asn1 against ../../tests/tests-asn1c-compiler/65-multi-tag-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/66-ref-simple-OK.asn1 against ../../tests/tests-asn1c-compiler/66-ref-simple-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/69-reserved-words-OK.asn1 against ../../tests/tests-asn1c-compiler/69-reserved-words-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/70-xer-test-OK.asn1 against ../../tests/tests-asn1c-compiler/70-xer-test-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/70-xer-test-OK.asn1 against ../../tests/tests-asn1c-compiler/70-xer-test-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1 against ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1.-Pfwide-types
+FATAL: Name "e_a" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: Name "enum a" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: Name "a_PR" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: Name "enum a_PR" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: Name "struct a" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: Name "a" is generated by ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:34 and ModuleTestSameNames.a at line ../../tests/tests-asn1c-compiler/72-same-names-OK.asn1:40
+FATAL: ... 13 more name clashes not shown
+FATAL: Use "-fcompound-names" flag to asn1c to resolve name clashes
+Checking ../../tests/tests-asn1c-compiler/73-circular-OK.asn1 against ../../tests/tests-asn1c-compiler/73-circular-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/74-int-enum-constraints-OK.asn1 against ../../tests/tests-asn1c-compiler/74-int-enum-constraints-OK.asn1.-EFprint-constraints
+Checking ../../tests/tests-asn1c-compiler/79-constrained-by-OK.asn1 against ../../tests/tests-asn1c-compiler/79-constrained-by-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/82-with-comps-OK.asn1 against ../../tests/tests-asn1c-compiler/82-with-comps-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/84-param-tags-OK.asn1 against ../../tests/tests-asn1c-compiler/84-param-tags-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/84-param-tags-OK.asn1 against ../../tests/tests-asn1c-compiler/84-param-tags-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/86-atags-OK.asn1 against ../../tests/tests-asn1c-compiler/86-atags-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/88-integer-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/88-integer-enum-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/89-bit-string-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/89-bit-string-enum-OK.asn1.-Pfcompound-names
+Checking ../../tests/tests-asn1c-compiler/89-bit-string-enum-OK.asn1 against ../../tests/tests-asn1c-compiler/89-bit-string-enum-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1 against ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1.-EFprint-constraints
+Checking ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1 against ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1 against ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1 against ../../tests/tests-asn1c-compiler/90-cond-int-type-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/91-cond-int-blessSize-OK.asn1 against ../../tests/tests-asn1c-compiler/91-cond-int-blessSize-OK.asn1.-Pfbless-SIZE
+Checking ../../tests/tests-asn1c-compiler/92-circular-loops-OK.asn1 against ../../tests/tests-asn1c-compiler/92-circular-loops-OK.asn1.-Pfindirect-choice
+Checking ../../tests/tests-asn1c-compiler/92-circular-loops-OK.asn1 against ../../tests/tests-asn1c-compiler/92-circular-loops-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1 against ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1.-EF
+INFO: Directive <ASN1C:RepresentAsPointer> applied to INTEGER at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:18
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:24
+INFO: Directive <ASN1C:RepresentAsPointer> applied to SET OF at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:28
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:30
+Checking ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1 against ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1.-Pfwide-types
+INFO: Directive <ASN1C:RepresentAsPointer> applied to INTEGER at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:18
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:24
+INFO: Directive <ASN1C:RepresentAsPointer> applied to SET OF at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:28
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at ../../tests/tests-asn1c-compiler/93-asn1c-controls-OK.asn1:30
+Checking ../../tests/tests-asn1c-compiler/94-set-optionals-OK.asn1 against ../../tests/tests-asn1c-compiler/94-set-optionals-OK.asn1.-P
+Checking ../../tests/tests-asn1c-compiler/95-choice-per-order-OK.asn1 against ../../tests/tests-asn1c-compiler/95-choice-per-order-OK.asn1.-Pfwide-types
+Checking ../../tests/tests-asn1c-compiler/95-choice-per-order-OK.asn1 against ../../tests/tests-asn1c-compiler/95-choice-per-order-OK.asn1.-Pgen-PER
+Checking ../../tests/tests-asn1c-compiler/97-type-identifier-SW.asn1 against ../../tests/tests-asn1c-compiler/97-type-identifier-SW.asn1.-EF
+WARNING: ASN.1 expression "TYPE-IDENTIFIER" at line 17 of module ASN1C-UsefulInformationObjectClasses
+clashes with expression "TYPE-IDENTIFIER" at line 23 of module ModuleTypeIdentifier1 (../../tests/tests-asn1c-compiler/97-type-identifier-SW.asn1).
+Rename or remove either instance to resolve the conflict in ../../skeletons/standard-modules/ASN1C-UsefulInformationObjectClasses.asn1
+Checking ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1 against ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1.-EF
+Checking ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1 against ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1.-EFprint-class-matrix
+Checking ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1 against ../../tests/tests-asn1c-compiler/98-attribute-class-OK.asn1.-P
+FATAL: Inappropriate value {3 2 1} for type raf
+FATAL: Inappropriate value {3 2 2} for type rcf
+Checking ../../tests/tests-asn1c-compiler/99-class-sample-OK.asn1 against ../../tests/tests-asn1c-compiler/99-class-sample-OK.asn1.-EFprint-class-matrix
+PASS check-parsing.sh (exit status: 0)

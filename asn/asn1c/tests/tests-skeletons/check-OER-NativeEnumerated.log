@@ -1,0 +1,691 @@
+
+115: OER decode (control 0)
+115: buf[0]={-1, -1, ...}
+115: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+116: OER decode (control 0)
+116: buf[1]={0, -1, ...}
+116: Decode result 0
+
+117: OER decode (control 0)
+117: buf[1]={0, -1, ...}
+117: Decode result 0
+
+118: OER decode (control 0)
+118: buf[0]={-1, -1, ...}
+118: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+119: OER decode (control 0)
+119: buf[0]={-1, -1, ...}
+119: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+120: OER decode (control 0)
+120: buf[1]={0, -1, ...}
+120: Decode result 0
+
+121: OER decode (control 0)
+121: buf[1]={0, -1, ...}
+121: Decode result 0
+
+123: OER decode (control 0)
+123: buf[1]={0, -1, ...}
+123: Decode result 0
+
+124: OER decode (control 1)
+124: buf[1]={1, -1, ...}
+124: Decode result 1
+
+125: OER decode (control 0)
+125: buf[1]={255, -1, ...}
+125: Failed oer_decode(ctl=0, size=1)
+  (That was expected)
+
+126: OER decode (control 0)
+126: buf[1]={137, -1, ...}
+126: Failed oer_decode(ctl=0, size=1)
+  (That was expected)
+
+127: OER decode (control 0)
+127: buf[1]={132, -1, ...}
+127: Failed oer_decode(ctl=0, size=1)
+  (That was expected)
+
+128: OER decode (control 0)
+128: buf[3]={132, 0, ...}
+128: Failed oer_decode(ctl=0, size=3)
+  (That was expected)
+
+129: OER decode (control 0)
+129: buf[3]={132, 0, ...}
+129: Failed oer_decode(ctl=0, size=3)
+  (That was expected)
+
+130: OER decode (control 0)
+130: buf[4]={132, 0, ...}
+130: Failed oer_decode(ctl=0, size=4)
+  (That was expected)
+
+131: OER decode (control 0)
+131: buf[5]={132, 0, ...}
+131: Decode result 0
+
+132: OER decode (control 1)
+132: buf[5]={132, 0, ...}
+132: Decode result 1
+
+133: OER decode (control 127)
+133: buf[1]={127, -1, ...}
+133: Decode result 127
+
+134: OER decode (control 127)
+134: buf[2]={129, 127, ...}
+134: Decode result 127
+
+135: OER decode (control 255)
+135: buf[3]={130, 0, ...}
+135: Decode result 255
+
+136: OER decode (control -1)
+136: buf[2]={129, 255, ...}
+136: Decode result -1
+
+137: OER decode (control -1)
+137: buf[3]={130, 255, ...}
+137: Decode result -1
+
+139: OER decode (control 1)
+139: buf[2]={1, 0, ...}
+139: Decode result 1
+
+140: OER decode (control 1)
+140: buf[2]={1, 1, ...}
+140: Decode result 1
+
+141: OER decode (control -1)
+141: buf[2]={129, 255, ...}
+141: Decode result -1
+
+142: OER decode (control -1)
+142: buf[2]={130, 0, ...}
+142: Failed oer_decode(ctl=-1, size=2)
+  (That was expected)
+
+144: OER round-trip value 0
+144: Encoded: [\x00] (1 bytes)
+144: Decode result 0
+
+145: OER round-trip value 1
+145: Encoded: [\x01] (1 bytes)
+145: Decode result 1
+
+146: OER round-trip value -1
+146: Encoded: [\x81\xff] (2 bytes)
+146: Decode result -1
+
+147: OER round-trip value -127
+147: Encoded: [\x81\x81] (2 bytes)
+147: Decode result -127
+
+148: OER round-trip value -128
+148: Encoded: [\x81\x80] (2 bytes)
+148: Decode result -128
+
+149: OER round-trip value -129
+149: Encoded: [\x82\xff\x7f] (3 bytes)
+149: Decode result -129
+
+150: OER round-trip value 126
+150: Encoded: [\x7e] (1 bytes)
+150: Decode result 126
+
+151: OER round-trip value 127
+151: Encoded: [\x7f] (1 bytes)
+151: Decode result 127
+
+152: OER round-trip value 128
+152: Encoded: [\x82\x00\x80] (3 bytes)
+152: Decode result 128
+
+153: OER round-trip value -65000
+153: Encoded: [\x83\xff\x02\x18] (4 bytes)
+153: Decode result -65000
+
+154: OER round-trip value 65000
+154: Encoded: [\x83\x00\xfd\xe8] (4 bytes)
+154: Decode result 65000
+
+155: OER round-trip value 65535
+155: Encoded: [\x83\x00\xff\xff] (4 bytes)
+155: Decode result 65535
+
+156: OER round-trip value -65535
+156: Encoded: [\x83\xff\x00\x01] (4 bytes)
+156: Decode result -65535
+
+157: OER round-trip value -65536
+157: Encoded: [\x83\xff\x00\x00] (4 bytes)
+157: Decode result -65536
+
+158: OER round-trip value 65536
+158: Encoded: [\x83\x01\x00\x00] (4 bytes)
+158: Decode result 65536
+
+159: OER round-trip value 32000
+159: Encoded: [\x82\x7d\x00] (3 bytes)
+159: Decode result 32000
+
+163: OER round-trip value 1
+163: Encoded: [\x01] (1 bytes)
+163: Decode result 1
+
+165: OER round-trip value -1
+165: Encoded: [\x81\xff] (2 bytes)
+165: Decode result -1
+
+163: OER round-trip value 2
+163: Encoded: [\x02] (1 bytes)
+163: Decode result 2
+
+165: OER round-trip value -2
+165: Encoded: [\x81\xfe] (2 bytes)
+165: Decode result -2
+
+163: OER round-trip value 4
+163: Encoded: [\x04] (1 bytes)
+163: Decode result 4
+
+165: OER round-trip value -4
+165: Encoded: [\x81\xfc] (2 bytes)
+165: Decode result -4
+
+163: OER round-trip value 8
+163: Encoded: [\x08] (1 bytes)
+163: Decode result 8
+
+165: OER round-trip value -8
+165: Encoded: [\x81\xf8] (2 bytes)
+165: Decode result -8
+
+163: OER round-trip value 16
+163: Encoded: [\x10] (1 bytes)
+163: Decode result 16
+
+165: OER round-trip value -16
+165: Encoded: [\x81\xf0] (2 bytes)
+165: Decode result -16
+
+163: OER round-trip value 32
+163: Encoded: [\x20] (1 bytes)
+163: Decode result 32
+
+165: OER round-trip value -32
+165: Encoded: [\x81\xe0] (2 bytes)
+165: Decode result -32
+
+163: OER round-trip value 64
+163: Encoded: [\x40] (1 bytes)
+163: Decode result 64
+
+165: OER round-trip value -64
+165: Encoded: [\x81\xc0] (2 bytes)
+165: Decode result -64
+
+163: OER round-trip value 128
+163: Encoded: [\x82\x00\x80] (3 bytes)
+163: Decode result 128
+
+165: OER round-trip value -128
+165: Encoded: [\x81\x80] (2 bytes)
+165: Decode result -128
+
+163: OER round-trip value 256
+163: Encoded: [\x82\x01\x00] (3 bytes)
+163: Decode result 256
+
+165: OER round-trip value -256
+165: Encoded: [\x82\xff\x00] (3 bytes)
+165: Decode result -256
+
+163: OER round-trip value 512
+163: Encoded: [\x82\x02\x00] (3 bytes)
+163: Decode result 512
+
+165: OER round-trip value -512
+165: Encoded: [\x82\xfe\x00] (3 bytes)
+165: Decode result -512
+
+163: OER round-trip value 1024
+163: Encoded: [\x82\x04\x00] (3 bytes)
+163: Decode result 1024
+
+165: OER round-trip value -1024
+165: Encoded: [\x82\xfc\x00] (3 bytes)
+165: Decode result -1024
+
+163: OER round-trip value 2048
+163: Encoded: [\x82\x08\x00] (3 bytes)
+163: Decode result 2048
+
+165: OER round-trip value -2048
+165: Encoded: [\x82\xf8\x00] (3 bytes)
+165: Decode result -2048
+
+163: OER round-trip value 4096
+163: Encoded: [\x82\x10\x00] (3 bytes)
+163: Decode result 4096
+
+165: OER round-trip value -4096
+165: Encoded: [\x82\xf0\x00] (3 bytes)
+165: Decode result -4096
+
+163: OER round-trip value 8192
+163: Encoded: [\x82\x20\x00] (3 bytes)
+163: Decode result 8192
+
+165: OER round-trip value -8192
+165: Encoded: [\x82\xe0\x00] (3 bytes)
+165: Decode result -8192
+
+163: OER round-trip value 16384
+163: Encoded: [\x82\x40\x00] (3 bytes)
+163: Decode result 16384
+
+165: OER round-trip value -16384
+165: Encoded: [\x82\xc0\x00] (3 bytes)
+165: Decode result -16384
+
+163: OER round-trip value 32768
+163: Encoded: [\x83\x00\x80\x00] (4 bytes)
+163: Decode result 32768
+
+165: OER round-trip value -32768
+165: Encoded: [\x82\x80\x00] (3 bytes)
+165: Decode result -32768
+
+163: OER round-trip value 65536
+163: Encoded: [\x83\x01\x00\x00] (4 bytes)
+163: Decode result 65536
+
+165: OER round-trip value -65536
+165: Encoded: [\x83\xff\x00\x00] (4 bytes)
+165: Decode result -65536
+
+163: OER round-trip value 131072
+163: Encoded: [\x83\x02\x00\x00] (4 bytes)
+163: Decode result 131072
+
+165: OER round-trip value -131072
+165: Encoded: [\x83\xfe\x00\x00] (4 bytes)
+165: Decode result -131072
+
+163: OER round-trip value 262144
+163: Encoded: [\x83\x04\x00\x00] (4 bytes)
+163: Decode result 262144
+
+165: OER round-trip value -262144
+165: Encoded: [\x83\xfc\x00\x00] (4 bytes)
+165: Decode result -262144
+
+163: OER round-trip value 524288
+163: Encoded: [\x83\x08\x00\x00] (4 bytes)
+163: Decode result 524288
+
+165: OER round-trip value -524288
+165: Encoded: [\x83\xf8\x00\x00] (4 bytes)
+165: Decode result -524288
+
+163: OER round-trip value 1048576
+163: Encoded: [\x83\x10\x00\x00] (4 bytes)
+163: Decode result 1048576
+
+165: OER round-trip value -1048576
+165: Encoded: [\x83\xf0\x00\x00] (4 bytes)
+165: Decode result -1048576
+
+163: OER round-trip value 2097152
+163: Encoded: [\x83\x20\x00\x00] (4 bytes)
+163: Decode result 2097152
+
+165: OER round-trip value -2097152
+165: Encoded: [\x83\xe0\x00\x00] (4 bytes)
+165: Decode result -2097152
+
+163: OER round-trip value 4194304
+163: Encoded: [\x83\x40\x00\x00] (4 bytes)
+163: Decode result 4194304
+
+165: OER round-trip value -4194304
+165: Encoded: [\x83\xc0\x00\x00] (4 bytes)
+165: Decode result -4194304
+
+163: OER round-trip value 8388608
+163: Encoded: [\x84\x00\x80\x00\x00] (5 bytes)
+163: Decode result 8388608
+
+165: OER round-trip value -8388608
+165: Encoded: [\x83\x80\x00\x00] (4 bytes)
+165: Decode result -8388608
+
+163: OER round-trip value 16777216
+163: Encoded: [\x84\x01\x00\x00\x00] (5 bytes)
+163: Decode result 16777216
+
+165: OER round-trip value -16777216
+165: Encoded: [\x84\xff\x00\x00\x00] (5 bytes)
+165: Decode result -16777216
+
+163: OER round-trip value 33554432
+163: Encoded: [\x84\x02\x00\x00\x00] (5 bytes)
+163: Decode result 33554432
+
+165: OER round-trip value -33554432
+165: Encoded: [\x84\xfe\x00\x00\x00] (5 bytes)
+165: Decode result -33554432
+
+163: OER round-trip value 67108864
+163: Encoded: [\x84\x04\x00\x00\x00] (5 bytes)
+163: Decode result 67108864
+
+165: OER round-trip value -67108864
+165: Encoded: [\x84\xfc\x00\x00\x00] (5 bytes)
+165: Decode result -67108864
+
+163: OER round-trip value 134217728
+163: Encoded: [\x84\x08\x00\x00\x00] (5 bytes)
+163: Decode result 134217728
+
+165: OER round-trip value -134217728
+165: Encoded: [\x84\xf8\x00\x00\x00] (5 bytes)
+165: Decode result -134217728
+
+163: OER round-trip value 268435456
+163: Encoded: [\x84\x10\x00\x00\x00] (5 bytes)
+163: Decode result 268435456
+
+165: OER round-trip value -268435456
+165: Encoded: [\x84\xf0\x00\x00\x00] (5 bytes)
+165: Decode result -268435456
+
+163: OER round-trip value 536870912
+163: Encoded: [\x84\x20\x00\x00\x00] (5 bytes)
+163: Decode result 536870912
+
+165: OER round-trip value -536870912
+165: Encoded: [\x84\xe0\x00\x00\x00] (5 bytes)
+165: Decode result -536870912
+
+163: OER round-trip value 1073741824
+163: Encoded: [\x84\x40\x00\x00\x00] (5 bytes)
+163: Decode result 1073741824
+
+165: OER round-trip value -1073741824
+165: Encoded: [\x84\xc0\x00\x00\x00] (5 bytes)
+165: Decode result -1073741824
+
+163: OER round-trip value 2147483648
+163: Encoded: [\x85\x00\x80\x00\x00\x00] (6 bytes)
+163: Decode result 2147483648
+
+165: OER round-trip value -2147483648
+165: Encoded: [\x84\x80\x00\x00\x00] (5 bytes)
+165: Decode result -2147483648
+
+163: OER round-trip value 4294967296
+163: Encoded: [\x85\x01\x00\x00\x00\x00] (6 bytes)
+163: Decode result 4294967296
+
+165: OER round-trip value -4294967296
+165: Encoded: [\x85\xff\x00\x00\x00\x00] (6 bytes)
+165: Decode result -4294967296
+
+163: OER round-trip value 8589934592
+163: Encoded: [\x85\x02\x00\x00\x00\x00] (6 bytes)
+163: Decode result 8589934592
+
+165: OER round-trip value -8589934592
+165: Encoded: [\x85\xfe\x00\x00\x00\x00] (6 bytes)
+165: Decode result -8589934592
+
+163: OER round-trip value 17179869184
+163: Encoded: [\x85\x04\x00\x00\x00\x00] (6 bytes)
+163: Decode result 17179869184
+
+165: OER round-trip value -17179869184
+165: Encoded: [\x85\xfc\x00\x00\x00\x00] (6 bytes)
+165: Decode result -17179869184
+
+163: OER round-trip value 34359738368
+163: Encoded: [\x85\x08\x00\x00\x00\x00] (6 bytes)
+163: Decode result 34359738368
+
+165: OER round-trip value -34359738368
+165: Encoded: [\x85\xf8\x00\x00\x00\x00] (6 bytes)
+165: Decode result -34359738368
+
+163: OER round-trip value 68719476736
+163: Encoded: [\x85\x10\x00\x00\x00\x00] (6 bytes)
+163: Decode result 68719476736
+
+165: OER round-trip value -68719476736
+165: Encoded: [\x85\xf0\x00\x00\x00\x00] (6 bytes)
+165: Decode result -68719476736
+
+163: OER round-trip value 137438953472
+163: Encoded: [\x85\x20\x00\x00\x00\x00] (6 bytes)
+163: Decode result 137438953472
+
+165: OER round-trip value -137438953472
+165: Encoded: [\x85\xe0\x00\x00\x00\x00] (6 bytes)
+165: Decode result -137438953472
+
+163: OER round-trip value 274877906944
+163: Encoded: [\x85\x40\x00\x00\x00\x00] (6 bytes)
+163: Decode result 274877906944
+
+165: OER round-trip value -274877906944
+165: Encoded: [\x85\xc0\x00\x00\x00\x00] (6 bytes)
+165: Decode result -274877906944
+
+163: OER round-trip value 549755813888
+163: Encoded: [\x86\x00\x80\x00\x00\x00\x00] (7 bytes)
+163: Decode result 549755813888
+
+165: OER round-trip value -549755813888
+165: Encoded: [\x85\x80\x00\x00\x00\x00] (6 bytes)
+165: Decode result -549755813888
+
+163: OER round-trip value 1099511627776
+163: Encoded: [\x86\x01\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 1099511627776
+
+165: OER round-trip value -1099511627776
+165: Encoded: [\x86\xff\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -1099511627776
+
+163: OER round-trip value 2199023255552
+163: Encoded: [\x86\x02\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 2199023255552
+
+165: OER round-trip value -2199023255552
+165: Encoded: [\x86\xfe\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -2199023255552
+
+163: OER round-trip value 4398046511104
+163: Encoded: [\x86\x04\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 4398046511104
+
+165: OER round-trip value -4398046511104
+165: Encoded: [\x86\xfc\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -4398046511104
+
+163: OER round-trip value 8796093022208
+163: Encoded: [\x86\x08\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 8796093022208
+
+165: OER round-trip value -8796093022208
+165: Encoded: [\x86\xf8\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -8796093022208
+
+163: OER round-trip value 17592186044416
+163: Encoded: [\x86\x10\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 17592186044416
+
+165: OER round-trip value -17592186044416
+165: Encoded: [\x86\xf0\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -17592186044416
+
+163: OER round-trip value 35184372088832
+163: Encoded: [\x86\x20\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 35184372088832
+
+165: OER round-trip value -35184372088832
+165: Encoded: [\x86\xe0\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -35184372088832
+
+163: OER round-trip value 70368744177664
+163: Encoded: [\x86\x40\x00\x00\x00\x00\x00] (7 bytes)
+163: Decode result 70368744177664
+
+165: OER round-trip value -70368744177664
+165: Encoded: [\x86\xc0\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -70368744177664
+
+163: OER round-trip value 140737488355328
+163: Encoded: [\x87\x00\x80\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 140737488355328
+
+165: OER round-trip value -140737488355328
+165: Encoded: [\x86\x80\x00\x00\x00\x00\x00] (7 bytes)
+165: Decode result -140737488355328
+
+163: OER round-trip value 281474976710656
+163: Encoded: [\x87\x01\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 281474976710656
+
+165: OER round-trip value -281474976710656
+165: Encoded: [\x87\xff\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -281474976710656
+
+163: OER round-trip value 562949953421312
+163: Encoded: [\x87\x02\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 562949953421312
+
+165: OER round-trip value -562949953421312
+165: Encoded: [\x87\xfe\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -562949953421312
+
+163: OER round-trip value 1125899906842624
+163: Encoded: [\x87\x04\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 1125899906842624
+
+165: OER round-trip value -1125899906842624
+165: Encoded: [\x87\xfc\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -1125899906842624
+
+163: OER round-trip value 2251799813685248
+163: Encoded: [\x87\x08\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 2251799813685248
+
+165: OER round-trip value -2251799813685248
+165: Encoded: [\x87\xf8\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -2251799813685248
+
+163: OER round-trip value 4503599627370496
+163: Encoded: [\x87\x10\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 4503599627370496
+
+165: OER round-trip value -4503599627370496
+165: Encoded: [\x87\xf0\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -4503599627370496
+
+163: OER round-trip value 9007199254740992
+163: Encoded: [\x87\x20\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 9007199254740992
+
+165: OER round-trip value -9007199254740992
+165: Encoded: [\x87\xe0\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -9007199254740992
+
+163: OER round-trip value 18014398509481984
+163: Encoded: [\x87\x40\x00\x00\x00\x00\x00\x00] (8 bytes)
+163: Decode result 18014398509481984
+
+165: OER round-trip value -18014398509481984
+165: Encoded: [\x87\xc0\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -18014398509481984
+
+163: OER round-trip value 36028797018963968
+163: Encoded: [\x88\x00\x80\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 36028797018963968
+
+165: OER round-trip value -36028797018963968
+165: Encoded: [\x87\x80\x00\x00\x00\x00\x00\x00] (8 bytes)
+165: Decode result -36028797018963968
+
+163: OER round-trip value 72057594037927936
+163: Encoded: [\x88\x01\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 72057594037927936
+
+165: OER round-trip value -72057594037927936
+165: Encoded: [\x88\xff\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -72057594037927936
+
+163: OER round-trip value 144115188075855872
+163: Encoded: [\x88\x02\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 144115188075855872
+
+165: OER round-trip value -144115188075855872
+165: Encoded: [\x88\xfe\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -144115188075855872
+
+163: OER round-trip value 288230376151711744
+163: Encoded: [\x88\x04\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 288230376151711744
+
+165: OER round-trip value -288230376151711744
+165: Encoded: [\x88\xfc\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -288230376151711744
+
+163: OER round-trip value 576460752303423488
+163: Encoded: [\x88\x08\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 576460752303423488
+
+165: OER round-trip value -576460752303423488
+165: Encoded: [\x88\xf8\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -576460752303423488
+
+163: OER round-trip value 1152921504606846976
+163: Encoded: [\x88\x10\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 1152921504606846976
+
+165: OER round-trip value -1152921504606846976
+165: Encoded: [\x88\xf0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -1152921504606846976
+
+163: OER round-trip value 2305843009213693952
+163: Encoded: [\x88\x20\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 2305843009213693952
+
+165: OER round-trip value -2305843009213693952
+165: Encoded: [\x88\xe0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -2305843009213693952
+
+163: OER round-trip value 4611686018427387904
+163: Encoded: [\x88\x40\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+163: Decode result 4611686018427387904
+
+165: OER round-trip value -4611686018427387904
+165: Encoded: [\x88\xc0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+165: Decode result -4611686018427387904
+
+168: OER round-trip value -9223372036854775808
+168: Encoded: [\x88\x80\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+168: Decode result -9223372036854775808
+
+169: OER round-trip value 9223372036854775807
+169: Encoded: [\x88\x7f\xff\xff\xff\xff\xff\xff\xff] (9 bytes)
+169: Decode result 9223372036854775807
+PASS check-OER-NativeEnumerated (exit status: 0)

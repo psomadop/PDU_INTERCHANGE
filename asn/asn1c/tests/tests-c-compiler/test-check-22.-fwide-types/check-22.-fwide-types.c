@@ -1,0 +1,1 @@
+.././check-src/check-22.-fwide-types.c

@@ -1,0 +1,83 @@
+Testing: [01]:  (1, 0) vs (1, 0)
+1 1
+         [1] vs [1]: 0
+Testing: [ff]:  (-1, 0) vs (-1, 0)
+-1 -1
+         [-1] vs [-1]: 0
+Testing: [ff:ff:ff:ff:ff:ff]:  (-1, 0) vs (-1, 0)
+-1 -1
+         [-1] vs [-1]: 0
+Testing: [ff:ff:ff:ff:ff:f0]:  (-16, 0) vs (-16, 0)
+-16 -16
+         [-16] vs [-16]: 0
+Testing: [00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:01:01]:  (257, 0) vs (257, 0)
+257 257
+         [257] vs [257]: 0
+Testing: [00:01:01:01:01:01:01:01:01:01:01:01:01:01:01]:  (123, -1) vs (123, -1)
+123 123
+         [00:01:01:01:01:01:01:01:01:01:01:01:01:01:01] vs [123]: -1 (expected to fail)
+Testing: [ff:01:01:01:01:01:01:01:01:01:01:01:01:01:01]:  (123, -1) vs (123, -1)
+123 123
+         [FF:01:01:01:01:01:01:01:01:01:01:01:01:01:01] vs [123]: 1 (expected to fail)
+Testing: [7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:00:00:00:00:00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:00:00:00:00:00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+Testing: [80:00:00:00]:  (-2147483648, 0) vs (-2147483648, 0)
+-2147483648 -2147483648
+         [-2147483648] vs [-2147483648]: 0
+Testing: [80:00]:  (-32768, 0) vs (-32768, 0)
+-32768 -32768
+         [-32768] vs [-32768]: 0
+Testing: [80]:  (-128, 0) vs (-128, 0)
+-128 -128
+         [-128] vs [-128]: 0
+Testing: [00:80:00:00]:  (8388608, 0) vs (8388608, 0)
+Testing: [00:80:00:00:00]:  (2147483648, 0) vs (2147483648, 0)
+Testing: [00:ff:ff:00:00]:  (4294901760, 0) vs (4294901760, 0)
+222: [] vs 0: 	failed, as expected
+223: [<INTEGER></INTEGER>] vs 0: 	failed, as expected
+224: [<INTEGER> </INTEGER>] vs 0: 	failed, as expected
+225: [<INTEGER>-</INTEGER>] vs 0: 	failed, as expected
+226: [<INTEGER>+</INTEGER>] vs 0: 	failed, as expected
+227: [<INTEGER>+-</INTEGER>] vs 0: 	failed, as expected
+228: [<INTEGER> -</INTEGER>] vs 0: 	failed, as expected
+229: [<INTEGER> +</INTEGER>] vs 0: 	failed, as expected
+230: [<INTEGER> +-</INTEGER>] vs 0: 	failed, as expected
+231: [<INTEGER>- </INTEGER>] vs 0: 	failed, as expected
+232: [<INTEGER>+ </INTEGER>] vs 0: 	failed, as expected
+233: [<INTEGER>+- </INTEGER>] vs 0: 	failed, as expected
+234: [<INTEGER> - </INTEGER>] vs 0: 	failed, as expected
+235: [<INTEGER> + </INTEGER>] vs 0: 	failed, as expected
+236: [<INTEGER> +- </INTEGER>] vs 0: 	failed, as expected
+237: [<INTEGER>+0</INTEGER>] vs 0: 	0
+238: [<INTEGER>-0</INTEGER>] vs 0: 	0
+239: [<INTEGER>+1</INTEGER>] vs 1: 	1
+240: [<INTEGER>-1</INTEGER>] vs -1: 	-1
+241: [<INTEGER>1</INTEGER>] vs 1: 	1
+242: [<INTEGER>-15</INTEGER>] vs -15: 	-15
+243: [<INTEGER>+15</INTEGER>] vs 15: 	15
+244: [<INTEGER>15</INTEGER>] vs 15: 	15
+245: [<INTEGER> 15</INTEGER>] vs 15: 	15
+246: [<INTEGER> 15 </INTEGER>] vs 15: 	15
+247: [<INTEGER>15 </INTEGER>] vs 15: 	15
+248: [<INTEGER> +15 </INTEGER>] vs 15: 	15
+249: [<INTEGER> +15 -</INTEGER>] vs 0: 	failed, as expected
+250: [<INTEGER> +15 1</INTEGER>] vs 0: 	failed, as expected
+251: [<INTEGER>+ 15</INTEGER>] vs 0: 	failed, as expected
+252: [<INTEGER>12<z>34</INTEGER>] vs 0: 	failed, as expected
+253: [<INTEGER>12 <z>34</INTEGER>] vs 0: 	failed, as expected
+254: [<INTEGER>12 <z></INTEGER>] vs 0: 	failed, as expected
+255: [<INTEGER>1234</INTEGER>] vs 1234: 	1234
+256: [<INTEGER>1234 5678</INTEGER>] vs 0: 	failed, as expected
+257: [<INTEGER>-2147483647</INTEGER>] vs -2147483647: 	-2147483647
+258: [<INTEGER>-2147483648</INTEGER>] vs -2147483648: 	-2147483648
+259: [<INTEGER>+2147483647</INTEGER>] vs 2147483647: 	2147483647
+260: [<INTEGER>2147483647</INTEGER>] vs 2147483647: 	2147483647
+PASS check-INTEGER (exit status: 0)

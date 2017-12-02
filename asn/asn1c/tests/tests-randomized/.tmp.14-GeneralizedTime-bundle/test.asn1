@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= GeneralizedTime
+-- in ./bundles/14-GeneralizedTime-bundle.txt 1
+END

@@ -1,0 +1,1678 @@
+
+196: OER decode (control 0)
+196: buf[0]={-1, -1, ...}
+196: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+197: OER decode (control 0)
+197: buf[1]={0, -1, ...}
+197: Decode result 0
+
+198: OER decode (control 0)
+198: buf[0]={-1, -1, ...}
+198: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+199: OER decode (control 0)
+199: buf[0]={-1, -1, ...}
+199: Failed oer_decode(ctl=0, size=0)
+  (That was expected)
+
+200: OER decode (control 0)
+200: buf[1]={0, -1, ...}
+200: Decode result 0
+
+201: OER decode (control 0)
+201: buf[1]={0, -1, ...}
+201: Decode result 0
+
+203: OER decode (control 0)
+203: buf[1]={0, -1, ...}
+203: Decode result 0
+
+204: OER decode (control 1)
+204: buf[1]={1, -1, ...}
+204: Decode result 1
+
+205: OER decode (control -1)
+205: buf[1]={255, -1, ...}
+205: Decode result -1
+
+206: OER decode (control -1)
+206: buf[1]={255, -1, ...}
+206: Decode result -1
+
+207: OER decode (control 127)
+207: buf[1]={127, -1, ...}
+207: Decode result 127
+
+208: OER decode (control 255)
+208: buf[1]={255, -1, ...}
+208: Decode result 255
+
+209: OER decode (control 255)
+209: buf[1]={255, -1, ...}
+209: Decode result 255
+
+210: OER decode (control 0)
+210: buf[1]={255, -1, ...}
+210: Failed oer_decode(ctl=0, size=1)
+  (That was expected)
+
+211: OER decode (control 65535)
+211: buf[2]={255, 255, ...}
+211: Decode result 65535
+
+213: OER decode (control 0)
+213: buf[2]={1, 0, ...}
+213: Decode result 0
+
+214: OER decode (control 1)
+214: buf[2]={1, 1, ...}
+214: Decode result 1
+
+215: OER decode (control -1)
+215: buf[2]={1, 255, ...}
+215: Decode result -1
+
+216: OER decode (control -1)
+216: buf[2]={1, 255, ...}
+216: Decode result -1
+
+217: OER decode (control -1)
+217: buf[2]={1, 255, ...}
+217: Decode result -1
+
+218: OER decode (control 255)
+218: buf[2]={1, 255, ...}
+218: Decode result 255
+
+219: OER decode (control -1)
+219: buf[2]={2, 0, ...}
+219: Failed oer_decode(ctl=-1, size=2)
+  (That was expected)
+
+220: OER decode (control 255)
+220: buf[3]={2, 0, ...}
+220: Decode result 255
+
+222: OER round-trip value 0
+222: Encoded: [\x01\x00] (2 bytes)
+222: Decode result 0
+
+223: OER round-trip value 1
+223: Encoded: [\x01\x01] (2 bytes)
+223: Decode result 1
+
+224: OER round-trip value -1
+224: Encoded: [\x01\xff] (2 bytes)
+224: Decode result -1
+
+225: OER round-trip value -65000
+225: Encoded: [\x03\xff\x02\x18] (4 bytes)
+225: Decode result -65000
+
+226: OER round-trip value 65000
+226: Encoded: [\x03\x00\xfd\xe8] (4 bytes)
+226: Decode result 65000
+
+227: OER round-trip value 65535
+227: Encoded: [\x03\x00\xff\xff] (4 bytes)
+227: Decode result 65535
+
+228: OER round-trip value -65535
+228: Encoded: [\x03\xff\x00\x01] (4 bytes)
+228: Decode result -65535
+
+229: OER round-trip value -65536
+229: Encoded: [\x03\xff\x00\x00] (4 bytes)
+229: Decode result -65536
+
+230: OER round-trip value 65536
+230: Encoded: [\x03\x01\x00\x00] (4 bytes)
+230: Decode result 65536
+
+231: OER round-trip value 0
+231: Encoded: [\x00] (1 bytes)
+231: Decode result 0
+
+232: OER round-trip value 1
+232: Encoded: [\x01] (1 bytes)
+232: Decode result 1
+
+233: OER round-trip value -1
+233: Encoded: [\xff] (1 bytes)
+233: Decode result -1
+
+234: OER round-trip value -127
+234: Encoded: [\x81] (1 bytes)
+234: Decode result -127
+
+235: OER round-trip value -128
+235: Encoded: [\x80] (1 bytes)
+235: Decode result -128
+
+236: OER round-trip value 127
+236: Encoded: [\x7f] (1 bytes)
+236: Decode result 127
+
+237: OER round-trip value 1
+237: Encoded: [\x00\x01] (2 bytes)
+237: Decode result 1
+
+238: OER round-trip value 32000
+238: Encoded: [\x7d\x00] (2 bytes)
+238: Decode result 32000
+
+239: OER round-trip value 32000
+239: Encoded: [\x7d\x00] (2 bytes)
+239: Decode result 32000
+
+240: OER round-trip value 1
+240: Encoded: [\x00\x01] (2 bytes)
+240: Decode result 1
+
+241: OER round-trip value 65535
+241: Encoded: [\xff\xff] (2 bytes)
+241: Decode result 65535
+
+242: OER round-trip value 65535
+242: Encoded: [\x00\x00\xff\xff] (4 bytes)
+242: Decode result 65535
+
+244: OER encode value 0
+244: Encoded: [\x00] (1 bytes)
+
+245: OER encode value 255
+245: Encoded: [\xff] (1 bytes)
+
+246: OER encode value 256
+246: OER encode failed for INTEGER (expected)
+
+247: OER encode value 0
+247: Encoded: [\x00] (1 bytes)
+
+248: OER encode value 127
+248: Encoded: [\x7f] (1 bytes)
+
+249: OER encode value -128
+249: Encoded: [\x80] (1 bytes)
+
+250: OER encode value -129
+250: OER encode failed for INTEGER (expected)
+
+251: OER encode value 128
+251: OER encode failed for INTEGER (expected)
+
+252: OER encode value -4900000000
+252: Encoded: [\xff\xff\xff\xfe\xdb\xef\xef\x00] (8 bytes)
+
+253: OER encode value 4900000000
+253: Encoded: [\x00\x00\x00\x01\x24\x10\x11\x00] (8 bytes)
+
+254: OER encode value -2000000000
+254: Encoded: [\xff\xff\xff\xff\x88\xca\x6c\x00] (8 bytes)
+
+255: OER encode value -4000000000
+255: Encoded: [\xff\xff\xff\xff\x11\x94\xd8\x00] (8 bytes)
+
+256: OER encode value -4900000000
+256: OER encode failed for INTEGER (expected)
+
+257: OER encode value -1
+257: OER encode failed for INTEGER (expected)
+
+258: OER encode value 4900000000
+258: OER encode failed for INTEGER (expected)
+
+259: OER encode value 4100000000
+259: Encoded: [\xf4\x61\x09\x00] (4 bytes)
+
+263: OER round-trip value 1
+263: Encoded: [\x01] (1 bytes)
+263: Decode result 1
+
+265: OER round-trip value -1
+265: Encoded: [\xff] (1 bytes)
+265: Decode result -1
+
+263: OER round-trip value 2
+263: Encoded: [\x02] (1 bytes)
+263: Decode result 2
+
+265: OER round-trip value -2
+265: Encoded: [\xfe] (1 bytes)
+265: Decode result -2
+
+263: OER round-trip value 4
+263: Encoded: [\x04] (1 bytes)
+263: Decode result 4
+
+265: OER round-trip value -4
+265: Encoded: [\xfc] (1 bytes)
+265: Decode result -4
+
+263: OER round-trip value 8
+263: Encoded: [\x08] (1 bytes)
+263: Decode result 8
+
+265: OER round-trip value -8
+265: Encoded: [\xf8] (1 bytes)
+265: Decode result -8
+
+263: OER round-trip value 16
+263: Encoded: [\x10] (1 bytes)
+263: Decode result 16
+
+265: OER round-trip value -16
+265: Encoded: [\xf0] (1 bytes)
+265: Decode result -16
+
+263: OER round-trip value 32
+263: Encoded: [\x20] (1 bytes)
+263: Decode result 32
+
+265: OER round-trip value -32
+265: Encoded: [\xe0] (1 bytes)
+265: Decode result -32
+
+263: OER round-trip value 64
+263: Encoded: [\x40] (1 bytes)
+263: Decode result 64
+
+265: OER round-trip value -64
+265: Encoded: [\xc0] (1 bytes)
+265: Decode result -64
+
+270: OER round-trip value 1
+270: Encoded: [\x00\x01] (2 bytes)
+270: Decode result 1
+
+272: OER round-trip value -1
+272: Encoded: [\xff\xff] (2 bytes)
+272: Decode result -1
+
+270: OER round-trip value 2
+270: Encoded: [\x00\x02] (2 bytes)
+270: Decode result 2
+
+272: OER round-trip value -2
+272: Encoded: [\xff\xfe] (2 bytes)
+272: Decode result -2
+
+270: OER round-trip value 4
+270: Encoded: [\x00\x04] (2 bytes)
+270: Decode result 4
+
+272: OER round-trip value -4
+272: Encoded: [\xff\xfc] (2 bytes)
+272: Decode result -4
+
+270: OER round-trip value 8
+270: Encoded: [\x00\x08] (2 bytes)
+270: Decode result 8
+
+272: OER round-trip value -8
+272: Encoded: [\xff\xf8] (2 bytes)
+272: Decode result -8
+
+270: OER round-trip value 16
+270: Encoded: [\x00\x10] (2 bytes)
+270: Decode result 16
+
+272: OER round-trip value -16
+272: Encoded: [\xff\xf0] (2 bytes)
+272: Decode result -16
+
+270: OER round-trip value 32
+270: Encoded: [\x00\x20] (2 bytes)
+270: Decode result 32
+
+272: OER round-trip value -32
+272: Encoded: [\xff\xe0] (2 bytes)
+272: Decode result -32
+
+270: OER round-trip value 64
+270: Encoded: [\x00\x40] (2 bytes)
+270: Decode result 64
+
+272: OER round-trip value -64
+272: Encoded: [\xff\xc0] (2 bytes)
+272: Decode result -64
+
+270: OER round-trip value 128
+270: Encoded: [\x00\x80] (2 bytes)
+270: Decode result 128
+
+272: OER round-trip value -128
+272: Encoded: [\xff\x80] (2 bytes)
+272: Decode result -128
+
+270: OER round-trip value 256
+270: Encoded: [\x01\x00] (2 bytes)
+270: Decode result 256
+
+272: OER round-trip value -256
+272: Encoded: [\xff\x00] (2 bytes)
+272: Decode result -256
+
+270: OER round-trip value 512
+270: Encoded: [\x02\x00] (2 bytes)
+270: Decode result 512
+
+272: OER round-trip value -512
+272: Encoded: [\xfe\x00] (2 bytes)
+272: Decode result -512
+
+270: OER round-trip value 1024
+270: Encoded: [\x04\x00] (2 bytes)
+270: Decode result 1024
+
+272: OER round-trip value -1024
+272: Encoded: [\xfc\x00] (2 bytes)
+272: Decode result -1024
+
+270: OER round-trip value 2048
+270: Encoded: [\x08\x00] (2 bytes)
+270: Decode result 2048
+
+272: OER round-trip value -2048
+272: Encoded: [\xf8\x00] (2 bytes)
+272: Decode result -2048
+
+270: OER round-trip value 4096
+270: Encoded: [\x10\x00] (2 bytes)
+270: Decode result 4096
+
+272: OER round-trip value -4096
+272: Encoded: [\xf0\x00] (2 bytes)
+272: Decode result -4096
+
+270: OER round-trip value 8192
+270: Encoded: [\x20\x00] (2 bytes)
+270: Decode result 8192
+
+272: OER round-trip value -8192
+272: Encoded: [\xe0\x00] (2 bytes)
+272: Decode result -8192
+
+270: OER round-trip value 16384
+270: Encoded: [\x40\x00] (2 bytes)
+270: Decode result 16384
+
+272: OER round-trip value -16384
+272: Encoded: [\xc0\x00] (2 bytes)
+272: Decode result -16384
+
+270: OER round-trip value 32768
+270: Encoded: [\x80\x00] (2 bytes)
+270: Decode result 32768
+
+272: OER round-trip value -32768
+272: Encoded: [\x80\x00] (2 bytes)
+272: Decode result -32768
+
+277: OER round-trip value 1
+277: Encoded: [\x00\x00\x00\x01] (4 bytes)
+277: Decode result 1
+
+279: OER round-trip value -1
+279: Encoded: [\xff\xff\xff\xff] (4 bytes)
+279: Decode result -1
+
+277: OER round-trip value 2
+277: Encoded: [\x00\x00\x00\x02] (4 bytes)
+277: Decode result 2
+
+279: OER round-trip value -2
+279: Encoded: [\xff\xff\xff\xfe] (4 bytes)
+279: Decode result -2
+
+277: OER round-trip value 4
+277: Encoded: [\x00\x00\x00\x04] (4 bytes)
+277: Decode result 4
+
+279: OER round-trip value -4
+279: Encoded: [\xff\xff\xff\xfc] (4 bytes)
+279: Decode result -4
+
+277: OER round-trip value 8
+277: Encoded: [\x00\x00\x00\x08] (4 bytes)
+277: Decode result 8
+
+279: OER round-trip value -8
+279: Encoded: [\xff\xff\xff\xf8] (4 bytes)
+279: Decode result -8
+
+277: OER round-trip value 16
+277: Encoded: [\x00\x00\x00\x10] (4 bytes)
+277: Decode result 16
+
+279: OER round-trip value -16
+279: Encoded: [\xff\xff\xff\xf0] (4 bytes)
+279: Decode result -16
+
+277: OER round-trip value 32
+277: Encoded: [\x00\x00\x00\x20] (4 bytes)
+277: Decode result 32
+
+279: OER round-trip value -32
+279: Encoded: [\xff\xff\xff\xe0] (4 bytes)
+279: Decode result -32
+
+277: OER round-trip value 64
+277: Encoded: [\x00\x00\x00\x40] (4 bytes)
+277: Decode result 64
+
+279: OER round-trip value -64
+279: Encoded: [\xff\xff\xff\xc0] (4 bytes)
+279: Decode result -64
+
+277: OER round-trip value 128
+277: Encoded: [\x00\x00\x00\x80] (4 bytes)
+277: Decode result 128
+
+279: OER round-trip value -128
+279: Encoded: [\xff\xff\xff\x80] (4 bytes)
+279: Decode result -128
+
+277: OER round-trip value 256
+277: Encoded: [\x00\x00\x01\x00] (4 bytes)
+277: Decode result 256
+
+279: OER round-trip value -256
+279: Encoded: [\xff\xff\xff\x00] (4 bytes)
+279: Decode result -256
+
+277: OER round-trip value 512
+277: Encoded: [\x00\x00\x02\x00] (4 bytes)
+277: Decode result 512
+
+279: OER round-trip value -512
+279: Encoded: [\xff\xff\xfe\x00] (4 bytes)
+279: Decode result -512
+
+277: OER round-trip value 1024
+277: Encoded: [\x00\x00\x04\x00] (4 bytes)
+277: Decode result 1024
+
+279: OER round-trip value -1024
+279: Encoded: [\xff\xff\xfc\x00] (4 bytes)
+279: Decode result -1024
+
+277: OER round-trip value 2048
+277: Encoded: [\x00\x00\x08\x00] (4 bytes)
+277: Decode result 2048
+
+279: OER round-trip value -2048
+279: Encoded: [\xff\xff\xf8\x00] (4 bytes)
+279: Decode result -2048
+
+277: OER round-trip value 4096
+277: Encoded: [\x00\x00\x10\x00] (4 bytes)
+277: Decode result 4096
+
+279: OER round-trip value -4096
+279: Encoded: [\xff\xff\xf0\x00] (4 bytes)
+279: Decode result -4096
+
+277: OER round-trip value 8192
+277: Encoded: [\x00\x00\x20\x00] (4 bytes)
+277: Decode result 8192
+
+279: OER round-trip value -8192
+279: Encoded: [\xff\xff\xe0\x00] (4 bytes)
+279: Decode result -8192
+
+277: OER round-trip value 16384
+277: Encoded: [\x00\x00\x40\x00] (4 bytes)
+277: Decode result 16384
+
+279: OER round-trip value -16384
+279: Encoded: [\xff\xff\xc0\x00] (4 bytes)
+279: Decode result -16384
+
+277: OER round-trip value 32768
+277: Encoded: [\x00\x00\x80\x00] (4 bytes)
+277: Decode result 32768
+
+279: OER round-trip value -32768
+279: Encoded: [\xff\xff\x80\x00] (4 bytes)
+279: Decode result -32768
+
+277: OER round-trip value 65536
+277: Encoded: [\x00\x01\x00\x00] (4 bytes)
+277: Decode result 65536
+
+279: OER round-trip value -65536
+279: Encoded: [\xff\xff\x00\x00] (4 bytes)
+279: Decode result -65536
+
+277: OER round-trip value 131072
+277: Encoded: [\x00\x02\x00\x00] (4 bytes)
+277: Decode result 131072
+
+279: OER round-trip value -131072
+279: Encoded: [\xff\xfe\x00\x00] (4 bytes)
+279: Decode result -131072
+
+277: OER round-trip value 262144
+277: Encoded: [\x00\x04\x00\x00] (4 bytes)
+277: Decode result 262144
+
+279: OER round-trip value -262144
+279: Encoded: [\xff\xfc\x00\x00] (4 bytes)
+279: Decode result -262144
+
+277: OER round-trip value 524288
+277: Encoded: [\x00\x08\x00\x00] (4 bytes)
+277: Decode result 524288
+
+279: OER round-trip value -524288
+279: Encoded: [\xff\xf8\x00\x00] (4 bytes)
+279: Decode result -524288
+
+277: OER round-trip value 1048576
+277: Encoded: [\x00\x10\x00\x00] (4 bytes)
+277: Decode result 1048576
+
+279: OER round-trip value -1048576
+279: Encoded: [\xff\xf0\x00\x00] (4 bytes)
+279: Decode result -1048576
+
+277: OER round-trip value 2097152
+277: Encoded: [\x00\x20\x00\x00] (4 bytes)
+277: Decode result 2097152
+
+279: OER round-trip value -2097152
+279: Encoded: [\xff\xe0\x00\x00] (4 bytes)
+279: Decode result -2097152
+
+277: OER round-trip value 4194304
+277: Encoded: [\x00\x40\x00\x00] (4 bytes)
+277: Decode result 4194304
+
+279: OER round-trip value -4194304
+279: Encoded: [\xff\xc0\x00\x00] (4 bytes)
+279: Decode result -4194304
+
+277: OER round-trip value 8388608
+277: Encoded: [\x00\x80\x00\x00] (4 bytes)
+277: Decode result 8388608
+
+279: OER round-trip value -8388608
+279: Encoded: [\xff\x80\x00\x00] (4 bytes)
+279: Decode result -8388608
+
+277: OER round-trip value 16777216
+277: Encoded: [\x01\x00\x00\x00] (4 bytes)
+277: Decode result 16777216
+
+279: OER round-trip value -16777216
+279: Encoded: [\xff\x00\x00\x00] (4 bytes)
+279: Decode result -16777216
+
+277: OER round-trip value 33554432
+277: Encoded: [\x02\x00\x00\x00] (4 bytes)
+277: Decode result 33554432
+
+279: OER round-trip value -33554432
+279: Encoded: [\xfe\x00\x00\x00] (4 bytes)
+279: Decode result -33554432
+
+277: OER round-trip value 67108864
+277: Encoded: [\x04\x00\x00\x00] (4 bytes)
+277: Decode result 67108864
+
+279: OER round-trip value -67108864
+279: Encoded: [\xfc\x00\x00\x00] (4 bytes)
+279: Decode result -67108864
+
+277: OER round-trip value 134217728
+277: Encoded: [\x08\x00\x00\x00] (4 bytes)
+277: Decode result 134217728
+
+279: OER round-trip value -134217728
+279: Encoded: [\xf8\x00\x00\x00] (4 bytes)
+279: Decode result -134217728
+
+277: OER round-trip value 268435456
+277: Encoded: [\x10\x00\x00\x00] (4 bytes)
+277: Decode result 268435456
+
+279: OER round-trip value -268435456
+279: Encoded: [\xf0\x00\x00\x00] (4 bytes)
+279: Decode result -268435456
+
+277: OER round-trip value 536870912
+277: Encoded: [\x20\x00\x00\x00] (4 bytes)
+277: Decode result 536870912
+
+279: OER round-trip value -536870912
+279: Encoded: [\xe0\x00\x00\x00] (4 bytes)
+279: Decode result -536870912
+
+277: OER round-trip value 1073741824
+277: Encoded: [\x40\x00\x00\x00] (4 bytes)
+277: Decode result 1073741824
+
+279: OER round-trip value -1073741824
+279: Encoded: [\xc0\x00\x00\x00] (4 bytes)
+279: Decode result -1073741824
+
+277: OER round-trip value 2147483648
+277: Encoded: [\x80\x00\x00\x00] (4 bytes)
+277: Decode result 2147483648
+
+279: OER round-trip value -2147483648
+279: Encoded: [\x80\x00\x00\x00] (4 bytes)
+279: Decode result -2147483648
+
+284: OER round-trip value 1
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x01] (8 bytes)
+284: Decode result 1
+
+286: OER round-trip value -1
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xff] (8 bytes)
+286: Decode result -1
+
+284: OER round-trip value 2
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x02] (8 bytes)
+284: Decode result 2
+
+286: OER round-trip value -2
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xfe] (8 bytes)
+286: Decode result -2
+
+284: OER round-trip value 4
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x04] (8 bytes)
+284: Decode result 4
+
+286: OER round-trip value -4
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xfc] (8 bytes)
+286: Decode result -4
+
+284: OER round-trip value 8
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x08] (8 bytes)
+284: Decode result 8
+
+286: OER round-trip value -8
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xf8] (8 bytes)
+286: Decode result -8
+
+284: OER round-trip value 16
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x10] (8 bytes)
+284: Decode result 16
+
+286: OER round-trip value -16
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xf0] (8 bytes)
+286: Decode result -16
+
+284: OER round-trip value 32
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x20] (8 bytes)
+284: Decode result 32
+
+286: OER round-trip value -32
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xe0] (8 bytes)
+286: Decode result -32
+
+284: OER round-trip value 64
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x40] (8 bytes)
+284: Decode result 64
+
+286: OER round-trip value -64
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\xc0] (8 bytes)
+286: Decode result -64
+
+284: OER round-trip value 128
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x00\x80] (8 bytes)
+284: Decode result 128
+
+286: OER round-trip value -128
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\x80] (8 bytes)
+286: Decode result -128
+
+284: OER round-trip value 256
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x01\x00] (8 bytes)
+284: Decode result 256
+
+286: OER round-trip value -256
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xff\x00] (8 bytes)
+286: Decode result -256
+
+284: OER round-trip value 512
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x02\x00] (8 bytes)
+284: Decode result 512
+
+286: OER round-trip value -512
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xfe\x00] (8 bytes)
+286: Decode result -512
+
+284: OER round-trip value 1024
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x04\x00] (8 bytes)
+284: Decode result 1024
+
+286: OER round-trip value -1024
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xfc\x00] (8 bytes)
+286: Decode result -1024
+
+284: OER round-trip value 2048
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x08\x00] (8 bytes)
+284: Decode result 2048
+
+286: OER round-trip value -2048
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xf8\x00] (8 bytes)
+286: Decode result -2048
+
+284: OER round-trip value 4096
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x10\x00] (8 bytes)
+284: Decode result 4096
+
+286: OER round-trip value -4096
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xf0\x00] (8 bytes)
+286: Decode result -4096
+
+284: OER round-trip value 8192
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x20\x00] (8 bytes)
+284: Decode result 8192
+
+286: OER round-trip value -8192
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xe0\x00] (8 bytes)
+286: Decode result -8192
+
+284: OER round-trip value 16384
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x40\x00] (8 bytes)
+284: Decode result 16384
+
+286: OER round-trip value -16384
+286: Encoded: [\xff\xff\xff\xff\xff\xff\xc0\x00] (8 bytes)
+286: Decode result -16384
+
+284: OER round-trip value 32768
+284: Encoded: [\x00\x00\x00\x00\x00\x00\x80\x00] (8 bytes)
+284: Decode result 32768
+
+286: OER round-trip value -32768
+286: Encoded: [\xff\xff\xff\xff\xff\xff\x80\x00] (8 bytes)
+286: Decode result -32768
+
+284: OER round-trip value 65536
+284: Encoded: [\x00\x00\x00\x00\x00\x01\x00\x00] (8 bytes)
+284: Decode result 65536
+
+286: OER round-trip value -65536
+286: Encoded: [\xff\xff\xff\xff\xff\xff\x00\x00] (8 bytes)
+286: Decode result -65536
+
+284: OER round-trip value 131072
+284: Encoded: [\x00\x00\x00\x00\x00\x02\x00\x00] (8 bytes)
+284: Decode result 131072
+
+286: OER round-trip value -131072
+286: Encoded: [\xff\xff\xff\xff\xff\xfe\x00\x00] (8 bytes)
+286: Decode result -131072
+
+284: OER round-trip value 262144
+284: Encoded: [\x00\x00\x00\x00\x00\x04\x00\x00] (8 bytes)
+284: Decode result 262144
+
+286: OER round-trip value -262144
+286: Encoded: [\xff\xff\xff\xff\xff\xfc\x00\x00] (8 bytes)
+286: Decode result -262144
+
+284: OER round-trip value 524288
+284: Encoded: [\x00\x00\x00\x00\x00\x08\x00\x00] (8 bytes)
+284: Decode result 524288
+
+286: OER round-trip value -524288
+286: Encoded: [\xff\xff\xff\xff\xff\xf8\x00\x00] (8 bytes)
+286: Decode result -524288
+
+284: OER round-trip value 1048576
+284: Encoded: [\x00\x00\x00\x00\x00\x10\x00\x00] (8 bytes)
+284: Decode result 1048576
+
+286: OER round-trip value -1048576
+286: Encoded: [\xff\xff\xff\xff\xff\xf0\x00\x00] (8 bytes)
+286: Decode result -1048576
+
+284: OER round-trip value 2097152
+284: Encoded: [\x00\x00\x00\x00\x00\x20\x00\x00] (8 bytes)
+284: Decode result 2097152
+
+286: OER round-trip value -2097152
+286: Encoded: [\xff\xff\xff\xff\xff\xe0\x00\x00] (8 bytes)
+286: Decode result -2097152
+
+284: OER round-trip value 4194304
+284: Encoded: [\x00\x00\x00\x00\x00\x40\x00\x00] (8 bytes)
+284: Decode result 4194304
+
+286: OER round-trip value -4194304
+286: Encoded: [\xff\xff\xff\xff\xff\xc0\x00\x00] (8 bytes)
+286: Decode result -4194304
+
+284: OER round-trip value 8388608
+284: Encoded: [\x00\x00\x00\x00\x00\x80\x00\x00] (8 bytes)
+284: Decode result 8388608
+
+286: OER round-trip value -8388608
+286: Encoded: [\xff\xff\xff\xff\xff\x80\x00\x00] (8 bytes)
+286: Decode result -8388608
+
+284: OER round-trip value 16777216
+284: Encoded: [\x00\x00\x00\x00\x01\x00\x00\x00] (8 bytes)
+284: Decode result 16777216
+
+286: OER round-trip value -16777216
+286: Encoded: [\xff\xff\xff\xff\xff\x00\x00\x00] (8 bytes)
+286: Decode result -16777216
+
+284: OER round-trip value 33554432
+284: Encoded: [\x00\x00\x00\x00\x02\x00\x00\x00] (8 bytes)
+284: Decode result 33554432
+
+286: OER round-trip value -33554432
+286: Encoded: [\xff\xff\xff\xff\xfe\x00\x00\x00] (8 bytes)
+286: Decode result -33554432
+
+284: OER round-trip value 67108864
+284: Encoded: [\x00\x00\x00\x00\x04\x00\x00\x00] (8 bytes)
+284: Decode result 67108864
+
+286: OER round-trip value -67108864
+286: Encoded: [\xff\xff\xff\xff\xfc\x00\x00\x00] (8 bytes)
+286: Decode result -67108864
+
+284: OER round-trip value 134217728
+284: Encoded: [\x00\x00\x00\x00\x08\x00\x00\x00] (8 bytes)
+284: Decode result 134217728
+
+286: OER round-trip value -134217728
+286: Encoded: [\xff\xff\xff\xff\xf8\x00\x00\x00] (8 bytes)
+286: Decode result -134217728
+
+284: OER round-trip value 268435456
+284: Encoded: [\x00\x00\x00\x00\x10\x00\x00\x00] (8 bytes)
+284: Decode result 268435456
+
+286: OER round-trip value -268435456
+286: Encoded: [\xff\xff\xff\xff\xf0\x00\x00\x00] (8 bytes)
+286: Decode result -268435456
+
+284: OER round-trip value 536870912
+284: Encoded: [\x00\x00\x00\x00\x20\x00\x00\x00] (8 bytes)
+284: Decode result 536870912
+
+286: OER round-trip value -536870912
+286: Encoded: [\xff\xff\xff\xff\xe0\x00\x00\x00] (8 bytes)
+286: Decode result -536870912
+
+284: OER round-trip value 1073741824
+284: Encoded: [\x00\x00\x00\x00\x40\x00\x00\x00] (8 bytes)
+284: Decode result 1073741824
+
+286: OER round-trip value -1073741824
+286: Encoded: [\xff\xff\xff\xff\xc0\x00\x00\x00] (8 bytes)
+286: Decode result -1073741824
+
+284: OER round-trip value 2147483648
+284: Encoded: [\x00\x00\x00\x00\x80\x00\x00\x00] (8 bytes)
+284: Decode result 2147483648
+
+286: OER round-trip value -2147483648
+286: Encoded: [\xff\xff\xff\xff\x80\x00\x00\x00] (8 bytes)
+286: Decode result -2147483648
+
+284: OER round-trip value 4294967296
+284: Encoded: [\x00\x00\x00\x01\x00\x00\x00\x00] (8 bytes)
+284: Decode result 4294967296
+
+286: OER round-trip value -4294967296
+286: Encoded: [\xff\xff\xff\xff\x00\x00\x00\x00] (8 bytes)
+286: Decode result -4294967296
+
+284: OER round-trip value 8589934592
+284: Encoded: [\x00\x00\x00\x02\x00\x00\x00\x00] (8 bytes)
+284: Decode result 8589934592
+
+286: OER round-trip value -8589934592
+286: Encoded: [\xff\xff\xff\xfe\x00\x00\x00\x00] (8 bytes)
+286: Decode result -8589934592
+
+284: OER round-trip value 17179869184
+284: Encoded: [\x00\x00\x00\x04\x00\x00\x00\x00] (8 bytes)
+284: Decode result 17179869184
+
+286: OER round-trip value -17179869184
+286: Encoded: [\xff\xff\xff\xfc\x00\x00\x00\x00] (8 bytes)
+286: Decode result -17179869184
+
+284: OER round-trip value 34359738368
+284: Encoded: [\x00\x00\x00\x08\x00\x00\x00\x00] (8 bytes)
+284: Decode result 34359738368
+
+286: OER round-trip value -34359738368
+286: Encoded: [\xff\xff\xff\xf8\x00\x00\x00\x00] (8 bytes)
+286: Decode result -34359738368
+
+284: OER round-trip value 68719476736
+284: Encoded: [\x00\x00\x00\x10\x00\x00\x00\x00] (8 bytes)
+284: Decode result 68719476736
+
+286: OER round-trip value -68719476736
+286: Encoded: [\xff\xff\xff\xf0\x00\x00\x00\x00] (8 bytes)
+286: Decode result -68719476736
+
+284: OER round-trip value 137438953472
+284: Encoded: [\x00\x00\x00\x20\x00\x00\x00\x00] (8 bytes)
+284: Decode result 137438953472
+
+286: OER round-trip value -137438953472
+286: Encoded: [\xff\xff\xff\xe0\x00\x00\x00\x00] (8 bytes)
+286: Decode result -137438953472
+
+284: OER round-trip value 274877906944
+284: Encoded: [\x00\x00\x00\x40\x00\x00\x00\x00] (8 bytes)
+284: Decode result 274877906944
+
+286: OER round-trip value -274877906944
+286: Encoded: [\xff\xff\xff\xc0\x00\x00\x00\x00] (8 bytes)
+286: Decode result -274877906944
+
+284: OER round-trip value 549755813888
+284: Encoded: [\x00\x00\x00\x80\x00\x00\x00\x00] (8 bytes)
+284: Decode result 549755813888
+
+286: OER round-trip value -549755813888
+286: Encoded: [\xff\xff\xff\x80\x00\x00\x00\x00] (8 bytes)
+286: Decode result -549755813888
+
+284: OER round-trip value 1099511627776
+284: Encoded: [\x00\x00\x01\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 1099511627776
+
+286: OER round-trip value -1099511627776
+286: Encoded: [\xff\xff\xff\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -1099511627776
+
+284: OER round-trip value 2199023255552
+284: Encoded: [\x00\x00\x02\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 2199023255552
+
+286: OER round-trip value -2199023255552
+286: Encoded: [\xff\xff\xfe\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -2199023255552
+
+284: OER round-trip value 4398046511104
+284: Encoded: [\x00\x00\x04\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 4398046511104
+
+286: OER round-trip value -4398046511104
+286: Encoded: [\xff\xff\xfc\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -4398046511104
+
+284: OER round-trip value 8796093022208
+284: Encoded: [\x00\x00\x08\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 8796093022208
+
+286: OER round-trip value -8796093022208
+286: Encoded: [\xff\xff\xf8\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -8796093022208
+
+284: OER round-trip value 17592186044416
+284: Encoded: [\x00\x00\x10\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 17592186044416
+
+286: OER round-trip value -17592186044416
+286: Encoded: [\xff\xff\xf0\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -17592186044416
+
+284: OER round-trip value 35184372088832
+284: Encoded: [\x00\x00\x20\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 35184372088832
+
+286: OER round-trip value -35184372088832
+286: Encoded: [\xff\xff\xe0\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -35184372088832
+
+284: OER round-trip value 70368744177664
+284: Encoded: [\x00\x00\x40\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 70368744177664
+
+286: OER round-trip value -70368744177664
+286: Encoded: [\xff\xff\xc0\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -70368744177664
+
+284: OER round-trip value 140737488355328
+284: Encoded: [\x00\x00\x80\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 140737488355328
+
+286: OER round-trip value -140737488355328
+286: Encoded: [\xff\xff\x80\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -140737488355328
+
+284: OER round-trip value 281474976710656
+284: Encoded: [\x00\x01\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 281474976710656
+
+286: OER round-trip value -281474976710656
+286: Encoded: [\xff\xff\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -281474976710656
+
+284: OER round-trip value 562949953421312
+284: Encoded: [\x00\x02\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 562949953421312
+
+286: OER round-trip value -562949953421312
+286: Encoded: [\xff\xfe\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -562949953421312
+
+284: OER round-trip value 1125899906842624
+284: Encoded: [\x00\x04\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 1125899906842624
+
+286: OER round-trip value -1125899906842624
+286: Encoded: [\xff\xfc\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -1125899906842624
+
+284: OER round-trip value 2251799813685248
+284: Encoded: [\x00\x08\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 2251799813685248
+
+286: OER round-trip value -2251799813685248
+286: Encoded: [\xff\xf8\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -2251799813685248
+
+284: OER round-trip value 4503599627370496
+284: Encoded: [\x00\x10\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 4503599627370496
+
+286: OER round-trip value -4503599627370496
+286: Encoded: [\xff\xf0\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -4503599627370496
+
+284: OER round-trip value 9007199254740992
+284: Encoded: [\x00\x20\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 9007199254740992
+
+286: OER round-trip value -9007199254740992
+286: Encoded: [\xff\xe0\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -9007199254740992
+
+284: OER round-trip value 18014398509481984
+284: Encoded: [\x00\x40\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 18014398509481984
+
+286: OER round-trip value -18014398509481984
+286: Encoded: [\xff\xc0\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -18014398509481984
+
+284: OER round-trip value 36028797018963968
+284: Encoded: [\x00\x80\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 36028797018963968
+
+286: OER round-trip value -36028797018963968
+286: Encoded: [\xff\x80\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -36028797018963968
+
+284: OER round-trip value 72057594037927936
+284: Encoded: [\x01\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 72057594037927936
+
+286: OER round-trip value -72057594037927936
+286: Encoded: [\xff\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -72057594037927936
+
+284: OER round-trip value 144115188075855872
+284: Encoded: [\x02\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 144115188075855872
+
+286: OER round-trip value -144115188075855872
+286: Encoded: [\xfe\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -144115188075855872
+
+284: OER round-trip value 288230376151711744
+284: Encoded: [\x04\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 288230376151711744
+
+286: OER round-trip value -288230376151711744
+286: Encoded: [\xfc\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -288230376151711744
+
+284: OER round-trip value 576460752303423488
+284: Encoded: [\x08\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 576460752303423488
+
+286: OER round-trip value -576460752303423488
+286: Encoded: [\xf8\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -576460752303423488
+
+284: OER round-trip value 1152921504606846976
+284: Encoded: [\x10\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 1152921504606846976
+
+286: OER round-trip value -1152921504606846976
+286: Encoded: [\xf0\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -1152921504606846976
+
+284: OER round-trip value 2305843009213693952
+284: Encoded: [\x20\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 2305843009213693952
+
+286: OER round-trip value -2305843009213693952
+286: Encoded: [\xe0\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -2305843009213693952
+
+284: OER round-trip value 4611686018427387904
+284: Encoded: [\x40\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+284: Decode result 4611686018427387904
+
+286: OER round-trip value -4611686018427387904
+286: Encoded: [\xc0\x00\x00\x00\x00\x00\x00\x00] (8 bytes)
+286: Decode result -4611686018427387904
+
+291: OER round-trip value 1
+291: Encoded: [\x01\x01] (2 bytes)
+291: Decode result 1
+
+293: OER round-trip value -1
+293: Encoded: [\x01\xff] (2 bytes)
+293: Decode result -1
+
+291: OER round-trip value 2
+291: Encoded: [\x01\x02] (2 bytes)
+291: Decode result 2
+
+293: OER round-trip value -2
+293: Encoded: [\x01\xfe] (2 bytes)
+293: Decode result -2
+
+291: OER round-trip value 4
+291: Encoded: [\x01\x04] (2 bytes)
+291: Decode result 4
+
+293: OER round-trip value -4
+293: Encoded: [\x01\xfc] (2 bytes)
+293: Decode result -4
+
+291: OER round-trip value 8
+291: Encoded: [\x01\x08] (2 bytes)
+291: Decode result 8
+
+293: OER round-trip value -8
+293: Encoded: [\x01\xf8] (2 bytes)
+293: Decode result -8
+
+291: OER round-trip value 16
+291: Encoded: [\x01\x10] (2 bytes)
+291: Decode result 16
+
+293: OER round-trip value -16
+293: Encoded: [\x01\xf0] (2 bytes)
+293: Decode result -16
+
+291: OER round-trip value 32
+291: Encoded: [\x01\x20] (2 bytes)
+291: Decode result 32
+
+293: OER round-trip value -32
+293: Encoded: [\x01\xe0] (2 bytes)
+293: Decode result -32
+
+291: OER round-trip value 64
+291: Encoded: [\x01\x40] (2 bytes)
+291: Decode result 64
+
+293: OER round-trip value -64
+293: Encoded: [\x01\xc0] (2 bytes)
+293: Decode result -64
+
+291: OER round-trip value 128
+291: Encoded: [\x02\x00\x80] (3 bytes)
+291: Decode result 128
+
+293: OER round-trip value -128
+293: Encoded: [\x01\x80] (2 bytes)
+293: Decode result -128
+
+291: OER round-trip value 256
+291: Encoded: [\x02\x01\x00] (3 bytes)
+291: Decode result 256
+
+293: OER round-trip value -256
+293: Encoded: [\x02\xff\x00] (3 bytes)
+293: Decode result -256
+
+291: OER round-trip value 512
+291: Encoded: [\x02\x02\x00] (3 bytes)
+291: Decode result 512
+
+293: OER round-trip value -512
+293: Encoded: [\x02\xfe\x00] (3 bytes)
+293: Decode result -512
+
+291: OER round-trip value 1024
+291: Encoded: [\x02\x04\x00] (3 bytes)
+291: Decode result 1024
+
+293: OER round-trip value -1024
+293: Encoded: [\x02\xfc\x00] (3 bytes)
+293: Decode result -1024
+
+291: OER round-trip value 2048
+291: Encoded: [\x02\x08\x00] (3 bytes)
+291: Decode result 2048
+
+293: OER round-trip value -2048
+293: Encoded: [\x02\xf8\x00] (3 bytes)
+293: Decode result -2048
+
+291: OER round-trip value 4096
+291: Encoded: [\x02\x10\x00] (3 bytes)
+291: Decode result 4096
+
+293: OER round-trip value -4096
+293: Encoded: [\x02\xf0\x00] (3 bytes)
+293: Decode result -4096
+
+291: OER round-trip value 8192
+291: Encoded: [\x02\x20\x00] (3 bytes)
+291: Decode result 8192
+
+293: OER round-trip value -8192
+293: Encoded: [\x02\xe0\x00] (3 bytes)
+293: Decode result -8192
+
+291: OER round-trip value 16384
+291: Encoded: [\x02\x40\x00] (3 bytes)
+291: Decode result 16384
+
+293: OER round-trip value -16384
+293: Encoded: [\x02\xc0\x00] (3 bytes)
+293: Decode result -16384
+
+291: OER round-trip value 32768
+291: Encoded: [\x03\x00\x80\x00] (4 bytes)
+291: Decode result 32768
+
+293: OER round-trip value -32768
+293: Encoded: [\x02\x80\x00] (3 bytes)
+293: Decode result -32768
+
+291: OER round-trip value 65536
+291: Encoded: [\x03\x01\x00\x00] (4 bytes)
+291: Decode result 65536
+
+293: OER round-trip value -65536
+293: Encoded: [\x03\xff\x00\x00] (4 bytes)
+293: Decode result -65536
+
+291: OER round-trip value 131072
+291: Encoded: [\x03\x02\x00\x00] (4 bytes)
+291: Decode result 131072
+
+293: OER round-trip value -131072
+293: Encoded: [\x03\xfe\x00\x00] (4 bytes)
+293: Decode result -131072
+
+291: OER round-trip value 262144
+291: Encoded: [\x03\x04\x00\x00] (4 bytes)
+291: Decode result 262144
+
+293: OER round-trip value -262144
+293: Encoded: [\x03\xfc\x00\x00] (4 bytes)
+293: Decode result -262144
+
+291: OER round-trip value 524288
+291: Encoded: [\x03\x08\x00\x00] (4 bytes)
+291: Decode result 524288
+
+293: OER round-trip value -524288
+293: Encoded: [\x03\xf8\x00\x00] (4 bytes)
+293: Decode result -524288
+
+291: OER round-trip value 1048576
+291: Encoded: [\x03\x10\x00\x00] (4 bytes)
+291: Decode result 1048576
+
+293: OER round-trip value -1048576
+293: Encoded: [\x03\xf0\x00\x00] (4 bytes)
+293: Decode result -1048576
+
+291: OER round-trip value 2097152
+291: Encoded: [\x03\x20\x00\x00] (4 bytes)
+291: Decode result 2097152
+
+293: OER round-trip value -2097152
+293: Encoded: [\x03\xe0\x00\x00] (4 bytes)
+293: Decode result -2097152
+
+291: OER round-trip value 4194304
+291: Encoded: [\x03\x40\x00\x00] (4 bytes)
+291: Decode result 4194304
+
+293: OER round-trip value -4194304
+293: Encoded: [\x03\xc0\x00\x00] (4 bytes)
+293: Decode result -4194304
+
+291: OER round-trip value 8388608
+291: Encoded: [\x04\x00\x80\x00\x00] (5 bytes)
+291: Decode result 8388608
+
+293: OER round-trip value -8388608
+293: Encoded: [\x03\x80\x00\x00] (4 bytes)
+293: Decode result -8388608
+
+291: OER round-trip value 16777216
+291: Encoded: [\x04\x01\x00\x00\x00] (5 bytes)
+291: Decode result 16777216
+
+293: OER round-trip value -16777216
+293: Encoded: [\x04\xff\x00\x00\x00] (5 bytes)
+293: Decode result -16777216
+
+291: OER round-trip value 33554432
+291: Encoded: [\x04\x02\x00\x00\x00] (5 bytes)
+291: Decode result 33554432
+
+293: OER round-trip value -33554432
+293: Encoded: [\x04\xfe\x00\x00\x00] (5 bytes)
+293: Decode result -33554432
+
+291: OER round-trip value 67108864
+291: Encoded: [\x04\x04\x00\x00\x00] (5 bytes)
+291: Decode result 67108864
+
+293: OER round-trip value -67108864
+293: Encoded: [\x04\xfc\x00\x00\x00] (5 bytes)
+293: Decode result -67108864
+
+291: OER round-trip value 134217728
+291: Encoded: [\x04\x08\x00\x00\x00] (5 bytes)
+291: Decode result 134217728
+
+293: OER round-trip value -134217728
+293: Encoded: [\x04\xf8\x00\x00\x00] (5 bytes)
+293: Decode result -134217728
+
+291: OER round-trip value 268435456
+291: Encoded: [\x04\x10\x00\x00\x00] (5 bytes)
+291: Decode result 268435456
+
+293: OER round-trip value -268435456
+293: Encoded: [\x04\xf0\x00\x00\x00] (5 bytes)
+293: Decode result -268435456
+
+291: OER round-trip value 536870912
+291: Encoded: [\x04\x20\x00\x00\x00] (5 bytes)
+291: Decode result 536870912
+
+293: OER round-trip value -536870912
+293: Encoded: [\x04\xe0\x00\x00\x00] (5 bytes)
+293: Decode result -536870912
+
+291: OER round-trip value 1073741824
+291: Encoded: [\x04\x40\x00\x00\x00] (5 bytes)
+291: Decode result 1073741824
+
+293: OER round-trip value -1073741824
+293: Encoded: [\x04\xc0\x00\x00\x00] (5 bytes)
+293: Decode result -1073741824
+
+291: OER round-trip value 2147483648
+291: Encoded: [\x05\x00\x80\x00\x00\x00] (6 bytes)
+291: Decode result 2147483648
+
+293: OER round-trip value -2147483648
+293: Encoded: [\x04\x80\x00\x00\x00] (5 bytes)
+293: Decode result -2147483648
+
+291: OER round-trip value 4294967296
+291: Encoded: [\x05\x01\x00\x00\x00\x00] (6 bytes)
+291: Decode result 4294967296
+
+293: OER round-trip value -4294967296
+293: Encoded: [\x05\xff\x00\x00\x00\x00] (6 bytes)
+293: Decode result -4294967296
+
+291: OER round-trip value 8589934592
+291: Encoded: [\x05\x02\x00\x00\x00\x00] (6 bytes)
+291: Decode result 8589934592
+
+293: OER round-trip value -8589934592
+293: Encoded: [\x05\xfe\x00\x00\x00\x00] (6 bytes)
+293: Decode result -8589934592
+
+291: OER round-trip value 17179869184
+291: Encoded: [\x05\x04\x00\x00\x00\x00] (6 bytes)
+291: Decode result 17179869184
+
+293: OER round-trip value -17179869184
+293: Encoded: [\x05\xfc\x00\x00\x00\x00] (6 bytes)
+293: Decode result -17179869184
+
+291: OER round-trip value 34359738368
+291: Encoded: [\x05\x08\x00\x00\x00\x00] (6 bytes)
+291: Decode result 34359738368
+
+293: OER round-trip value -34359738368
+293: Encoded: [\x05\xf8\x00\x00\x00\x00] (6 bytes)
+293: Decode result -34359738368
+
+291: OER round-trip value 68719476736
+291: Encoded: [\x05\x10\x00\x00\x00\x00] (6 bytes)
+291: Decode result 68719476736
+
+293: OER round-trip value -68719476736
+293: Encoded: [\x05\xf0\x00\x00\x00\x00] (6 bytes)
+293: Decode result -68719476736
+
+291: OER round-trip value 137438953472
+291: Encoded: [\x05\x20\x00\x00\x00\x00] (6 bytes)
+291: Decode result 137438953472
+
+293: OER round-trip value -137438953472
+293: Encoded: [\x05\xe0\x00\x00\x00\x00] (6 bytes)
+293: Decode result -137438953472
+
+291: OER round-trip value 274877906944
+291: Encoded: [\x05\x40\x00\x00\x00\x00] (6 bytes)
+291: Decode result 274877906944
+
+293: OER round-trip value -274877906944
+293: Encoded: [\x05\xc0\x00\x00\x00\x00] (6 bytes)
+293: Decode result -274877906944
+
+291: OER round-trip value 549755813888
+291: Encoded: [\x06\x00\x80\x00\x00\x00\x00] (7 bytes)
+291: Decode result 549755813888
+
+293: OER round-trip value -549755813888
+293: Encoded: [\x05\x80\x00\x00\x00\x00] (6 bytes)
+293: Decode result -549755813888
+
+291: OER round-trip value 1099511627776
+291: Encoded: [\x06\x01\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 1099511627776
+
+293: OER round-trip value -1099511627776
+293: Encoded: [\x06\xff\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -1099511627776
+
+291: OER round-trip value 2199023255552
+291: Encoded: [\x06\x02\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 2199023255552
+
+293: OER round-trip value -2199023255552
+293: Encoded: [\x06\xfe\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -2199023255552
+
+291: OER round-trip value 4398046511104
+291: Encoded: [\x06\x04\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 4398046511104
+
+293: OER round-trip value -4398046511104
+293: Encoded: [\x06\xfc\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -4398046511104
+
+291: OER round-trip value 8796093022208
+291: Encoded: [\x06\x08\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 8796093022208
+
+293: OER round-trip value -8796093022208
+293: Encoded: [\x06\xf8\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -8796093022208
+
+291: OER round-trip value 17592186044416
+291: Encoded: [\x06\x10\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 17592186044416
+
+293: OER round-trip value -17592186044416
+293: Encoded: [\x06\xf0\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -17592186044416
+
+291: OER round-trip value 35184372088832
+291: Encoded: [\x06\x20\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 35184372088832
+
+293: OER round-trip value -35184372088832
+293: Encoded: [\x06\xe0\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -35184372088832
+
+291: OER round-trip value 70368744177664
+291: Encoded: [\x06\x40\x00\x00\x00\x00\x00] (7 bytes)
+291: Decode result 70368744177664
+
+293: OER round-trip value -70368744177664
+293: Encoded: [\x06\xc0\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -70368744177664
+
+291: OER round-trip value 140737488355328
+291: Encoded: [\x07\x00\x80\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 140737488355328
+
+293: OER round-trip value -140737488355328
+293: Encoded: [\x06\x80\x00\x00\x00\x00\x00] (7 bytes)
+293: Decode result -140737488355328
+
+291: OER round-trip value 281474976710656
+291: Encoded: [\x07\x01\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 281474976710656
+
+293: OER round-trip value -281474976710656
+293: Encoded: [\x07\xff\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -281474976710656
+
+291: OER round-trip value 562949953421312
+291: Encoded: [\x07\x02\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 562949953421312
+
+293: OER round-trip value -562949953421312
+293: Encoded: [\x07\xfe\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -562949953421312
+
+291: OER round-trip value 1125899906842624
+291: Encoded: [\x07\x04\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 1125899906842624
+
+293: OER round-trip value -1125899906842624
+293: Encoded: [\x07\xfc\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -1125899906842624
+
+291: OER round-trip value 2251799813685248
+291: Encoded: [\x07\x08\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 2251799813685248
+
+293: OER round-trip value -2251799813685248
+293: Encoded: [\x07\xf8\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -2251799813685248
+
+291: OER round-trip value 4503599627370496
+291: Encoded: [\x07\x10\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 4503599627370496
+
+293: OER round-trip value -4503599627370496
+293: Encoded: [\x07\xf0\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -4503599627370496
+
+291: OER round-trip value 9007199254740992
+291: Encoded: [\x07\x20\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 9007199254740992
+
+293: OER round-trip value -9007199254740992
+293: Encoded: [\x07\xe0\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -9007199254740992
+
+291: OER round-trip value 18014398509481984
+291: Encoded: [\x07\x40\x00\x00\x00\x00\x00\x00] (8 bytes)
+291: Decode result 18014398509481984
+
+293: OER round-trip value -18014398509481984
+293: Encoded: [\x07\xc0\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -18014398509481984
+
+291: OER round-trip value 36028797018963968
+291: Encoded: [\x08\x00\x80\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 36028797018963968
+
+293: OER round-trip value -36028797018963968
+293: Encoded: [\x07\x80\x00\x00\x00\x00\x00\x00] (8 bytes)
+293: Decode result -36028797018963968
+
+291: OER round-trip value 72057594037927936
+291: Encoded: [\x08\x01\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 72057594037927936
+
+293: OER round-trip value -72057594037927936
+293: Encoded: [\x08\xff\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -72057594037927936
+
+291: OER round-trip value 144115188075855872
+291: Encoded: [\x08\x02\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 144115188075855872
+
+293: OER round-trip value -144115188075855872
+293: Encoded: [\x08\xfe\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -144115188075855872
+
+291: OER round-trip value 288230376151711744
+291: Encoded: [\x08\x04\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 288230376151711744
+
+293: OER round-trip value -288230376151711744
+293: Encoded: [\x08\xfc\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -288230376151711744
+
+291: OER round-trip value 576460752303423488
+291: Encoded: [\x08\x08\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 576460752303423488
+
+293: OER round-trip value -576460752303423488
+293: Encoded: [\x08\xf8\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -576460752303423488
+
+291: OER round-trip value 1152921504606846976
+291: Encoded: [\x08\x10\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 1152921504606846976
+
+293: OER round-trip value -1152921504606846976
+293: Encoded: [\x08\xf0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -1152921504606846976
+
+291: OER round-trip value 2305843009213693952
+291: Encoded: [\x08\x20\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 2305843009213693952
+
+293: OER round-trip value -2305843009213693952
+293: Encoded: [\x08\xe0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -2305843009213693952
+
+291: OER round-trip value 4611686018427387904
+291: Encoded: [\x08\x40\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+291: Decode result 4611686018427387904
+
+293: OER round-trip value -4611686018427387904
+293: Encoded: [\x08\xc0\x00\x00\x00\x00\x00\x00\x00] (9 bytes)
+293: Decode result -4611686018427387904
+PASS check-OER-INTEGER (exit status: 0)

@@ -1,0 +1,2192 @@
+/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c		\
+		-S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons	\
+		-flink-skeletons 		\
+		-Wdebug-compiler		\
+		 /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/tests/tests-asn1c-compiler/62-any-OK.asn1
+DEBUG: Compiling T at line 15
+DEBUG: Compiling s1 at line 15
+DEBUG: Compiling s2 at line 16
+DEBUG: Compiling s3 at line 17
+DEBUG: Compiling s4 at line 19
+DEBUG: fail to fetch tags for T
+DEBUG: Compiling T1-ext at line 22
+DEBUG: Compiling i at line 22
+DEBUG: Compiling any at line 23
+DEBUG: Compiling ... at line 25
+DEBUG: Compiling T2 at line 28
+DEBUG: Compiling m1 at line 28
+DEBUG: Compiling m2 at line 29
+DEBUG: Compiling m3 at line 30
+DEBUG: Compiling o4 at line 31
+DEBUG: Compiling o5 at line 32
+DEBUG: Compiling o6 at line 33
+DEBUG: Compiling T3 at line 37
+DEBUG: Compiling m1 at line 37
+DEBUG: Compiling m2 at line 38
+DEBUG: Compiling T4 at line 43
+DEBUG: Compiling m1 at line 42
+DEBUG: Saving compiled data
+Compiled T.c
+Compiled T.h
+Compiled T1-ext.c
+Compiled T1-ext.h
+Compiled T2.c
+Compiled T2.h
+Compiled T3.c
+Compiled T3.h
+Compiled T4.c
+Compiled T4.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ANY.h	-> ANY.h (line 8 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ANY.c	-> ANY.c (line 8 col 6)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.h	-> OCTET_STRING.h (line 8 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.h	-> OPEN_TYPE.h (line 9 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.c	-> OPEN_TYPE.c (line 9 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.h	-> constr_CHOICE.h (line 9 col 24)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.h	-> BOOLEAN.h (line 11 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.c	-> BOOLEAN.c (line 11 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.h	-> INTEGER.h (line 17 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.c	-> INTEGER.c (line 17 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger.h	-> NativeInteger.h (line 21 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger.c	-> NativeInteger.c (line 21 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NumericString.h	-> NumericString.h (line 23 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NumericString.c	-> NumericString.c (line 23 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SEQUENCE_OF.h	-> asn_SEQUENCE_OF.h (line 36 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SEQUENCE_OF.c	-> asn_SEQUENCE_OF.c (line 36 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.h	-> asn_SET_OF.h (line 36 col 36)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.c	-> asn_SET_OF.c (line 37 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.c	-> constr_CHOICE.c (line 38 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h (line 39 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c (line 39 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_OF.h	-> constr_SEQUENCE_OF.h (line 40 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_OF.c	-> constr_SEQUENCE_OF.c (line 40 col 21)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.h	-> constr_SET_OF.h (line 40 col 60)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.h	-> constr_SET.h (line 41 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.c	-> constr_SET.c (line 41 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.c	-> constr_SET_OF.c (line 42 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.h	-> asn_application.h (line 45 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.c	-> asn_application.c (line 45 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_ioc.h	-> asn_ioc.h (line 46 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_system.h	-> asn_system.h (line 47 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs.h	-> asn_codecs.h (line 48 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.h	-> asn_internal.h (line 49 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.c	-> asn_internal.c (line 49 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.h	-> asn_random_fill.h (line 50 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.c	-> asn_random_fill.c (line 50 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.h	-> asn_bit_data.h (line 51 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.c	-> asn_bit_data.c (line 51 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.c	-> OCTET_STRING.c (line 52 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.h	-> BIT_STRING.h (line 53 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.c	-> BIT_STRING.c (line 53 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c (line 54 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h (line 54 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.h	-> ber_tlv_length.h (line 55 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.c	-> ber_tlv_length.c (line 55 col 17)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h (line 56 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c (line 56 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.h	-> ber_decoder.h (line 57 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.c	-> ber_decoder.c (line 57 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.h	-> der_encoder.h (line 58 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.c	-> der_encoder.c (line 58 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.h	-> constr_TYPE.h (line 59 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.c	-> constr_TYPE.c (line 59 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.h	-> constraints.h (line 60 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.c	-> constraints.c (line 60 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.h	-> xer_support.h (line 61 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.c	-> xer_support.c (line 61 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.h	-> xer_decoder.h (line 62 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.c	-> xer_decoder.c (line 62 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.h	-> xer_encoder.h (line 63 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.c	-> xer_encoder.c (line 63 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.h	-> per_support.h (line 64 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.c	-> per_support.c (line 64 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.h	-> per_decoder.h (line 65 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.c	-> per_decoder.c (line 65 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.h	-> per_encoder.h (line 66 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.c	-> per_encoder.c (line 66 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.h	-> per_opentype.h (line 67 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.c	-> per_opentype.c (line 67 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.h	-> oer_decoder.h (line 73 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.h	-> oer_encoder.h (line 74 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.h	-> oer_support.h (line 75 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.c	-> oer_decoder.c (line 76 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.c	-> oer_encoder.c (line 77 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.c	-> oer_support.c (line 78 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE_oer.c	-> OPEN_TYPE_oer.c (line 79 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER_oer.c	-> INTEGER_oer.c (line 80 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING_oer.c	-> OCTET_STRING_oer.c (line 82 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger_oer.c	-> NativeInteger_oer.c (line 83 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE_oer.c	-> constr_CHOICE_oer.c (line 85 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_oer.c	-> constr_SEQUENCE_oer.c (line 86 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF_oer.c	-> constr_SET_OF_oer.c (line 87 col 16)
+Generated Makefile.am.libasncodec
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c	-> converter-example.c implicit
+Generated pdu_collection.c
+Generated converter-example.mk
+File /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c is already here as converter-example.c
+Generated pdu_collection.c
+Generated Makefile.am.asn1convert
+rm -f converter-example.c
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-program
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o T.o -c T.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o T1-ext.o -c T1-ext.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o T2.o -c T2.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o T3.o -c T3.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o T4.o -c T4.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ANY.o -c ANY.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE.o -c OPEN_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BOOLEAN.o -c BOOLEAN.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER.o -c INTEGER.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeInteger.o -c NativeInteger.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NumericString.o -c NumericString.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_SEQUENCE_OF.o -c asn_SEQUENCE_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_SET_OF.o -c asn_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE.o -c constr_CHOICE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE.o -c constr_SEQUENCE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE_OF.o -c constr_SEQUENCE_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET.o -c constr_SET.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF.o -c constr_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_application.o -c asn_application.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_internal.o -c asn_internal.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_random_fill.o -c asn_random_fill.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_bit_data.o -c asn_bit_data.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING.o -c OCTET_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BIT_STRING.o -c BIT_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_codecs_prim.o -c asn_codecs_prim.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_length.o -c ber_tlv_length.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_tag.o -c ber_tlv_tag.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_decoder.o -c ber_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o der_encoder.o -c der_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_TYPE.o -c constr_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constraints.o -c constraints.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_support.o -c xer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_decoder.o -c xer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_encoder.o -c xer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_support.o -c per_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_decoder.o -c per_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_encoder.o -c per_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_opentype.o -c per_opentype.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_decoder.o -c oer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_encoder.o -c oer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_support.o -c oer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE_oer.o -c OPEN_TYPE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER_oer.o -c INTEGER_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING_oer.o -c OCTET_STRING_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeInteger_oer.o -c NativeInteger_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE_oer.o -c constr_CHOICE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE_oer.o -c constr_SEQUENCE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF_oer.o -c constr_SET_OF_oer.c
+ar rcs libasncodec.a T.o T1-ext.o T2.o T3.o T4.o ANY.o OPEN_TYPE.o BOOLEAN.o INTEGER.o NativeInteger.o NumericString.o asn_SEQUENCE_OF.o asn_SET_OF.o constr_CHOICE.o constr_SEQUENCE.o constr_SEQUENCE_OF.o constr_SET.o constr_SET_OF.o asn_application.o asn_internal.o asn_random_fill.o asn_bit_data.o OCTET_STRING.o BIT_STRING.o asn_codecs_prim.o ber_tlv_length.o ber_tlv_tag.o ber_decoder.o der_encoder.o constr_TYPE.o constraints.o xer_support.o xer_decoder.o xer_encoder.o per_support.o per_decoder.o per_encoder.o per_opentype.o oer_decoder.o oer_encoder.o oer_support.o OPEN_TYPE_oer.o INTEGER_oer.o OCTET_STRING_oer.o NativeInteger_oer.o constr_CHOICE_oer.o constr_SEQUENCE_oer.o constr_SET_OF_oer.o
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o check-62.o -c check-62.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I.  -o check-program check-62.o  libasncodec.a -lm
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-fuzzer
+make[7]: Nothing to be done for `check-fuzzer'.
+./check-program
+
+Processing file [../data-62-01.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Decoding from 10 with 6 (left 3)
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Decoding from 11 with 7 (left 2)
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Decoding from 12 with 8 (left 1)
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Decoding from 0 with 9 (left 13)
+Decoding from 9 with 10 (left 4)
+Decoding from 0 with 10 (left 13)
+Decoding from 10 with 11 (left 3)
+Decoding from 0 with 11 (left 13)
+Decoding from 11 with 12 (left 2)
+Decoding from 0 with 12 (left 13)
+Decoding from 12 with 13 (left 1)
+Decoding from 0 with 13 (left 13)
+Decoding from 0 with 14 (left 13)
+Decoding from 0 with 15 (left 13)
+Decoding from 0 with 16 (left 13)
+Decoding from 0 with 17 (left 13)
+Decoding from 0 with 18 (left 13)
+Decoding from 0 with 19 (left 13)
+T1-ext ::= {
+    i: 5
+    any: 13 04 74 65 73 74
+}
+SAVED OBJECT IN SIZE 13
+
+Processing file [../data-62-14.ber]
+LOADING OBJECT OF SIZE 16
+Decoding from 0 with 1 (left 16)
+Decoding from 0 with 2 (left 16)
+Decoding from 2 with 3 (left 14)
+Decoding from 4 with 4 (left 12)
+Decoding from 8 with 5 (left 8)
+Decoding from 12 with 6 (left 4)
+Decoding from 0 with 2 (left 16)
+Decoding from 2 with 3 (left 14)
+Decoding from 4 with 4 (left 12)
+Decoding from 8 with 5 (left 8)
+Decoding from 12 with 6 (left 4)
+Decoding from 0 with 3 (left 16)
+Decoding from 2 with 4 (left 14)
+Decoding from 6 with 5 (left 10)
+Decoding from 10 with 6 (left 6)
+Decoding from 0 with 4 (left 16)
+Decoding from 4 with 5 (left 12)
+Decoding from 8 with 6 (left 8)
+Decoding from 14 with 7 (left 2)
+Decoding from 0 with 5 (left 16)
+Decoding from 4 with 6 (left 12)
+Decoding from 10 with 7 (left 6)
+Decoding from 0 with 6 (left 16)
+Decoding from 6 with 7 (left 10)
+Decoding from 12 with 8 (left 4)
+Decoding from 0 with 7 (left 16)
+Decoding from 6 with 8 (left 10)
+Decoding from 14 with 9 (left 2)
+Decoding from 0 with 8 (left 16)
+Decoding from 8 with 9 (left 8)
+Decoding from 0 with 9 (left 16)
+Decoding from 8 with 10 (left 8)
+Decoding from 0 with 10 (left 16)
+Decoding from 10 with 11 (left 6)
+Decoding from 0 with 11 (left 16)
+Decoding from 10 with 12 (left 6)
+Decoding from 0 with 12 (left 16)
+Decoding from 12 with 13 (left 4)
+Decoding from 0 with 13 (left 16)
+Decoding from 12 with 14 (left 4)
+Decoding from 0 with 14 (left 16)
+Decoding from 14 with 15 (left 2)
+Decoding from 0 with 15 (left 16)
+Decoding from 14 with 16 (left 2)
+Decoding from 0 with 16 (left 16)
+Decoding from 0 with 17 (left 16)
+Decoding from 0 with 18 (left 16)
+Decoding from 0 with 19 (left 16)
+T1-ext ::= {
+    any: E1 80 E2 80 00 00 E3 80 00 00 00 00
+}
+SAVED OBJECT IN SIZE 16
+
+Processing file [../data-62-16.ber]
+LOADING OBJECT OF SIZE 14
+Decoding from 0 with 1 (left 14)
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Decoding from 0 with 3 (left 14)
+Decoding from 2 with 4 (left 12)
+Decoding from 6 with 5 (left 8)
+Decoding from 11 with 6 (left 3)
+Decoding from 0 with 4 (left 14)
+Decoding from 4 with 5 (left 10)
+Decoding from 9 with 6 (left 5)
+Decoding from 0 with 5 (left 14)
+Decoding from 4 with 6 (left 10)
+Decoding from 10 with 7 (left 4)
+Decoding from 0 with 6 (left 14)
+Decoding from 6 with 7 (left 8)
+Decoding from 12 with 8 (left 2)
+Decoding from 0 with 7 (left 14)
+Decoding from 6 with 8 (left 8)
+Decoding from 0 with 8 (left 14)
+Decoding from 8 with 9 (left 6)
+Decoding from 0 with 9 (left 14)
+Decoding from 9 with 10 (left 5)
+Decoding from 0 with 10 (left 14)
+Decoding from 10 with 11 (left 4)
+Decoding from 0 with 11 (left 14)
+Decoding from 11 with 12 (left 3)
+Decoding from 0 with 12 (left 14)
+Decoding from 12 with 13 (left 2)
+Decoding from 0 with 13 (left 14)
+Decoding from 12 with 14 (left 2)
+Decoding from 0 with 14 (left 14)
+Decoding from 0 with 15 (left 14)
+Decoding from 0 with 16 (left 14)
+Decoding from 0 with 17 (left 14)
+Decoding from 0 with 18 (left 14)
+Decoding from 0 with 19 (left 14)
+T1-ext ::= {
+    any: E1 80 13 04 74 65 73 74 00 00
+}
+SAVED OBJECT IN SIZE 14
+
+Processing file [../data-62-12-B.ber]
+LOADING OBJECT OF SIZE 6
+Decoding from 0 with 1 (left 6)
+Decoding from 0 with 2 (left 6)
+Decoding from 2 with 3 (left 4)
+Decoding from 4 with 4 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 6)
+Decoding from 2 with 3 (left 4)
+Decoding from 4 with 4 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 6)
+Decoding from 2 with 4 (left 4)
+Failed, but this was expected
+Decoding from 0 with 4 (left 6)
+Decoding from 4 with 5 (left 2)
+Failed, but this was expected
+Decoding from 0 with 5 (left 6)
+Decoding from 4 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 7 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 10 (left 6)
+Failed, but this was expected
+Decoding from 0 with 11 (left 6)
+Failed, but this was expected
+Decoding from 0 with 12 (left 6)
+Failed, but this was expected
+Decoding from 0 with 13 (left 6)
+Failed, but this was expected
+Decoding from 0 with 14 (left 6)
+Failed, but this was expected
+Decoding from 0 with 15 (left 6)
+Failed, but this was expected
+Decoding from 0 with 16 (left 6)
+Failed, but this was expected
+Decoding from 0 with 17 (left 6)
+Failed, but this was expected
+Decoding from 0 with 18 (left 6)
+Failed, but this was expected
+Decoding from 0 with 19 (left 6)
+Failed, but this was expected
+
+Processing file [../data-62-10.ber]
+LOADING OBJECT OF SIZE 9
+Decoding from 0 with 1 (left 9)
+Decoding from 0 with 2 (left 9)
+Decoding from 2 with 3 (left 7)
+Decoding from 4 with 4 (left 5)
+Decoding from 7 with 5 (left 2)
+Decoding from 0 with 2 (left 9)
+Decoding from 2 with 3 (left 7)
+Decoding from 4 with 4 (left 5)
+Decoding from 7 with 5 (left 2)
+Decoding from 0 with 3 (left 9)
+Decoding from 2 with 4 (left 7)
+Decoding from 4 with 5 (left 5)
+Decoding from 0 with 4 (left 9)
+Decoding from 4 with 5 (left 5)
+Decoding from 0 with 5 (left 9)
+Decoding from 4 with 6 (left 5)
+Decoding from 0 with 6 (left 9)
+Decoding from 4 with 7 (left 5)
+Decoding from 0 with 7 (left 9)
+Decoding from 7 with 8 (left 2)
+Decoding from 0 with 8 (left 9)
+Decoding from 7 with 9 (left 2)
+Decoding from 0 with 9 (left 9)
+Decoding from 0 with 10 (left 9)
+Decoding from 0 with 11 (left 9)
+Decoding from 0 with 12 (left 9)
+Decoding from 0 with 13 (left 9)
+Decoding from 0 with 14 (left 9)
+Decoding from 0 with 15 (left 9)
+Decoding from 0 with 16 (left 9)
+Decoding from 0 with 17 (left 9)
+Decoding from 0 with 18 (left 9)
+Decoding from 0 with 19 (left 9)
+T1-ext ::= {
+    any: 7F 7B 80 00 00
+}
+SAVED OBJECT IN SIZE 9
+
+Processing file [../data-62-11.ber]
+LOADING OBJECT OF SIZE 12
+Decoding from 0 with 1 (left 12)
+Decoding from 0 with 2 (left 12)
+Decoding from 2 with 3 (left 10)
+Decoding from 4 with 4 (left 8)
+Decoding from 8 with 5 (left 4)
+Decoding from 0 with 2 (left 12)
+Decoding from 2 with 3 (left 10)
+Decoding from 4 with 4 (left 8)
+Decoding from 8 with 5 (left 4)
+Decoding from 0 with 3 (left 12)
+Decoding from 2 with 4 (left 10)
+Decoding from 6 with 5 (left 6)
+Decoding from 10 with 6 (left 2)
+Decoding from 0 with 4 (left 12)
+Decoding from 4 with 5 (left 8)
+Decoding from 8 with 6 (left 4)
+Decoding from 0 with 5 (left 12)
+Decoding from 4 with 6 (left 8)
+Decoding from 10 with 7 (left 2)
+Decoding from 0 with 6 (left 12)
+Decoding from 6 with 7 (left 6)
+Decoding from 0 with 7 (left 12)
+Decoding from 6 with 8 (left 6)
+Decoding from 0 with 8 (left 12)
+Decoding from 8 with 9 (left 4)
+Decoding from 0 with 9 (left 12)
+Decoding from 8 with 10 (left 4)
+Decoding from 0 with 10 (left 12)
+Decoding from 10 with 11 (left 2)
+Decoding from 0 with 11 (left 12)
+Decoding from 10 with 12 (left 2)
+Decoding from 0 with 12 (left 12)
+Decoding from 0 with 13 (left 12)
+Decoding from 0 with 14 (left 12)
+Decoding from 0 with 15 (left 12)
+Decoding from 0 with 16 (left 12)
+Decoding from 0 with 17 (left 12)
+Decoding from 0 with 18 (left 12)
+Decoding from 0 with 19 (left 12)
+T1-ext ::= {
+    any: A1 80 00 00 A1 80 00 00
+}
+SAVED OBJECT IN SIZE 12
+
+Processing file [../data-62-15-B.ber]
+LOADING OBJECT OF SIZE 14
+Decoding from 0 with 1 (left 14)
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 14)
+Decoding from 2 with 4 (left 12)
+Decoding from 6 with 5 (left 8)
+Decoding from 10 with 6 (left 4)
+Failed, but this was expected
+Decoding from 0 with 4 (left 14)
+Decoding from 4 with 5 (left 10)
+Decoding from 8 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 14)
+Decoding from 4 with 6 (left 10)
+Decoding from 10 with 7 (left 4)
+Failed, but this was expected
+Decoding from 0 with 6 (left 14)
+Decoding from 6 with 7 (left 8)
+Decoding from 12 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 7 (left 14)
+Decoding from 6 with 8 (left 8)
+Failed, but this was expected
+Decoding from 0 with 8 (left 14)
+Decoding from 8 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 14)
+Decoding from 8 with 10 (left 6)
+Failed, but this was expected
+Decoding from 0 with 10 (left 14)
+Decoding from 10 with 11 (left 4)
+Failed, but this was expected
+Decoding from 0 with 11 (left 14)
+Decoding from 10 with 12 (left 4)
+Failed, but this was expected
+Decoding from 0 with 12 (left 14)
+Decoding from 12 with 13 (left 2)
+Failed, but this was expected
+Decoding from 0 with 13 (left 14)
+Decoding from 12 with 14 (left 2)
+Failed, but this was expected
+Decoding from 0 with 14 (left 14)
+Failed, but this was expected
+Decoding from 0 with 15 (left 14)
+Failed, but this was expected
+Decoding from 0 with 16 (left 14)
+Failed, but this was expected
+Decoding from 0 with 17 (left 14)
+Failed, but this was expected
+Decoding from 0 with 18 (left 14)
+Failed, but this was expected
+Decoding from 0 with 19 (left 14)
+Failed, but this was expected
+
+Processing file [../data-62-24-L.ber]
+LOADING OBJECT OF SIZE 20
+Decoding from 0 with 1 (left 20)
+Decoding from 0 with 2 (left 20)
+Decoding from 2 with 3 (left 18)
+Decoding from 4 with 4 (left 16)
+Decoding from 6 with 5 (left 14)
+Decoding from 11 with 6 (left 9)
+Decoding from 16 with 7 (left 4)
+Decoding from 0 with 2 (left 20)
+Decoding from 2 with 3 (left 18)
+Decoding from 4 with 4 (left 16)
+Decoding from 6 with 5 (left 14)
+Decoding from 11 with 6 (left 9)
+Decoding from 16 with 7 (left 4)
+Decoding from 0 with 3 (left 20)
+Decoding from 2 with 4 (left 18)
+Decoding from 6 with 5 (left 14)
+Decoding from 11 with 6 (left 9)
+Decoding from 16 with 7 (left 4)
+Decoding from 0 with 4 (left 20)
+Decoding from 4 with 5 (left 16)
+Decoding from 9 with 6 (left 11)
+Decoding from 14 with 7 (left 6)
+Decoding from 0 with 5 (left 20)
+Decoding from 4 with 6 (left 16)
+Decoding from 9 with 7 (left 11)
+Decoding from 16 with 8 (left 4)
+Decoding from 0 with 6 (left 20)
+Decoding from 6 with 7 (left 14)
+Decoding from 13 with 8 (left 7)
+Decoding from 0 with 7 (left 20)
+Decoding from 6 with 8 (left 14)
+Decoding from 14 with 9 (left 6)
+Decoding from 0 with 8 (left 20)
+Decoding from 6 with 9 (left 14)
+Decoding from 14 with 10 (left 6)
+Decoding from 0 with 9 (left 20)
+Decoding from 9 with 10 (left 11)
+Decoding from 18 with 11 (left 2)
+Decoding from 0 with 10 (left 20)
+Decoding from 9 with 11 (left 11)
+Decoding from 0 with 11 (left 20)
+Decoding from 11 with 12 (left 9)
+Decoding from 0 with 12 (left 20)
+Decoding from 11 with 13 (left 9)
+Decoding from 0 with 13 (left 20)
+Decoding from 13 with 14 (left 7)
+Decoding from 0 with 14 (left 20)
+Decoding from 14 with 15 (left 6)
+Decoding from 0 with 15 (left 20)
+Decoding from 14 with 16 (left 6)
+Decoding from 0 with 16 (left 20)
+Decoding from 16 with 17 (left 4)
+Decoding from 0 with 17 (left 20)
+Decoding from 16 with 18 (left 4)
+Decoding from 0 with 18 (left 20)
+Decoding from 18 with 19 (left 2)
+Decoding from 0 with 19 (left 20)
+Decoding from 18 with 20 (left 2)
+T1-ext ::= {
+    any: E1 80 BF 7B 05 B7 03 13 01 7A 00 00 00 00
+}
+SAVED OBJECT IN SIZE 18
+
+Processing file [../data-62-17-B.ber]
+LOADING OBJECT OF SIZE 15
+Decoding from 0 with 1 (left 15)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 8 with 5 (left 7)
+Decoding from 13 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 8 with 5 (left 7)
+Decoding from 13 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 15)
+Decoding from 2 with 4 (left 13)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Failed, but this was expected
+Decoding from 0 with 4 (left 15)
+Decoding from 4 with 5 (left 11)
+Decoding from 9 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 15)
+Decoding from 4 with 6 (left 11)
+Decoding from 10 with 7 (left 5)
+Failed, but this was expected
+Decoding from 0 with 6 (left 15)
+Decoding from 6 with 7 (left 9)
+Decoding from 13 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 7 (left 15)
+Decoding from 6 with 8 (left 9)
+Failed, but this was expected
+Decoding from 0 with 8 (left 15)
+Decoding from 8 with 9 (left 7)
+Failed, but this was expected
+Decoding from 0 with 9 (left 15)
+Decoding from 9 with 10 (left 6)
+Failed, but this was expected
+Decoding from 0 with 10 (left 15)
+Decoding from 10 with 11 (left 5)
+Failed, but this was expected
+Decoding from 0 with 11 (left 15)
+Decoding from 11 with 12 (left 4)
+Failed, but this was expected
+Decoding from 0 with 12 (left 15)
+Decoding from 12 with 13 (left 3)
+Failed, but this was expected
+Decoding from 0 with 13 (left 15)
+Decoding from 13 with 14 (left 2)
+Failed, but this was expected
+Decoding from 0 with 14 (left 15)
+Failed, but this was expected
+Decoding from 0 with 15 (left 15)
+Failed, but this was expected
+Decoding from 0 with 16 (left 15)
+Failed, but this was expected
+Decoding from 0 with 17 (left 15)
+Failed, but this was expected
+Decoding from 0 with 18 (left 15)
+Failed, but this was expected
+Decoding from 0 with 19 (left 15)
+Failed, but this was expected
+
+Processing file [../data-62-28-D.ber]
+LOADING OBJECT OF SIZE 6
+Decoding from 0 with 1 (left 6)
+Decoding from 0 with 2 (left 6)
+Decoding from 2 with 3 (left 4)
+Decoding from 4 with 4 (left 2)
+Decoding from 0 with 2 (left 6)
+Decoding from 2 with 3 (left 4)
+Decoding from 4 with 4 (left 2)
+Decoding from 0 with 3 (left 6)
+Decoding from 2 with 4 (left 4)
+Decoding from 0 with 4 (left 6)
+Decoding from 4 with 5 (left 2)
+Decoding from 0 with 5 (left 6)
+Decoding from 4 with 6 (left 2)
+Decoding from 0 with 6 (left 6)
+Decoding from 0 with 7 (left 6)
+Decoding from 0 with 8 (left 6)
+Decoding from 0 with 9 (left 6)
+Decoding from 0 with 10 (left 6)
+Decoding from 0 with 11 (left 6)
+Decoding from 0 with 12 (left 6)
+Decoding from 0 with 13 (left 6)
+Decoding from 0 with 14 (left 6)
+Decoding from 0 with 15 (left 6)
+Decoding from 0 with 16 (left 6)
+Decoding from 0 with 17 (left 6)
+Decoding from 0 with 18 (left 6)
+Decoding from 0 with 19 (left 6)
+T1-ext ::= {
+    any: 
+}
+SAVED OBJECT IN SIZE 4
+
+Processing file [../data-62-13-B.ber]
+LOADING OBJECT OF SIZE 10
+Decoding from 0 with 1 (left 10)
+Decoding from 0 with 2 (left 10)
+Decoding from 2 with 3 (left 8)
+Decoding from 4 with 4 (left 6)
+Decoding from 8 with 5 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 10)
+Decoding from 2 with 3 (left 8)
+Decoding from 4 with 4 (left 6)
+Decoding from 8 with 5 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 10)
+Decoding from 2 with 4 (left 8)
+Decoding from 6 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 4 (left 10)
+Decoding from 4 with 5 (left 6)
+Decoding from 8 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 5 (left 10)
+Decoding from 4 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 6 (left 10)
+Decoding from 6 with 7 (left 4)
+Failed, but this was expected
+Decoding from 0 with 7 (left 10)
+Decoding from 6 with 8 (left 4)
+Failed, but this was expected
+Decoding from 0 with 8 (left 10)
+Decoding from 8 with 9 (left 2)
+Failed, but this was expected
+Decoding from 0 with 9 (left 10)
+Decoding from 8 with 10 (left 2)
+Failed, but this was expected
+Decoding from 0 with 10 (left 10)
+Failed, but this was expected
+Decoding from 0 with 11 (left 10)
+Failed, but this was expected
+Decoding from 0 with 12 (left 10)
+Failed, but this was expected
+Decoding from 0 with 13 (left 10)
+Failed, but this was expected
+Decoding from 0 with 14 (left 10)
+Failed, but this was expected
+Decoding from 0 with 15 (left 10)
+Failed, but this was expected
+Decoding from 0 with 16 (left 10)
+Failed, but this was expected
+Decoding from 0 with 17 (left 10)
+Failed, but this was expected
+Decoding from 0 with 18 (left 10)
+Failed, but this was expected
+Decoding from 0 with 19 (left 10)
+Failed, but this was expected
+
+Processing file [../data-62-31-D.ber]
+LOADING OBJECT OF SIZE 31
+Decoding from 0 with 1 (left 31)
+Decoding from 0 with 2 (left 31)
+Decoding from 2 with 3 (left 29)
+Decoding from 5 with 4 (left 26)
+Decoding from 9 with 5 (left 22)
+Decoding from 14 with 6 (left 17)
+Decoding from 20 with 7 (left 11)
+Decoding from 26 with 8 (left 5)
+Decoding from 0 with 2 (left 31)
+Decoding from 2 with 3 (left 29)
+Decoding from 5 with 4 (left 26)
+Decoding from 9 with 5 (left 22)
+Decoding from 14 with 6 (left 17)
+Decoding from 20 with 7 (left 11)
+Decoding from 26 with 8 (left 5)
+Decoding from 0 with 3 (left 31)
+Decoding from 2 with 4 (left 29)
+Decoding from 6 with 5 (left 25)
+Decoding from 11 with 6 (left 20)
+Decoding from 17 with 7 (left 14)
+Decoding from 24 with 8 (left 7)
+Decoding from 0 with 4 (left 31)
+Decoding from 4 with 5 (left 27)
+Decoding from 9 with 6 (left 22)
+Decoding from 15 with 7 (left 16)
+Decoding from 22 with 8 (left 9)
+Decoding from 29 with 9 (left 2)
+Decoding from 0 with 5 (left 31)
+Decoding from 5 with 6 (left 26)
+Decoding from 11 with 7 (left 20)
+Decoding from 18 with 8 (left 13)
+Decoding from 26 with 9 (left 5)
+Decoding from 0 with 6 (left 31)
+Decoding from 6 with 7 (left 25)
+Decoding from 13 with 8 (left 18)
+Decoding from 21 with 9 (left 10)
+Decoding from 29 with 10 (left 2)
+Decoding from 0 with 7 (left 31)
+Decoding from 6 with 8 (left 25)
+Decoding from 14 with 9 (left 17)
+Decoding from 23 with 10 (left 8)
+Decoding from 0 with 8 (left 31)
+Decoding from 6 with 9 (left 25)
+Decoding from 15 with 10 (left 16)
+Decoding from 24 with 11 (left 7)
+Decoding from 0 with 9 (left 31)
+Decoding from 9 with 10 (left 22)
+Decoding from 19 with 11 (left 12)
+Decoding from 29 with 12 (left 2)
+Decoding from 0 with 10 (left 31)
+Decoding from 9 with 11 (left 22)
+Decoding from 20 with 12 (left 11)
+Decoding from 0 with 11 (left 31)
+Decoding from 11 with 12 (left 20)
+Decoding from 23 with 13 (left 8)
+Decoding from 0 with 12 (left 31)
+Decoding from 11 with 13 (left 20)
+Decoding from 24 with 14 (left 7)
+Decoding from 0 with 13 (left 31)
+Decoding from 13 with 14 (left 18)
+Decoding from 26 with 15 (left 5)
+Decoding from 0 with 14 (left 31)
+Decoding from 14 with 15 (left 17)
+Decoding from 29 with 16 (left 2)
+Decoding from 0 with 15 (left 31)
+Decoding from 15 with 16 (left 16)
+Decoding from 0 with 16 (left 31)
+Decoding from 16 with 17 (left 15)
+Decoding from 0 with 17 (left 31)
+Decoding from 17 with 18 (left 14)
+Decoding from 0 with 18 (left 31)
+Decoding from 18 with 19 (left 13)
+Decoding from 0 with 19 (left 31)
+Decoding from 19 with 20 (left 12)
+T2 ::= {
+    m1: 79
+    m2: FALSE
+    m3: m3 ::= {
+        79023700808
+    }
+    o4: FALSE
+}
+SAVED OBJECT IN SIZE 27
+
+Processing file [../data-62-04-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Decoding from 9 with 10 (left 4)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+
+Processing file [../data-62-06-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+
+Processing file [../data-62-08-L.ber]
+LOADING OBJECT OF SIZE 15
+Decoding from 0 with 1 (left 15)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 5 with 4 (left 10)
+Decoding from 9 with 5 (left 6)
+Decoding from 13 with 6 (left 2)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 5 with 4 (left 10)
+Decoding from 9 with 5 (left 6)
+Decoding from 13 with 6 (left 2)
+Decoding from 0 with 3 (left 15)
+Decoding from 2 with 4 (left 13)
+Decoding from 5 with 5 (left 10)
+Decoding from 10 with 6 (left 5)
+Decoding from 0 with 4 (left 15)
+Decoding from 2 with 5 (left 13)
+Decoding from 7 with 6 (left 8)
+Decoding from 13 with 7 (left 2)
+Decoding from 0 with 5 (left 15)
+Decoding from 5 with 6 (left 10)
+Decoding from 11 with 7 (left 4)
+Decoding from 0 with 6 (left 15)
+Decoding from 5 with 7 (left 10)
+Decoding from 12 with 8 (left 3)
+Decoding from 0 with 7 (left 15)
+Decoding from 7 with 8 (left 8)
+Decoding from 0 with 8 (left 15)
+Decoding from 7 with 9 (left 8)
+Decoding from 0 with 9 (left 15)
+Decoding from 9 with 10 (left 6)
+Decoding from 0 with 10 (left 15)
+Decoding from 10 with 11 (left 5)
+Decoding from 0 with 11 (left 15)
+Decoding from 11 with 12 (left 4)
+Decoding from 0 with 12 (left 15)
+Decoding from 12 with 13 (left 3)
+Decoding from 0 with 13 (left 15)
+Decoding from 13 with 14 (left 2)
+Decoding from 0 with 14 (left 15)
+Decoding from 13 with 15 (left 2)
+Decoding from 0 with 15 (left 15)
+Decoding from 0 with 16 (left 15)
+Decoding from 0 with 17 (left 15)
+Decoding from 0 with 18 (left 15)
+Decoding from 0 with 19 (left 15)
+T1-ext ::= {
+    i: 5
+    any: 13 04 74 65 73 74
+}
+SAVED OBJECT IN SIZE 13
+
+Processing file [../data-62-26-B.ber]
+LOADING OBJECT OF SIZE 18
+Decoding from 0 with 1 (left 18)
+Decoding from 0 with 2 (left 18)
+Decoding from 2 with 3 (left 16)
+Decoding from 4 with 4 (left 14)
+Decoding from 6 with 5 (left 12)
+Decoding from 11 with 6 (left 7)
+Decoding from 16 with 7 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 18)
+Decoding from 2 with 3 (left 16)
+Decoding from 4 with 4 (left 14)
+Decoding from 6 with 5 (left 12)
+Decoding from 11 with 6 (left 7)
+Decoding from 16 with 7 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 18)
+Decoding from 2 with 4 (left 16)
+Decoding from 6 with 5 (left 12)
+Decoding from 11 with 6 (left 7)
+Decoding from 16 with 7 (left 2)
+Failed, but this was expected
+Decoding from 0 with 4 (left 18)
+Decoding from 4 with 5 (left 14)
+Decoding from 9 with 6 (left 9)
+Decoding from 14 with 7 (left 4)
+Failed, but this was expected
+Decoding from 0 with 5 (left 18)
+Decoding from 4 with 6 (left 14)
+Decoding from 9 with 7 (left 9)
+Decoding from 16 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 6 (left 18)
+Decoding from 6 with 7 (left 12)
+Decoding from 13 with 8 (left 5)
+Failed, but this was expected
+Decoding from 0 with 7 (left 18)
+Decoding from 6 with 8 (left 12)
+Decoding from 14 with 9 (left 4)
+Failed, but this was expected
+Decoding from 0 with 8 (left 18)
+Decoding from 6 with 9 (left 12)
+Decoding from 14 with 10 (left 4)
+Failed, but this was expected
+Decoding from 0 with 9 (left 18)
+Decoding from 9 with 10 (left 9)
+Failed, but this was expected
+Decoding from 0 with 10 (left 18)
+Decoding from 9 with 11 (left 9)
+Failed, but this was expected
+Decoding from 0 with 11 (left 18)
+Decoding from 11 with 12 (left 7)
+Failed, but this was expected
+Decoding from 0 with 12 (left 18)
+Decoding from 11 with 13 (left 7)
+Failed, but this was expected
+Decoding from 0 with 13 (left 18)
+Decoding from 13 with 14 (left 5)
+Failed, but this was expected
+Decoding from 0 with 14 (left 18)
+Decoding from 14 with 15 (left 4)
+Failed, but this was expected
+Decoding from 0 with 15 (left 18)
+Decoding from 14 with 16 (left 4)
+Failed, but this was expected
+Decoding from 0 with 16 (left 18)
+Decoding from 16 with 17 (left 2)
+Failed, but this was expected
+Decoding from 0 with 17 (left 18)
+Decoding from 16 with 18 (left 2)
+Failed, but this was expected
+Decoding from 0 with 18 (left 18)
+Failed, but this was expected
+Decoding from 0 with 19 (left 18)
+Failed, but this was expected
+
+Processing file [../data-62-02-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Decoding from 10 with 6 (left 3)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Decoding from 11 with 7 (left 2)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Decoding from 9 with 10 (left 4)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Decoding from 10 with 11 (left 3)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Decoding from 11 with 12 (left 2)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+
+Processing file [../data-62-19-B.ber]
+LOADING OBJECT OF SIZE 14
+Decoding from 0 with 1 (left 14)
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 14)
+Decoding from 2 with 4 (left 12)
+Decoding from 6 with 5 (left 8)
+Decoding from 11 with 6 (left 3)
+Failed, but this was expected
+Decoding from 0 with 4 (left 14)
+Decoding from 4 with 5 (left 10)
+Decoding from 9 with 6 (left 5)
+Failed, but this was expected
+Decoding from 0 with 5 (left 14)
+Decoding from 4 with 6 (left 10)
+Decoding from 10 with 7 (left 4)
+Failed, but this was expected
+Decoding from 0 with 6 (left 14)
+Decoding from 6 with 7 (left 8)
+Decoding from 12 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 7 (left 14)
+Decoding from 6 with 8 (left 8)
+Failed, but this was expected
+Decoding from 0 with 8 (left 14)
+Decoding from 8 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 14)
+Decoding from 9 with 10 (left 5)
+Failed, but this was expected
+Decoding from 0 with 10 (left 14)
+Decoding from 10 with 11 (left 4)
+Failed, but this was expected
+Decoding from 0 with 11 (left 14)
+Decoding from 11 with 12 (left 3)
+Failed, but this was expected
+Decoding from 0 with 12 (left 14)
+Decoding from 12 with 13 (left 2)
+Failed, but this was expected
+Decoding from 0 with 13 (left 14)
+Decoding from 12 with 14 (left 2)
+Failed, but this was expected
+Decoding from 0 with 14 (left 14)
+Failed, but this was expected
+Decoding from 0 with 15 (left 14)
+Failed, but this was expected
+Decoding from 0 with 16 (left 14)
+Failed, but this was expected
+Decoding from 0 with 17 (left 14)
+Failed, but this was expected
+Decoding from 0 with 18 (left 14)
+Failed, but this was expected
+Decoding from 0 with 19 (left 14)
+Failed, but this was expected
+
+Processing file [../data-62-07-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Decoding from 10 with 6 (left 3)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Decoding from 11 with 7 (left 2)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Decoding from 12 with 8 (left 1)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Decoding from 9 with 10 (left 4)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Decoding from 10 with 11 (left 3)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Decoding from 11 with 12 (left 2)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Decoding from 12 with 13 (left 1)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+
+Processing file [../data-62-20.ber]
+LOADING OBJECT OF SIZE 11
+Decoding from 0 with 1 (left 11)
+Decoding from 0 with 2 (left 11)
+Decoding from 2 with 3 (left 9)
+Decoding from 4 with 4 (left 7)
+Decoding from 6 with 5 (left 5)
+Decoding from 0 with 2 (left 11)
+Decoding from 2 with 3 (left 9)
+Decoding from 4 with 4 (left 7)
+Decoding from 6 with 5 (left 5)
+Decoding from 0 with 3 (left 11)
+Decoding from 2 with 4 (left 9)
+Decoding from 6 with 5 (left 5)
+Decoding from 0 with 4 (left 11)
+Decoding from 4 with 5 (left 7)
+Decoding from 9 with 6 (left 2)
+Decoding from 0 with 5 (left 11)
+Decoding from 4 with 6 (left 7)
+Decoding from 9 with 7 (left 2)
+Decoding from 0 with 6 (left 11)
+Decoding from 6 with 7 (left 5)
+Decoding from 0 with 7 (left 11)
+Decoding from 6 with 8 (left 5)
+Decoding from 0 with 8 (left 11)
+Decoding from 6 with 9 (left 5)
+Decoding from 0 with 9 (left 11)
+Decoding from 9 with 10 (left 2)
+Decoding from 0 with 10 (left 11)
+Decoding from 9 with 11 (left 2)
+Decoding from 0 with 11 (left 11)
+Decoding from 0 with 12 (left 11)
+Decoding from 0 with 13 (left 11)
+Decoding from 0 with 14 (left 11)
+Decoding from 0 with 15 (left 11)
+Decoding from 0 with 16 (left 11)
+Decoding from 0 with 17 (left 11)
+Decoding from 0 with 18 (left 11)
+Decoding from 0 with 19 (left 11)
+T1-ext ::= {
+    any: E1 80 BF 7B 00 00 00
+}
+SAVED OBJECT IN SIZE 11
+
+Processing file [../data-62-23-B.ber]
+LOADING OBJECT OF SIZE 15
+Decoding from 0 with 1 (left 15)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Failed, but this was expected
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Failed, but this was expected
+Decoding from 0 with 3 (left 15)
+Decoding from 2 with 4 (left 13)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Failed, but this was expected
+Decoding from 0 with 4 (left 15)
+Decoding from 4 with 5 (left 11)
+Decoding from 9 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 15)
+Decoding from 4 with 6 (left 11)
+Decoding from 9 with 7 (left 6)
+Failed, but this was expected
+Decoding from 0 with 6 (left 15)
+Decoding from 6 with 7 (left 9)
+Decoding from 13 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 7 (left 15)
+Decoding from 6 with 8 (left 9)
+Decoding from 13 with 9 (left 2)
+Failed, but this was expected
+Decoding from 0 with 8 (left 15)
+Decoding from 6 with 9 (left 9)
+Failed, but this was expected
+Decoding from 0 with 9 (left 15)
+Decoding from 9 with 10 (left 6)
+Failed, but this was expected
+Decoding from 0 with 10 (left 15)
+Decoding from 9 with 11 (left 6)
+Failed, but this was expected
+Decoding from 0 with 11 (left 15)
+Decoding from 11 with 12 (left 4)
+Failed, but this was expected
+Decoding from 0 with 12 (left 15)
+Decoding from 11 with 13 (left 4)
+Failed, but this was expected
+Decoding from 0 with 13 (left 15)
+Decoding from 13 with 14 (left 2)
+Failed, but this was expected
+Decoding from 0 with 14 (left 15)
+Decoding from 13 with 15 (left 2)
+Failed, but this was expected
+Decoding from 0 with 15 (left 15)
+Failed, but this was expected
+Decoding from 0 with 16 (left 15)
+Failed, but this was expected
+Decoding from 0 with 17 (left 15)
+Failed, but this was expected
+Decoding from 0 with 18 (left 15)
+Failed, but this was expected
+Decoding from 0 with 19 (left 15)
+Failed, but this was expected
+
+Processing file [../data-62-09-L.ber]
+LOADING OBJECT OF SIZE 36
+Decoding from 0 with 1 (left 36)
+Decoding from 0 with 2 (left 36)
+Decoding from 2 with 3 (left 34)
+Decoding from 5 with 4 (left 31)
+Decoding from 9 with 5 (left 27)
+Decoding from 13 with 6 (left 23)
+Decoding from 18 with 7 (left 18)
+Decoding from 18 with 8 (left 18)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 2 (left 36)
+Decoding from 2 with 3 (left 34)
+Decoding from 5 with 4 (left 31)
+Decoding from 9 with 5 (left 27)
+Decoding from 13 with 6 (left 23)
+Decoding from 18 with 7 (left 18)
+Decoding from 18 with 8 (left 18)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 3 (left 36)
+Decoding from 2 with 4 (left 34)
+Decoding from 5 with 5 (left 31)
+Decoding from 10 with 6 (left 26)
+Decoding from 15 with 7 (left 21)
+Decoding from 18 with 8 (left 18)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 4 (left 36)
+Decoding from 2 with 5 (left 34)
+Decoding from 7 with 6 (left 29)
+Decoding from 13 with 7 (left 23)
+Decoding from 18 with 8 (left 18)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 5 (left 36)
+Decoding from 5 with 6 (left 31)
+Decoding from 11 with 7 (left 25)
+Decoding from 18 with 8 (left 18)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 6 (left 36)
+Decoding from 5 with 7 (left 31)
+Decoding from 12 with 8 (left 24)
+Decoding from 18 with 9 (left 18)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 7 (left 36)
+Decoding from 7 with 8 (left 29)
+Decoding from 15 with 9 (left 21)
+Decoding from 18 with 10 (left 18)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 8 (left 36)
+Decoding from 7 with 9 (left 29)
+Decoding from 15 with 10 (left 21)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 9 (left 36)
+Decoding from 9 with 10 (left 27)
+Decoding from 18 with 11 (left 18)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 10 (left 36)
+Decoding from 10 with 11 (left 26)
+Decoding from 18 with 12 (left 18)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 11 (left 36)
+Decoding from 11 with 12 (left 25)
+Decoding from 18 with 13 (left 18)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 12 (left 36)
+Decoding from 12 with 13 (left 24)
+Decoding from 18 with 14 (left 18)
+Decoding from 32 with 15 (left 4)
+Decoding from 0 with 13 (left 36)
+Decoding from 13 with 14 (left 23)
+Decoding from 18 with 15 (left 18)
+Decoding from 32 with 16 (left 4)
+Decoding from 0 with 14 (left 36)
+Decoding from 13 with 15 (left 23)
+Decoding from 18 with 16 (left 18)
+Decoding from 32 with 17 (left 4)
+Decoding from 0 with 15 (left 36)
+Decoding from 15 with 16 (left 21)
+Decoding from 18 with 17 (left 18)
+Decoding from 32 with 18 (left 4)
+Decoding from 0 with 16 (left 36)
+Decoding from 15 with 17 (left 21)
+Decoding from 32 with 18 (left 4)
+Decoding from 0 with 17 (left 36)
+Decoding from 15 with 18 (left 21)
+Decoding from 32 with 19 (left 4)
+Decoding from 0 with 18 (left 36)
+Decoding from 18 with 19 (left 18)
+Decoding from 0 with 19 (left 36)
+Decoding from 18 with 20 (left 18)
+T1-ext ::= {
+    i: 5
+    any: 13 04 74 65 73 74
+}
+SAVED OBJECT IN SIZE 13
+
+Processing file [../data-62-21-B.ber]
+LOADING OBJECT OF SIZE 15
+Decoding from 0 with 1 (left 15)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Failed, but this was expected
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Failed, but this was expected
+Decoding from 0 with 3 (left 15)
+Decoding from 2 with 4 (left 13)
+Decoding from 6 with 5 (left 9)
+Failed, but this was expected
+Decoding from 0 with 4 (left 15)
+Decoding from 4 with 5 (left 11)
+Decoding from 9 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 15)
+Decoding from 4 with 6 (left 11)
+Decoding from 9 with 7 (left 6)
+Failed, but this was expected
+Decoding from 0 with 6 (left 15)
+Decoding from 6 with 7 (left 9)
+Failed, but this was expected
+Decoding from 0 with 7 (left 15)
+Decoding from 6 with 8 (left 9)
+Failed, but this was expected
+Decoding from 0 with 8 (left 15)
+Decoding from 6 with 9 (left 9)
+Failed, but this was expected
+Decoding from 0 with 9 (left 15)
+Decoding from 9 with 10 (left 6)
+Failed, but this was expected
+Decoding from 0 with 10 (left 15)
+Decoding from 9 with 11 (left 6)
+Failed, but this was expected
+Decoding from 0 with 11 (left 15)
+Failed, but this was expected
+Decoding from 0 with 12 (left 15)
+Failed, but this was expected
+Decoding from 0 with 13 (left 15)
+Failed, but this was expected
+Decoding from 0 with 14 (left 15)
+Failed, but this was expected
+Decoding from 0 with 15 (left 15)
+Failed, but this was expected
+Decoding from 0 with 16 (left 15)
+Failed, but this was expected
+Decoding from 0 with 17 (left 15)
+Failed, but this was expected
+Decoding from 0 with 18 (left 15)
+Failed, but this was expected
+Decoding from 0 with 19 (left 15)
+Failed, but this was expected
+
+Processing file [../data-62-05-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+
+Processing file [../data-62-22.ber]
+LOADING OBJECT OF SIZE 15
+Decoding from 0 with 1 (left 15)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Decoding from 0 with 2 (left 15)
+Decoding from 2 with 3 (left 13)
+Decoding from 4 with 4 (left 11)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Decoding from 0 with 3 (left 15)
+Decoding from 2 with 4 (left 13)
+Decoding from 6 with 5 (left 9)
+Decoding from 11 with 6 (left 4)
+Decoding from 0 with 4 (left 15)
+Decoding from 4 with 5 (left 11)
+Decoding from 9 with 6 (left 6)
+Decoding from 0 with 5 (left 15)
+Decoding from 4 with 6 (left 11)
+Decoding from 9 with 7 (left 6)
+Decoding from 0 with 6 (left 15)
+Decoding from 6 with 7 (left 9)
+Decoding from 13 with 8 (left 2)
+Decoding from 0 with 7 (left 15)
+Decoding from 6 with 8 (left 9)
+Decoding from 13 with 9 (left 2)
+Decoding from 0 with 8 (left 15)
+Decoding from 6 with 9 (left 9)
+Decoding from 0 with 9 (left 15)
+Decoding from 9 with 10 (left 6)
+Decoding from 0 with 10 (left 15)
+Decoding from 9 with 11 (left 6)
+Decoding from 0 with 11 (left 15)
+Decoding from 11 with 12 (left 4)
+Decoding from 0 with 12 (left 15)
+Decoding from 11 with 13 (left 4)
+Decoding from 0 with 13 (left 15)
+Decoding from 13 with 14 (left 2)
+Decoding from 0 with 14 (left 15)
+Decoding from 13 with 15 (left 2)
+Decoding from 0 with 15 (left 15)
+Decoding from 0 with 16 (left 15)
+Decoding from 0 with 17 (left 15)
+Decoding from 0 with 18 (left 15)
+Decoding from 0 with 19 (left 15)
+T1-ext ::= {
+    any: E1 80 BF 7B 04 B7 02 05 00 00 00
+}
+SAVED OBJECT IN SIZE 15
+
+Processing file [../data-62-32.ber]
+LOADING OBJECT OF SIZE 8
+Decoding from 0 with 1 (left 8)
+Decoding from 0 with 2 (left 8)
+Decoding from 0 with 3 (left 8)
+Decoding from 3 with 4 (left 5)
+Decoding from 7 with 5 (left 1)
+Decoding from 0 with 2 (left 8)
+Decoding from 0 with 3 (left 8)
+Decoding from 3 with 4 (left 5)
+Decoding from 7 with 5 (left 1)
+Decoding from 0 with 3 (left 8)
+Decoding from 3 with 4 (left 5)
+Decoding from 7 with 5 (left 1)
+Decoding from 0 with 4 (left 8)
+Decoding from 3 with 5 (left 5)
+Decoding from 0 with 5 (left 8)
+Decoding from 5 with 6 (left 3)
+Decoding from 0 with 6 (left 8)
+Decoding from 6 with 7 (left 2)
+Decoding from 0 with 7 (left 8)
+Decoding from 7 with 8 (left 1)
+Decoding from 0 with 8 (left 8)
+Decoding from 0 with 9 (left 8)
+Decoding from 0 with 10 (left 8)
+Decoding from 0 with 11 (left 8)
+Decoding from 0 with 12 (left 8)
+Decoding from 0 with 13 (left 8)
+Decoding from 0 with 14 (left 8)
+Decoding from 0 with 15 (left 8)
+Decoding from 0 with 16 (left 8)
+Decoding from 0 with 17 (left 8)
+Decoding from 0 with 18 (left 8)
+Decoding from 0 with 19 (left 8)
+31 32 33
+SAVED OBJECT IN SIZE 8
+
+Processing file [../data-62-18-B.ber]
+LOADING OBJECT OF SIZE 14
+Decoding from 0 with 1 (left 14)
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 2 (left 14)
+Decoding from 2 with 3 (left 12)
+Decoding from 4 with 4 (left 10)
+Decoding from 8 with 5 (left 6)
+Decoding from 12 with 6 (left 2)
+Failed, but this was expected
+Decoding from 0 with 3 (left 14)
+Decoding from 2 with 4 (left 12)
+Decoding from 6 with 5 (left 8)
+Decoding from 11 with 6 (left 3)
+Failed, but this was expected
+Decoding from 0 with 4 (left 14)
+Decoding from 4 with 5 (left 10)
+Decoding from 9 with 6 (left 5)
+Failed, but this was expected
+Decoding from 0 with 5 (left 14)
+Decoding from 4 with 6 (left 10)
+Decoding from 10 with 7 (left 4)
+Failed, but this was expected
+Decoding from 0 with 6 (left 14)
+Decoding from 6 with 7 (left 8)
+Decoding from 12 with 8 (left 2)
+Failed, but this was expected
+Decoding from 0 with 7 (left 14)
+Decoding from 6 with 8 (left 8)
+Failed, but this was expected
+Decoding from 0 with 8 (left 14)
+Decoding from 8 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 14)
+Decoding from 9 with 10 (left 5)
+Failed, but this was expected
+Decoding from 0 with 10 (left 14)
+Decoding from 10 with 11 (left 4)
+Failed, but this was expected
+Decoding from 0 with 11 (left 14)
+Decoding from 11 with 12 (left 3)
+Failed, but this was expected
+Decoding from 0 with 12 (left 14)
+Decoding from 12 with 13 (left 2)
+Failed, but this was expected
+Decoding from 0 with 13 (left 14)
+Decoding from 12 with 14 (left 2)
+Failed, but this was expected
+Decoding from 0 with 14 (left 14)
+Failed, but this was expected
+Decoding from 0 with 15 (left 14)
+Failed, but this was expected
+Decoding from 0 with 16 (left 14)
+Failed, but this was expected
+Decoding from 0 with 17 (left 14)
+Failed, but this was expected
+Decoding from 0 with 18 (left 14)
+Failed, but this was expected
+Decoding from 0 with 19 (left 14)
+Failed, but this was expected
+
+Processing file [../data-62-27.ber]
+LOADING OBJECT OF SIZE 4
+Decoding from 0 with 1 (left 4)
+Decoding from 0 with 2 (left 4)
+Decoding from 2 with 3 (left 2)
+Decoding from 0 with 2 (left 4)
+Decoding from 2 with 3 (left 2)
+Decoding from 0 with 3 (left 4)
+Decoding from 2 with 4 (left 2)
+Decoding from 0 with 4 (left 4)
+Decoding from 0 with 5 (left 4)
+Decoding from 0 with 6 (left 4)
+Decoding from 0 with 7 (left 4)
+Decoding from 0 with 8 (left 4)
+Decoding from 0 with 9 (left 4)
+Decoding from 0 with 10 (left 4)
+Decoding from 0 with 11 (left 4)
+Decoding from 0 with 12 (left 4)
+Decoding from 0 with 13 (left 4)
+Decoding from 0 with 14 (left 4)
+Decoding from 0 with 15 (left 4)
+Decoding from 0 with 16 (left 4)
+Decoding from 0 with 17 (left 4)
+Decoding from 0 with 18 (left 4)
+Decoding from 0 with 19 (left 4)
+T1-ext ::= {
+    any: 
+}
+SAVED OBJECT IN SIZE 4
+
+Processing file [../data-62-25.ber]
+LOADING OBJECT OF SIZE 16
+Decoding from 0 with 1 (left 16)
+Decoding from 0 with 2 (left 16)
+Decoding from 2 with 3 (left 14)
+Decoding from 4 with 4 (left 12)
+Decoding from 6 with 5 (left 10)
+Decoding from 11 with 6 (left 5)
+Decoding from 0 with 2 (left 16)
+Decoding from 2 with 3 (left 14)
+Decoding from 4 with 4 (left 12)
+Decoding from 6 with 5 (left 10)
+Decoding from 11 with 6 (left 5)
+Decoding from 0 with 3 (left 16)
+Decoding from 2 with 4 (left 14)
+Decoding from 6 with 5 (left 10)
+Decoding from 11 with 6 (left 5)
+Decoding from 0 with 4 (left 16)
+Decoding from 4 with 5 (left 12)
+Decoding from 9 with 6 (left 7)
+Decoding from 14 with 7 (left 2)
+Decoding from 0 with 5 (left 16)
+Decoding from 4 with 6 (left 12)
+Decoding from 9 with 7 (left 7)
+Decoding from 0 with 6 (left 16)
+Decoding from 6 with 7 (left 10)
+Decoding from 13 with 8 (left 3)
+Decoding from 0 with 7 (left 16)
+Decoding from 6 with 8 (left 10)
+Decoding from 14 with 9 (left 2)
+Decoding from 0 with 8 (left 16)
+Decoding from 6 with 9 (left 10)
+Decoding from 14 with 10 (left 2)
+Decoding from 0 with 9 (left 16)
+Decoding from 9 with 10 (left 7)
+Decoding from 0 with 10 (left 16)
+Decoding from 9 with 11 (left 7)
+Decoding from 0 with 11 (left 16)
+Decoding from 11 with 12 (left 5)
+Decoding from 0 with 12 (left 16)
+Decoding from 11 with 13 (left 5)
+Decoding from 0 with 13 (left 16)
+Decoding from 13 with 14 (left 3)
+Decoding from 0 with 14 (left 16)
+Decoding from 14 with 15 (left 2)
+Decoding from 0 with 15 (left 16)
+Decoding from 14 with 16 (left 2)
+Decoding from 0 with 16 (left 16)
+Decoding from 0 with 17 (left 16)
+Decoding from 0 with 18 (left 16)
+Decoding from 0 with 19 (left 16)
+T1-ext ::= {
+    any: E1 80 BF 7B 05 B7 03 13 01 7A 00 00
+}
+SAVED OBJECT IN SIZE 16
+
+Processing file [../data-62-30-L.ber]
+LOADING OBJECT OF SIZE 29
+Decoding from 0 with 1 (left 29)
+Decoding from 0 with 2 (left 29)
+Decoding from 2 with 3 (left 27)
+Decoding from 5 with 4 (left 24)
+Decoding from 9 with 5 (left 20)
+Decoding from 14 with 6 (left 15)
+Decoding from 20 with 7 (left 9)
+Decoding from 27 with 8 (left 2)
+Decoding from 0 with 2 (left 29)
+Decoding from 2 with 3 (left 27)
+Decoding from 5 with 4 (left 24)
+Decoding from 9 with 5 (left 20)
+Decoding from 14 with 6 (left 15)
+Decoding from 20 with 7 (left 9)
+Decoding from 27 with 8 (left 2)
+Decoding from 0 with 3 (left 29)
+Decoding from 2 with 4 (left 27)
+Decoding from 6 with 5 (left 23)
+Decoding from 11 with 6 (left 18)
+Decoding from 17 with 7 (left 12)
+Decoding from 24 with 8 (left 5)
+Decoding from 0 with 4 (left 29)
+Decoding from 4 with 5 (left 25)
+Decoding from 9 with 6 (left 20)
+Decoding from 15 with 7 (left 14)
+Decoding from 22 with 8 (left 7)
+Decoding from 0 with 5 (left 29)
+Decoding from 5 with 6 (left 24)
+Decoding from 11 with 7 (left 18)
+Decoding from 18 with 8 (left 11)
+Decoding from 24 with 9 (left 5)
+Decoding from 0 with 6 (left 29)
+Decoding from 6 with 7 (left 23)
+Decoding from 13 with 8 (left 16)
+Decoding from 21 with 9 (left 8)
+Decoding from 0 with 7 (left 29)
+Decoding from 6 with 8 (left 23)
+Decoding from 14 with 9 (left 15)
+Decoding from 23 with 10 (left 6)
+Decoding from 0 with 8 (left 29)
+Decoding from 6 with 9 (left 23)
+Decoding from 15 with 10 (left 14)
+Decoding from 24 with 11 (left 5)
+Decoding from 0 with 9 (left 29)
+Decoding from 9 with 10 (left 20)
+Decoding from 19 with 11 (left 10)
+Decoding from 0 with 10 (left 29)
+Decoding from 9 with 11 (left 20)
+Decoding from 20 with 12 (left 9)
+Decoding from 0 with 11 (left 29)
+Decoding from 11 with 12 (left 18)
+Decoding from 23 with 13 (left 6)
+Decoding from 0 with 12 (left 29)
+Decoding from 11 with 13 (left 18)
+Decoding from 24 with 14 (left 5)
+Decoding from 0 with 13 (left 29)
+Decoding from 13 with 14 (left 16)
+Decoding from 27 with 15 (left 2)
+Decoding from 0 with 14 (left 29)
+Decoding from 14 with 15 (left 15)
+Decoding from 0 with 15 (left 29)
+Decoding from 15 with 16 (left 14)
+Decoding from 0 with 16 (left 29)
+Decoding from 16 with 17 (left 13)
+Decoding from 0 with 17 (left 29)
+Decoding from 17 with 18 (left 12)
+Decoding from 0 with 18 (left 29)
+Decoding from 18 with 19 (left 11)
+Decoding from 0 with 19 (left 29)
+Decoding from 19 with 20 (left 10)
+T2 ::= {
+    m1: 79
+    m2: FALSE
+    m3: m3 ::= {
+        79023700808
+    }
+    o4: FALSE
+}
+SAVED OBJECT IN SIZE 27
+
+Processing file [../data-62-29-L.ber]
+LOADING OBJECT OF SIZE 28
+Decoding from 0 with 1 (left 28)
+Decoding from 0 with 2 (left 28)
+Decoding from 2 with 3 (left 26)
+Decoding from 5 with 4 (left 23)
+Decoding from 9 with 5 (left 19)
+Decoding from 13 with 6 (left 15)
+Decoding from 15 with 7 (left 13)
+Decoding from 15 with 8 (left 13)
+Decoding from 23 with 9 (left 5)
+Decoding from 0 with 2 (left 28)
+Decoding from 2 with 3 (left 26)
+Decoding from 5 with 4 (left 23)
+Decoding from 9 with 5 (left 19)
+Decoding from 13 with 6 (left 15)
+Decoding from 15 with 7 (left 13)
+Decoding from 15 with 8 (left 13)
+Decoding from 23 with 9 (left 5)
+Decoding from 0 with 3 (left 28)
+Decoding from 2 with 4 (left 26)
+Decoding from 5 with 5 (left 23)
+Decoding from 10 with 6 (left 18)
+Decoding from 15 with 7 (left 13)
+Decoding from 15 with 8 (left 13)
+Decoding from 23 with 9 (left 5)
+Decoding from 0 with 4 (left 28)
+Decoding from 2 with 5 (left 26)
+Decoding from 7 with 6 (left 21)
+Decoding from 13 with 7 (left 15)
+Decoding from 15 with 8 (left 13)
+Decoding from 23 with 9 (left 5)
+Decoding from 0 with 5 (left 28)
+Decoding from 5 with 6 (left 23)
+Decoding from 11 with 7 (left 17)
+Decoding from 15 with 8 (left 13)
+Decoding from 23 with 9 (left 5)
+Decoding from 0 with 6 (left 28)
+Decoding from 5 with 7 (left 23)
+Decoding from 12 with 8 (left 16)
+Decoding from 15 with 9 (left 13)
+Decoding from 23 with 10 (left 5)
+Decoding from 0 with 7 (left 28)
+Decoding from 7 with 8 (left 21)
+Decoding from 15 with 9 (left 13)
+Decoding from 23 with 10 (left 5)
+Decoding from 0 with 8 (left 28)
+Decoding from 7 with 9 (left 21)
+Decoding from 15 with 10 (left 13)
+Decoding from 23 with 11 (left 5)
+Decoding from 0 with 9 (left 28)
+Decoding from 9 with 10 (left 19)
+Decoding from 15 with 11 (left 13)
+Decoding from 26 with 12 (left 2)
+Decoding from 0 with 10 (left 28)
+Decoding from 10 with 11 (left 18)
+Decoding from 15 with 12 (left 13)
+Decoding from 26 with 13 (left 2)
+Decoding from 0 with 11 (left 28)
+Decoding from 11 with 12 (left 17)
+Decoding from 23 with 13 (left 5)
+Decoding from 0 with 12 (left 28)
+Decoding from 12 with 13 (left 16)
+Decoding from 23 with 14 (left 5)
+Decoding from 0 with 13 (left 28)
+Decoding from 13 with 14 (left 15)
+Decoding from 26 with 15 (left 2)
+Decoding from 0 with 14 (left 28)
+Decoding from 13 with 15 (left 15)
+Decoding from 0 with 15 (left 28)
+Decoding from 15 with 16 (left 13)
+Decoding from 0 with 16 (left 28)
+Decoding from 15 with 17 (left 13)
+Decoding from 0 with 17 (left 28)
+Decoding from 15 with 18 (left 13)
+Decoding from 0 with 18 (left 28)
+Decoding from 15 with 19 (left 13)
+Decoding from 0 with 19 (left 28)
+Decoding from 15 with 20 (left 13)
+T1-ext ::= {
+    i: 5
+    any: 13 04 74 65 73 74
+}
+SAVED OBJECT IN SIZE 13
+
+Processing file [../data-62-03-B.ber]
+LOADING OBJECT OF SIZE 13
+Decoding from 0 with 1 (left 13)
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 2 (left 13)
+Decoding from 2 with 3 (left 11)
+Decoding from 5 with 4 (left 8)
+Decoding from 9 with 5 (left 4)
+Failed, but this was expected
+Decoding from 0 with 3 (left 13)
+Decoding from 2 with 4 (left 11)
+Decoding from 5 with 5 (left 8)
+Decoding from 10 with 6 (left 3)
+Failed, but this was expected
+Decoding from 0 with 4 (left 13)
+Decoding from 2 with 5 (left 11)
+Decoding from 7 with 6 (left 6)
+Failed, but this was expected
+Decoding from 0 with 5 (left 13)
+Decoding from 5 with 6 (left 8)
+Failed, but this was expected
+Decoding from 0 with 6 (left 13)
+Decoding from 5 with 7 (left 8)
+Failed, but this was expected
+Decoding from 0 with 7 (left 13)
+Decoding from 7 with 8 (left 6)
+Failed, but this was expected
+Decoding from 0 with 8 (left 13)
+Decoding from 7 with 9 (left 6)
+Failed, but this was expected
+Decoding from 0 with 9 (left 13)
+Decoding from 9 with 10 (left 4)
+Failed, but this was expected
+Decoding from 0 with 10 (left 13)
+Decoding from 10 with 11 (left 3)
+Failed, but this was expected
+Decoding from 0 with 11 (left 13)
+Failed, but this was expected
+Decoding from 0 with 12 (left 13)
+Failed, but this was expected
+Decoding from 0 with 13 (left 13)
+Failed, but this was expected
+Decoding from 0 with 14 (left 13)
+Failed, but this was expected
+Decoding from 0 with 15 (left 13)
+Failed, but this was expected
+Decoding from 0 with 16 (left 13)
+Failed, but this was expected
+Decoding from 0 with 17 (left 13)
+Failed, but this was expected
+Decoding from 0 with 18 (left 13)
+Failed, but this was expected
+Decoding from 0 with 19 (left 13)
+Failed, but this was expected
+=> [ 30 0B]:2
+=> [ 02 01]:2
+=> [ 05]:1
+=> [ A1 06]:2
+=> [ 13 04 74 65 73 74]:6
+=> [ 30 0E]:2
+=> [ A1 0C]:2
+=> [ E1 80 E2 80 00 00 E3 80 00 00 00 00]:12
+=> [ 30 0C]:2
+=> [ A1 0A]:2
+=> [ E1 80 13 04 74 65 73 74 00 00]:10
+=> [ 30 07]:2
+=> [ A1 05]:2
+=> [ 7F 7B 80 00 00]:5
+=> [ 30 0A]:2
+=> [ A1 08]:2
+=> [ A1 80 00 00 A1 80 00 00]:8
+=> [ 30 10]:2
+=> [ A1 0E]:2
+=> [ E1 80 BF 7B 05 B7 03 13 01 7A 00 00 00 00]:14
+=> [ 30 02]:2
+=> [ A1 00]:2
+=> []:0
+=> [ B0 19]:2
+=> [ 80 02]:2
+=> [ 37 39]:2
+=> [ 81 01]:2
+=> [ 00]:1
+=> [ A3 0D]:2
+=> [ 12 0B]:2
+=> [ 37 39 30 32 33 37 30 30 38 30 38]:11
+=> [ 84 01]:2
+=> [ 00]:1
+=> [ 30 0B]:2
+=> [ 02 01]:2
+=> [ 05]:1
+=> [ A1 06]:2
+=> [ 13 04 74 65 73 74]:6
+=> [ 30 09]:2
+=> [ A1 07]:2
+=> [ E1 80 BF 7B 00 00 00]:7
+=> [ 30 0B]:2
+=> [ 02 01]:2
+=> [ 05]:1
+=> [ A1 06]:2
+=> [ 13 04 74 65 73 74]:6
+=> [ 30 0D]:2
+=> [ A1 0B]:2
+=> [ E1 80 BF 7B 04 B7 02 05 00 00 00]:11
+=> [ BF 35 05]:3
+=> [ 81 03]:2
+=> [ 31 32 33]:3
+=> [ 30 02]:2
+=> [ A1 00]:2
+=> []:0
+=> [ 30 0E]:2
+=> [ A1 0C]:2
+=> [ E1 80 BF 7B 05 B7 03 13 01 7A 00 00]:12
+=> [ B0 19]:2
+=> [ 80 02]:2
+=> [ 37 39]:2
+=> [ 81 01]:2
+=> [ 00]:1
+=> [ A3 0D]:2
+=> [ 12 0B]:2
+=> [ 37 39 30 32 33 37 30 30 38 30 38]:11
+=> [ 84 01]:2
+=> [ 00]:1
+=> [ 30 0B]:2
+=> [ 02 01]:2
+=> [ 05]:1
+=> [ A1 06]:2
+=> [ 13 04 74 65 73 74]:6
+/Applications/Xcode.app/Contents/Developer/usr/bin/make fuzz
+No fuzzer defined, skipping.
+OK: ./check-src/check-62.c
+PASS check-src/check-62.c (exit status: 0)

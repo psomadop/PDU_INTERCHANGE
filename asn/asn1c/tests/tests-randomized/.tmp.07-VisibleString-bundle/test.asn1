@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= VisibleString (SIZE(65535..65550))    -- RMAX=66000
+-- in ./bundles/07-VisibleString-bundle.txt 27
+END

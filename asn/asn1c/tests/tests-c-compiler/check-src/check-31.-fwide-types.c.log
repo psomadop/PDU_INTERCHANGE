@@ -1,0 +1,4210 @@
+/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c		\
+		-S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons	\
+		-flink-skeletons 		\
+		-Wdebug-compiler		\
+		-fwide-types /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/tests/tests-asn1c-compiler/31-set-of-OK.asn1
+DEBUG: Compiling Forest at line 16
+DEBUG: Compiling Tree at line 17
+DEBUG: Compiling height at line 17
+DEBUG: Compiling width at line 19
+DEBUG: Compiling Stuff at line 23
+DEBUG: Compiling trees at line 23
+DEBUG: Compiling anything at line 34
+DEBUG: Compiling Member at line 32
+DEBUG: Compiling cup-of-coffee at line 32
+DEBUG: Compiling ... at line 34
+DEBUG: Compiling ... at line 24
+DEBUG: Compiling other at line 26
+DEBUG: Compiling a at line 26
+DEBUG: Compiling b at line 28
+DEBUG: Searching tag in complex expression other:21 at line 26
+DEBUG: Searching tag in complex expression other:21 at line 26
+DEBUG: Saving compiled data
+Compiled Forest.c
+Compiled Forest.h
+Compiled Tree.c
+Compiled Tree.h
+Compiled Stuff.c
+Compiled Stuff.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.h	-> OPEN_TYPE.h (line 9 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.c	-> OPEN_TYPE.c (line 9 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.h	-> constr_CHOICE.h (line 9 col 24)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.h	-> INTEGER.h (line 17 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.c	-> INTEGER.c (line 17 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.h	-> asn_SET_OF.h (line 37 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.c	-> asn_SET_OF.c (line 37 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.c	-> constr_CHOICE.c (line 38 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h (line 39 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c (line 39 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.h	-> constr_SET.h (line 41 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.c	-> constr_SET.c (line 41 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.h	-> constr_SET_OF.h (line 42 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.c	-> constr_SET_OF.c (line 42 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.h	-> asn_application.h (line 45 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.c	-> asn_application.c (line 45 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_ioc.h	-> asn_ioc.h (line 46 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_system.h	-> asn_system.h (line 47 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs.h	-> asn_codecs.h (line 48 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.h	-> asn_internal.h (line 49 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.c	-> asn_internal.c (line 49 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.h	-> asn_random_fill.h (line 50 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.c	-> asn_random_fill.c (line 50 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.h	-> asn_bit_data.h (line 51 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.c	-> asn_bit_data.c (line 51 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.h	-> OCTET_STRING.h (line 52 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.c	-> OCTET_STRING.c (line 52 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.h	-> BIT_STRING.h (line 53 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.c	-> BIT_STRING.c (line 53 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c (line 54 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h (line 54 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.h	-> ber_tlv_length.h (line 55 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.c	-> ber_tlv_length.c (line 55 col 17)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h (line 56 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c (line 56 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.h	-> ber_decoder.h (line 57 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.c	-> ber_decoder.c (line 57 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.h	-> der_encoder.h (line 58 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.c	-> der_encoder.c (line 58 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.h	-> constr_TYPE.h (line 59 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.c	-> constr_TYPE.c (line 59 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.h	-> constraints.h (line 60 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.c	-> constraints.c (line 60 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.h	-> xer_support.h (line 61 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.c	-> xer_support.c (line 61 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.h	-> xer_decoder.h (line 62 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.c	-> xer_decoder.c (line 62 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.h	-> xer_encoder.h (line 63 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.c	-> xer_encoder.c (line 63 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.h	-> per_support.h (line 64 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.c	-> per_support.c (line 64 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.h	-> per_decoder.h (line 65 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.c	-> per_decoder.c (line 65 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.h	-> per_encoder.h (line 66 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.c	-> per_encoder.c (line 66 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.h	-> per_opentype.h (line 67 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.c	-> per_opentype.c (line 67 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.h	-> oer_decoder.h (line 73 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.h	-> oer_encoder.h (line 74 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.h	-> oer_support.h (line 75 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.c	-> oer_decoder.c (line 76 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.c	-> oer_encoder.c (line 77 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.c	-> oer_support.c (line 78 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE_oer.c	-> OPEN_TYPE_oer.c (line 79 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER_oer.c	-> INTEGER_oer.c (line 80 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING_oer.c	-> BIT_STRING_oer.c (line 81 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING_oer.c	-> OCTET_STRING_oer.c (line 82 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE_oer.c	-> constr_CHOICE_oer.c (line 85 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_oer.c	-> constr_SEQUENCE_oer.c (line 86 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF_oer.c	-> constr_SET_OF_oer.c (line 87 col 16)
+Generated Makefile.am.libasncodec
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c	-> converter-example.c implicit
+Generated pdu_collection.c
+Generated converter-example.mk
+File /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c is already here as converter-example.c
+Generated pdu_collection.c
+Generated Makefile.am.asn1convert
+rm -f converter-example.c
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-program
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o Forest.o -c Forest.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o Tree.o -c Tree.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o Stuff.o -c Stuff.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE.o -c OPEN_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER.o -c INTEGER.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_SET_OF.o -c asn_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE.o -c constr_CHOICE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE.o -c constr_SEQUENCE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET.o -c constr_SET.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF.o -c constr_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_application.o -c asn_application.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_internal.o -c asn_internal.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_random_fill.o -c asn_random_fill.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_bit_data.o -c asn_bit_data.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING.o -c OCTET_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BIT_STRING.o -c BIT_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_codecs_prim.o -c asn_codecs_prim.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_length.o -c ber_tlv_length.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_tag.o -c ber_tlv_tag.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_decoder.o -c ber_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o der_encoder.o -c der_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_TYPE.o -c constr_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constraints.o -c constraints.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_support.o -c xer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_decoder.o -c xer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_encoder.o -c xer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_support.o -c per_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_decoder.o -c per_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_encoder.o -c per_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_opentype.o -c per_opentype.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_decoder.o -c oer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_encoder.o -c oer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_support.o -c oer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE_oer.o -c OPEN_TYPE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER_oer.o -c INTEGER_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BIT_STRING_oer.o -c BIT_STRING_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING_oer.o -c OCTET_STRING_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE_oer.o -c constr_CHOICE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE_oer.o -c constr_SEQUENCE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF_oer.o -c constr_SET_OF_oer.c
+ar rcs libasncodec.a Forest.o Tree.o Stuff.o OPEN_TYPE.o INTEGER.o asn_SET_OF.o constr_CHOICE.o constr_SEQUENCE.o constr_SET.o constr_SET_OF.o asn_application.o asn_internal.o asn_random_fill.o asn_bit_data.o OCTET_STRING.o BIT_STRING.o asn_codecs_prim.o ber_tlv_length.o ber_tlv_tag.o ber_decoder.o der_encoder.o constr_TYPE.o constraints.o xer_support.o xer_decoder.o xer_encoder.o per_support.o per_decoder.o per_encoder.o per_opentype.o oer_decoder.o oer_encoder.o oer_support.o OPEN_TYPE_oer.o INTEGER_oer.o BIT_STRING_oer.o OCTET_STRING_oer.o constr_CHOICE_oer.o constr_SEQUENCE_oer.o constr_SET_OF_oer.o
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o check-31.-fwide-types.o -c check-31.-fwide-types.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I.  -o check-program check-31.-fwide-types.o  libasncodec.a -lm
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-fuzzer
+make[7]: Nothing to be done for `check-fuzzer'.
+./check-program
+Buf 0x10b888180
+Returned code 0, consumed 20
+  writing 2 (2)
+  writing 8 (10)
+  writing 8 (18)
+Forest ::= {
+    Tree ::= {
+        height: 100
+        width: 80
+    }
+    Tree ::= {
+        height: 110
+        width: 82
+    }
+}
+<Forest>
+    <Tree>
+        <height>100</height>
+        <width>80</width>
+    </Tree>
+    <Tree>
+        <height>110</height>
+        <width>82</width>
+    </Tree>
+</Forest>
+
+Corrupting...
+
+Try 0: corrupting byte 3 (6->192)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 1: corrupting byte 15 (2->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 2: corrupting byte 15 (2->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 3: corrupting byte 12 (2->43)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 4: corrupting byte 2 (48->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 5: corrupting byte 10 (48->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 6: corrupting byte 3 (6->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 7: corrupting byte 0 (49->243)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 8: corrupting byte 12 (2->250)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 9: corrupting byte 11 (6->238)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 10: corrupting byte 7 (2->143)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 11: corrupting byte 2 (48->106)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 12: corrupting byte 2 (48->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 13: corrupting byte 7 (2->157)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 14: corrupting byte 2 (48->86)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 15: corrupting byte 18 (0->13)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 16: corrupting byte 7 (2->51)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 17: corrupting byte 16 (1->162)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 18: corrupting byte 2 (48->21)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 19: corrupting byte 13 (1->4)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 20: corrupting byte 19 (0->88)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 21: corrupting byte 18 (0->212)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 22: corrupting byte 15 (2->176)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 23: corrupting byte 13 (1->199)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 24: corrupting byte 11 (6->178)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 25: corrupting byte 16 (1->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 26: corrupting byte 2 (48->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 27: corrupting byte 16 (1->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 28: corrupting byte 5 (1->60)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 29: corrupting byte 4 (2->133)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 30: corrupting byte 16 (1->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 31: corrupting byte 13 (1->224)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 32: corrupting byte 4 (2->101)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 33: corrupting byte 2 (48->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 34: corrupting byte 7 (2->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 35: corrupting byte 4 (2->105)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 36: corrupting byte 10 (48->191)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 37: corrupting byte 8 (1->93)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 38: corrupting byte 18 (0->236)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 39: corrupting byte 4 (2->57)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 40: corrupting byte 11 (6->52)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 41: corrupting byte 19 (0->60)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 42: corrupting byte 0 (49->221)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 43: corrupting byte 8 (1->218)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 44: corrupting byte 12 (2->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 45: corrupting byte 19 (0->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 46: corrupting byte 10 (48->154)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 47: corrupting byte 18 (0->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 48: corrupting byte 2 (48->53)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 49: corrupting byte 12 (2->126)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 50: corrupting byte 16 (1->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 51: corrupting byte 0 (49->143)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 52: corrupting byte 5 (1->248)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 53: corrupting byte 4 (2->185)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 54: corrupting byte 0 (49->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 55: corrupting byte 11 (6->147)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 56: corrupting byte 11 (6->247)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 57: corrupting byte 15 (2->7)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 58: corrupting byte 7 (2->245)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 59: corrupting byte 16 (1->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 60: corrupting byte 13 (1->59)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 61: corrupting byte 5 (1->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 62: corrupting byte 3 (6->205)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 63: corrupting byte 4 (2->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 64: corrupting byte 11 (6->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 65: corrupting byte 3 (6->37)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 66: corrupting byte 10 (48->152)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 67: corrupting byte 8 (1->122)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 68: corrupting byte 0 (49->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 69: corrupting byte 16 (1->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 70: corrupting byte 18 (0->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 71: corrupting byte 11 (6->127)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 72: corrupting byte 15 (2->57)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 73: corrupting byte 8 (1->101)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 74: corrupting byte 8 (1->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 75: corrupting byte 10 (48->57)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 76: corrupting byte 0 (49->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 77: corrupting byte 4 (2->174)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 78: corrupting byte 7 (2->18)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 79: corrupting byte 3 (6->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 80: corrupting byte 7 (2->207)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 81: corrupting byte 19 (0->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 82: corrupting byte 12 (2->69)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 83: corrupting byte 8 (1->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 84: corrupting byte 7 (2->32)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 85: corrupting byte 18 (0->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 86: corrupting byte 15 (2->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 87: corrupting byte 18 (0->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 88: corrupting byte 3 (6->37)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 89: corrupting byte 8 (1->40)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 90: corrupting byte 16 (1->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 91: corrupting byte 3 (6->21)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 92: corrupting byte 13 (1->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 93: corrupting byte 0 (49->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 94: corrupting byte 18 (0->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 95: corrupting byte 8 (1->120)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 96: corrupting byte 16 (1->189)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 97: corrupting byte 3 (6->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 98: corrupting byte 3 (6->252)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 99: corrupting byte 19 (0->108)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 100: corrupting byte 5 (1->173)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 101: corrupting byte 10 (48->17)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 102: corrupting byte 19 (0->170)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 103: corrupting byte 2 (48->142)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 104: corrupting byte 4 (2->183)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 105: corrupting byte 7 (2->57)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 106: corrupting byte 4 (2->94)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 107: corrupting byte 11 (6->48)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 108: corrupting byte 8 (1->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 109: corrupting byte 3 (6->228)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 110: corrupting byte 8 (1->229)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 111: corrupting byte 2 (48->127)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 112: corrupting byte 10 (48->37)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 113: corrupting byte 10 (48->126)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 114: corrupting byte 5 (1->9)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 115: corrupting byte 16 (1->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 116: corrupting byte 2 (48->25)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 117: corrupting byte 8 (1->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 118: corrupting byte 2 (48->58)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 119: corrupting byte 4 (2->215)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 120: corrupting byte 2 (48->40)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 121: corrupting byte 0 (49->117)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 122: corrupting byte 12 (2->89)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 123: corrupting byte 19 (0->142)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 124: corrupting byte 8 (1->214)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 125: corrupting byte 13 (1->154)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 126: corrupting byte 10 (48->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 127: corrupting byte 0 (49->2)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 128: corrupting byte 19 (0->205)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 129: corrupting byte 19 (0->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 130: corrupting byte 19 (0->45)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 131: corrupting byte 13 (1->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 132: corrupting byte 10 (48->119)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 133: corrupting byte 4 (2->238)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 134: corrupting byte 10 (48->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 135: corrupting byte 16 (1->247)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 136: corrupting byte 16 (1->34)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 137: corrupting byte 5 (1->109)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 138: corrupting byte 19 (0->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 139: corrupting byte 7 (2->6)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 140: corrupting byte 8 (1->237)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 141: corrupting byte 19 (0->185)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 142: corrupting byte 16 (1->187)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 143: corrupting byte 2 (48->243)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 144: corrupting byte 13 (1->237)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 145: corrupting byte 15 (2->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 146: corrupting byte 19 (0->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 147: corrupting byte 4 (2->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 148: corrupting byte 11 (6->18)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 149: corrupting byte 7 (2->219)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 150: corrupting byte 8 (1->246)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 151: corrupting byte 10 (48->144)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 152: corrupting byte 18 (0->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 153: corrupting byte 4 (2->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 154: corrupting byte 16 (1->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 155: corrupting byte 10 (48->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 156: corrupting byte 12 (2->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 157: corrupting byte 12 (2->248)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 158: corrupting byte 5 (1->104)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 159: corrupting byte 2 (48->19)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 160: corrupting byte 0 (49->43)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 161: corrupting byte 18 (0->105)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 162: corrupting byte 18 (0->126)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 163: corrupting byte 4 (2->124)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 164: corrupting byte 19 (0->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 165: corrupting byte 12 (2->81)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 166: corrupting byte 4 (2->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 167: corrupting byte 13 (1->145)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 168: corrupting byte 10 (48->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 169: corrupting byte 0 (49->223)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 170: corrupting byte 19 (0->188)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 171: corrupting byte 13 (1->228)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 172: corrupting byte 7 (2->10)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 173: corrupting byte 13 (1->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 174: corrupting byte 19 (0->96)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 175: corrupting byte 2 (48->226)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 176: corrupting byte 4 (2->135)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 177: corrupting byte 2 (48->100)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 178: corrupting byte 8 (1->52)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 179: corrupting byte 12 (2->214)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 180: corrupting byte 18 (0->130)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 181: corrupting byte 16 (1->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 182: corrupting byte 13 (1->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 183: corrupting byte 3 (6->115)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 184: corrupting byte 13 (1->113)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 185: corrupting byte 10 (48->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 186: corrupting byte 7 (2->96)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 187: corrupting byte 8 (1->40)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 188: corrupting byte 0 (49->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 189: corrupting byte 8 (1->164)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 190: corrupting byte 10 (48->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 191: corrupting byte 13 (1->210)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 192: corrupting byte 13 (1->173)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 193: corrupting byte 5 (1->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 194: corrupting byte 16 (1->22)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 195: corrupting byte 8 (1->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 196: corrupting byte 16 (1->13)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 197: corrupting byte 0 (49->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 198: corrupting byte 8 (1->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 199: corrupting byte 10 (48->204)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 200: corrupting byte 16 (1->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 201: corrupting byte 19 (0->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 202: corrupting byte 19 (0->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 203: corrupting byte 8 (1->130)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 204: corrupting byte 0 (49->88)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 205: corrupting byte 7 (2->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 206: corrupting byte 19 (0->175)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 207: corrupting byte 15 (2->20)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 208: corrupting byte 19 (0->172)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 209: corrupting byte 15 (2->29)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 210: corrupting byte 4 (2->111)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 211: corrupting byte 4 (2->47)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 212: corrupting byte 3 (6->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 213: corrupting byte 0 (49->135)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 214: corrupting byte 11 (6->51)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 215: corrupting byte 7 (2->230)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 216: corrupting byte 12 (2->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 217: corrupting byte 3 (6->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 218: corrupting byte 10 (48->34)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 219: corrupting byte 0 (49->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 220: corrupting byte 12 (2->231)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 221: corrupting byte 2 (48->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 222: corrupting byte 3 (6->15)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 223: corrupting byte 10 (48->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 224: corrupting byte 16 (1->30)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 225: corrupting byte 10 (48->250)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 226: corrupting byte 4 (2->75)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 227: corrupting byte 8 (1->204)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 228: corrupting byte 18 (0->104)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 229: corrupting byte 0 (49->75)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 230: corrupting byte 16 (1->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 231: corrupting byte 18 (0->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 232: corrupting byte 10 (48->7)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 233: corrupting byte 10 (48->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 234: corrupting byte 0 (49->254)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 235: corrupting byte 13 (1->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 236: corrupting byte 7 (2->130)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 237: corrupting byte 15 (2->42)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 238: corrupting byte 10 (48->124)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 239: corrupting byte 19 (0->106)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 240: corrupting byte 15 (2->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 241: corrupting byte 0 (49->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 242: corrupting byte 7 (2->32)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 243: corrupting byte 10 (48->228)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 244: corrupting byte 16 (1->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 245: corrupting byte 0 (49->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 246: corrupting byte 5 (1->162)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 247: corrupting byte 18 (0->1)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 248: corrupting byte 3 (6->207)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 249: corrupting byte 18 (0->217)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 250: corrupting byte 3 (6->41)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 251: corrupting byte 18 (0->21)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 252: corrupting byte 11 (6->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 253: corrupting byte 0 (49->34)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 254: corrupting byte 18 (0->158)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 255: corrupting byte 5 (1->253)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 256: corrupting byte 13 (1->204)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 257: corrupting byte 13 (1->167)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 258: corrupting byte 10 (48->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 259: corrupting byte 19 (0->113)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 260: corrupting byte 3 (6->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 261: corrupting byte 13 (1->166)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 262: corrupting byte 11 (6->112)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 263: corrupting byte 2 (48->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 264: corrupting byte 12 (2->253)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 265: corrupting byte 15 (2->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 266: corrupting byte 11 (6->157)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 267: corrupting byte 11 (6->185)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 268: corrupting byte 0 (49->79)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 269: corrupting byte 10 (48->2)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 270: corrupting byte 5 (1->248)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 271: corrupting byte 16 (1->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 272: corrupting byte 2 (48->247)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 273: corrupting byte 19 (0->164)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 274: corrupting byte 4 (2->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 275: corrupting byte 0 (49->131)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 276: corrupting byte 10 (48->38)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 277: corrupting byte 12 (2->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 278: corrupting byte 5 (1->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 279: corrupting byte 4 (2->18)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 280: corrupting byte 3 (6->97)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 281: corrupting byte 19 (0->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 282: corrupting byte 4 (2->89)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 283: corrupting byte 11 (6->153)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 284: corrupting byte 10 (48->228)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 285: corrupting byte 0 (49->59)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 286: corrupting byte 5 (1->2)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 287: corrupting byte 4 (2->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 288: corrupting byte 5 (1->191)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 289: corrupting byte 11 (6->185)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 290: corrupting byte 15 (2->12)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 291: corrupting byte 8 (1->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 292: corrupting byte 18 (0->229)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 293: corrupting byte 2 (48->230)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 294: corrupting byte 2 (48->77)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 295: corrupting byte 10 (48->245)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 296: corrupting byte 13 (1->47)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 297: corrupting byte 13 (1->174)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 298: corrupting byte 13 (1->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 299: corrupting byte 2 (48->47)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 300: corrupting byte 8 (1->150)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 301: corrupting byte 10 (48->60)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 302: corrupting byte 15 (2->35)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 303: corrupting byte 11 (6->7)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 304: corrupting byte 3 (6->11)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 305: corrupting byte 8 (1->252)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 306: corrupting byte 11 (6->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 307: corrupting byte 18 (0->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 308: corrupting byte 16 (1->226)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 309: corrupting byte 15 (2->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 310: corrupting byte 18 (0->210)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 311: corrupting byte 4 (2->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 312: corrupting byte 13 (1->212)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 313: corrupting byte 13 (1->109)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 314: corrupting byte 11 (6->219)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 315: corrupting byte 10 (48->140)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 316: corrupting byte 3 (6->235)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 317: corrupting byte 15 (2->237)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 318: corrupting byte 0 (49->246)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 319: corrupting byte 3 (6->219)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 320: corrupting byte 16 (1->76)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 321: corrupting byte 5 (1->137)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 322: corrupting byte 16 (1->82)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 323: corrupting byte 10 (48->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 324: corrupting byte 11 (6->96)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 325: corrupting byte 12 (2->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 326: corrupting byte 19 (0->121)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 327: corrupting byte 10 (48->152)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 328: corrupting byte 12 (2->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 329: corrupting byte 0 (49->194)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 330: corrupting byte 12 (2->68)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 331: corrupting byte 10 (48->119)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 332: corrupting byte 7 (2->36)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 333: corrupting byte 10 (48->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 334: corrupting byte 19 (0->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 335: corrupting byte 7 (2->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 336: corrupting byte 2 (48->11)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 337: corrupting byte 12 (2->86)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 338: corrupting byte 3 (6->188)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 339: corrupting byte 0 (49->199)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 340: corrupting byte 19 (0->22)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 341: corrupting byte 2 (48->67)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 342: corrupting byte 8 (1->218)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 343: corrupting byte 4 (2->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 344: corrupting byte 2 (48->58)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 345: corrupting byte 15 (2->79)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 346: corrupting byte 5 (1->90)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 347: corrupting byte 11 (6->166)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 348: corrupting byte 18 (0->13)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 349: corrupting byte 3 (6->91)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 350: corrupting byte 13 (1->154)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 351: corrupting byte 19 (0->120)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 352: corrupting byte 0 (49->125)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 353: corrupting byte 8 (1->135)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 354: corrupting byte 18 (0->15)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 355: corrupting byte 16 (1->243)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 356: corrupting byte 15 (2->158)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 357: corrupting byte 11 (6->11)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 358: corrupting byte 19 (0->250)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 359: corrupting byte 10 (48->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 360: corrupting byte 4 (2->183)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 361: corrupting byte 19 (0->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 362: corrupting byte 18 (0->253)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 363: corrupting byte 13 (1->8)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 364: corrupting byte 18 (0->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 365: corrupting byte 7 (2->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 366: corrupting byte 3 (6->21)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 367: corrupting byte 11 (6->82)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 368: corrupting byte 2 (48->1)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 369: corrupting byte 15 (2->48)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 370: corrupting byte 19 (0->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 371: corrupting byte 10 (48->107)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 372: corrupting byte 13 (1->112)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 373: corrupting byte 3 (6->46)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 374: corrupting byte 13 (1->47)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 375: corrupting byte 7 (2->53)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 376: corrupting byte 16 (1->248)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 377: corrupting byte 4 (2->96)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 378: corrupting byte 12 (2->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 379: corrupting byte 12 (2->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 380: corrupting byte 15 (2->211)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 381: corrupting byte 8 (1->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 382: corrupting byte 19 (0->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 383: corrupting byte 3 (6->198)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 384: corrupting byte 7 (2->158)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 385: corrupting byte 2 (48->221)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 386: corrupting byte 3 (6->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 387: corrupting byte 2 (48->235)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 388: corrupting byte 5 (1->223)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 389: corrupting byte 5 (1->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 390: corrupting byte 10 (48->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 391: corrupting byte 16 (1->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 392: corrupting byte 0 (49->21)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 393: corrupting byte 5 (1->201)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 394: corrupting byte 19 (0->181)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 395: corrupting byte 10 (48->176)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 396: corrupting byte 0 (49->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 397: corrupting byte 3 (6->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 398: corrupting byte 8 (1->87)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 399: corrupting byte 10 (48->115)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 400: corrupting byte 8 (1->112)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 401: corrupting byte 15 (2->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 402: corrupting byte 13 (1->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 403: corrupting byte 2 (48->55)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 404: corrupting byte 10 (48->209)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 405: corrupting byte 7 (2->164)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 406: corrupting byte 11 (6->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 407: corrupting byte 10 (48->192)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 408: corrupting byte 19 (0->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 409: corrupting byte 8 (1->3)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 410: corrupting byte 13 (1->128)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 411: corrupting byte 10 (48->144)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 412: corrupting byte 19 (0->248)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 413: corrupting byte 11 (6->65)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 414: corrupting byte 19 (0->17)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 415: corrupting byte 12 (2->187)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 416: corrupting byte 15 (2->26)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 417: corrupting byte 18 (0->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 418: corrupting byte 15 (2->202)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 419: corrupting byte 5 (1->163)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 420: corrupting byte 8 (1->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 421: corrupting byte 8 (1->245)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 422: corrupting byte 13 (1->255)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 423: corrupting byte 15 (2->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 424: corrupting byte 5 (1->233)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 425: corrupting byte 5 (1->36)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 426: corrupting byte 3 (6->90)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 427: corrupting byte 7 (2->172)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 428: corrupting byte 13 (1->71)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 429: corrupting byte 19 (0->134)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 430: corrupting byte 19 (0->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 431: corrupting byte 2 (48->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 432: corrupting byte 16 (1->189)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 433: corrupting byte 10 (48->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 434: corrupting byte 2 (48->79)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 435: corrupting byte 13 (1->102)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 436: corrupting byte 11 (6->138)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 437: corrupting byte 10 (48->183)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 438: corrupting byte 11 (6->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 439: corrupting byte 19 (0->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 440: corrupting byte 11 (6->150)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 441: corrupting byte 7 (2->146)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 442: corrupting byte 10 (48->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 443: corrupting byte 10 (48->152)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 444: corrupting byte 5 (1->118)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 445: corrupting byte 3 (6->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 446: corrupting byte 12 (2->118)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 447: corrupting byte 18 (0->219)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 448: corrupting byte 4 (2->163)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 449: corrupting byte 12 (2->40)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 450: corrupting byte 4 (2->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 451: corrupting byte 19 (0->29)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 452: corrupting byte 12 (2->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 453: corrupting byte 16 (1->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 454: corrupting byte 16 (1->93)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 455: corrupting byte 0 (49->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 456: corrupting byte 5 (1->139)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 457: corrupting byte 3 (6->177)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 458: corrupting byte 15 (2->26)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 459: corrupting byte 13 (1->143)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 460: corrupting byte 11 (6->215)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 461: corrupting byte 4 (2->85)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 462: corrupting byte 8 (1->150)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 463: corrupting byte 13 (1->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 464: corrupting byte 18 (0->5)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 465: corrupting byte 15 (2->65)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 466: corrupting byte 13 (1->133)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 467: corrupting byte 16 (1->193)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 468: corrupting byte 13 (1->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 469: corrupting byte 11 (6->152)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 470: corrupting byte 0 (49->76)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 471: corrupting byte 10 (48->195)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 472: corrupting byte 10 (48->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 473: corrupting byte 15 (2->206)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 474: corrupting byte 2 (48->24)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 475: corrupting byte 19 (0->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 476: corrupting byte 4 (2->159)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 477: corrupting byte 18 (0->207)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 478: corrupting byte 16 (1->198)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 479: corrupting byte 19 (0->157)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 480: corrupting byte 3 (6->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 481: corrupting byte 16 (1->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 482: corrupting byte 15 (2->128)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 483: corrupting byte 11 (6->97)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 484: corrupting byte 12 (2->210)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 485: corrupting byte 2 (48->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 486: corrupting byte 11 (6->172)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 487: corrupting byte 7 (2->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 488: corrupting byte 16 (1->254)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 489: corrupting byte 7 (2->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 490: corrupting byte 13 (1->236)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 491: corrupting byte 2 (48->237)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 492: corrupting byte 13 (1->140)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 493: corrupting byte 16 (1->107)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 494: corrupting byte 13 (1->79)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 495: corrupting byte 0 (49->224)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 496: corrupting byte 5 (1->93)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 497: corrupting byte 5 (1->111)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 498: corrupting byte 19 (0->50)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 499: corrupting byte 0 (49->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 500: corrupting byte 4 (2->53)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 501: corrupting byte 0 (49->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 502: corrupting byte 2 (48->130)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 503: corrupting byte 0 (49->167)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 504: corrupting byte 3 (6->179)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 505: corrupting byte 0 (49->173)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 506: corrupting byte 3 (6->236)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 507: corrupting byte 13 (1->254)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 508: corrupting byte 10 (48->12)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 509: corrupting byte 5 (1->91)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 510: corrupting byte 13 (1->206)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 511: corrupting byte 18 (0->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 512: corrupting byte 7 (2->151)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 513: corrupting byte 11 (6->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 514: corrupting byte 3 (6->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 515: corrupting byte 19 (0->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 516: corrupting byte 8 (1->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 517: corrupting byte 12 (2->67)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 518: corrupting byte 10 (48->229)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 519: corrupting byte 10 (48->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 520: corrupting byte 3 (6->173)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 521: corrupting byte 19 (0->190)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 522: corrupting byte 19 (0->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 523: corrupting byte 19 (0->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 524: corrupting byte 2 (48->18)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 525: corrupting byte 15 (2->55)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 526: corrupting byte 15 (2->104)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 527: corrupting byte 11 (6->244)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 528: corrupting byte 13 (1->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 529: corrupting byte 2 (48->7)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 530: corrupting byte 13 (1->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 531: corrupting byte 19 (0->54)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 532: corrupting byte 4 (2->22)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 533: corrupting byte 19 (0->67)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 534: corrupting byte 3 (6->44)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 535: corrupting byte 13 (1->209)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 536: corrupting byte 5 (1->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 537: corrupting byte 13 (1->174)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 538: corrupting byte 19 (0->171)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 539: corrupting byte 15 (2->77)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 540: corrupting byte 13 (1->60)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 541: corrupting byte 10 (48->55)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 542: corrupting byte 2 (48->85)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 543: corrupting byte 2 (48->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 544: corrupting byte 10 (48->133)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 545: corrupting byte 0 (49->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 546: corrupting byte 11 (6->251)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 547: corrupting byte 3 (6->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 548: corrupting byte 12 (2->87)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 549: corrupting byte 2 (48->5)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 550: corrupting byte 3 (6->53)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 551: corrupting byte 8 (1->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 552: corrupting byte 7 (2->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 553: corrupting byte 5 (1->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 554: corrupting byte 7 (2->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 555: corrupting byte 11 (6->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 556: corrupting byte 13 (1->131)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 557: corrupting byte 8 (1->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 558: corrupting byte 16 (1->91)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 559: corrupting byte 7 (2->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 560: corrupting byte 4 (2->19)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 561: corrupting byte 0 (49->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 562: corrupting byte 3 (6->115)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 563: corrupting byte 13 (1->29)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 564: corrupting byte 12 (2->233)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 565: corrupting byte 5 (1->181)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 566: corrupting byte 8 (1->236)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 567: corrupting byte 5 (1->226)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 568: corrupting byte 2 (48->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 569: corrupting byte 15 (2->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 570: corrupting byte 19 (0->225)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 571: corrupting byte 16 (1->157)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 572: corrupting byte 11 (6->250)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 573: corrupting byte 5 (1->158)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 574: corrupting byte 12 (2->33)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 575: corrupting byte 7 (2->204)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 576: corrupting byte 18 (0->196)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 577: corrupting byte 10 (48->188)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 578: corrupting byte 4 (2->215)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 579: corrupting byte 13 (1->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 580: corrupting byte 19 (0->202)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 581: corrupting byte 8 (1->154)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 582: corrupting byte 2 (48->223)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 583: corrupting byte 3 (6->24)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 584: corrupting byte 10 (48->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 585: corrupting byte 2 (48->33)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 586: corrupting byte 11 (6->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 587: corrupting byte 4 (2->137)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 588: corrupting byte 3 (6->92)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 589: corrupting byte 5 (1->222)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 590: corrupting byte 0 (49->180)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 591: corrupting byte 12 (2->24)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 592: corrupting byte 18 (0->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 593: corrupting byte 16 (1->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 594: corrupting byte 5 (1->39)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 595: corrupting byte 19 (0->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 596: corrupting byte 3 (6->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 597: corrupting byte 5 (1->151)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 598: corrupting byte 16 (1->34)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 599: corrupting byte 4 (2->214)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 600: corrupting byte 10 (48->139)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 601: corrupting byte 13 (1->20)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 602: corrupting byte 19 (0->220)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 603: corrupting byte 10 (48->92)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 604: corrupting byte 12 (2->118)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 605: corrupting byte 19 (0->150)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 606: corrupting byte 13 (1->106)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 607: corrupting byte 15 (2->252)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 608: corrupting byte 7 (2->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 609: corrupting byte 10 (48->160)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 610: corrupting byte 0 (49->89)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 611: corrupting byte 3 (6->54)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 612: corrupting byte 12 (2->59)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 613: corrupting byte 16 (1->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 614: corrupting byte 19 (0->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 615: corrupting byte 15 (2->26)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 616: corrupting byte 13 (1->111)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 617: corrupting byte 4 (2->137)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 618: corrupting byte 11 (6->123)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 619: corrupting byte 11 (6->228)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 620: corrupting byte 19 (0->176)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 621: corrupting byte 5 (1->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 622: corrupting byte 2 (48->137)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 623: corrupting byte 19 (0->39)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 624: corrupting byte 7 (2->69)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 625: corrupting byte 4 (2->121)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 626: corrupting byte 19 (0->171)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 627: corrupting byte 13 (1->113)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 628: corrupting byte 7 (2->68)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 629: corrupting byte 19 (0->39)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 630: corrupting byte 3 (6->94)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 631: corrupting byte 7 (2->149)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 632: corrupting byte 3 (6->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 633: corrupting byte 8 (1->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 634: corrupting byte 0 (49->25)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 635: corrupting byte 18 (0->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 636: corrupting byte 18 (0->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 637: corrupting byte 3 (6->52)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 638: corrupting byte 15 (2->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 639: corrupting byte 5 (1->202)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 640: corrupting byte 2 (48->82)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 641: corrupting byte 18 (0->57)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 642: corrupting byte 12 (2->112)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 643: corrupting byte 13 (1->87)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 644: corrupting byte 8 (1->34)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 645: corrupting byte 12 (2->198)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 646: corrupting byte 12 (2->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 647: corrupting byte 0 (49->184)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 648: corrupting byte 12 (2->25)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 649: corrupting byte 15 (2->237)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 650: corrupting byte 7 (2->176)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 651: corrupting byte 3 (6->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 652: corrupting byte 4 (2->142)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 653: corrupting byte 3 (6->215)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 654: corrupting byte 15 (2->63)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 655: corrupting byte 5 (1->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 656: corrupting byte 0 (49->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 657: corrupting byte 8 (1->88)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 658: corrupting byte 13 (1->198)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 659: corrupting byte 16 (1->123)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 660: corrupting byte 5 (1->166)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 661: corrupting byte 5 (1->171)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 662: corrupting byte 10 (48->194)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 663: corrupting byte 12 (2->250)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 664: corrupting byte 12 (2->211)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 665: corrupting byte 15 (2->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 666: corrupting byte 13 (1->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 667: corrupting byte 16 (1->54)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 668: corrupting byte 13 (1->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 669: corrupting byte 0 (49->55)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 670: corrupting byte 3 (6->186)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 671: corrupting byte 8 (1->196)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 672: corrupting byte 16 (1->182)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 673: corrupting byte 2 (48->128)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 674: corrupting byte 0 (49->201)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 675: corrupting byte 18 (0->61)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 676: corrupting byte 19 (0->126)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 677: corrupting byte 8 (1->204)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 678: corrupting byte 2 (48->191)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 679: corrupting byte 2 (48->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 680: corrupting byte 7 (2->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 681: corrupting byte 16 (1->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 682: corrupting byte 4 (2->154)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 683: corrupting byte 4 (2->212)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 684: corrupting byte 5 (1->58)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 685: corrupting byte 16 (1->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 686: corrupting byte 3 (6->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 687: corrupting byte 7 (2->247)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 688: corrupting byte 2 (48->77)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 689: corrupting byte 0 (49->233)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 690: corrupting byte 19 (0->252)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 691: corrupting byte 13 (1->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 692: corrupting byte 8 (1->238)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 693: corrupting byte 8 (1->219)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 694: corrupting byte 2 (48->126)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 695: corrupting byte 16 (1->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 696: corrupting byte 11 (6->194)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 697: corrupting byte 15 (2->117)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 698: corrupting byte 12 (2->176)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 699: corrupting byte 10 (48->133)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 700: corrupting byte 13 (1->218)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 701: corrupting byte 0 (49->247)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 702: corrupting byte 13 (1->156)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 703: corrupting byte 2 (48->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 704: corrupting byte 15 (2->177)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 705: corrupting byte 18 (0->95)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 706: corrupting byte 11 (6->231)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 707: corrupting byte 11 (6->183)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 708: corrupting byte 8 (1->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 709: corrupting byte 13 (1->98)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 710: corrupting byte 19 (0->81)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 711: corrupting byte 15 (2->148)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 712: corrupting byte 4 (2->195)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 713: corrupting byte 7 (2->130)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 714: corrupting byte 11 (6->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 715: corrupting byte 11 (6->201)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 716: corrupting byte 7 (2->147)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 717: corrupting byte 16 (1->232)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 718: corrupting byte 19 (0->33)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 719: corrupting byte 0 (49->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 720: corrupting byte 11 (6->29)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 721: corrupting byte 18 (0->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 722: corrupting byte 3 (6->162)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 723: corrupting byte 7 (2->59)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 724: corrupting byte 0 (49->194)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 725: corrupting byte 15 (2->139)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 726: corrupting byte 10 (48->193)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 727: corrupting byte 12 (2->207)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 728: corrupting byte 3 (6->28)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 729: corrupting byte 12 (2->1)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 730: corrupting byte 15 (2->20)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 731: corrupting byte 0 (49->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 732: corrupting byte 3 (6->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 733: corrupting byte 19 (0->238)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 734: corrupting byte 5 (1->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 735: corrupting byte 13 (1->85)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 736: corrupting byte 12 (2->134)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 737: corrupting byte 4 (2->117)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 738: corrupting byte 3 (6->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 739: corrupting byte 5 (1->54)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 740: corrupting byte 18 (0->184)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 741: corrupting byte 10 (48->139)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 742: corrupting byte 18 (0->43)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 743: corrupting byte 0 (49->138)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 744: corrupting byte 16 (1->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 745: corrupting byte 3 (6->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 746: corrupting byte 12 (2->245)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 747: corrupting byte 15 (2->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 748: corrupting byte 3 (6->70)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 749: corrupting byte 2 (48->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 750: corrupting byte 15 (2->188)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 751: corrupting byte 0 (49->137)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 752: corrupting byte 16 (1->80)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 753: corrupting byte 13 (1->94)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 754: corrupting byte 7 (2->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 755: corrupting byte 13 (1->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 756: corrupting byte 3 (6->207)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 757: corrupting byte 16 (1->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 758: corrupting byte 2 (48->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 759: corrupting byte 12 (2->19)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 760: corrupting byte 15 (2->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 761: corrupting byte 19 (0->33)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 762: corrupting byte 2 (48->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 763: corrupting byte 18 (0->83)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 764: corrupting byte 13 (1->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 765: corrupting byte 19 (0->214)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 766: corrupting byte 4 (2->217)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 767: corrupting byte 10 (48->188)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 768: corrupting byte 11 (6->213)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 769: corrupting byte 3 (6->150)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 770: corrupting byte 0 (49->177)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 771: corrupting byte 2 (48->120)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 772: corrupting byte 12 (2->106)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 773: corrupting byte 7 (2->45)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 774: corrupting byte 18 (0->45)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 775: corrupting byte 18 (0->236)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 776: corrupting byte 10 (48->216)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 777: corrupting byte 13 (1->16)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 778: corrupting byte 5 (1->69)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 779: corrupting byte 0 (49->112)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 780: corrupting byte 3 (6->254)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 781: corrupting byte 12 (2->48)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 782: corrupting byte 4 (2->155)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 783: corrupting byte 18 (0->52)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 784: corrupting byte 7 (2->40)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 785: corrupting byte 8 (1->86)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 786: corrupting byte 8 (1->148)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 787: corrupting byte 18 (0->229)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 788: corrupting byte 10 (48->181)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 789: corrupting byte 5 (1->140)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 790: corrupting byte 7 (2->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 791: corrupting byte 12 (2->124)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 792: corrupting byte 19 (0->153)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 793: corrupting byte 0 (49->11)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 794: corrupting byte 12 (2->110)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 795: corrupting byte 7 (2->123)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 796: corrupting byte 18 (0->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 797: corrupting byte 19 (0->106)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 798: corrupting byte 10 (48->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 799: corrupting byte 12 (2->92)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 800: corrupting byte 13 (1->42)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 801: corrupting byte 3 (6->38)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 802: corrupting byte 10 (48->77)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 803: corrupting byte 5 (1->229)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 804: corrupting byte 0 (49->215)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 805: corrupting byte 0 (49->163)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 806: corrupting byte 7 (2->111)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 807: corrupting byte 3 (6->187)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 808: corrupting byte 2 (48->6)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 809: corrupting byte 11 (6->193)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 810: corrupting byte 0 (49->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 811: corrupting byte 18 (0->6)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 812: corrupting byte 12 (2->224)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 813: corrupting byte 2 (48->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 814: corrupting byte 5 (1->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 815: corrupting byte 0 (49->157)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 816: corrupting byte 4 (2->144)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 817: corrupting byte 5 (1->249)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 818: corrupting byte 2 (48->239)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 819: corrupting byte 5 (1->124)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 820: corrupting byte 15 (2->8)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 821: corrupting byte 12 (2->22)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 822: corrupting byte 16 (1->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 823: corrupting byte 10 (48->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 824: corrupting byte 11 (6->198)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 825: corrupting byte 16 (1->212)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 826: corrupting byte 8 (1->185)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 827: corrupting byte 8 (1->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 828: corrupting byte 8 (1->145)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 829: corrupting byte 0 (49->162)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 830: corrupting byte 5 (1->127)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 831: corrupting byte 2 (48->10)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 832: corrupting byte 3 (6->51)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 833: corrupting byte 16 (1->118)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 834: corrupting byte 4 (2->67)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 835: corrupting byte 19 (0->20)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 836: corrupting byte 10 (48->228)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 837: corrupting byte 10 (48->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 838: corrupting byte 2 (48->94)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 839: corrupting byte 4 (2->101)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 840: corrupting byte 11 (6->231)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 841: corrupting byte 10 (48->244)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 842: corrupting byte 10 (48->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 843: corrupting byte 15 (2->33)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 844: corrupting byte 16 (1->160)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 845: corrupting byte 19 (0->214)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 846: corrupting byte 15 (2->191)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 847: corrupting byte 11 (6->180)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 848: corrupting byte 18 (0->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 849: corrupting byte 16 (1->100)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 850: corrupting byte 13 (1->169)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 851: corrupting byte 7 (2->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 852: corrupting byte 19 (0->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 853: corrupting byte 16 (1->45)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 854: corrupting byte 19 (0->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 855: corrupting byte 7 (2->216)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 856: corrupting byte 8 (1->54)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 857: corrupting byte 16 (1->18)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 858: corrupting byte 13 (1->148)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 859: corrupting byte 19 (0->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 860: corrupting byte 12 (2->90)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 861: corrupting byte 0 (49->140)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 862: corrupting byte 15 (2->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 863: corrupting byte 10 (48->199)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 864: corrupting byte 2 (48->88)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 865: corrupting byte 10 (48->99)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 866: corrupting byte 5 (1->139)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 867: corrupting byte 10 (48->127)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 868: corrupting byte 16 (1->255)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 869: corrupting byte 15 (2->161)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 870: corrupting byte 15 (2->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 871: corrupting byte 11 (6->242)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 872: corrupting byte 0 (49->72)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 873: corrupting byte 0 (49->193)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 874: corrupting byte 16 (1->255)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 875: corrupting byte 8 (1->97)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 876: corrupting byte 12 (2->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 877: corrupting byte 5 (1->163)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 878: corrupting byte 13 (1->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 879: corrupting byte 3 (6->179)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 880: corrupting byte 10 (48->247)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 881: corrupting byte 15 (2->178)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 882: corrupting byte 19 (0->31)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 883: corrupting byte 2 (48->36)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 884: corrupting byte 19 (0->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 885: corrupting byte 13 (1->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 886: corrupting byte 3 (6->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 887: corrupting byte 10 (48->168)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 888: corrupting byte 19 (0->220)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 889: corrupting byte 16 (1->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 890: corrupting byte 11 (6->159)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 891: corrupting byte 18 (0->172)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 892: corrupting byte 4 (2->73)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 893: corrupting byte 10 (48->115)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 894: corrupting byte 15 (2->0)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 895: corrupting byte 10 (48->202)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 896: corrupting byte 8 (1->55)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 897: corrupting byte 4 (2->233)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 898: corrupting byte 18 (0->165)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 899: corrupting byte 4 (2->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 900: corrupting byte 11 (6->71)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 901: corrupting byte 5 (1->64)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 902: corrupting byte 16 (1->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 903: corrupting byte 12 (2->231)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 904: corrupting byte 15 (2->108)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 905: corrupting byte 5 (1->25)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 906: corrupting byte 7 (2->89)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 907: corrupting byte 16 (1->231)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 908: corrupting byte 2 (48->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 909: corrupting byte 3 (6->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 910: corrupting byte 18 (0->211)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 911: corrupting byte 16 (1->120)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 912: corrupting byte 18 (0->238)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 913: corrupting byte 7 (2->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 914: corrupting byte 7 (2->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 915: corrupting byte 13 (1->174)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 916: corrupting byte 18 (0->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 917: corrupting byte 15 (2->142)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 918: corrupting byte 11 (6->181)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 919: corrupting byte 12 (2->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 920: corrupting byte 13 (1->104)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 921: corrupting byte 2 (48->145)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 922: corrupting byte 8 (1->17)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 923: corrupting byte 11 (6->190)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 924: corrupting byte 10 (48->163)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 925: corrupting byte 15 (2->144)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 926: corrupting byte 16 (1->233)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 927: corrupting byte 2 (48->8)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 928: corrupting byte 15 (2->87)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 929: corrupting byte 7 (2->46)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 930: corrupting byte 11 (6->186)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 931: corrupting byte 10 (48->164)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 932: corrupting byte 18 (0->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 933: corrupting byte 13 (1->107)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 934: corrupting byte 5 (1->84)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 935: corrupting byte 16 (1->134)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 936: corrupting byte 15 (2->208)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 937: corrupting byte 4 (2->113)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 938: corrupting byte 0 (49->121)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 939: corrupting byte 2 (48->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 940: corrupting byte 13 (1->145)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 941: corrupting byte 15 (2->200)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 942: corrupting byte 5 (1->59)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 943: corrupting byte 7 (2->205)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 944: corrupting byte 4 (2->92)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 945: corrupting byte 8 (1->75)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 946: corrupting byte 8 (1->120)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 947: corrupting byte 15 (2->119)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 948: corrupting byte 15 (2->251)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 949: corrupting byte 11 (6->222)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 950: corrupting byte 10 (48->227)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 951: corrupting byte 11 (6->50)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 952: corrupting byte 15 (2->213)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 953: corrupting byte 8 (1->42)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 954: corrupting byte 16 (1->201)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 955: corrupting byte 11 (6->148)
+Buf 0x7ffee43d29a0
+Returned code 1, consumed 10
+
+Try 956: corrupting byte 0 (49->132)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 957: corrupting byte 4 (2->250)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 958: corrupting byte 3 (6->114)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 959: corrupting byte 15 (2->49)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 960: corrupting byte 13 (1->103)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 961: corrupting byte 16 (1->201)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 962: corrupting byte 16 (1->242)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 963: corrupting byte 16 (1->195)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 964: corrupting byte 10 (48->52)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 965: corrupting byte 15 (2->60)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 966: corrupting byte 4 (2->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 967: corrupting byte 10 (48->173)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 968: corrupting byte 5 (1->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 969: corrupting byte 19 (0->135)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 970: corrupting byte 15 (2->74)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 971: corrupting byte 4 (2->253)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 972: corrupting byte 16 (1->78)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 973: corrupting byte 4 (2->129)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 974: corrupting byte 10 (48->81)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 975: corrupting byte 10 (48->122)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 976: corrupting byte 5 (1->203)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 977: corrupting byte 12 (2->230)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 978: corrupting byte 18 (0->141)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 979: corrupting byte 13 (1->65)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 980: corrupting byte 10 (48->197)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 981: corrupting byte 7 (2->253)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 982: corrupting byte 18 (0->8)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 983: corrupting byte 18 (0->201)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 18
+
+Try 984: corrupting byte 7 (2->116)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 985: corrupting byte 13 (1->218)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 986: corrupting byte 7 (2->86)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 987: corrupting byte 15 (2->56)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 988: corrupting byte 2 (48->128)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 989: corrupting byte 8 (1->219)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 990: corrupting byte 2 (48->46)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 991: corrupting byte 5 (1->123)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 992: corrupting byte 3 (6->122)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 993: corrupting byte 11 (6->27)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 994: corrupting byte 13 (1->19)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 995: corrupting byte 8 (1->241)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+
+Try 996: corrupting byte 0 (49->46)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 0
+
+Try 997: corrupting byte 10 (48->4)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 998: corrupting byte 16 (1->14)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 10
+
+Try 999: corrupting byte 8 (1->121)
+Buf 0x7ffee43d29a0
+Returned code 2, consumed 2
+Buf 0x10b888180
+Returned code 0, consumed 20
+  writing 2 (2)
+  writing 8 (10)
+  writing 8 (18)
+Forest ::= {
+    Tree ::= {
+        height: 100
+        width: 80
+    }
+    Tree ::= {
+        height: 110
+        width: 82
+    }
+}
+<Forest>
+    <Tree>
+        <height>100</height>
+        <width>80</width>
+    </Tree>
+    <Tree>
+        <height>110</height>
+        <width>82</width>
+    </Tree>
+</Forest>
+[<Forest><Tree><height>100</height><width>80</width></Tree><Tree><height>110</height><width>82</width></Tree></Forest>] vs [<Forest><Tree><height>100</height><width>80</width></Tree><Tree><height>110</height><width>82</width></Tree></Forest>]
+/Applications/Xcode.app/Contents/Developer/usr/bin/make fuzz
+No fuzzer defined, skipping.
+OK: ./check-src/check-31.-fwide-types.c
+PASS check-src/check-31.-fwide-types.c (exit status: 0)

@@ -1,0 +1,4 @@
+ret=6, len=16909060
+ret=6, len=2147418884
+ret=-1
+PASS check-length (exit status: 0)

@@ -1,0 +1,5580 @@
+/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c		\
+		-S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons	\
+		-flink-skeletons 		\
+		-Wdebug-compiler		\
+		-fwide-types /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/tests/tests-asn1c-compiler/70-xer-test-OK.asn1
+DEBUG: Compiling PDU at line 19
+DEBUG: Compiling sequence at line 19
+DEBUG: Compiling set at line 20
+DEBUG: Compiling sequenceOf at line 21
+DEBUG: Compiling extensibleSet at line 22
+DEBUG: Compiling extensibleSequence at line 23
+DEBUG: Compiling extensibleSequence2 at line 24
+DEBUG: Compiling setOfNULL at line 25
+DEBUG: Compiling setOfREAL at line 26
+DEBUG: Compiling setOfEnums at line 27
+DEBUG: Compiling namedSetOfNULL at line 28
+DEBUG: Compiling namedSetOfREAL at line 29
+DEBUG: Compiling namedSetOfEnums at line 30
+DEBUG: Compiling seqOfZuka at line 31
+DEBUG: Compiling setOfChoice at line 32
+DEBUG: Compiling namedSetOfChoice at line 33
+DEBUG: Compiling ... at line 35
+DEBUG: fail to fetch tags for PDU
+DEBUG: Compiling Sequence at line 38
+DEBUG: Compiling integer at line 38
+DEBUG: Compiling sequence at line 39
+DEBUG: Compiling bits at line 40
+DEBUG: Compiling string at line 41
+DEBUG: Compiling Set at line 45
+DEBUG: Compiling roid at line 45
+DEBUG: Compiling opaque at line 46
+DEBUG: Compiling ExtensibleSet at line 50
+DEBUG: Compiling string at line 50
+DEBUG: Compiling ... at line 51
+DEBUG: Compiling enum at line 52
+DEBUG: emit tag vectors for enum 1, 1, 2
+DEBUG: Compiling ExtensibleSequence at line 56
+DEBUG: Compiling string at line 56
+DEBUG: Compiling ... at line 57
+DEBUG: Compiling integer at line 58
+DEBUG: Compiling gtime at line 59
+DEBUG: Compiling ExtensibleSequence2 at line 63
+DEBUG: Compiling string at line 63
+DEBUG: Compiling ... at line 64
+DEBUG: Compiling integer at line 65
+DEBUG: Compiling SetOfNULL at line 68
+DEBUG: Compiling SetOfREAL at line 69
+DEBUG: Compiling SetOfEnums at line 70
+DEBUG: Compiling Member at line 70
+DEBUG: emit tag vectors for Member 0, 1, 1
+DEBUG: Compiling NamedSetOfNULL at line 71
+DEBUG: Compiling NamedSetOfREAL at line 72
+DEBUG: Compiling NamedSetOfEnums at line 73
+DEBUG: Compiling name at line 73
+DEBUG: emit tag vectors for name 0, 1, 1
+DEBUG: Compiling SequenceOf at line 74
+DEBUG: Compiling SeqOfZuka at line 75
+DEBUG: Compiling SetOfChoice at line 77
+DEBUG: Compiling NamedSetOfChoice at line 79
+DEBUG: Compiling SimpleChoice at line 79
+DEBUG: Compiling a at line 79
+DEBUG: Compiling b at line 79
+DEBUG: fail to fetch tags for SimpleChoice
+DEBUG: Saving compiled data
+Compiled PDU.c
+Compiled PDU.h
+Compiled Sequence.c
+Compiled Sequence.h
+Compiled Set.c
+Compiled Set.h
+Compiled ExtensibleSet.c
+Compiled ExtensibleSet.h
+Compiled ExtensibleSequence.c
+Compiled ExtensibleSequence.h
+Compiled ExtensibleSequence2.c
+Compiled ExtensibleSequence2.h
+Compiled SetOfNULL.c
+Compiled SetOfNULL.h
+Compiled SetOfREAL.c
+Compiled SetOfREAL.h
+Compiled SetOfEnums.c
+Compiled SetOfEnums.h
+Compiled NamedSetOfNULL.c
+Compiled NamedSetOfNULL.h
+Compiled NamedSetOfREAL.c
+Compiled NamedSetOfREAL.h
+Compiled NamedSetOfEnums.c
+Compiled NamedSetOfEnums.h
+Compiled SequenceOf.c
+Compiled SequenceOf.h
+Compiled SeqOfZuka.c
+Compiled SeqOfZuka.h
+Compiled SetOfChoice.c
+Compiled SetOfChoice.h
+Compiled NamedSetOfChoice.c
+Compiled NamedSetOfChoice.h
+Compiled SimpleChoice.c
+Compiled SimpleChoice.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.h	-> OPEN_TYPE.h (line 9 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.c	-> OPEN_TYPE.c (line 9 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.h	-> constr_CHOICE.h (line 9 col 24)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.h	-> BOOLEAN.h (line 11 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.c	-> BOOLEAN.c (line 11 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ENUMERATED.h	-> ENUMERATED.h (line 12 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ENUMERATED.c	-> ENUMERATED.c (line 12 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.h	-> INTEGER.h (line 12 col 26)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeEnumerated.h	-> NativeEnumerated.h (line 12 col 36)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/GeneralizedTime.h	-> GeneralizedTime.h (line 14 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/GeneralizedTime.c	-> GeneralizedTime.c (line 14 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.h	-> OCTET_STRING.h (line 14 col 36)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER.c	-> INTEGER.c (line 17 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.h	-> NULL.h (line 19 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.c	-> NULL.c (line 19 col 7)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeEnumerated.c	-> NativeEnumerated.c (line 20 col 19)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger.h	-> NativeInteger.h (line 20 col 38)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger.c	-> NativeInteger.c (line 21 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OBJECT_IDENTIFIER.h	-> OBJECT_IDENTIFIER.h (line 24 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OBJECT_IDENTIFIER.c	-> OBJECT_IDENTIFIER.c (line 24 col 20)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/REAL.h	-> REAL.h (line 27 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/REAL.c	-> REAL.c (line 27 col 7)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/RELATIVE-OID.h	-> RELATIVE-OID.h (line 28 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/RELATIVE-OID.c	-> RELATIVE-OID.c (line 28 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/UTF8String.h	-> UTF8String.h (line 32 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/UTF8String.c	-> UTF8String.c (line 32 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SEQUENCE_OF.h	-> asn_SEQUENCE_OF.h (line 36 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SEQUENCE_OF.c	-> asn_SEQUENCE_OF.c (line 36 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.h	-> asn_SET_OF.h (line 36 col 36)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_SET_OF.c	-> asn_SET_OF.c (line 37 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.c	-> constr_CHOICE.c (line 38 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h (line 39 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c (line 39 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_OF.h	-> constr_SEQUENCE_OF.h (line 40 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_OF.c	-> constr_SEQUENCE_OF.c (line 40 col 21)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.h	-> constr_SET_OF.h (line 40 col 60)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.h	-> constr_SET.h (line 41 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET.c	-> constr_SET.c (line 41 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF.c	-> constr_SET_OF.c (line 42 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.h	-> asn_application.h (line 45 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.c	-> asn_application.c (line 45 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_ioc.h	-> asn_ioc.h (line 46 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_system.h	-> asn_system.h (line 47 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs.h	-> asn_codecs.h (line 48 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.h	-> asn_internal.h (line 49 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.c	-> asn_internal.c (line 49 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.h	-> asn_random_fill.h (line 50 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.c	-> asn_random_fill.c (line 50 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.h	-> asn_bit_data.h (line 51 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.c	-> asn_bit_data.c (line 51 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.c	-> OCTET_STRING.c (line 52 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.h	-> BIT_STRING.h (line 53 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.c	-> BIT_STRING.c (line 53 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c (line 54 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h (line 54 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.h	-> ber_tlv_length.h (line 55 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.c	-> ber_tlv_length.c (line 55 col 17)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h (line 56 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c (line 56 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.h	-> ber_decoder.h (line 57 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.c	-> ber_decoder.c (line 57 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.h	-> der_encoder.h (line 58 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.c	-> der_encoder.c (line 58 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.h	-> constr_TYPE.h (line 59 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.c	-> constr_TYPE.c (line 59 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.h	-> constraints.h (line 60 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.c	-> constraints.c (line 60 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.h	-> xer_support.h (line 61 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.c	-> xer_support.c (line 61 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.h	-> xer_decoder.h (line 62 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.c	-> xer_decoder.c (line 62 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.h	-> xer_encoder.h (line 63 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.c	-> xer_encoder.c (line 63 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.h	-> per_support.h (line 64 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.c	-> per_support.c (line 64 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.h	-> per_decoder.h (line 65 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.c	-> per_decoder.c (line 65 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.h	-> per_encoder.h (line 66 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.c	-> per_encoder.c (line 66 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.h	-> per_opentype.h (line 67 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.c	-> per_opentype.c (line 67 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.h	-> oer_decoder.h (line 73 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.h	-> oer_encoder.h (line 74 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.h	-> oer_support.h (line 75 col 0)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.c	-> oer_decoder.c (line 76 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.c	-> oer_encoder.c (line 77 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.c	-> oer_support.c (line 78 col 14)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE_oer.c	-> OPEN_TYPE_oer.c (line 79 col 12)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/INTEGER_oer.c	-> INTEGER_oer.c (line 80 col 10)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING_oer.c	-> BIT_STRING_oer.c (line 81 col 13)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING_oer.c	-> OCTET_STRING_oer.c (line 82 col 15)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeInteger_oer.c	-> NativeInteger_oer.c (line 83 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NativeEnumerated_oer.c	-> NativeEnumerated_oer.c (line 84 col 19)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE_oer.c	-> constr_CHOICE_oer.c (line 85 col 16)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SEQUENCE_oer.c	-> constr_SEQUENCE_oer.c (line 86 col 18)
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_SET_OF_oer.c	-> constr_SET_OF_oer.c (line 87 col 16)
+Generated Makefile.am.libasncodec
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c	-> converter-example.c implicit
+Generated pdu_collection.c
+Generated converter-example.mk
+File /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c is already here as converter-example.c
+Generated pdu_collection.c
+Generated Makefile.am.asn1convert
+rm -f converter-example.c
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-program
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o PDU.o -c PDU.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o Sequence.o -c Sequence.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o Set.o -c Set.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ExtensibleSet.o -c ExtensibleSet.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ExtensibleSequence.o -c ExtensibleSequence.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ExtensibleSequence2.o -c ExtensibleSequence2.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SetOfNULL.o -c SetOfNULL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SetOfREAL.o -c SetOfREAL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SetOfEnums.o -c SetOfEnums.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NamedSetOfNULL.o -c NamedSetOfNULL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NamedSetOfREAL.o -c NamedSetOfREAL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NamedSetOfEnums.o -c NamedSetOfEnums.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SequenceOf.o -c SequenceOf.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SeqOfZuka.o -c SeqOfZuka.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SetOfChoice.o -c SetOfChoice.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NamedSetOfChoice.o -c NamedSetOfChoice.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o SimpleChoice.o -c SimpleChoice.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE.o -c OPEN_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BOOLEAN.o -c BOOLEAN.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ENUMERATED.o -c ENUMERATED.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o GeneralizedTime.o -c GeneralizedTime.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER.o -c INTEGER.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NULL.o -c NULL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeEnumerated.o -c NativeEnumerated.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeInteger.o -c NativeInteger.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OBJECT_IDENTIFIER.o -c OBJECT_IDENTIFIER.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o REAL.o -c REAL.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o RELATIVE-OID.o -c RELATIVE-OID.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o UTF8String.o -c UTF8String.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_SEQUENCE_OF.o -c asn_SEQUENCE_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_SET_OF.o -c asn_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE.o -c constr_CHOICE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE.o -c constr_SEQUENCE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE_OF.o -c constr_SEQUENCE_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET.o -c constr_SET.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF.o -c constr_SET_OF.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_application.o -c asn_application.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_internal.o -c asn_internal.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_random_fill.o -c asn_random_fill.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_bit_data.o -c asn_bit_data.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING.o -c OCTET_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BIT_STRING.o -c BIT_STRING.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o asn_codecs_prim.o -c asn_codecs_prim.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_length.o -c ber_tlv_length.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_tlv_tag.o -c ber_tlv_tag.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o ber_decoder.o -c ber_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o der_encoder.o -c der_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_TYPE.o -c constr_TYPE.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constraints.o -c constraints.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_support.o -c xer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_decoder.o -c xer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o xer_encoder.o -c xer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_support.o -c per_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_decoder.o -c per_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_encoder.o -c per_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o per_opentype.o -c per_opentype.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_decoder.o -c oer_decoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_encoder.o -c oer_encoder.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o oer_support.o -c oer_support.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE_oer.o -c OPEN_TYPE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o INTEGER_oer.o -c INTEGER_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o BIT_STRING_oer.o -c BIT_STRING_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o OCTET_STRING_oer.o -c OCTET_STRING_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeInteger_oer.o -c NativeInteger_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o NativeEnumerated_oer.o -c NativeEnumerated_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_CHOICE_oer.o -c constr_CHOICE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SEQUENCE_oer.o -c constr_SEQUENCE_oer.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o constr_SET_OF_oer.o -c constr_SET_OF_oer.c
+ar rcs libasncodec.a PDU.o Sequence.o Set.o ExtensibleSet.o ExtensibleSequence.o ExtensibleSequence2.o SetOfNULL.o SetOfREAL.o SetOfEnums.o NamedSetOfNULL.o NamedSetOfREAL.o NamedSetOfEnums.o SequenceOf.o SeqOfZuka.o SetOfChoice.o NamedSetOfChoice.o SimpleChoice.o OPEN_TYPE.o BOOLEAN.o ENUMERATED.o GeneralizedTime.o INTEGER.o NULL.o NativeEnumerated.o NativeInteger.o OBJECT_IDENTIFIER.o REAL.o RELATIVE-OID.o UTF8String.o asn_SEQUENCE_OF.o asn_SET_OF.o constr_CHOICE.o constr_SEQUENCE.o constr_SEQUENCE_OF.o constr_SET.o constr_SET_OF.o asn_application.o asn_internal.o asn_random_fill.o asn_bit_data.o OCTET_STRING.o BIT_STRING.o asn_codecs_prim.o ber_tlv_length.o ber_tlv_tag.o ber_decoder.o der_encoder.o constr_TYPE.o constraints.o xer_support.o xer_decoder.o xer_encoder.o per_support.o per_decoder.o per_encoder.o per_opentype.o oer_decoder.o oer_encoder.o oer_support.o OPEN_TYPE_oer.o INTEGER_oer.o BIT_STRING_oer.o OCTET_STRING_oer.o NativeInteger_oer.o NativeEnumerated_oer.o constr_CHOICE_oer.o constr_SEQUENCE_oer.o constr_SET_OF_oer.o
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I. -o check-70.-fwide-types.o -c check-70.-fwide-types.c
+gcc -I. -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -g -O1 -DSRCDIR=../.  -DASN_PDU_COLLECTION -I.  -o check-program check-70.-fwide-types.o  libasncodec.a -lm
+/Applications/Xcode.app/Contents/Developer/usr/bin/make check-fuzzer
+make[7]: Nothing to be done for `check-fuzzer'.
+./check-program
+
+Processing file [../data-70-62-D.in]
+LOADING OBJECT OF SIZE 149, chunks 1
+LOADING OBJECT OF SIZE 149, chunks 2
+LOADING OBJECT OF SIZE 149, chunks 3
+LOADING OBJECT OF SIZE 149, chunks 4
+LOADING OBJECT OF SIZE 149, chunks 5
+LOADING OBJECT OF SIZE 149, chunks 6
+LOADING OBJECT OF SIZE 149, chunks 7
+LOADING OBJECT OF SIZE 149, chunks 8
+LOADING OBJECT OF SIZE 149, chunks 9
+LOADING OBJECT OF SIZE 149, chunks 10
+LOADING OBJECT OF SIZE 149, chunks 11
+LOADING OBJECT OF SIZE 149, chunks 12
+LOADING OBJECT OF SIZE 149, chunks 13
+LOADING OBJECT OF SIZE 149, chunks 14
+LOADING OBJECT OF SIZE 149, chunks 15
+LOADING OBJECT OF SIZE 149, chunks 16
+LOADING OBJECT OF SIZE 149, chunks 17
+LOADING OBJECT OF SIZE 149, chunks 18
+LOADING OBJECT OF SIZE 149, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>
+			<!-- This is a special comment -->
+			123.456.789.101112
+			<!-- This is a special comment too -->
+		</roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-50.in]
+LOADING OBJECT OF SIZE 76, chunks 1
+LOADING OBJECT OF SIZE 76, chunks 2
+LOADING OBJECT OF SIZE 76, chunks 3
+LOADING OBJECT OF SIZE 76, chunks 4
+LOADING OBJECT OF SIZE 76, chunks 5
+LOADING OBJECT OF SIZE 76, chunks 6
+LOADING OBJECT OF SIZE 76, chunks 7
+LOADING OBJECT OF SIZE 76, chunks 8
+LOADING OBJECT OF SIZE 76, chunks 9
+LOADING OBJECT OF SIZE 76, chunks 10
+LOADING OBJECT OF SIZE 76, chunks 11
+LOADING OBJECT OF SIZE 76, chunks 12
+LOADING OBJECT OF SIZE 76, chunks 13
+LOADING OBJECT OF SIZE 76, chunks 14
+LOADING OBJECT OF SIZE 76, chunks 15
+LOADING OBJECT OF SIZE 76, chunks 16
+LOADING OBJECT OF SIZE 76, chunks 17
+LOADING OBJECT OF SIZE 76, chunks 18
+LOADING OBJECT OF SIZE 76, chunks 19
+NamedSetOfNULL ::= {
+    <present>
+    <present>
+    <present>
+}
+=> [%a9%06]:2
+=> [%05%00]:2
+=> [%05%00]:2
+=> [%05%00]:2
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+NamedSetOfNULL ::= {
+    <present>
+    <present>
+    <present>
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [namedSetOfNULL]:14
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [namedSetOfNULL]:14
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 116/116
+=== original ===
+<PDU>
+	<namedSetOfNULL>
+		<NULL/> <NULL/> <NULL/>
+	</namedSetOfNULL>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <namedSetOfNULL>
+            <NULL/>
+            <NULL/>
+            <NULL/>
+    </namedSetOfNULL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-01.in]
+LOADING OBJECT OF SIZE 99, chunks 1
+LOADING OBJECT OF SIZE 99, chunks 2
+LOADING OBJECT OF SIZE 99, chunks 3
+LOADING OBJECT OF SIZE 99, chunks 4
+LOADING OBJECT OF SIZE 99, chunks 5
+LOADING OBJECT OF SIZE 99, chunks 6
+LOADING OBJECT OF SIZE 99, chunks 7
+LOADING OBJECT OF SIZE 99, chunks 8
+LOADING OBJECT OF SIZE 99, chunks 9
+LOADING OBJECT OF SIZE 99, chunks 10
+LOADING OBJECT OF SIZE 99, chunks 11
+LOADING OBJECT OF SIZE 99, chunks 12
+LOADING OBJECT OF SIZE 99, chunks 13
+LOADING OBJECT OF SIZE 99, chunks 14
+LOADING OBJECT OF SIZE 99, chunks 15
+LOADING OBJECT OF SIZE 99, chunks 16
+LOADING OBJECT OF SIZE 99, chunks 17
+LOADING OBJECT OF SIZE 99, chunks 18
+LOADING OBJECT OF SIZE 99, chunks 19
+Sequence ::= {
+    integer: 128
+    string: string
+}
+=> [%a0%0c]:2
+=> [%80%02]:2
+=> [%00%80]:2
+=> [%83%06]:2
+=> [string]:6
+SAVED OBJECT IN SIZE 14/14
+LOADING OBJECT OF SIZE 14, chunks 1
+LOADING OBJECT OF SIZE 14, chunks 2
+LOADING OBJECT OF SIZE 14, chunks 3
+LOADING OBJECT OF SIZE 14, chunks 4
+LOADING OBJECT OF SIZE 14, chunks 5
+LOADING OBJECT OF SIZE 14, chunks 6
+LOADING OBJECT OF SIZE 14, chunks 7
+LOADING OBJECT OF SIZE 14, chunks 8
+LOADING OBJECT OF SIZE 14, chunks 9
+LOADING OBJECT OF SIZE 14, chunks 10
+LOADING OBJECT OF SIZE 14, chunks 11
+LOADING OBJECT OF SIZE 14, chunks 12
+LOADING OBJECT OF SIZE 14, chunks 13
+LOADING OBJECT OF SIZE 14, chunks 14
+LOADING OBJECT OF SIZE 14, chunks 15
+LOADING OBJECT OF SIZE 14, chunks 16
+LOADING OBJECT OF SIZE 14, chunks 17
+LOADING OBJECT OF SIZE 14, chunks 18
+LOADING OBJECT OF SIZE 14, chunks 19
+Sequence ::= {
+    integer: 128
+    string: string
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [128]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [string]:6
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 107/107
+=== original ===
+<PDU>
+	<sequence>
+		<integer>     128     </integer>
+		<string>string</string>
+	</sequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <sequence>
+        <integer>128</integer>
+        <string>string</string>
+    </sequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-23-D.in]
+LOADING OBJECT OF SIZE 163, chunks 1
+LOADING OBJECT OF SIZE 163, chunks 2
+LOADING OBJECT OF SIZE 163, chunks 3
+LOADING OBJECT OF SIZE 163, chunks 4
+LOADING OBJECT OF SIZE 163, chunks 5
+LOADING OBJECT OF SIZE 163, chunks 6
+LOADING OBJECT OF SIZE 163, chunks 7
+LOADING OBJECT OF SIZE 163, chunks 8
+LOADING OBJECT OF SIZE 163, chunks 9
+LOADING OBJECT OF SIZE 163, chunks 10
+LOADING OBJECT OF SIZE 163, chunks 11
+LOADING OBJECT OF SIZE 163, chunks 12
+LOADING OBJECT OF SIZE 163, chunks 13
+LOADING OBJECT OF SIZE 163, chunks 14
+LOADING OBJECT OF SIZE 163, chunks 15
+LOADING OBJECT OF SIZE 163, chunks 16
+LOADING OBJECT OF SIZE 163, chunks 17
+LOADING OBJECT OF SIZE 163, chunks 18
+LOADING OBJECT OF SIZE 163, chunks 19
+ExtensibleSequence ::= {
+    string: 
+    integer: 234
+}
+=> [%a4%06]:2
+=> [%80%00]:2
+=> []:0
+=> [%81%02]:2
+=> [%00%ea]:2
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+ExtensibleSequence ::= {
+    string: 
+    integer: 234
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [234]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 121/121
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<string></string>
+		<one></one>
+		<two> <two/> </two>
+		<extensibleSequence/>
+		<integer>234</integer>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <string></string>
+        <integer>234</integer>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-58-D.in]
+LOADING OBJECT OF SIZE 70, chunks 1
+LOADING OBJECT OF SIZE 70, chunks 2
+LOADING OBJECT OF SIZE 70, chunks 3
+LOADING OBJECT OF SIZE 70, chunks 4
+LOADING OBJECT OF SIZE 70, chunks 5
+LOADING OBJECT OF SIZE 70, chunks 6
+LOADING OBJECT OF SIZE 70, chunks 7
+LOADING OBJECT OF SIZE 70, chunks 8
+LOADING OBJECT OF SIZE 70, chunks 9
+LOADING OBJECT OF SIZE 70, chunks 10
+LOADING OBJECT OF SIZE 70, chunks 11
+LOADING OBJECT OF SIZE 70, chunks 12
+LOADING OBJECT OF SIZE 70, chunks 13
+LOADING OBJECT OF SIZE 70, chunks 14
+LOADING OBJECT OF SIZE 70, chunks 15
+LOADING OBJECT OF SIZE 70, chunks 16
+LOADING OBJECT OF SIZE 70, chunks 17
+LOADING OBJECT OF SIZE 70, chunks 18
+LOADING OBJECT OF SIZE 70, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112<!--/--></roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-25.in]
+LOADING OBJECT OF SIZE 70, chunks 1
+LOADING OBJECT OF SIZE 70, chunks 2
+LOADING OBJECT OF SIZE 70, chunks 3
+LOADING OBJECT OF SIZE 70, chunks 4
+LOADING OBJECT OF SIZE 70, chunks 5
+LOADING OBJECT OF SIZE 70, chunks 6
+LOADING OBJECT OF SIZE 70, chunks 7
+LOADING OBJECT OF SIZE 70, chunks 8
+LOADING OBJECT OF SIZE 70, chunks 9
+LOADING OBJECT OF SIZE 70, chunks 10
+LOADING OBJECT OF SIZE 70, chunks 11
+LOADING OBJECT OF SIZE 70, chunks 12
+LOADING OBJECT OF SIZE 70, chunks 13
+LOADING OBJECT OF SIZE 70, chunks 14
+LOADING OBJECT OF SIZE 70, chunks 15
+LOADING OBJECT OF SIZE 70, chunks 16
+LOADING OBJECT OF SIZE 70, chunks 17
+LOADING OBJECT OF SIZE 70, chunks 18
+LOADING OBJECT OF SIZE 70, chunks 19
+SetOfNULL ::= {
+    <present>
+    <present>
+    <present>
+}
+=> [%a6%06]:2
+=> [%05%00]:2
+=> [%05%00]:2
+=> [%05%00]:2
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+SetOfNULL ::= {
+    <present>
+    <present>
+    <present>
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfNULL]:9
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfNULL]:9
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 106/106
+=== original ===
+<PDU>
+	<setOfNULL>
+		<NULL/>
+		<NULL/>
+		<NULL/>
+	</setOfNULL>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfNULL>
+            <NULL/>
+            <NULL/>
+            <NULL/>
+    </setOfNULL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-11.in]
+LOADING OBJECT OF SIZE 84, chunks 1
+LOADING OBJECT OF SIZE 84, chunks 2
+LOADING OBJECT OF SIZE 84, chunks 3
+LOADING OBJECT OF SIZE 84, chunks 4
+LOADING OBJECT OF SIZE 84, chunks 5
+LOADING OBJECT OF SIZE 84, chunks 6
+LOADING OBJECT OF SIZE 84, chunks 7
+LOADING OBJECT OF SIZE 84, chunks 8
+LOADING OBJECT OF SIZE 84, chunks 9
+LOADING OBJECT OF SIZE 84, chunks 10
+LOADING OBJECT OF SIZE 84, chunks 11
+LOADING OBJECT OF SIZE 84, chunks 12
+LOADING OBJECT OF SIZE 84, chunks 13
+LOADING OBJECT OF SIZE 84, chunks 14
+LOADING OBJECT OF SIZE 84, chunks 15
+LOADING OBJECT OF SIZE 84, chunks 16
+LOADING OBJECT OF SIZE 84, chunks 17
+LOADING OBJECT OF SIZE 84, chunks 18
+LOADING OBJECT OF SIZE 84, chunks 19
+SequenceOf ::= {
+    8
+    7
+    6
+    9
+}
+=> [%a2%0c]:2
+=> [%02%01]:2
+=> [%08]:1
+=> [%02%01]:2
+=> [%07]:1
+=> [%02%01]:2
+=> [%06]:1
+=> [%02%01]:2
+=> [%09]:1
+SAVED OBJECT IN SIZE 14/14
+LOADING OBJECT OF SIZE 14, chunks 1
+LOADING OBJECT OF SIZE 14, chunks 2
+LOADING OBJECT OF SIZE 14, chunks 3
+LOADING OBJECT OF SIZE 14, chunks 4
+LOADING OBJECT OF SIZE 14, chunks 5
+LOADING OBJECT OF SIZE 14, chunks 6
+LOADING OBJECT OF SIZE 14, chunks 7
+LOADING OBJECT OF SIZE 14, chunks 8
+LOADING OBJECT OF SIZE 14, chunks 9
+LOADING OBJECT OF SIZE 14, chunks 10
+LOADING OBJECT OF SIZE 14, chunks 11
+LOADING OBJECT OF SIZE 14, chunks 12
+LOADING OBJECT OF SIZE 14, chunks 13
+LOADING OBJECT OF SIZE 14, chunks 14
+LOADING OBJECT OF SIZE 14, chunks 15
+LOADING OBJECT OF SIZE 14, chunks 16
+LOADING OBJECT OF SIZE 14, chunks 17
+LOADING OBJECT OF SIZE 14, chunks 18
+LOADING OBJECT OF SIZE 14, chunks 19
+SequenceOf ::= {
+    8
+    7
+    6
+    9
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [sequenceOf]:10
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [8]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [7]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [6]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [9]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [sequenceOf]:10
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 124/124
+=== original ===
+<PDU><sequenceOf>
+	<id>8</id> <id>7</id>
+	<id>6</id> <id>9</id>
+</sequenceOf></PDU>
+=== re-encoded ===
+<PDU>
+    <sequenceOf>
+        <id>8</id>
+        <id>7</id>
+        <id>6</id>
+        <id>9</id>
+    </sequenceOf>
+</PDU>
+=== end ===
+
+Processing file [../data-70-43-E.in]
+LOADING OBJECT OF SIZE 87, chunks 1
+LOADING OBJECT OF SIZE 87, chunks 2
+LOADING OBJECT OF SIZE 87, chunks 3
+LOADING OBJECT OF SIZE 87, chunks 4
+LOADING OBJECT OF SIZE 87, chunks 5
+LOADING OBJECT OF SIZE 87, chunks 6
+LOADING OBJECT OF SIZE 87, chunks 7
+LOADING OBJECT OF SIZE 87, chunks 8
+LOADING OBJECT OF SIZE 87, chunks 9
+LOADING OBJECT OF SIZE 87, chunks 10
+LOADING OBJECT OF SIZE 87, chunks 11
+LOADING OBJECT OF SIZE 87, chunks 12
+LOADING OBJECT OF SIZE 87, chunks 13
+LOADING OBJECT OF SIZE 87, chunks 14
+LOADING OBJECT OF SIZE 87, chunks 15
+LOADING OBJECT OF SIZE 87, chunks 16
+LOADING OBJECT OF SIZE 87, chunks 17
+LOADING OBJECT OF SIZE 87, chunks 18
+LOADING OBJECT OF SIZE 87, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [%a4%15]:2
+=> [%82%13]:2
+=> [20040512224355.123Z]:19
+SAVED OBJECT IN SIZE 23/23
+LOADING OBJECT OF SIZE 23, chunks 1
+LOADING OBJECT OF SIZE 23, chunks 2
+LOADING OBJECT OF SIZE 23, chunks 3
+LOADING OBJECT OF SIZE 23, chunks 4
+LOADING OBJECT OF SIZE 23, chunks 5
+LOADING OBJECT OF SIZE 23, chunks 6
+LOADING OBJECT OF SIZE 23, chunks 7
+LOADING OBJECT OF SIZE 23, chunks 8
+LOADING OBJECT OF SIZE 23, chunks 9
+LOADING OBJECT OF SIZE 23, chunks 10
+LOADING OBJECT OF SIZE 23, chunks 11
+LOADING OBJECT OF SIZE 23, chunks 12
+LOADING OBJECT OF SIZE 23, chunks 13
+LOADING OBJECT OF SIZE 23, chunks 14
+LOADING OBJECT OF SIZE 23, chunks 15
+LOADING OBJECT OF SIZE 23, chunks 16
+LOADING OBJECT OF SIZE 23, chunks 17
+LOADING OBJECT OF SIZE 23, chunks 18
+LOADING OBJECT OF SIZE 23, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [<]:1
+=> [gtime]:5
+=> [>]:1
+=> [20040512224355.123Z]:19
+=> [</]:2
+=> [gtime]:5
+=> [>]:1
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [</]:2
+=> [PDU]:3
+=> [>]:1
+SAVED OBJECT IN SIZE 86/86
+=== original ===
+<PDU><extensibleSequence><gtime>20040512224355.123Z</gtime></extensibleSequence></PDU>
+=== re-encoded ===
+<PDU><extensibleSequence><gtime>20040512224355.123Z</gtime></extensibleSequence></PDU>=== end ===
+
+Processing file [../data-70-54-D.in]
+LOADING OBJECT OF SIZE 72, chunks 1
+LOADING OBJECT OF SIZE 72, chunks 2
+LOADING OBJECT OF SIZE 72, chunks 3
+LOADING OBJECT OF SIZE 72, chunks 4
+LOADING OBJECT OF SIZE 72, chunks 5
+LOADING OBJECT OF SIZE 72, chunks 6
+LOADING OBJECT OF SIZE 72, chunks 7
+LOADING OBJECT OF SIZE 72, chunks 8
+LOADING OBJECT OF SIZE 72, chunks 9
+LOADING OBJECT OF SIZE 72, chunks 10
+LOADING OBJECT OF SIZE 72, chunks 11
+LOADING OBJECT OF SIZE 72, chunks 12
+LOADING OBJECT OF SIZE 72, chunks 13
+LOADING OBJECT OF SIZE 72, chunks 14
+LOADING OBJECT OF SIZE 72, chunks 15
+LOADING OBJECT OF SIZE 72, chunks 16
+LOADING OBJECT OF SIZE 72, chunks 17
+LOADING OBJECT OF SIZE 72, chunks 18
+LOADING OBJECT OF SIZE 72, chunks 19
+NamedSetOfChoice ::= {
+    <present>
+    1
+}
+=> [%ae%05]:2
+=> [%80%00]:2
+=> [%81%01%01]:3
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+NamedSetOfChoice ::= {
+    <present>
+    1
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [namedSetOfChoice]:16
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [a]:1
+=> [>]:1
+=> [</]:2
+=> [a]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [b]:1
+=> [>]:1
+=> [1]:1
+=> [</]:2
+=> [b]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [namedSetOfChoice]:16
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 103/103
+=== original ===
+<PDU>
+	<namedSetOfChoice>
+		<a/>
+		<b>1</b>
+	</namedSetOfChoice>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <namedSetOfChoice>
+        <a></a>
+    
+        <b>1</b>
+    
+    </namedSetOfChoice>
+</PDU>
+=== end ===
+
+Processing file [../data-70-15.in]
+LOADING OBJECT OF SIZE 82, chunks 1
+LOADING OBJECT OF SIZE 82, chunks 2
+LOADING OBJECT OF SIZE 82, chunks 3
+LOADING OBJECT OF SIZE 82, chunks 4
+LOADING OBJECT OF SIZE 82, chunks 5
+LOADING OBJECT OF SIZE 82, chunks 6
+LOADING OBJECT OF SIZE 82, chunks 7
+LOADING OBJECT OF SIZE 82, chunks 8
+LOADING OBJECT OF SIZE 82, chunks 9
+LOADING OBJECT OF SIZE 82, chunks 10
+LOADING OBJECT OF SIZE 82, chunks 11
+LOADING OBJECT OF SIZE 82, chunks 12
+LOADING OBJECT OF SIZE 82, chunks 13
+LOADING OBJECT OF SIZE 82, chunks 14
+LOADING OBJECT OF SIZE 82, chunks 15
+LOADING OBJECT OF SIZE 82, chunks 16
+LOADING OBJECT OF SIZE 82, chunks 17
+LOADING OBJECT OF SIZE 82, chunks 18
+LOADING OBJECT OF SIZE 82, chunks 19
+ExtensibleSet ::= {
+    string: one   two
+}
+=> [%a3%0b]:2
+=> [%80%09]:2
+=> [one %00 two]:9
+SAVED OBJECT IN SIZE 13/13
+LOADING OBJECT OF SIZE 13, chunks 1
+LOADING OBJECT OF SIZE 13, chunks 2
+LOADING OBJECT OF SIZE 13, chunks 3
+LOADING OBJECT OF SIZE 13, chunks 4
+LOADING OBJECT OF SIZE 13, chunks 5
+LOADING OBJECT OF SIZE 13, chunks 6
+LOADING OBJECT OF SIZE 13, chunks 7
+LOADING OBJECT OF SIZE 13, chunks 8
+LOADING OBJECT OF SIZE 13, chunks 9
+LOADING OBJECT OF SIZE 13, chunks 10
+LOADING OBJECT OF SIZE 13, chunks 11
+LOADING OBJECT OF SIZE 13, chunks 12
+LOADING OBJECT OF SIZE 13, chunks 13
+LOADING OBJECT OF SIZE 13, chunks 14
+LOADING OBJECT OF SIZE 13, chunks 15
+LOADING OBJECT OF SIZE 13, chunks 16
+LOADING OBJECT OF SIZE 13, chunks 17
+LOADING OBJECT OF SIZE 13, chunks 18
+LOADING OBJECT OF SIZE 13, chunks 19
+ExtensibleSet ::= {
+    string: one   two
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [one ]:4
+=> [<nul/>]:6
+=> [ two]:4
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 94/94
+=== original ===
+<PDU>
+	<extensibleSet>
+		<string>one <nul/> two</string>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+        <string>one <nul/> two</string>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-14-D.in]
+LOADING OBJECT OF SIZE 100, chunks 1
+LOADING OBJECT OF SIZE 100, chunks 2
+LOADING OBJECT OF SIZE 100, chunks 3
+LOADING OBJECT OF SIZE 100, chunks 4
+LOADING OBJECT OF SIZE 100, chunks 5
+LOADING OBJECT OF SIZE 100, chunks 6
+LOADING OBJECT OF SIZE 100, chunks 7
+LOADING OBJECT OF SIZE 100, chunks 8
+LOADING OBJECT OF SIZE 100, chunks 9
+LOADING OBJECT OF SIZE 100, chunks 10
+LOADING OBJECT OF SIZE 100, chunks 11
+LOADING OBJECT OF SIZE 100, chunks 12
+LOADING OBJECT OF SIZE 100, chunks 13
+LOADING OBJECT OF SIZE 100, chunks 14
+LOADING OBJECT OF SIZE 100, chunks 15
+LOADING OBJECT OF SIZE 100, chunks 16
+LOADING OBJECT OF SIZE 100, chunks 17
+LOADING OBJECT OF SIZE 100, chunks 18
+LOADING OBJECT OF SIZE 100, chunks 19
+ExtensibleSet ::= {
+    string: something&#x20here
+}
+=> [%a3%14]:2
+=> [%80%12]:2
+=> [something&#x20here]:18
+SAVED OBJECT IN SIZE 22/22
+LOADING OBJECT OF SIZE 22, chunks 1
+LOADING OBJECT OF SIZE 22, chunks 2
+LOADING OBJECT OF SIZE 22, chunks 3
+LOADING OBJECT OF SIZE 22, chunks 4
+LOADING OBJECT OF SIZE 22, chunks 5
+LOADING OBJECT OF SIZE 22, chunks 6
+LOADING OBJECT OF SIZE 22, chunks 7
+LOADING OBJECT OF SIZE 22, chunks 8
+LOADING OBJECT OF SIZE 22, chunks 9
+LOADING OBJECT OF SIZE 22, chunks 10
+LOADING OBJECT OF SIZE 22, chunks 11
+LOADING OBJECT OF SIZE 22, chunks 12
+LOADING OBJECT OF SIZE 22, chunks 13
+LOADING OBJECT OF SIZE 22, chunks 14
+LOADING OBJECT OF SIZE 22, chunks 15
+LOADING OBJECT OF SIZE 22, chunks 16
+LOADING OBJECT OF SIZE 22, chunks 17
+LOADING OBJECT OF SIZE 22, chunks 18
+LOADING OBJECT OF SIZE 22, chunks 19
+ExtensibleSet ::= {
+    string: something&#x20here
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [something]:9
+=> [&amp;]:5
+=> [#x20here]:8
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 102/102
+=== original ===
+<PDU>
+	<extensibleSet>
+		<string>some<!-- <zzz> -->thing&#x20here</string>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+        <string>something&amp;#x20here</string>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-55.in]
+LOADING OBJECT OF SIZE 62, chunks 1
+LOADING OBJECT OF SIZE 62, chunks 2
+LOADING OBJECT OF SIZE 62, chunks 3
+LOADING OBJECT OF SIZE 62, chunks 4
+LOADING OBJECT OF SIZE 62, chunks 5
+LOADING OBJECT OF SIZE 62, chunks 6
+LOADING OBJECT OF SIZE 62, chunks 7
+LOADING OBJECT OF SIZE 62, chunks 8
+LOADING OBJECT OF SIZE 62, chunks 9
+LOADING OBJECT OF SIZE 62, chunks 10
+LOADING OBJECT OF SIZE 62, chunks 11
+LOADING OBJECT OF SIZE 62, chunks 12
+LOADING OBJECT OF SIZE 62, chunks 13
+LOADING OBJECT OF SIZE 62, chunks 14
+LOADING OBJECT OF SIZE 62, chunks 15
+LOADING OBJECT OF SIZE 62, chunks 16
+LOADING OBJECT OF SIZE 62, chunks 17
+LOADING OBJECT OF SIZE 62, chunks 18
+LOADING OBJECT OF SIZE 62, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112</roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-42-E.in]
+LOADING OBJECT OF SIZE 83, chunks 1
+LOADING OBJECT OF SIZE 83, chunks 2
+LOADING OBJECT OF SIZE 83, chunks 3
+LOADING OBJECT OF SIZE 83, chunks 4
+LOADING OBJECT OF SIZE 83, chunks 5
+LOADING OBJECT OF SIZE 83, chunks 6
+LOADING OBJECT OF SIZE 83, chunks 7
+LOADING OBJECT OF SIZE 83, chunks 8
+LOADING OBJECT OF SIZE 83, chunks 9
+LOADING OBJECT OF SIZE 83, chunks 10
+LOADING OBJECT OF SIZE 83, chunks 11
+LOADING OBJECT OF SIZE 83, chunks 12
+LOADING OBJECT OF SIZE 83, chunks 13
+LOADING OBJECT OF SIZE 83, chunks 14
+LOADING OBJECT OF SIZE 83, chunks 15
+LOADING OBJECT OF SIZE 83, chunks 16
+LOADING OBJECT OF SIZE 83, chunks 17
+LOADING OBJECT OF SIZE 83, chunks 18
+LOADING OBJECT OF SIZE 83, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [%a4%11]:2
+=> [%82%0f]:2
+=> [20040512224355Z]:15
+SAVED OBJECT IN SIZE 19/19
+LOADING OBJECT OF SIZE 19, chunks 1
+LOADING OBJECT OF SIZE 19, chunks 2
+LOADING OBJECT OF SIZE 19, chunks 3
+LOADING OBJECT OF SIZE 19, chunks 4
+LOADING OBJECT OF SIZE 19, chunks 5
+LOADING OBJECT OF SIZE 19, chunks 6
+LOADING OBJECT OF SIZE 19, chunks 7
+LOADING OBJECT OF SIZE 19, chunks 8
+LOADING OBJECT OF SIZE 19, chunks 9
+LOADING OBJECT OF SIZE 19, chunks 10
+LOADING OBJECT OF SIZE 19, chunks 11
+LOADING OBJECT OF SIZE 19, chunks 12
+LOADING OBJECT OF SIZE 19, chunks 13
+LOADING OBJECT OF SIZE 19, chunks 14
+LOADING OBJECT OF SIZE 19, chunks 15
+LOADING OBJECT OF SIZE 19, chunks 16
+LOADING OBJECT OF SIZE 19, chunks 17
+LOADING OBJECT OF SIZE 19, chunks 18
+LOADING OBJECT OF SIZE 19, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [<]:1
+=> [gtime]:5
+=> [>]:1
+=> [20040512224355Z]:15
+=> [</]:2
+=> [gtime]:5
+=> [>]:1
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [</]:2
+=> [PDU]:3
+=> [>]:1
+SAVED OBJECT IN SIZE 82/82
+=== original ===
+<PDU><extensibleSequence><gtime>20040512224355Z</gtime></extensibleSequence></PDU>
+=== re-encoded ===
+<PDU><extensibleSequence><gtime>20040512224355Z</gtime></extensibleSequence></PDU>=== end ===
+
+Processing file [../data-70-16-B.in]
+LOADING OBJECT OF SIZE 82, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 82, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-51.in]
+LOADING OBJECT OF SIZE 65, chunks 1
+LOADING OBJECT OF SIZE 65, chunks 2
+LOADING OBJECT OF SIZE 65, chunks 3
+LOADING OBJECT OF SIZE 65, chunks 4
+LOADING OBJECT OF SIZE 65, chunks 5
+LOADING OBJECT OF SIZE 65, chunks 6
+LOADING OBJECT OF SIZE 65, chunks 7
+LOADING OBJECT OF SIZE 65, chunks 8
+LOADING OBJECT OF SIZE 65, chunks 9
+LOADING OBJECT OF SIZE 65, chunks 10
+LOADING OBJECT OF SIZE 65, chunks 11
+LOADING OBJECT OF SIZE 65, chunks 12
+LOADING OBJECT OF SIZE 65, chunks 13
+LOADING OBJECT OF SIZE 65, chunks 14
+LOADING OBJECT OF SIZE 65, chunks 15
+LOADING OBJECT OF SIZE 65, chunks 16
+LOADING OBJECT OF SIZE 65, chunks 17
+LOADING OBJECT OF SIZE 65, chunks 18
+LOADING OBJECT OF SIZE 65, chunks 19
+SetOfChoice ::= {
+    <present>
+    1
+}
+=> [%ad%05]:2
+=> [%80%00]:2
+=> [%81%01%01]:3
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+SetOfChoice ::= {
+    <present>
+    1
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfChoice]:11
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [a]:1
+=> [>]:1
+=> [</]:2
+=> [a]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [b]:1
+=> [>]:1
+=> [1]:1
+=> [</]:2
+=> [b]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfChoice]:11
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 93/93
+=== original ===
+<PDU>
+	<setOfChoice>
+		<a></a>
+		<b>1</b>
+	</setOfChoice>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfChoice>
+        <a></a>
+    
+        <b>1</b>
+    
+    </setOfChoice>
+</PDU>
+=== end ===
+
+Processing file [../data-70-59-D.in]
+LOADING OBJECT OF SIZE 71, chunks 1
+LOADING OBJECT OF SIZE 71, chunks 2
+LOADING OBJECT OF SIZE 71, chunks 3
+LOADING OBJECT OF SIZE 71, chunks 4
+LOADING OBJECT OF SIZE 71, chunks 5
+LOADING OBJECT OF SIZE 71, chunks 6
+LOADING OBJECT OF SIZE 71, chunks 7
+LOADING OBJECT OF SIZE 71, chunks 8
+LOADING OBJECT OF SIZE 71, chunks 9
+LOADING OBJECT OF SIZE 71, chunks 10
+LOADING OBJECT OF SIZE 71, chunks 11
+LOADING OBJECT OF SIZE 71, chunks 12
+LOADING OBJECT OF SIZE 71, chunks 13
+LOADING OBJECT OF SIZE 71, chunks 14
+LOADING OBJECT OF SIZE 71, chunks 15
+LOADING OBJECT OF SIZE 71, chunks 16
+LOADING OBJECT OF SIZE 71, chunks 17
+LOADING OBJECT OF SIZE 71, chunks 18
+LOADING OBJECT OF SIZE 71, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112<!--/--> </roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-22-D.in]
+LOADING OBJECT OF SIZE 160, chunks 1
+LOADING OBJECT OF SIZE 160, chunks 2
+LOADING OBJECT OF SIZE 160, chunks 3
+LOADING OBJECT OF SIZE 160, chunks 4
+LOADING OBJECT OF SIZE 160, chunks 5
+LOADING OBJECT OF SIZE 160, chunks 6
+LOADING OBJECT OF SIZE 160, chunks 7
+LOADING OBJECT OF SIZE 160, chunks 8
+LOADING OBJECT OF SIZE 160, chunks 9
+LOADING OBJECT OF SIZE 160, chunks 10
+LOADING OBJECT OF SIZE 160, chunks 11
+LOADING OBJECT OF SIZE 160, chunks 12
+LOADING OBJECT OF SIZE 160, chunks 13
+LOADING OBJECT OF SIZE 160, chunks 14
+LOADING OBJECT OF SIZE 160, chunks 15
+LOADING OBJECT OF SIZE 160, chunks 16
+LOADING OBJECT OF SIZE 160, chunks 17
+LOADING OBJECT OF SIZE 160, chunks 18
+LOADING OBJECT OF SIZE 160, chunks 19
+ExtensibleSequence ::= {
+    integer: 0
+}
+=> [%a4%03]:2
+=> [%81%01]:2
+=> [%00]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSequence ::= {
+    integer: 0
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [0]:1
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 93/93
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<integer>0</integer>
+		<extension> in improper place </extension>
+		<string>one <nul/> two</string>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <integer>0</integer>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-10.in]
+LOADING OBJECT OF SIZE 35, chunks 1
+LOADING OBJECT OF SIZE 35, chunks 2
+LOADING OBJECT OF SIZE 35, chunks 3
+LOADING OBJECT OF SIZE 35, chunks 4
+LOADING OBJECT OF SIZE 35, chunks 5
+LOADING OBJECT OF SIZE 35, chunks 6
+LOADING OBJECT OF SIZE 35, chunks 7
+LOADING OBJECT OF SIZE 35, chunks 8
+LOADING OBJECT OF SIZE 35, chunks 9
+LOADING OBJECT OF SIZE 35, chunks 10
+LOADING OBJECT OF SIZE 35, chunks 11
+LOADING OBJECT OF SIZE 35, chunks 12
+LOADING OBJECT OF SIZE 35, chunks 13
+LOADING OBJECT OF SIZE 35, chunks 14
+LOADING OBJECT OF SIZE 35, chunks 15
+LOADING OBJECT OF SIZE 35, chunks 16
+LOADING OBJECT OF SIZE 35, chunks 17
+LOADING OBJECT OF SIZE 35, chunks 18
+LOADING OBJECT OF SIZE 35, chunks 19
+SetOfREAL ::= {
+}
+=> [%a7%00]:2
+SAVED OBJECT IN SIZE 2/2
+LOADING OBJECT OF SIZE 2, chunks 1
+LOADING OBJECT OF SIZE 2, chunks 2
+LOADING OBJECT OF SIZE 2, chunks 3
+LOADING OBJECT OF SIZE 2, chunks 4
+LOADING OBJECT OF SIZE 2, chunks 5
+LOADING OBJECT OF SIZE 2, chunks 6
+LOADING OBJECT OF SIZE 2, chunks 7
+LOADING OBJECT OF SIZE 2, chunks 8
+LOADING OBJECT OF SIZE 2, chunks 9
+LOADING OBJECT OF SIZE 2, chunks 10
+LOADING OBJECT OF SIZE 2, chunks 11
+LOADING OBJECT OF SIZE 2, chunks 12
+LOADING OBJECT OF SIZE 2, chunks 13
+LOADING OBJECT OF SIZE 2, chunks 14
+LOADING OBJECT OF SIZE 2, chunks 15
+LOADING OBJECT OF SIZE 2, chunks 16
+LOADING OBJECT OF SIZE 2, chunks 17
+LOADING OBJECT OF SIZE 2, chunks 18
+LOADING OBJECT OF SIZE 2, chunks 19
+SetOfREAL ::= {
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 46/46
+=== original ===
+<PDU><setOfREAL></setOfREAL></PDU>
+=== re-encoded ===
+<PDU>
+    <setOfREAL>
+    </setOfREAL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-29-D.in]
+LOADING OBJECT OF SIZE 64, chunks 1
+LOADING OBJECT OF SIZE 64, chunks 2
+LOADING OBJECT OF SIZE 64, chunks 3
+LOADING OBJECT OF SIZE 64, chunks 4
+LOADING OBJECT OF SIZE 64, chunks 5
+LOADING OBJECT OF SIZE 64, chunks 6
+LOADING OBJECT OF SIZE 64, chunks 7
+LOADING OBJECT OF SIZE 64, chunks 8
+LOADING OBJECT OF SIZE 64, chunks 9
+LOADING OBJECT OF SIZE 64, chunks 10
+LOADING OBJECT OF SIZE 64, chunks 11
+LOADING OBJECT OF SIZE 64, chunks 12
+LOADING OBJECT OF SIZE 64, chunks 13
+LOADING OBJECT OF SIZE 64, chunks 14
+LOADING OBJECT OF SIZE 64, chunks 15
+LOADING OBJECT OF SIZE 64, chunks 16
+LOADING OBJECT OF SIZE 64, chunks 17
+LOADING OBJECT OF SIZE 64, chunks 18
+LOADING OBJECT OF SIZE 64, chunks 19
+SetOfEnums ::= {
+    1 (oneMore)
+    0 (one)
+}
+=> [%a8%06]:2
+=> [%0a%01%00]:3
+=> [%0a%01%01]:3
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+SetOfEnums ::= {
+    0 (one)
+    1 (oneMore)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfEnums]:10
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<one/>]:6
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<oneMore/>]:10
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfEnums]:10
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 90/90
+=== original ===
+<PDU>
+	<setOfEnums>
+		<oneMore/>
+		<one/>
+	</setOfEnums>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfEnums>
+            <one/>
+            <oneMore/>
+    </setOfEnums>
+</PDU>
+=== end ===
+
+Processing file [../data-70-52-D.in]
+LOADING OBJECT OF SIZE 62, chunks 1
+LOADING OBJECT OF SIZE 62, chunks 2
+LOADING OBJECT OF SIZE 62, chunks 3
+LOADING OBJECT OF SIZE 62, chunks 4
+LOADING OBJECT OF SIZE 62, chunks 5
+LOADING OBJECT OF SIZE 62, chunks 6
+LOADING OBJECT OF SIZE 62, chunks 7
+LOADING OBJECT OF SIZE 62, chunks 8
+LOADING OBJECT OF SIZE 62, chunks 9
+LOADING OBJECT OF SIZE 62, chunks 10
+LOADING OBJECT OF SIZE 62, chunks 11
+LOADING OBJECT OF SIZE 62, chunks 12
+LOADING OBJECT OF SIZE 62, chunks 13
+LOADING OBJECT OF SIZE 62, chunks 14
+LOADING OBJECT OF SIZE 62, chunks 15
+LOADING OBJECT OF SIZE 62, chunks 16
+LOADING OBJECT OF SIZE 62, chunks 17
+LOADING OBJECT OF SIZE 62, chunks 18
+LOADING OBJECT OF SIZE 62, chunks 19
+SetOfChoice ::= {
+    <present>
+    1
+}
+=> [%ad%05]:2
+=> [%80%00]:2
+=> [%81%01%01]:3
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+SetOfChoice ::= {
+    <present>
+    1
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfChoice]:11
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [a]:1
+=> [>]:1
+=> [</]:2
+=> [a]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [b]:1
+=> [>]:1
+=> [1]:1
+=> [</]:2
+=> [b]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfChoice]:11
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 93/93
+=== original ===
+<PDU>
+	<setOfChoice>
+		<a/>
+		<b>1</b>
+	</setOfChoice>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfChoice>
+        <a></a>
+    
+        <b>1</b>
+    
+    </setOfChoice>
+</PDU>
+=== end ===
+
+Processing file [../data-70-13-D.in]
+LOADING OBJECT OF SIZE 87, chunks 1
+LOADING OBJECT OF SIZE 87, chunks 2
+LOADING OBJECT OF SIZE 87, chunks 3
+LOADING OBJECT OF SIZE 87, chunks 4
+LOADING OBJECT OF SIZE 87, chunks 5
+LOADING OBJECT OF SIZE 87, chunks 6
+LOADING OBJECT OF SIZE 87, chunks 7
+LOADING OBJECT OF SIZE 87, chunks 8
+LOADING OBJECT OF SIZE 87, chunks 9
+LOADING OBJECT OF SIZE 87, chunks 10
+LOADING OBJECT OF SIZE 87, chunks 11
+LOADING OBJECT OF SIZE 87, chunks 12
+LOADING OBJECT OF SIZE 87, chunks 13
+LOADING OBJECT OF SIZE 87, chunks 14
+LOADING OBJECT OF SIZE 87, chunks 15
+LOADING OBJECT OF SIZE 87, chunks 16
+LOADING OBJECT OF SIZE 87, chunks 17
+LOADING OBJECT OF SIZE 87, chunks 18
+LOADING OBJECT OF SIZE 87, chunks 19
+ExtensibleSet ::= {
+    string: something here
+}
+=> [%a3%10]:2
+=> [%80%0e]:2
+=> [something here]:14
+SAVED OBJECT IN SIZE 18/18
+LOADING OBJECT OF SIZE 18, chunks 1
+LOADING OBJECT OF SIZE 18, chunks 2
+LOADING OBJECT OF SIZE 18, chunks 3
+LOADING OBJECT OF SIZE 18, chunks 4
+LOADING OBJECT OF SIZE 18, chunks 5
+LOADING OBJECT OF SIZE 18, chunks 6
+LOADING OBJECT OF SIZE 18, chunks 7
+LOADING OBJECT OF SIZE 18, chunks 8
+LOADING OBJECT OF SIZE 18, chunks 9
+LOADING OBJECT OF SIZE 18, chunks 10
+LOADING OBJECT OF SIZE 18, chunks 11
+LOADING OBJECT OF SIZE 18, chunks 12
+LOADING OBJECT OF SIZE 18, chunks 13
+LOADING OBJECT OF SIZE 18, chunks 14
+LOADING OBJECT OF SIZE 18, chunks 15
+LOADING OBJECT OF SIZE 18, chunks 16
+LOADING OBJECT OF SIZE 18, chunks 17
+LOADING OBJECT OF SIZE 18, chunks 18
+LOADING OBJECT OF SIZE 18, chunks 19
+ExtensibleSet ::= {
+    string: something here
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [something here]:14
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 94/94
+=== original ===
+<PDU>
+	<extensibleSet>
+		<string>something&#x20;here</string>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+        <string>something here</string>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-44-X.in]
+LOADING OBJECT OF SIZE 87, chunks 1
+LOADING OBJECT OF SIZE 87, chunks 2
+LOADING OBJECT OF SIZE 87, chunks 3
+LOADING OBJECT OF SIZE 87, chunks 4
+LOADING OBJECT OF SIZE 87, chunks 5
+LOADING OBJECT OF SIZE 87, chunks 6
+LOADING OBJECT OF SIZE 87, chunks 7
+LOADING OBJECT OF SIZE 87, chunks 8
+LOADING OBJECT OF SIZE 87, chunks 9
+LOADING OBJECT OF SIZE 87, chunks 10
+LOADING OBJECT OF SIZE 87, chunks 11
+LOADING OBJECT OF SIZE 87, chunks 12
+LOADING OBJECT OF SIZE 87, chunks 13
+LOADING OBJECT OF SIZE 87, chunks 14
+LOADING OBJECT OF SIZE 87, chunks 15
+LOADING OBJECT OF SIZE 87, chunks 16
+LOADING OBJECT OF SIZE 87, chunks 17
+LOADING OBJECT OF SIZE 87, chunks 18
+LOADING OBJECT OF SIZE 87, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [%a4%15]:2
+=> [%82%13]:2
+=> [20040512224355.123Z]:19
+SAVED OBJECT IN SIZE 23/23
+LOADING OBJECT OF SIZE 23, chunks 1
+LOADING OBJECT OF SIZE 23, chunks 2
+LOADING OBJECT OF SIZE 23, chunks 3
+LOADING OBJECT OF SIZE 23, chunks 4
+LOADING OBJECT OF SIZE 23, chunks 5
+LOADING OBJECT OF SIZE 23, chunks 6
+LOADING OBJECT OF SIZE 23, chunks 7
+LOADING OBJECT OF SIZE 23, chunks 8
+LOADING OBJECT OF SIZE 23, chunks 9
+LOADING OBJECT OF SIZE 23, chunks 10
+LOADING OBJECT OF SIZE 23, chunks 11
+LOADING OBJECT OF SIZE 23, chunks 12
+LOADING OBJECT OF SIZE 23, chunks 13
+LOADING OBJECT OF SIZE 23, chunks 14
+LOADING OBJECT OF SIZE 23, chunks 15
+LOADING OBJECT OF SIZE 23, chunks 16
+LOADING OBJECT OF SIZE 23, chunks 17
+LOADING OBJECT OF SIZE 23, chunks 18
+LOADING OBJECT OF SIZE 23, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [<]:1
+=> [gtime]:5
+=> [>]:1
+=> [20040512224355.123Z]:19
+=> [</]:2
+=> [gtime]:5
+=> [>]:1
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [</]:2
+=> [PDU]:3
+=> [>]:1
+SAVED OBJECT IN SIZE 86/86
+=== original ===
+<PDU><extensibleSequence><gtime>20040512224355,123Z</gtime></extensibleSequence></PDU>
+=== re-encoded ===
+<PDU><extensibleSequence><gtime>20040512224355.123Z</gtime></extensibleSequence></PDU>=== end ===
+
+Processing file [../data-70-09-D.in]
+LOADING OBJECT OF SIZE 104, chunks 1
+LOADING OBJECT OF SIZE 104, chunks 2
+LOADING OBJECT OF SIZE 104, chunks 3
+LOADING OBJECT OF SIZE 104, chunks 4
+LOADING OBJECT OF SIZE 104, chunks 5
+LOADING OBJECT OF SIZE 104, chunks 6
+LOADING OBJECT OF SIZE 104, chunks 7
+LOADING OBJECT OF SIZE 104, chunks 8
+LOADING OBJECT OF SIZE 104, chunks 9
+LOADING OBJECT OF SIZE 104, chunks 10
+LOADING OBJECT OF SIZE 104, chunks 11
+LOADING OBJECT OF SIZE 104, chunks 12
+LOADING OBJECT OF SIZE 104, chunks 13
+LOADING OBJECT OF SIZE 104, chunks 14
+LOADING OBJECT OF SIZE 104, chunks 15
+LOADING OBJECT OF SIZE 104, chunks 16
+LOADING OBJECT OF SIZE 104, chunks 17
+LOADING OBJECT OF SIZE 104, chunks 18
+LOADING OBJECT OF SIZE 104, chunks 19
+SetOfREAL ::= {
+    3.14
+    <PLUS-INFINITY/>
+}
+=> [%a7%0e]:2
+=> [%09%01@]:3
+=> [%09%09%80%cd%19%1e%b8Q%eb%85%1f]:11
+SAVED OBJECT IN SIZE 16/16
+LOADING OBJECT OF SIZE 16, chunks 1
+LOADING OBJECT OF SIZE 16, chunks 2
+LOADING OBJECT OF SIZE 16, chunks 3
+LOADING OBJECT OF SIZE 16, chunks 4
+LOADING OBJECT OF SIZE 16, chunks 5
+LOADING OBJECT OF SIZE 16, chunks 6
+LOADING OBJECT OF SIZE 16, chunks 7
+LOADING OBJECT OF SIZE 16, chunks 8
+LOADING OBJECT OF SIZE 16, chunks 9
+LOADING OBJECT OF SIZE 16, chunks 10
+LOADING OBJECT OF SIZE 16, chunks 11
+LOADING OBJECT OF SIZE 16, chunks 12
+LOADING OBJECT OF SIZE 16, chunks 13
+LOADING OBJECT OF SIZE 16, chunks 14
+LOADING OBJECT OF SIZE 16, chunks 15
+LOADING OBJECT OF SIZE 16, chunks 16
+LOADING OBJECT OF SIZE 16, chunks 17
+LOADING OBJECT OF SIZE 16, chunks 18
+LOADING OBJECT OF SIZE 16, chunks 19
+SetOfREAL ::= {
+    <PLUS-INFINITY/>
+    3.14
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [REAL]:4
+=> [>]:1
+=> [<PLUS-INFINITY/>]:16
+=> [</]:2
+=> [REAL]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [REAL]:4
+=> [>]:1
+=> [3.14]:4
+=> [</]:2
+=> [REAL]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 110/110
+=== original ===
+<PDU>
+	<setOfREAL>
+		<REAL>3.14</REAL>
+		<REAL><!--<zzz>--><PLUS-INFINITY/></REAL>
+	</setOfREAL>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfREAL>
+        <REAL><PLUS-INFINITY/></REAL>
+        <REAL>3.14</REAL>
+    </setOfREAL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-31-B.in]
+LOADING OBJECT OF SIZE 73, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 73, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-30-B.in]
+LOADING OBJECT OF SIZE 64, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 64, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-26-B.in]
+LOADING OBJECT OF SIZE 50, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 50, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-24-D.in]
+LOADING OBJECT OF SIZE 123, chunks 1
+LOADING OBJECT OF SIZE 123, chunks 2
+LOADING OBJECT OF SIZE 123, chunks 3
+LOADING OBJECT OF SIZE 123, chunks 4
+LOADING OBJECT OF SIZE 123, chunks 5
+LOADING OBJECT OF SIZE 123, chunks 6
+LOADING OBJECT OF SIZE 123, chunks 7
+LOADING OBJECT OF SIZE 123, chunks 8
+LOADING OBJECT OF SIZE 123, chunks 9
+LOADING OBJECT OF SIZE 123, chunks 10
+LOADING OBJECT OF SIZE 123, chunks 11
+LOADING OBJECT OF SIZE 123, chunks 12
+LOADING OBJECT OF SIZE 123, chunks 13
+LOADING OBJECT OF SIZE 123, chunks 14
+LOADING OBJECT OF SIZE 123, chunks 15
+LOADING OBJECT OF SIZE 123, chunks 16
+LOADING OBJECT OF SIZE 123, chunks 17
+LOADING OBJECT OF SIZE 123, chunks 18
+LOADING OBJECT OF SIZE 123, chunks 19
+ExtensibleSequence ::= {
+    integer: 234
+}
+=> [%a4%04]:2
+=> [%81%02]:2
+=> [%00%ea]:2
+SAVED OBJECT IN SIZE 6/6
+LOADING OBJECT OF SIZE 6, chunks 1
+LOADING OBJECT OF SIZE 6, chunks 2
+LOADING OBJECT OF SIZE 6, chunks 3
+LOADING OBJECT OF SIZE 6, chunks 4
+LOADING OBJECT OF SIZE 6, chunks 5
+LOADING OBJECT OF SIZE 6, chunks 6
+LOADING OBJECT OF SIZE 6, chunks 7
+LOADING OBJECT OF SIZE 6, chunks 8
+LOADING OBJECT OF SIZE 6, chunks 9
+LOADING OBJECT OF SIZE 6, chunks 10
+LOADING OBJECT OF SIZE 6, chunks 11
+LOADING OBJECT OF SIZE 6, chunks 12
+LOADING OBJECT OF SIZE 6, chunks 13
+LOADING OBJECT OF SIZE 6, chunks 14
+LOADING OBJECT OF SIZE 6, chunks 15
+LOADING OBJECT OF SIZE 6, chunks 16
+LOADING OBJECT OF SIZE 6, chunks 17
+LOADING OBJECT OF SIZE 6, chunks 18
+LOADING OBJECT OF SIZE 6, chunks 19
+ExtensibleSequence ::= {
+    integer: 234
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [234]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 95/95
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<extensibleSequence/>
+		<integer> <!-- <zzz> --> 234</integer>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <integer>234</integer>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-45-X.in]
+LOADING OBJECT OF SIZE 87, chunks 1
+LOADING OBJECT OF SIZE 87, chunks 2
+LOADING OBJECT OF SIZE 87, chunks 3
+LOADING OBJECT OF SIZE 87, chunks 4
+LOADING OBJECT OF SIZE 87, chunks 5
+LOADING OBJECT OF SIZE 87, chunks 6
+LOADING OBJECT OF SIZE 87, chunks 7
+LOADING OBJECT OF SIZE 87, chunks 8
+LOADING OBJECT OF SIZE 87, chunks 9
+LOADING OBJECT OF SIZE 87, chunks 10
+LOADING OBJECT OF SIZE 87, chunks 11
+LOADING OBJECT OF SIZE 87, chunks 12
+LOADING OBJECT OF SIZE 87, chunks 13
+LOADING OBJECT OF SIZE 87, chunks 14
+LOADING OBJECT OF SIZE 87, chunks 15
+LOADING OBJECT OF SIZE 87, chunks 16
+LOADING OBJECT OF SIZE 87, chunks 17
+LOADING OBJECT OF SIZE 87, chunks 18
+LOADING OBJECT OF SIZE 87, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [%a4%14]:2
+=> [%82%12]:2
+=> [20040512224355.12Z]:18
+SAVED OBJECT IN SIZE 22/22
+LOADING OBJECT OF SIZE 22, chunks 1
+LOADING OBJECT OF SIZE 22, chunks 2
+LOADING OBJECT OF SIZE 22, chunks 3
+LOADING OBJECT OF SIZE 22, chunks 4
+LOADING OBJECT OF SIZE 22, chunks 5
+LOADING OBJECT OF SIZE 22, chunks 6
+LOADING OBJECT OF SIZE 22, chunks 7
+LOADING OBJECT OF SIZE 22, chunks 8
+LOADING OBJECT OF SIZE 22, chunks 9
+LOADING OBJECT OF SIZE 22, chunks 10
+LOADING OBJECT OF SIZE 22, chunks 11
+LOADING OBJECT OF SIZE 22, chunks 12
+LOADING OBJECT OF SIZE 22, chunks 13
+LOADING OBJECT OF SIZE 22, chunks 14
+LOADING OBJECT OF SIZE 22, chunks 15
+LOADING OBJECT OF SIZE 22, chunks 16
+LOADING OBJECT OF SIZE 22, chunks 17
+LOADING OBJECT OF SIZE 22, chunks 18
+LOADING OBJECT OF SIZE 22, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [<]:1
+=> [gtime]:5
+=> [>]:1
+=> [20040512224355.12Z]:18
+=> [</]:2
+=> [gtime]:5
+=> [>]:1
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [</]:2
+=> [PDU]:3
+=> [>]:1
+SAVED OBJECT IN SIZE 85/85
+=== original ===
+<PDU><extensibleSequence><gtime>20040512224355.120Z</gtime></extensibleSequence></PDU>
+=== re-encoded ===
+<PDU><extensibleSequence><gtime>20040512224355.12Z</gtime></extensibleSequence></PDU>=== end ===
+
+Processing file [../data-70-06-B.in]
+LOADING OBJECT OF SIZE 38, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 38, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-39.in]
+LOADING OBJECT OF SIZE 85, chunks 1
+LOADING OBJECT OF SIZE 85, chunks 2
+LOADING OBJECT OF SIZE 85, chunks 3
+LOADING OBJECT OF SIZE 85, chunks 4
+LOADING OBJECT OF SIZE 85, chunks 5
+LOADING OBJECT OF SIZE 85, chunks 6
+LOADING OBJECT OF SIZE 85, chunks 7
+LOADING OBJECT OF SIZE 85, chunks 8
+LOADING OBJECT OF SIZE 85, chunks 9
+LOADING OBJECT OF SIZE 85, chunks 10
+LOADING OBJECT OF SIZE 85, chunks 11
+LOADING OBJECT OF SIZE 85, chunks 12
+LOADING OBJECT OF SIZE 85, chunks 13
+LOADING OBJECT OF SIZE 85, chunks 14
+LOADING OBJECT OF SIZE 85, chunks 15
+LOADING OBJECT OF SIZE 85, chunks 16
+LOADING OBJECT OF SIZE 85, chunks 17
+LOADING OBJECT OF SIZE 85, chunks 18
+LOADING OBJECT OF SIZE 85, chunks 19
+ExtensibleSequence2 ::= {
+    integer: 123
+}
+=> [%a5%03]:2
+=> [%81%01]:2
+=> [{]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSequence2 ::= {
+    integer: 123
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence2]:19
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [123]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence2]:19
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 97/97
+=== original ===
+<PDU>
+	<extensibleSequence2>
+		<integer>123</integer>
+	</extensibleSequence2>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence2>
+        <integer>123</integer>
+    </extensibleSequence2>
+</PDU>
+=== end ===
+
+Processing file [../data-70-07-D.in]
+LOADING OBJECT OF SIZE 112, chunks 1
+LOADING OBJECT OF SIZE 112, chunks 2
+LOADING OBJECT OF SIZE 112, chunks 3
+LOADING OBJECT OF SIZE 112, chunks 4
+LOADING OBJECT OF SIZE 112, chunks 5
+LOADING OBJECT OF SIZE 112, chunks 6
+LOADING OBJECT OF SIZE 112, chunks 7
+LOADING OBJECT OF SIZE 112, chunks 8
+LOADING OBJECT OF SIZE 112, chunks 9
+LOADING OBJECT OF SIZE 112, chunks 10
+LOADING OBJECT OF SIZE 112, chunks 11
+LOADING OBJECT OF SIZE 112, chunks 12
+LOADING OBJECT OF SIZE 112, chunks 13
+LOADING OBJECT OF SIZE 112, chunks 14
+LOADING OBJECT OF SIZE 112, chunks 15
+LOADING OBJECT OF SIZE 112, chunks 16
+LOADING OBJECT OF SIZE 112, chunks 17
+LOADING OBJECT OF SIZE 112, chunks 18
+LOADING OBJECT OF SIZE 112, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+    opaque: 
+}
+=> [%a1%0c]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+=> [%81%00]:2
+=> []:0
+SAVED OBJECT IN SIZE 14/14
+LOADING OBJECT OF SIZE 14, chunks 1
+LOADING OBJECT OF SIZE 14, chunks 2
+LOADING OBJECT OF SIZE 14, chunks 3
+LOADING OBJECT OF SIZE 14, chunks 4
+LOADING OBJECT OF SIZE 14, chunks 5
+LOADING OBJECT OF SIZE 14, chunks 6
+LOADING OBJECT OF SIZE 14, chunks 7
+LOADING OBJECT OF SIZE 14, chunks 8
+LOADING OBJECT OF SIZE 14, chunks 9
+LOADING OBJECT OF SIZE 14, chunks 10
+LOADING OBJECT OF SIZE 14, chunks 11
+LOADING OBJECT OF SIZE 14, chunks 12
+LOADING OBJECT OF SIZE 14, chunks 13
+LOADING OBJECT OF SIZE 14, chunks 14
+LOADING OBJECT OF SIZE 14, chunks 15
+LOADING OBJECT OF SIZE 14, chunks 16
+LOADING OBJECT OF SIZE 14, chunks 17
+LOADING OBJECT OF SIZE 14, chunks 18
+LOADING OBJECT OF SIZE 14, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+    opaque: 
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [opaque]:6
+=> [>]:1
+=> [</]:2
+=> [opaque]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 100/100
+=== original ===
+<PDU>
+	<set>
+		<opaque><!-- <zzz> --></opaque>
+	<!-- <zzz> -->
+		<roid>123.456.789.101112</roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+        <opaque></opaque>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-05-B.in]
+LOADING OBJECT OF SIZE 92, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 92, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-46-X.in]
+LOADING OBJECT OF SIZE 87, chunks 1
+LOADING OBJECT OF SIZE 87, chunks 2
+LOADING OBJECT OF SIZE 87, chunks 3
+LOADING OBJECT OF SIZE 87, chunks 4
+LOADING OBJECT OF SIZE 87, chunks 5
+LOADING OBJECT OF SIZE 87, chunks 6
+LOADING OBJECT OF SIZE 87, chunks 7
+LOADING OBJECT OF SIZE 87, chunks 8
+LOADING OBJECT OF SIZE 87, chunks 9
+LOADING OBJECT OF SIZE 87, chunks 10
+LOADING OBJECT OF SIZE 87, chunks 11
+LOADING OBJECT OF SIZE 87, chunks 12
+LOADING OBJECT OF SIZE 87, chunks 13
+LOADING OBJECT OF SIZE 87, chunks 14
+LOADING OBJECT OF SIZE 87, chunks 15
+LOADING OBJECT OF SIZE 87, chunks 16
+LOADING OBJECT OF SIZE 87, chunks 17
+LOADING OBJECT OF SIZE 87, chunks 18
+LOADING OBJECT OF SIZE 87, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [%a4%11]:2
+=> [%82%0f]:2
+=> [20040512224355Z]:15
+SAVED OBJECT IN SIZE 19/19
+LOADING OBJECT OF SIZE 19, chunks 1
+LOADING OBJECT OF SIZE 19, chunks 2
+LOADING OBJECT OF SIZE 19, chunks 3
+LOADING OBJECT OF SIZE 19, chunks 4
+LOADING OBJECT OF SIZE 19, chunks 5
+LOADING OBJECT OF SIZE 19, chunks 6
+LOADING OBJECT OF SIZE 19, chunks 7
+LOADING OBJECT OF SIZE 19, chunks 8
+LOADING OBJECT OF SIZE 19, chunks 9
+LOADING OBJECT OF SIZE 19, chunks 10
+LOADING OBJECT OF SIZE 19, chunks 11
+LOADING OBJECT OF SIZE 19, chunks 12
+LOADING OBJECT OF SIZE 19, chunks 13
+LOADING OBJECT OF SIZE 19, chunks 14
+LOADING OBJECT OF SIZE 19, chunks 15
+LOADING OBJECT OF SIZE 19, chunks 16
+LOADING OBJECT OF SIZE 19, chunks 17
+LOADING OBJECT OF SIZE 19, chunks 18
+LOADING OBJECT OF SIZE 19, chunks 19
+ExtensibleSequence ::= {
+    gtime: 2004-05-12 22:43:55 (GMT)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [<]:1
+=> [gtime]:5
+=> [>]:1
+=> [20040512224355Z]:15
+=> [</]:2
+=> [gtime]:5
+=> [>]:1
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [</]:2
+=> [PDU]:3
+=> [>]:1
+SAVED OBJECT IN SIZE 82/82
+=== original ===
+<PDU><extensibleSequence><gtime>20040512224355+0000</gtime></extensibleSequence></PDU>
+=== re-encoded ===
+<PDU><extensibleSequence><gtime>20040512224355Z</gtime></extensibleSequence></PDU>=== end ===
+
+Processing file [../data-70-48.in]
+LOADING OBJECT OF SIZE 59, chunks 1
+LOADING OBJECT OF SIZE 59, chunks 2
+LOADING OBJECT OF SIZE 59, chunks 3
+LOADING OBJECT OF SIZE 59, chunks 4
+LOADING OBJECT OF SIZE 59, chunks 5
+LOADING OBJECT OF SIZE 59, chunks 6
+LOADING OBJECT OF SIZE 59, chunks 7
+LOADING OBJECT OF SIZE 59, chunks 8
+LOADING OBJECT OF SIZE 59, chunks 9
+LOADING OBJECT OF SIZE 59, chunks 10
+LOADING OBJECT OF SIZE 59, chunks 11
+LOADING OBJECT OF SIZE 59, chunks 12
+LOADING OBJECT OF SIZE 59, chunks 13
+LOADING OBJECT OF SIZE 59, chunks 14
+LOADING OBJECT OF SIZE 59, chunks 15
+LOADING OBJECT OF SIZE 59, chunks 16
+LOADING OBJECT OF SIZE 59, chunks 17
+LOADING OBJECT OF SIZE 59, chunks 18
+LOADING OBJECT OF SIZE 59, chunks 19
+SetOfREAL ::= {
+    1.0
+}
+=> [%a7%05]:2
+=> [%09%03%80%00%01]:5
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+SetOfREAL ::= {
+    1.0
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [REAL]:4
+=> [>]:1
+=> [1.0]:3
+=> [</]:2
+=> [REAL]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfREAL]:9
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 71/71
+=== original ===
+<PDU>
+	<setOfREAL>
+		<REAL>1.0</REAL>
+	</setOfREAL>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfREAL>
+        <REAL>1.0</REAL>
+    </setOfREAL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-19.in]
+LOADING OBJECT OF SIZE 92, chunks 1
+LOADING OBJECT OF SIZE 92, chunks 2
+LOADING OBJECT OF SIZE 92, chunks 3
+LOADING OBJECT OF SIZE 92, chunks 4
+LOADING OBJECT OF SIZE 92, chunks 5
+LOADING OBJECT OF SIZE 92, chunks 6
+LOADING OBJECT OF SIZE 92, chunks 7
+LOADING OBJECT OF SIZE 92, chunks 8
+LOADING OBJECT OF SIZE 92, chunks 9
+LOADING OBJECT OF SIZE 92, chunks 10
+LOADING OBJECT OF SIZE 92, chunks 11
+LOADING OBJECT OF SIZE 92, chunks 12
+LOADING OBJECT OF SIZE 92, chunks 13
+LOADING OBJECT OF SIZE 92, chunks 14
+LOADING OBJECT OF SIZE 92, chunks 15
+LOADING OBJECT OF SIZE 92, chunks 16
+LOADING OBJECT OF SIZE 92, chunks 17
+LOADING OBJECT OF SIZE 92, chunks 18
+LOADING OBJECT OF SIZE 92, chunks 19
+ExtensibleSequence ::= {
+    string: one   two
+}
+=> [%a4%0b]:2
+=> [%80%09]:2
+=> [one %00 two]:9
+SAVED OBJECT IN SIZE 13/13
+LOADING OBJECT OF SIZE 13, chunks 1
+LOADING OBJECT OF SIZE 13, chunks 2
+LOADING OBJECT OF SIZE 13, chunks 3
+LOADING OBJECT OF SIZE 13, chunks 4
+LOADING OBJECT OF SIZE 13, chunks 5
+LOADING OBJECT OF SIZE 13, chunks 6
+LOADING OBJECT OF SIZE 13, chunks 7
+LOADING OBJECT OF SIZE 13, chunks 8
+LOADING OBJECT OF SIZE 13, chunks 9
+LOADING OBJECT OF SIZE 13, chunks 10
+LOADING OBJECT OF SIZE 13, chunks 11
+LOADING OBJECT OF SIZE 13, chunks 12
+LOADING OBJECT OF SIZE 13, chunks 13
+LOADING OBJECT OF SIZE 13, chunks 14
+LOADING OBJECT OF SIZE 13, chunks 15
+LOADING OBJECT OF SIZE 13, chunks 16
+LOADING OBJECT OF SIZE 13, chunks 17
+LOADING OBJECT OF SIZE 13, chunks 18
+LOADING OBJECT OF SIZE 13, chunks 19
+ExtensibleSequence ::= {
+    string: one   two
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [one ]:4
+=> [<nul/>]:6
+=> [ two]:4
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 104/104
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<string>one <nul/> two</string>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <string>one <nul/> two</string>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-08-B.in]
+LOADING OBJECT OF SIZE 123, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 123, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-49.in]
+LOADING OBJECT OF SIZE 65, chunks 1
+LOADING OBJECT OF SIZE 65, chunks 2
+LOADING OBJECT OF SIZE 65, chunks 3
+LOADING OBJECT OF SIZE 65, chunks 4
+LOADING OBJECT OF SIZE 65, chunks 5
+LOADING OBJECT OF SIZE 65, chunks 6
+LOADING OBJECT OF SIZE 65, chunks 7
+LOADING OBJECT OF SIZE 65, chunks 8
+LOADING OBJECT OF SIZE 65, chunks 9
+LOADING OBJECT OF SIZE 65, chunks 10
+LOADING OBJECT OF SIZE 65, chunks 11
+LOADING OBJECT OF SIZE 65, chunks 12
+LOADING OBJECT OF SIZE 65, chunks 13
+LOADING OBJECT OF SIZE 65, chunks 14
+LOADING OBJECT OF SIZE 65, chunks 15
+LOADING OBJECT OF SIZE 65, chunks 16
+LOADING OBJECT OF SIZE 65, chunks 17
+LOADING OBJECT OF SIZE 65, chunks 18
+LOADING OBJECT OF SIZE 65, chunks 19
+NamedSetOfREAL ::= {
+    1.0
+}
+=> [%aa%05]:2
+=> [%09%03%80%00%01]:5
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+NamedSetOfREAL ::= {
+    1.0
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [namedSetOfREAL]:14
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [name]:4
+=> [>]:1
+=> [1.0]:3
+=> [</]:2
+=> [name]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [namedSetOfREAL]:14
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 81/81
+=== original ===
+<PDU> <namedSetOfREAL> <name>1.0</name> </namedSetOfREAL> </PDU>
+=== re-encoded ===
+<PDU>
+    <namedSetOfREAL>
+        <name>1.0</name>
+    </namedSetOfREAL>
+</PDU>
+=== end ===
+
+Processing file [../data-70-18.in]
+LOADING OBJECT OF SIZE 58, chunks 1
+LOADING OBJECT OF SIZE 58, chunks 2
+LOADING OBJECT OF SIZE 58, chunks 3
+LOADING OBJECT OF SIZE 58, chunks 4
+LOADING OBJECT OF SIZE 58, chunks 5
+LOADING OBJECT OF SIZE 58, chunks 6
+LOADING OBJECT OF SIZE 58, chunks 7
+LOADING OBJECT OF SIZE 58, chunks 8
+LOADING OBJECT OF SIZE 58, chunks 9
+LOADING OBJECT OF SIZE 58, chunks 10
+LOADING OBJECT OF SIZE 58, chunks 11
+LOADING OBJECT OF SIZE 58, chunks 12
+LOADING OBJECT OF SIZE 58, chunks 13
+LOADING OBJECT OF SIZE 58, chunks 14
+LOADING OBJECT OF SIZE 58, chunks 15
+LOADING OBJECT OF SIZE 58, chunks 16
+LOADING OBJECT OF SIZE 58, chunks 17
+LOADING OBJECT OF SIZE 58, chunks 18
+LOADING OBJECT OF SIZE 58, chunks 19
+ExtensibleSequence ::= {
+}
+=> [%a4%00]:2
+SAVED OBJECT IN SIZE 2/2
+LOADING OBJECT OF SIZE 2, chunks 1
+LOADING OBJECT OF SIZE 2, chunks 2
+LOADING OBJECT OF SIZE 2, chunks 3
+LOADING OBJECT OF SIZE 2, chunks 4
+LOADING OBJECT OF SIZE 2, chunks 5
+LOADING OBJECT OF SIZE 2, chunks 6
+LOADING OBJECT OF SIZE 2, chunks 7
+LOADING OBJECT OF SIZE 2, chunks 8
+LOADING OBJECT OF SIZE 2, chunks 9
+LOADING OBJECT OF SIZE 2, chunks 10
+LOADING OBJECT OF SIZE 2, chunks 11
+LOADING OBJECT OF SIZE 2, chunks 12
+LOADING OBJECT OF SIZE 2, chunks 13
+LOADING OBJECT OF SIZE 2, chunks 14
+LOADING OBJECT OF SIZE 2, chunks 15
+LOADING OBJECT OF SIZE 2, chunks 16
+LOADING OBJECT OF SIZE 2, chunks 17
+LOADING OBJECT OF SIZE 2, chunks 18
+LOADING OBJECT OF SIZE 2, chunks 19
+ExtensibleSequence ::= {
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 64/64
+=== original ===
+<PDU>
+	<extensibleSequence>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-04-B.in]
+LOADING OBJECT OF SIZE 13, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 13, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-28.in]
+LOADING OBJECT OF SIZE 67, chunks 1
+LOADING OBJECT OF SIZE 67, chunks 2
+LOADING OBJECT OF SIZE 67, chunks 3
+LOADING OBJECT OF SIZE 67, chunks 4
+LOADING OBJECT OF SIZE 67, chunks 5
+LOADING OBJECT OF SIZE 67, chunks 6
+LOADING OBJECT OF SIZE 67, chunks 7
+LOADING OBJECT OF SIZE 67, chunks 8
+LOADING OBJECT OF SIZE 67, chunks 9
+LOADING OBJECT OF SIZE 67, chunks 10
+LOADING OBJECT OF SIZE 67, chunks 11
+LOADING OBJECT OF SIZE 67, chunks 12
+LOADING OBJECT OF SIZE 67, chunks 13
+LOADING OBJECT OF SIZE 67, chunks 14
+LOADING OBJECT OF SIZE 67, chunks 15
+LOADING OBJECT OF SIZE 67, chunks 16
+LOADING OBJECT OF SIZE 67, chunks 17
+LOADING OBJECT OF SIZE 67, chunks 18
+LOADING OBJECT OF SIZE 67, chunks 19
+SetOfEnums ::= {
+    0 (one)
+    1 (oneMore)
+}
+=> [%a8%06]:2
+=> [%0a%01%00]:3
+=> [%0a%01%01]:3
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+SetOfEnums ::= {
+    0 (one)
+    1 (oneMore)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [setOfEnums]:10
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<one/>]:6
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<oneMore/>]:10
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [setOfEnums]:10
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 90/90
+=== original ===
+<PDU>
+	<setOfEnums>
+		<one/>
+		<oneMore/>
+	</setOfEnums>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <setOfEnums>
+            <one/>
+            <oneMore/>
+    </setOfEnums>
+</PDU>
+=== end ===
+
+Processing file [../data-70-35-B.in]
+LOADING OBJECT OF SIZE 109, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 109, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-33.in]
+LOADING OBJECT OF SIZE 72, chunks 1
+LOADING OBJECT OF SIZE 72, chunks 2
+LOADING OBJECT OF SIZE 72, chunks 3
+LOADING OBJECT OF SIZE 72, chunks 4
+LOADING OBJECT OF SIZE 72, chunks 5
+LOADING OBJECT OF SIZE 72, chunks 6
+LOADING OBJECT OF SIZE 72, chunks 7
+LOADING OBJECT OF SIZE 72, chunks 8
+LOADING OBJECT OF SIZE 72, chunks 9
+LOADING OBJECT OF SIZE 72, chunks 10
+LOADING OBJECT OF SIZE 72, chunks 11
+LOADING OBJECT OF SIZE 72, chunks 12
+LOADING OBJECT OF SIZE 72, chunks 13
+LOADING OBJECT OF SIZE 72, chunks 14
+LOADING OBJECT OF SIZE 72, chunks 15
+LOADING OBJECT OF SIZE 72, chunks 16
+LOADING OBJECT OF SIZE 72, chunks 17
+LOADING OBJECT OF SIZE 72, chunks 18
+LOADING OBJECT OF SIZE 72, chunks 19
+ExtensibleSet ::= {
+    enum: 1 (a)
+}
+=> [%a3%03]:2
+=> [%81%01]:2
+=> [%01]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSet ::= {
+    enum: 1 (a)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [enum]:4
+=> [>]:1
+=> [<a/>]:4
+=> [</]:2
+=> [enum]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 80/80
+=== original ===
+<PDU>
+	<extensibleSet>
+		<enum> <a/> </enum>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+        <enum><a/></enum>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-56.in]
+LOADING OBJECT OF SIZE 64, chunks 1
+LOADING OBJECT OF SIZE 64, chunks 2
+LOADING OBJECT OF SIZE 64, chunks 3
+LOADING OBJECT OF SIZE 64, chunks 4
+LOADING OBJECT OF SIZE 64, chunks 5
+LOADING OBJECT OF SIZE 64, chunks 6
+LOADING OBJECT OF SIZE 64, chunks 7
+LOADING OBJECT OF SIZE 64, chunks 8
+LOADING OBJECT OF SIZE 64, chunks 9
+LOADING OBJECT OF SIZE 64, chunks 10
+LOADING OBJECT OF SIZE 64, chunks 11
+LOADING OBJECT OF SIZE 64, chunks 12
+LOADING OBJECT OF SIZE 64, chunks 13
+LOADING OBJECT OF SIZE 64, chunks 14
+LOADING OBJECT OF SIZE 64, chunks 15
+LOADING OBJECT OF SIZE 64, chunks 16
+LOADING OBJECT OF SIZE 64, chunks 17
+LOADING OBJECT OF SIZE 64, chunks 18
+LOADING OBJECT OF SIZE 64, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid> 123.456.789.101112 </roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-21-D.in]
+LOADING OBJECT OF SIZE 154, chunks 1
+LOADING OBJECT OF SIZE 154, chunks 2
+LOADING OBJECT OF SIZE 154, chunks 3
+LOADING OBJECT OF SIZE 154, chunks 4
+LOADING OBJECT OF SIZE 154, chunks 5
+LOADING OBJECT OF SIZE 154, chunks 6
+LOADING OBJECT OF SIZE 154, chunks 7
+LOADING OBJECT OF SIZE 154, chunks 8
+LOADING OBJECT OF SIZE 154, chunks 9
+LOADING OBJECT OF SIZE 154, chunks 10
+LOADING OBJECT OF SIZE 154, chunks 11
+LOADING OBJECT OF SIZE 154, chunks 12
+LOADING OBJECT OF SIZE 154, chunks 13
+LOADING OBJECT OF SIZE 154, chunks 14
+LOADING OBJECT OF SIZE 154, chunks 15
+LOADING OBJECT OF SIZE 154, chunks 16
+LOADING OBJECT OF SIZE 154, chunks 17
+LOADING OBJECT OF SIZE 154, chunks 18
+LOADING OBJECT OF SIZE 154, chunks 19
+ExtensibleSequence ::= {
+    string: one   two
+}
+=> [%a4%0b]:2
+=> [%80%09]:2
+=> [one %00 two]:9
+SAVED OBJECT IN SIZE 13/13
+LOADING OBJECT OF SIZE 13, chunks 1
+LOADING OBJECT OF SIZE 13, chunks 2
+LOADING OBJECT OF SIZE 13, chunks 3
+LOADING OBJECT OF SIZE 13, chunks 4
+LOADING OBJECT OF SIZE 13, chunks 5
+LOADING OBJECT OF SIZE 13, chunks 6
+LOADING OBJECT OF SIZE 13, chunks 7
+LOADING OBJECT OF SIZE 13, chunks 8
+LOADING OBJECT OF SIZE 13, chunks 9
+LOADING OBJECT OF SIZE 13, chunks 10
+LOADING OBJECT OF SIZE 13, chunks 11
+LOADING OBJECT OF SIZE 13, chunks 12
+LOADING OBJECT OF SIZE 13, chunks 13
+LOADING OBJECT OF SIZE 13, chunks 14
+LOADING OBJECT OF SIZE 13, chunks 15
+LOADING OBJECT OF SIZE 13, chunks 16
+LOADING OBJECT OF SIZE 13, chunks 17
+LOADING OBJECT OF SIZE 13, chunks 18
+LOADING OBJECT OF SIZE 13, chunks 19
+ExtensibleSequence ::= {
+    string: one   two
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [one ]:4
+=> [<nul/>]:6
+=> [ two]:4
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 104/104
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<string>one <nul/> two</string>
+		<extension> <another/> <something></something> </extension>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <string>one <nul/> two</string>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-60-D.in]
+LOADING OBJECT OF SIZE 71, chunks 1
+LOADING OBJECT OF SIZE 71, chunks 2
+LOADING OBJECT OF SIZE 71, chunks 3
+LOADING OBJECT OF SIZE 71, chunks 4
+LOADING OBJECT OF SIZE 71, chunks 5
+LOADING OBJECT OF SIZE 71, chunks 6
+LOADING OBJECT OF SIZE 71, chunks 7
+LOADING OBJECT OF SIZE 71, chunks 8
+LOADING OBJECT OF SIZE 71, chunks 9
+LOADING OBJECT OF SIZE 71, chunks 10
+LOADING OBJECT OF SIZE 71, chunks 11
+LOADING OBJECT OF SIZE 71, chunks 12
+LOADING OBJECT OF SIZE 71, chunks 13
+LOADING OBJECT OF SIZE 71, chunks 14
+LOADING OBJECT OF SIZE 71, chunks 15
+LOADING OBJECT OF SIZE 71, chunks 16
+LOADING OBJECT OF SIZE 71, chunks 17
+LOADING OBJECT OF SIZE 71, chunks 18
+LOADING OBJECT OF SIZE 71, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112 <!--/--></roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-37-D.in]
+LOADING OBJECT OF SIZE 75, chunks 1
+LOADING OBJECT OF SIZE 75, chunks 2
+LOADING OBJECT OF SIZE 75, chunks 3
+LOADING OBJECT OF SIZE 75, chunks 4
+LOADING OBJECT OF SIZE 75, chunks 5
+LOADING OBJECT OF SIZE 75, chunks 6
+LOADING OBJECT OF SIZE 75, chunks 7
+LOADING OBJECT OF SIZE 75, chunks 8
+LOADING OBJECT OF SIZE 75, chunks 9
+LOADING OBJECT OF SIZE 75, chunks 10
+LOADING OBJECT OF SIZE 75, chunks 11
+LOADING OBJECT OF SIZE 75, chunks 12
+LOADING OBJECT OF SIZE 75, chunks 13
+LOADING OBJECT OF SIZE 75, chunks 14
+LOADING OBJECT OF SIZE 75, chunks 15
+LOADING OBJECT OF SIZE 75, chunks 16
+LOADING OBJECT OF SIZE 75, chunks 17
+LOADING OBJECT OF SIZE 75, chunks 18
+LOADING OBJECT OF SIZE 75, chunks 19
+Set ::= {
+    roid: { 123.456.789 }
+}
+=> [%a1%07]:2
+=> [%80%05]:2
+=> [{%83H%86%15]:5
+SAVED OBJECT IN SIZE 9/9
+LOADING OBJECT OF SIZE 9, chunks 1
+LOADING OBJECT OF SIZE 9, chunks 2
+LOADING OBJECT OF SIZE 9, chunks 3
+LOADING OBJECT OF SIZE 9, chunks 4
+LOADING OBJECT OF SIZE 9, chunks 5
+LOADING OBJECT OF SIZE 9, chunks 6
+LOADING OBJECT OF SIZE 9, chunks 7
+LOADING OBJECT OF SIZE 9, chunks 8
+LOADING OBJECT OF SIZE 9, chunks 9
+LOADING OBJECT OF SIZE 9, chunks 10
+LOADING OBJECT OF SIZE 9, chunks 11
+LOADING OBJECT OF SIZE 9, chunks 12
+LOADING OBJECT OF SIZE 9, chunks 13
+LOADING OBJECT OF SIZE 9, chunks 14
+LOADING OBJECT OF SIZE 9, chunks 15
+LOADING OBJECT OF SIZE 9, chunks 16
+LOADING OBJECT OF SIZE 9, chunks 17
+LOADING OBJECT OF SIZE 9, chunks 18
+LOADING OBJECT OF SIZE 9, chunks 19
+Set ::= {
+    roid: { 123.456.789 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 67/67
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789 <!-- whitespace --></roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-40-D.in]
+LOADING OBJECT OF SIZE 119, chunks 1
+LOADING OBJECT OF SIZE 119, chunks 2
+LOADING OBJECT OF SIZE 119, chunks 3
+LOADING OBJECT OF SIZE 119, chunks 4
+LOADING OBJECT OF SIZE 119, chunks 5
+LOADING OBJECT OF SIZE 119, chunks 6
+LOADING OBJECT OF SIZE 119, chunks 7
+LOADING OBJECT OF SIZE 119, chunks 8
+LOADING OBJECT OF SIZE 119, chunks 9
+LOADING OBJECT OF SIZE 119, chunks 10
+LOADING OBJECT OF SIZE 119, chunks 11
+LOADING OBJECT OF SIZE 119, chunks 12
+LOADING OBJECT OF SIZE 119, chunks 13
+LOADING OBJECT OF SIZE 119, chunks 14
+LOADING OBJECT OF SIZE 119, chunks 15
+LOADING OBJECT OF SIZE 119, chunks 16
+LOADING OBJECT OF SIZE 119, chunks 17
+LOADING OBJECT OF SIZE 119, chunks 18
+LOADING OBJECT OF SIZE 119, chunks 19
+ExtensibleSequence2 ::= {
+    integer: 123
+}
+=> [%a5%03]:2
+=> [%81%01]:2
+=> [{]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSequence2 ::= {
+    integer: 123
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence2]:19
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [123]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence2]:19
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 97/97
+=== original ===
+<PDU>
+	<extensibleSequence2>
+		<integer>123</integer>
+		<string>one <nul/> two</string>
+	</extensibleSequence2>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence2>
+        <integer>123</integer>
+    </extensibleSequence2>
+</PDU>
+=== end ===
+
+Processing file [../data-70-17-D.in]
+LOADING OBJECT OF SIZE 115, chunks 1
+LOADING OBJECT OF SIZE 115, chunks 2
+LOADING OBJECT OF SIZE 115, chunks 3
+LOADING OBJECT OF SIZE 115, chunks 4
+LOADING OBJECT OF SIZE 115, chunks 5
+LOADING OBJECT OF SIZE 115, chunks 6
+LOADING OBJECT OF SIZE 115, chunks 7
+LOADING OBJECT OF SIZE 115, chunks 8
+LOADING OBJECT OF SIZE 115, chunks 9
+LOADING OBJECT OF SIZE 115, chunks 10
+LOADING OBJECT OF SIZE 115, chunks 11
+LOADING OBJECT OF SIZE 115, chunks 12
+LOADING OBJECT OF SIZE 115, chunks 13
+LOADING OBJECT OF SIZE 115, chunks 14
+LOADING OBJECT OF SIZE 115, chunks 15
+LOADING OBJECT OF SIZE 115, chunks 16
+LOADING OBJECT OF SIZE 115, chunks 17
+LOADING OBJECT OF SIZE 115, chunks 18
+LOADING OBJECT OF SIZE 115, chunks 19
+ExtensibleSet ::= {
+}
+=> [%a3%00]:2
+SAVED OBJECT IN SIZE 2/2
+LOADING OBJECT OF SIZE 2, chunks 1
+LOADING OBJECT OF SIZE 2, chunks 2
+LOADING OBJECT OF SIZE 2, chunks 3
+LOADING OBJECT OF SIZE 2, chunks 4
+LOADING OBJECT OF SIZE 2, chunks 5
+LOADING OBJECT OF SIZE 2, chunks 6
+LOADING OBJECT OF SIZE 2, chunks 7
+LOADING OBJECT OF SIZE 2, chunks 8
+LOADING OBJECT OF SIZE 2, chunks 9
+LOADING OBJECT OF SIZE 2, chunks 10
+LOADING OBJECT OF SIZE 2, chunks 11
+LOADING OBJECT OF SIZE 2, chunks 12
+LOADING OBJECT OF SIZE 2, chunks 13
+LOADING OBJECT OF SIZE 2, chunks 14
+LOADING OBJECT OF SIZE 2, chunks 15
+LOADING OBJECT OF SIZE 2, chunks 16
+LOADING OBJECT OF SIZE 2, chunks 17
+LOADING OBJECT OF SIZE 2, chunks 18
+LOADING OBJECT OF SIZE 2, chunks 19
+ExtensibleSet ::= {
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 54/54
+=== original ===
+<PDU>
+	<extensibleSet>
+		<extension> <!-- <ext> --> </extension>
+		<!-- zzz -->
+		<zuka/>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-03.in]
+LOADING OBJECT OF SIZE 124, chunks 1
+LOADING OBJECT OF SIZE 124, chunks 2
+LOADING OBJECT OF SIZE 124, chunks 3
+LOADING OBJECT OF SIZE 124, chunks 4
+LOADING OBJECT OF SIZE 124, chunks 5
+LOADING OBJECT OF SIZE 124, chunks 6
+LOADING OBJECT OF SIZE 124, chunks 7
+LOADING OBJECT OF SIZE 124, chunks 8
+LOADING OBJECT OF SIZE 124, chunks 9
+LOADING OBJECT OF SIZE 124, chunks 10
+LOADING OBJECT OF SIZE 124, chunks 11
+LOADING OBJECT OF SIZE 124, chunks 12
+LOADING OBJECT OF SIZE 124, chunks 13
+LOADING OBJECT OF SIZE 124, chunks 14
+LOADING OBJECT OF SIZE 124, chunks 15
+LOADING OBJECT OF SIZE 124, chunks 16
+LOADING OBJECT OF SIZE 124, chunks 17
+LOADING OBJECT OF SIZE 124, chunks 18
+LOADING OBJECT OF SIZE 124, chunks 19
+Sequence ::= {
+    integer: 231234
+    bits: 5D
+    string: string
+}
+=> [%a0%11]:2
+=> [%80%03]:2
+=> [%03%87B]:3
+=> [%82%02]:2
+=> [%00]:1
+=> []]:1
+=> [%83%06]:2
+=> [string]:6
+SAVED OBJECT IN SIZE 19/19
+LOADING OBJECT OF SIZE 19, chunks 1
+LOADING OBJECT OF SIZE 19, chunks 2
+LOADING OBJECT OF SIZE 19, chunks 3
+LOADING OBJECT OF SIZE 19, chunks 4
+LOADING OBJECT OF SIZE 19, chunks 5
+LOADING OBJECT OF SIZE 19, chunks 6
+LOADING OBJECT OF SIZE 19, chunks 7
+LOADING OBJECT OF SIZE 19, chunks 8
+LOADING OBJECT OF SIZE 19, chunks 9
+LOADING OBJECT OF SIZE 19, chunks 10
+LOADING OBJECT OF SIZE 19, chunks 11
+LOADING OBJECT OF SIZE 19, chunks 12
+LOADING OBJECT OF SIZE 19, chunks 13
+LOADING OBJECT OF SIZE 19, chunks 14
+LOADING OBJECT OF SIZE 19, chunks 15
+LOADING OBJECT OF SIZE 19, chunks 16
+LOADING OBJECT OF SIZE 19, chunks 17
+LOADING OBJECT OF SIZE 19, chunks 18
+LOADING OBJECT OF SIZE 19, chunks 19
+Sequence ::= {
+    integer: 231234
+    bits: 5D
+    string: string
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [231234]:6
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [bits]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> []:0
+=> [01011101]:8
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [</]:2
+=> [bits]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [string]:6
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 162/162
+=== original ===
+<PDU>
+	<sequence>
+		<integer>231234</integer>
+		<bits>01  01
+			11  01</bits>
+		<string>string</string>
+	</sequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <sequence>
+        <integer>231234</integer>
+        <bits>
+            01011101
+        </bits>
+        <string>string</string>
+    </sequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-27.in]
+LOADING OBJECT OF SIZE 50, chunks 1
+LOADING OBJECT OF SIZE 50, chunks 2
+LOADING OBJECT OF SIZE 50, chunks 3
+LOADING OBJECT OF SIZE 50, chunks 4
+LOADING OBJECT OF SIZE 50, chunks 5
+LOADING OBJECT OF SIZE 50, chunks 6
+LOADING OBJECT OF SIZE 50, chunks 7
+LOADING OBJECT OF SIZE 50, chunks 8
+LOADING OBJECT OF SIZE 50, chunks 9
+LOADING OBJECT OF SIZE 50, chunks 10
+LOADING OBJECT OF SIZE 50, chunks 11
+LOADING OBJECT OF SIZE 50, chunks 12
+LOADING OBJECT OF SIZE 50, chunks 13
+LOADING OBJECT OF SIZE 50, chunks 14
+LOADING OBJECT OF SIZE 50, chunks 15
+LOADING OBJECT OF SIZE 50, chunks 16
+LOADING OBJECT OF SIZE 50, chunks 17
+LOADING OBJECT OF SIZE 50, chunks 18
+LOADING OBJECT OF SIZE 50, chunks 19
+SeqOfZuka ::= {
+    <present>
+}
+=> [%ac%02]:2
+=> [%05%00]:2
+SAVED OBJECT IN SIZE 4/4
+LOADING OBJECT OF SIZE 4, chunks 1
+LOADING OBJECT OF SIZE 4, chunks 2
+LOADING OBJECT OF SIZE 4, chunks 3
+LOADING OBJECT OF SIZE 4, chunks 4
+LOADING OBJECT OF SIZE 4, chunks 5
+LOADING OBJECT OF SIZE 4, chunks 6
+LOADING OBJECT OF SIZE 4, chunks 7
+LOADING OBJECT OF SIZE 4, chunks 8
+LOADING OBJECT OF SIZE 4, chunks 9
+LOADING OBJECT OF SIZE 4, chunks 10
+LOADING OBJECT OF SIZE 4, chunks 11
+LOADING OBJECT OF SIZE 4, chunks 12
+LOADING OBJECT OF SIZE 4, chunks 13
+LOADING OBJECT OF SIZE 4, chunks 14
+LOADING OBJECT OF SIZE 4, chunks 15
+LOADING OBJECT OF SIZE 4, chunks 16
+LOADING OBJECT OF SIZE 4, chunks 17
+LOADING OBJECT OF SIZE 4, chunks 18
+LOADING OBJECT OF SIZE 4, chunks 19
+SeqOfZuka ::= {
+    <present>
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [seqOfZuka]:9
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [NULL]:4
+=> [/>]:2
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [seqOfZuka]:9
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 66/66
+=== original ===
+<PDU>
+	<seqOfZuka>
+		<NULL/>
+	</seqOfZuka>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <seqOfZuka>
+            <NULL/>
+    </seqOfZuka>
+</PDU>
+=== end ===
+
+Processing file [../data-70-02.in]
+LOADING OBJECT OF SIZE 71, chunks 1
+LOADING OBJECT OF SIZE 71, chunks 2
+LOADING OBJECT OF SIZE 71, chunks 3
+LOADING OBJECT OF SIZE 71, chunks 4
+LOADING OBJECT OF SIZE 71, chunks 5
+LOADING OBJECT OF SIZE 71, chunks 6
+LOADING OBJECT OF SIZE 71, chunks 7
+LOADING OBJECT OF SIZE 71, chunks 8
+LOADING OBJECT OF SIZE 71, chunks 9
+LOADING OBJECT OF SIZE 71, chunks 10
+LOADING OBJECT OF SIZE 71, chunks 11
+LOADING OBJECT OF SIZE 71, chunks 12
+LOADING OBJECT OF SIZE 71, chunks 13
+LOADING OBJECT OF SIZE 71, chunks 14
+LOADING OBJECT OF SIZE 71, chunks 15
+LOADING OBJECT OF SIZE 71, chunks 16
+LOADING OBJECT OF SIZE 71, chunks 17
+LOADING OBJECT OF SIZE 71, chunks 18
+LOADING OBJECT OF SIZE 71, chunks 19
+Sequence ::= {
+    integer: -1
+    string: 
+}
+=> [%a0%05]:2
+=> [%80%01]:2
+=> [%ff]:1
+=> [%83%00]:2
+=> []:0
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+Sequence ::= {
+    integer: -1
+    string: 
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [-1]:2
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [string]:6
+=> [>]:1
+=> [</]:2
+=> [string]:6
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [sequence]:8
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 100/100
+=== original ===
+<PDU><sequence><integer>-1</integer><string></string></sequence></PDU>
+=== re-encoded ===
+<PDU>
+    <sequence>
+        <integer>-1</integer>
+        <string></string>
+    </sequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-53.in]
+LOADING OBJECT OF SIZE 75, chunks 1
+LOADING OBJECT OF SIZE 75, chunks 2
+LOADING OBJECT OF SIZE 75, chunks 3
+LOADING OBJECT OF SIZE 75, chunks 4
+LOADING OBJECT OF SIZE 75, chunks 5
+LOADING OBJECT OF SIZE 75, chunks 6
+LOADING OBJECT OF SIZE 75, chunks 7
+LOADING OBJECT OF SIZE 75, chunks 8
+LOADING OBJECT OF SIZE 75, chunks 9
+LOADING OBJECT OF SIZE 75, chunks 10
+LOADING OBJECT OF SIZE 75, chunks 11
+LOADING OBJECT OF SIZE 75, chunks 12
+LOADING OBJECT OF SIZE 75, chunks 13
+LOADING OBJECT OF SIZE 75, chunks 14
+LOADING OBJECT OF SIZE 75, chunks 15
+LOADING OBJECT OF SIZE 75, chunks 16
+LOADING OBJECT OF SIZE 75, chunks 17
+LOADING OBJECT OF SIZE 75, chunks 18
+LOADING OBJECT OF SIZE 75, chunks 19
+NamedSetOfChoice ::= {
+    <present>
+    1
+}
+=> [%ae%05]:2
+=> [%80%00]:2
+=> [%81%01%01]:3
+SAVED OBJECT IN SIZE 7/7
+LOADING OBJECT OF SIZE 7, chunks 1
+LOADING OBJECT OF SIZE 7, chunks 2
+LOADING OBJECT OF SIZE 7, chunks 3
+LOADING OBJECT OF SIZE 7, chunks 4
+LOADING OBJECT OF SIZE 7, chunks 5
+LOADING OBJECT OF SIZE 7, chunks 6
+LOADING OBJECT OF SIZE 7, chunks 7
+LOADING OBJECT OF SIZE 7, chunks 8
+LOADING OBJECT OF SIZE 7, chunks 9
+LOADING OBJECT OF SIZE 7, chunks 10
+LOADING OBJECT OF SIZE 7, chunks 11
+LOADING OBJECT OF SIZE 7, chunks 12
+LOADING OBJECT OF SIZE 7, chunks 13
+LOADING OBJECT OF SIZE 7, chunks 14
+LOADING OBJECT OF SIZE 7, chunks 15
+LOADING OBJECT OF SIZE 7, chunks 16
+LOADING OBJECT OF SIZE 7, chunks 17
+LOADING OBJECT OF SIZE 7, chunks 18
+LOADING OBJECT OF SIZE 7, chunks 19
+NamedSetOfChoice ::= {
+    <present>
+    1
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [namedSetOfChoice]:16
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [a]:1
+=> [>]:1
+=> [</]:2
+=> [a]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [b]:1
+=> [>]:1
+=> [1]:1
+=> [</]:2
+=> [b]:1
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [namedSetOfChoice]:16
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 103/103
+=== original ===
+<PDU>
+	<namedSetOfChoice>
+		<a></a>
+		<b>1</b>
+	</namedSetOfChoice>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <namedSetOfChoice>
+        <a></a>
+    
+        <b>1</b>
+    
+    </namedSetOfChoice>
+</PDU>
+=== end ===
+
+Processing file [../data-70-36.in]
+LOADING OBJECT OF SIZE 62, chunks 1
+LOADING OBJECT OF SIZE 62, chunks 2
+LOADING OBJECT OF SIZE 62, chunks 3
+LOADING OBJECT OF SIZE 62, chunks 4
+LOADING OBJECT OF SIZE 62, chunks 5
+LOADING OBJECT OF SIZE 62, chunks 6
+LOADING OBJECT OF SIZE 62, chunks 7
+LOADING OBJECT OF SIZE 62, chunks 8
+LOADING OBJECT OF SIZE 62, chunks 9
+LOADING OBJECT OF SIZE 62, chunks 10
+LOADING OBJECT OF SIZE 62, chunks 11
+LOADING OBJECT OF SIZE 62, chunks 12
+LOADING OBJECT OF SIZE 62, chunks 13
+LOADING OBJECT OF SIZE 62, chunks 14
+LOADING OBJECT OF SIZE 62, chunks 15
+LOADING OBJECT OF SIZE 62, chunks 16
+LOADING OBJECT OF SIZE 62, chunks 17
+LOADING OBJECT OF SIZE 62, chunks 18
+LOADING OBJECT OF SIZE 62, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112</roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-57-D.in]
+LOADING OBJECT OF SIZE 72, chunks 1
+LOADING OBJECT OF SIZE 72, chunks 2
+LOADING OBJECT OF SIZE 72, chunks 3
+LOADING OBJECT OF SIZE 72, chunks 4
+LOADING OBJECT OF SIZE 72, chunks 5
+LOADING OBJECT OF SIZE 72, chunks 6
+LOADING OBJECT OF SIZE 72, chunks 7
+LOADING OBJECT OF SIZE 72, chunks 8
+LOADING OBJECT OF SIZE 72, chunks 9
+LOADING OBJECT OF SIZE 72, chunks 10
+LOADING OBJECT OF SIZE 72, chunks 11
+LOADING OBJECT OF SIZE 72, chunks 12
+LOADING OBJECT OF SIZE 72, chunks 13
+LOADING OBJECT OF SIZE 72, chunks 14
+LOADING OBJECT OF SIZE 72, chunks 15
+LOADING OBJECT OF SIZE 72, chunks 16
+LOADING OBJECT OF SIZE 72, chunks 17
+LOADING OBJECT OF SIZE 72, chunks 18
+LOADING OBJECT OF SIZE 72, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid> <!--/--> 123.456.789.101112</roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-12.in]
+LOADING OBJECT OF SIZE 48, chunks 1
+LOADING OBJECT OF SIZE 48, chunks 2
+LOADING OBJECT OF SIZE 48, chunks 3
+LOADING OBJECT OF SIZE 48, chunks 4
+LOADING OBJECT OF SIZE 48, chunks 5
+LOADING OBJECT OF SIZE 48, chunks 6
+LOADING OBJECT OF SIZE 48, chunks 7
+LOADING OBJECT OF SIZE 48, chunks 8
+LOADING OBJECT OF SIZE 48, chunks 9
+LOADING OBJECT OF SIZE 48, chunks 10
+LOADING OBJECT OF SIZE 48, chunks 11
+LOADING OBJECT OF SIZE 48, chunks 12
+LOADING OBJECT OF SIZE 48, chunks 13
+LOADING OBJECT OF SIZE 48, chunks 14
+LOADING OBJECT OF SIZE 48, chunks 15
+LOADING OBJECT OF SIZE 48, chunks 16
+LOADING OBJECT OF SIZE 48, chunks 17
+LOADING OBJECT OF SIZE 48, chunks 18
+LOADING OBJECT OF SIZE 48, chunks 19
+ExtensibleSet ::= {
+}
+=> [%a3%00]:2
+SAVED OBJECT IN SIZE 2/2
+LOADING OBJECT OF SIZE 2, chunks 1
+LOADING OBJECT OF SIZE 2, chunks 2
+LOADING OBJECT OF SIZE 2, chunks 3
+LOADING OBJECT OF SIZE 2, chunks 4
+LOADING OBJECT OF SIZE 2, chunks 5
+LOADING OBJECT OF SIZE 2, chunks 6
+LOADING OBJECT OF SIZE 2, chunks 7
+LOADING OBJECT OF SIZE 2, chunks 8
+LOADING OBJECT OF SIZE 2, chunks 9
+LOADING OBJECT OF SIZE 2, chunks 10
+LOADING OBJECT OF SIZE 2, chunks 11
+LOADING OBJECT OF SIZE 2, chunks 12
+LOADING OBJECT OF SIZE 2, chunks 13
+LOADING OBJECT OF SIZE 2, chunks 14
+LOADING OBJECT OF SIZE 2, chunks 15
+LOADING OBJECT OF SIZE 2, chunks 16
+LOADING OBJECT OF SIZE 2, chunks 17
+LOADING OBJECT OF SIZE 2, chunks 18
+LOADING OBJECT OF SIZE 2, chunks 19
+ExtensibleSet ::= {
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 54/54
+=== original ===
+<PDU>
+	<extensibleSet>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-38-B.in]
+LOADING OBJECT OF SIZE 60, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 60, chunks 19
+Failed, but this was expected
+
+Processing file [../data-70-41-D.in]
+LOADING OBJECT OF SIZE 113, chunks 1
+LOADING OBJECT OF SIZE 113, chunks 2
+LOADING OBJECT OF SIZE 113, chunks 3
+LOADING OBJECT OF SIZE 113, chunks 4
+LOADING OBJECT OF SIZE 113, chunks 5
+LOADING OBJECT OF SIZE 113, chunks 6
+LOADING OBJECT OF SIZE 113, chunks 7
+LOADING OBJECT OF SIZE 113, chunks 8
+LOADING OBJECT OF SIZE 113, chunks 9
+LOADING OBJECT OF SIZE 113, chunks 10
+LOADING OBJECT OF SIZE 113, chunks 11
+LOADING OBJECT OF SIZE 113, chunks 12
+LOADING OBJECT OF SIZE 113, chunks 13
+LOADING OBJECT OF SIZE 113, chunks 14
+LOADING OBJECT OF SIZE 113, chunks 15
+LOADING OBJECT OF SIZE 113, chunks 16
+LOADING OBJECT OF SIZE 113, chunks 17
+LOADING OBJECT OF SIZE 113, chunks 18
+LOADING OBJECT OF SIZE 113, chunks 19
+ExtensibleSet ::= {
+    enum: 1 (a)
+}
+=> [%a3%03]:2
+=> [%81%01]:2
+=> [%01]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSet ::= {
+    enum: 1 (a)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [enum]:4
+=> [>]:1
+=> [<a/>]:4
+=> [</]:2
+=> [enum]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSet]:13
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 80/80
+=== original ===
+<PDU>
+	<extensibleSet>
+		<enum> <a/> </enum>
+		<unknown-extension> </unknown-extension>
+	</extensibleSet>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSet>
+        <enum><a/></enum>
+    </extensibleSet>
+</PDU>
+=== end ===
+
+Processing file [../data-70-61-D.in]
+LOADING OBJECT OF SIZE 72, chunks 1
+LOADING OBJECT OF SIZE 72, chunks 2
+LOADING OBJECT OF SIZE 72, chunks 3
+LOADING OBJECT OF SIZE 72, chunks 4
+LOADING OBJECT OF SIZE 72, chunks 5
+LOADING OBJECT OF SIZE 72, chunks 6
+LOADING OBJECT OF SIZE 72, chunks 7
+LOADING OBJECT OF SIZE 72, chunks 8
+LOADING OBJECT OF SIZE 72, chunks 9
+LOADING OBJECT OF SIZE 72, chunks 10
+LOADING OBJECT OF SIZE 72, chunks 11
+LOADING OBJECT OF SIZE 72, chunks 12
+LOADING OBJECT OF SIZE 72, chunks 13
+LOADING OBJECT OF SIZE 72, chunks 14
+LOADING OBJECT OF SIZE 72, chunks 15
+LOADING OBJECT OF SIZE 72, chunks 16
+LOADING OBJECT OF SIZE 72, chunks 17
+LOADING OBJECT OF SIZE 72, chunks 18
+LOADING OBJECT OF SIZE 72, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [%a1%0a]:2
+=> [%80%08]:2
+=> [{%83H%86%15%86%95x]:8
+SAVED OBJECT IN SIZE 12/12
+LOADING OBJECT OF SIZE 12, chunks 1
+LOADING OBJECT OF SIZE 12, chunks 2
+LOADING OBJECT OF SIZE 12, chunks 3
+LOADING OBJECT OF SIZE 12, chunks 4
+LOADING OBJECT OF SIZE 12, chunks 5
+LOADING OBJECT OF SIZE 12, chunks 6
+LOADING OBJECT OF SIZE 12, chunks 7
+LOADING OBJECT OF SIZE 12, chunks 8
+LOADING OBJECT OF SIZE 12, chunks 9
+LOADING OBJECT OF SIZE 12, chunks 10
+LOADING OBJECT OF SIZE 12, chunks 11
+LOADING OBJECT OF SIZE 12, chunks 12
+LOADING OBJECT OF SIZE 12, chunks 13
+LOADING OBJECT OF SIZE 12, chunks 14
+LOADING OBJECT OF SIZE 12, chunks 15
+LOADING OBJECT OF SIZE 12, chunks 16
+LOADING OBJECT OF SIZE 12, chunks 17
+LOADING OBJECT OF SIZE 12, chunks 18
+LOADING OBJECT OF SIZE 12, chunks 19
+Set ::= {
+    roid: { 123.456.789.101112 }
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [roid]:4
+=> [>]:1
+=> [123]:3
+=> [.456]:4
+=> [.789]:4
+=> [.101112]:7
+=> [</]:2
+=> [roid]:4
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [set]:3
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 74/74
+=== original ===
+<PDU>
+	<set>
+		<roid>123.456.789.101112 <!--/--> </roid>
+	</set>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <set>
+        <roid>123.456.789.101112</roid>
+    </set>
+</PDU>
+=== end ===
+
+Processing file [../data-70-32.in]
+LOADING OBJECT OF SIZE 68, chunks 1
+LOADING OBJECT OF SIZE 68, chunks 2
+LOADING OBJECT OF SIZE 68, chunks 3
+LOADING OBJECT OF SIZE 68, chunks 4
+LOADING OBJECT OF SIZE 68, chunks 5
+LOADING OBJECT OF SIZE 68, chunks 6
+LOADING OBJECT OF SIZE 68, chunks 7
+LOADING OBJECT OF SIZE 68, chunks 8
+LOADING OBJECT OF SIZE 68, chunks 9
+LOADING OBJECT OF SIZE 68, chunks 10
+LOADING OBJECT OF SIZE 68, chunks 11
+LOADING OBJECT OF SIZE 68, chunks 12
+LOADING OBJECT OF SIZE 68, chunks 13
+LOADING OBJECT OF SIZE 68, chunks 14
+LOADING OBJECT OF SIZE 68, chunks 15
+LOADING OBJECT OF SIZE 68, chunks 16
+LOADING OBJECT OF SIZE 68, chunks 17
+LOADING OBJECT OF SIZE 68, chunks 18
+LOADING OBJECT OF SIZE 68, chunks 19
+SequenceOf ::= {
+    1
+    7
+}
+=> [%a2%06]:2
+=> [%02%01]:2
+=> [%01]:1
+=> [%02%01]:2
+=> [%07]:1
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+SequenceOf ::= {
+    1
+    7
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [sequenceOf]:10
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [1]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [id]:2
+=> [>]:1
+=> [7]:1
+=> [</]:2
+=> [id]:2
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [sequenceOf]:10
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 86/86
+=== original ===
+<PDU>
+	<sequenceOf>
+		<id>1</id>
+		<id>7</id>
+	</sequenceOf>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <sequenceOf>
+        <id>1</id>
+        <id>7</id>
+    </sequenceOf>
+</PDU>
+=== end ===
+
+Processing file [../data-70-20-D.in]
+LOADING OBJECT OF SIZE 117, chunks 1
+LOADING OBJECT OF SIZE 117, chunks 2
+LOADING OBJECT OF SIZE 117, chunks 3
+LOADING OBJECT OF SIZE 117, chunks 4
+LOADING OBJECT OF SIZE 117, chunks 5
+LOADING OBJECT OF SIZE 117, chunks 6
+LOADING OBJECT OF SIZE 117, chunks 7
+LOADING OBJECT OF SIZE 117, chunks 8
+LOADING OBJECT OF SIZE 117, chunks 9
+LOADING OBJECT OF SIZE 117, chunks 10
+LOADING OBJECT OF SIZE 117, chunks 11
+LOADING OBJECT OF SIZE 117, chunks 12
+LOADING OBJECT OF SIZE 117, chunks 13
+LOADING OBJECT OF SIZE 117, chunks 14
+LOADING OBJECT OF SIZE 117, chunks 15
+LOADING OBJECT OF SIZE 117, chunks 16
+LOADING OBJECT OF SIZE 117, chunks 17
+LOADING OBJECT OF SIZE 117, chunks 18
+LOADING OBJECT OF SIZE 117, chunks 19
+ExtensibleSequence ::= {
+    integer: 123
+}
+=> [%a4%03]:2
+=> [%81%01]:2
+=> [{]:1
+SAVED OBJECT IN SIZE 5/5
+LOADING OBJECT OF SIZE 5, chunks 1
+LOADING OBJECT OF SIZE 5, chunks 2
+LOADING OBJECT OF SIZE 5, chunks 3
+LOADING OBJECT OF SIZE 5, chunks 4
+LOADING OBJECT OF SIZE 5, chunks 5
+LOADING OBJECT OF SIZE 5, chunks 6
+LOADING OBJECT OF SIZE 5, chunks 7
+LOADING OBJECT OF SIZE 5, chunks 8
+LOADING OBJECT OF SIZE 5, chunks 9
+LOADING OBJECT OF SIZE 5, chunks 10
+LOADING OBJECT OF SIZE 5, chunks 11
+LOADING OBJECT OF SIZE 5, chunks 12
+LOADING OBJECT OF SIZE 5, chunks 13
+LOADING OBJECT OF SIZE 5, chunks 14
+LOADING OBJECT OF SIZE 5, chunks 15
+LOADING OBJECT OF SIZE 5, chunks 16
+LOADING OBJECT OF SIZE 5, chunks 17
+LOADING OBJECT OF SIZE 5, chunks 18
+LOADING OBJECT OF SIZE 5, chunks 19
+ExtensibleSequence ::= {
+    integer: 123
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [<]:1
+=> [integer]:7
+=> [>]:1
+=> [123]:3
+=> [</]:2
+=> [integer]:7
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [extensibleSequence]:18
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 95/95
+=== original ===
+<PDU>
+	<extensibleSequence>
+		<integer>123</integer>
+		<string>one <nul/> two</string>
+	</extensibleSequence>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <extensibleSequence>
+        <integer>123</integer>
+    </extensibleSequence>
+</PDU>
+=== end ===
+
+Processing file [../data-70-47.in]
+LOADING OBJECT OF SIZE 77, chunks 1
+LOADING OBJECT OF SIZE 77, chunks 2
+LOADING OBJECT OF SIZE 77, chunks 3
+LOADING OBJECT OF SIZE 77, chunks 4
+LOADING OBJECT OF SIZE 77, chunks 5
+LOADING OBJECT OF SIZE 77, chunks 6
+LOADING OBJECT OF SIZE 77, chunks 7
+LOADING OBJECT OF SIZE 77, chunks 8
+LOADING OBJECT OF SIZE 77, chunks 9
+LOADING OBJECT OF SIZE 77, chunks 10
+LOADING OBJECT OF SIZE 77, chunks 11
+LOADING OBJECT OF SIZE 77, chunks 12
+LOADING OBJECT OF SIZE 77, chunks 13
+LOADING OBJECT OF SIZE 77, chunks 14
+LOADING OBJECT OF SIZE 77, chunks 15
+LOADING OBJECT OF SIZE 77, chunks 16
+LOADING OBJECT OF SIZE 77, chunks 17
+LOADING OBJECT OF SIZE 77, chunks 18
+LOADING OBJECT OF SIZE 77, chunks 19
+NamedSetOfEnums ::= {
+    0 (one)
+    1 (oneMore)
+}
+=> [%ab%06]:2
+=> [%0a%01%00]:3
+=> [%0a%01%01]:3
+SAVED OBJECT IN SIZE 8/8
+LOADING OBJECT OF SIZE 8, chunks 1
+LOADING OBJECT OF SIZE 8, chunks 2
+LOADING OBJECT OF SIZE 8, chunks 3
+LOADING OBJECT OF SIZE 8, chunks 4
+LOADING OBJECT OF SIZE 8, chunks 5
+LOADING OBJECT OF SIZE 8, chunks 6
+LOADING OBJECT OF SIZE 8, chunks 7
+LOADING OBJECT OF SIZE 8, chunks 8
+LOADING OBJECT OF SIZE 8, chunks 9
+LOADING OBJECT OF SIZE 8, chunks 10
+LOADING OBJECT OF SIZE 8, chunks 11
+LOADING OBJECT OF SIZE 8, chunks 12
+LOADING OBJECT OF SIZE 8, chunks 13
+LOADING OBJECT OF SIZE 8, chunks 14
+LOADING OBJECT OF SIZE 8, chunks 15
+LOADING OBJECT OF SIZE 8, chunks 16
+LOADING OBJECT OF SIZE 8, chunks 17
+LOADING OBJECT OF SIZE 8, chunks 18
+LOADING OBJECT OF SIZE 8, chunks 19
+NamedSetOfEnums ::= {
+    0 (one)
+    1 (oneMore)
+}
+=> [<]:1
+=> [PDU]:3
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [<]:1
+=> [namedSetOfEnums]:15
+=> [>]:1
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<one/>]:6
+=> [%0a]:1
+=> [    ]:4
+=> [    ]:4
+=> [    ]:4
+=> [<oneMore/>]:10
+=> [%0a]:1
+=> [    ]:4
+=> [</]:2
+=> [namedSetOfEnums]:15
+=> [>]:1
+=> [%0a]:1
+=> [</]:2
+=> [PDU]:3
+=> [>%0a]:2
+SAVED OBJECT IN SIZE 100/100
+=== original ===
+<PDU>
+	<namedSetOfEnums>
+		<one/>
+		<oneMore/>
+	</namedSetOfEnums>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <namedSetOfEnums>
+            <one/>
+            <oneMore/>
+    </namedSetOfEnums>
+</PDU>
+=== end ===
+
+Processing file [../data-70-34-B.in]
+LOADING OBJECT OF SIZE 120, chunks 1
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 2
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 3
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 4
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 5
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 6
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 7
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 8
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 9
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 10
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 11
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 12
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 13
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 14
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 15
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 16
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 17
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 18
+Failed, but this was expected
+LOADING OBJECT OF SIZE 120, chunks 19
+Failed, but this was expected
+<! != 12
+on != in
+!- != /r
+/> != ><
+<! != th
+!- != /r
+ex != /e
+Mo != />
+/> != ><
+&# != he
+3. != <P
+ex != in
+op != ro
+ex != /e
+!- != /r
+!- != /r
+st != /e
+ex != /e
+<! != 12
+un != /e
+!- != /r
+st != /e
+/Applications/Xcode.app/Contents/Developer/usr/bin/make fuzz
+No fuzzer defined, skipping.
+OK: ./check-src/check-70.-fwide-types.c
+PASS check-src/check-70.-fwide-types.c (exit status: 0)

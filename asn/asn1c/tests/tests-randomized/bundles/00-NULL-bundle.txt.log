@@ -1,0 +1,675 @@
+++ basename ./bundles/00-NULL-bundle.txt
+++ sed -e 's/.txt$//'
++ base=00-NULL-bundle
++ RNDTEMP=.tmp.00-NULL-bundle
++ Make -C .tmp.00-NULL-bundle all-tests-succeeded
++ test_drive verify_asn_types_in_file ./bundles/00-NULL-bundle.txt
++ func=verify_asn_types_in_file
++ shift
++ '[' x = x ']'
++ asn1c_flags=' '
++ test_drive verify_asn_types_in_file ./bundles/00-NULL-bundle.txt
++ func=verify_asn_types_in_file
++ shift
++ '[' 'x ' = x ']'
++ rm -rf .tmp.00-NULL-bundle
++ echo 'MODE: default'
+MODE: default
++ verify_asn_types_in_file ./bundles/00-NULL-bundle.txt
++ filename=./bundles/00-NULL-bundle.txt
++ need_line=
++ test x./bundles/00-NULL-bundle.txt '!=' x
++ make_clean_before_bundle
++ '[' 1 = 1 ']'
++ cd .tmp.00-NULL-bundle
+./check-bundles.sh: line 50: cd: .tmp.00-NULL-bundle: No such file or directory
++ :
++ echo 'Open [./bundles/00-NULL-bundle.txt]'
+Open [./bundles/00-NULL-bundle.txt]
++ for mode in syntax full
++ '[' xsyntax = xsyntax ']'
++ max_failures=1
++ line=0
++ read asn
+++ expr 0 + 1
++ line=1
++ echo NULL
++ sed -e 's/--.*//;'
++ grep -vi '[A-Z]'
++ '[' x '!=' x ']'
++ verify_asn_type syntax NULL 'in ./bundles/00-NULL-bundle.txt 1'
++ mode=syntax
++ asn=NULL
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ test xNULL '!=' x
++ echo NULL
++ grep -v ::=
++ asn='T ::= NULL'
++ echo 'Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
++ mkdir -p .tmp.00-NULL-bundle
++ '[' xsyntax = xsyntax ']'
++ asn1c_invoke .tmp.00-NULL-bundle/test.asn1 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1' -P
++ tmpfile=.tmp.00-NULL-bundle/test.asn1
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ echo 'Test DEFINITIONS ::= BEGIN T ::= NULL'
++ echo '-- in ./bundles/00-NULL-bundle.txt 1'
++ echo END
++ echo '/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons'
++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons -P .tmp.00-NULL-bundle/test.asn1
++ echo 'ASN.1 compiled OK'
++ return 0
++ '[' 0 = 1 ']'
++ read asn
++ for mode in syntax full
++ '[' xfull = xsyntax ']'
++ max_failures=1
++ line=0
++ read asn
+++ expr 0 + 1
++ line=1
++ echo NULL
++ sed -e 's/--.*//;'
++ grep -vi '[A-Z]'
++ '[' x '!=' x ']'
++ verify_asn_type full NULL 'in ./bundles/00-NULL-bundle.txt 1'
++ mode=full
++ asn=NULL
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ test xNULL '!=' x
++ echo NULL
++ grep -v ::=
++ asn='T ::= NULL'
++ echo 'Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
++ mkdir -p .tmp.00-NULL-bundle
++ '[' xfull = xsyntax ']'
++ set -e
++ cd .tmp.00-NULL-bundle
++ compile_and_test 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1'
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ '[' xgcc = x ']'
++ CCSTR='CC=gcc '
++ reproduce_make='cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make'
++ env
++ set
++ make_clean_before_test
++ '[' 0 = 1 ']'
++ rm -f T.o libasncodec.a
++ asn_compile 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1'
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
+++ echo 'T ::= NULL'
+++ sed -e 's/ *--.*//;s/RMAX=[0-9]//;'
++ short_asn='T ::= NULL'
+++ echo 'T ::= NULL'
+++ grep -c ::=
++ '[' 1 = 1 ']'
+++ echo 'T ::= NULL'
+++ sed -e 's/.*::= *//'
++ short_asn=NULL
++ test '!' -f Makefile.am
++ asn1c_invoke test.asn1 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1' -flink-skeletons
++ tmpfile=test.asn1
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ echo 'Test DEFINITIONS ::= BEGIN T ::= NULL'
++ echo '-- in ./bundles/00-NULL-bundle.txt 1'
++ echo END
++ echo '/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons'
+/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons
++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons -flink-skeletons test.asn1
+Compiled T.c
+Compiled T.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.h	-> OPEN_TYPE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.c	-> OPEN_TYPE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.h	-> BOOLEAN.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.c	-> BOOLEAN.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.h	-> NULL.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.c	-> NULL.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.h	-> asn_application.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.c	-> asn_application.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_ioc.h	-> asn_ioc.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_system.h	-> asn_system.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs.h	-> asn_codecs.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.h	-> asn_internal.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.c	-> asn_internal.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.h	-> asn_random_fill.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.c	-> asn_random_fill.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.h	-> asn_bit_data.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.c	-> asn_bit_data.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.h	-> ber_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.c	-> ber_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.h	-> der_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.c	-> der_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.h	-> constraints.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.c	-> constraints.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.h	-> xer_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.c	-> xer_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.h	-> xer_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.c	-> xer_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.h	-> xer_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.c	-> xer_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.h	-> per_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.c	-> per_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.h	-> per_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.c	-> per_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.h	-> per_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.c	-> per_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.h	-> per_opentype.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.c	-> per_opentype.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.h	-> oer_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.h	-> oer_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.h	-> oer_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.c	-> oer_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.c	-> oer_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.c	-> oer_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE_oer.c	-> OPEN_TYPE_oer.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE_oer.c	-> constr_CHOICE_oer.c
+Generated Makefile.am.libasncodec
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c	-> converter-example.c implicit
+Generated pdu_collection.c
+Generated converter-example.mk
+File /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c is already here as converter-example.c
+Generated pdu_collection.c
+Generated Makefile.am.asn1convert
++ echo 'ASN.1 compiled OK'
+ASN.1 compiled OK
++ '[' 0 '!=' 0 ']'
++ rm -f converter-example.c
++ ln -sf .././random-test-driver.c
++ echo 'CFLAGS+= -DASN1_TEXT='\''NULL'\'''
++ echo 'ASN_PROGRAM = random-test-driver'
++ echo 'ASN_PROGRAM_SRCS = random-test-driver.c'
++ echo
++ echo 'include converter-example.mk'
++ echo
++ echo 'all-tests-succeeded: /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c $(ASN_PROGRAM_SRCS) $(ASN_MODULE_SRCS) $(ASN_MODULE_HDRS)'
++ echo '	@rm -f $@'
++ echo '	@echo Previous try did not go correctly. To reproduce:'
++ echo '	@cat .test-reproduce'
++ echo '	@exit 1'
++ echo
++ echo 'converter-example.mk -> Makefile'
+converter-example.mk -> Makefile
++ '[' 0 -ne 0 ']'
++ rm -f random-test-driver.o
++ rm -f random-test-driver
++ CFLAGS='-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99'
++ Make
++ /Applications/Xcode.app/Contents/Developer/usr/bin/make -j 1
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o T.o -c T.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE.o -c OPEN_TYPE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o BOOLEAN.o -c BOOLEAN.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o NULL.o -c NULL.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_CHOICE.o -c constr_CHOICE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_application.o -c asn_application.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_internal.o -c asn_internal.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_random_fill.o -c asn_random_fill.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_bit_data.o -c asn_bit_data.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OCTET_STRING.o -c OCTET_STRING.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o BIT_STRING.o -c BIT_STRING.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_codecs_prim.o -c asn_codecs_prim.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_tlv_length.o -c ber_tlv_length.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_tlv_tag.o -c ber_tlv_tag.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_decoder.o -c ber_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o der_encoder.o -c der_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_TYPE.o -c constr_TYPE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constraints.o -c constraints.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_support.o -c xer_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_decoder.o -c xer_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_encoder.o -c xer_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_support.o -c per_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_decoder.o -c per_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_encoder.o -c per_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_opentype.o -c per_opentype.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_decoder.o -c oer_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_encoder.o -c oer_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_support.o -c oer_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE_oer.o -c OPEN_TYPE_oer.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_CHOICE_oer.o -c constr_CHOICE_oer.c
+ar rcs libasncodec.a T.o OPEN_TYPE.o BOOLEAN.o NULL.o constr_CHOICE.o asn_application.o asn_internal.o asn_random_fill.o asn_bit_data.o OCTET_STRING.o BIT_STRING.o asn_codecs_prim.o ber_tlv_length.o ber_tlv_tag.o ber_decoder.o der_encoder.o constr_TYPE.o constraints.o xer_support.o xer_decoder.o xer_encoder.o per_support.o per_decoder.o per_encoder.o per_opentype.o oer_decoder.o oer_encoder.o oer_support.o OPEN_TYPE_oer.o constr_CHOICE_oer.o
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o random-test-driver.o -c random-test-driver.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I.  -o random-test-driver random-test-driver.o  libasncodec.a -lm
++ '[' 0 -ne 0 ']'
+++ get_param RMAX 128 'T ::= NULL'
+++ param=RMAX
+++ default=128
+++ asn='T ::= NULL'
+++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/tests/tests-randomized/test-param-helper RMAX 128 'T ::= NULL'
++ rmax=128
++ '[' 0128 -lt 1 ']'
++ echo 'Checking random data encode-decode'
+Checking random data encode-decode
++ round_trip_check_cmd=' ./random-test-driver -s 128  -c'
++ echo '(cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make &&  ./random-test-driver -s 128  -c)'
++ eval ' ./random-test-driver -s 128  -c'
+++ ./random-test-driver -s 128 -c
+Testing 100 iterations of round-trip for DER
+[000] round-trip in 2 bytes OK
+[001] round-trip in 2 bytes OK
+[002] round-trip in 2 bytes OK
+[003] round-trip in 2 bytes OK
+[004] round-trip in 2 bytes OK
+... and so on
+OK 100 iterations of round-trip for DER
+Testing 100 iterations of round-trip for OER
+[000] round-trip in 0 bytes OK
+[001] round-trip in 0 bytes OK
+[002] round-trip in 0 bytes OK
+[003] round-trip in 0 bytes OK
+[004] round-trip in 0 bytes OK
+... and so on
+OK 100 iterations of round-trip for OER
+Testing 100 iterations of round-trip for UPER
+[000] round-trip in 1 bytes OK
+[001] round-trip in 1 bytes OK
+[002] round-trip in 1 bytes OK
+[003] round-trip in 1 bytes OK
+[004] round-trip in 1 bytes OK
+... and so on
+OK 100 iterations of round-trip for UPER
+Testing 100 iterations of round-trip for XER
+[000] round-trip in 7 bytes OK
+[001] round-trip in 7 bytes OK
+[002] round-trip in 7 bytes OK
+[003] round-trip in 7 bytes OK
+[004] round-trip in 7 bytes OK
+... and so on
+OK 100 iterations of round-trip for XER
++ echo 'Random test OK'
+Random test OK
++ echo 'Generating new random data'
+Generating new random data
++ rm -rf random-data
++ cmd=' UBSAN_OPTIONS=print_stacktrace=1'
++ cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data'
++ echo '(cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make &&  UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data)'
++ eval ' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data'
+++ UBSAN_OPTIONS=print_stacktrace=1
+++ ./random-test-driver -s 128 -g random-data
+Generating 100 random DER values of T into random-data/der
+Generating 100 random OER values of T into random-data/oer
+Generating 100 random UPER values of T into random-data/uper
+Generating 100 random XER values of T into random-data/xer
++ echo 'Random data generated OK'
+Random data generated OK
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1'
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver'
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -timeout=3 -max_total_time=10 -max_len=128'
++ grep '^fuzz:' Makefile
+++ echo random-data/der random-data/oer random-data/uper random-data/xer
+++ sed -e s/random-data./fuzz-/g
++ fuzz_targets='fuzz-der fuzz-oer fuzz-uper fuzz-xer'
++ echo 'fuzz: fuzz-der fuzz-oer fuzz-uper fuzz-xer'
++ echo 'fuzz-%: random-data/% random-test-driver'
++ echo '	ASN1_DATA_DIR=$<  UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -timeout=3 -max_total_time=10 -max_len=128 $<'
++ echo ''
++ grep -i '[a-z]'
++ return 0
++ echo 'OK [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+OK [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
+++ expr 0 + 1
++ tests_succeeded=1
++ '[' 0 = 1 ']'
++ read asn
++ echo ''
++ grep -i '[a-z]'
++ asn1c_flags=-fnative-types
++ test_drive verify_asn_types_in_file ./bundles/00-NULL-bundle.txt
++ func=verify_asn_types_in_file
++ shift
++ '[' x-fnative-types = x ']'
++ rm -rf .tmp.00-NULL-bundle
++ echo 'MODE: default'
+MODE: default
++ verify_asn_types_in_file ./bundles/00-NULL-bundle.txt
++ filename=./bundles/00-NULL-bundle.txt
++ need_line=
++ test x./bundles/00-NULL-bundle.txt '!=' x
++ make_clean_before_bundle
++ '[' 1 = 1 ']'
++ cd .tmp.00-NULL-bundle
+./check-bundles.sh: line 50: cd: .tmp.00-NULL-bundle: No such file or directory
++ :
++ echo 'Open [./bundles/00-NULL-bundle.txt]'
+Open [./bundles/00-NULL-bundle.txt]
++ for mode in syntax full
++ '[' xsyntax = xsyntax ']'
++ max_failures=1
++ line=0
++ read asn
+++ expr 0 + 1
++ line=1
++ echo NULL
++ sed -e 's/--.*//;'
++ grep -vi '[A-Z]'
++ '[' x '!=' x ']'
++ verify_asn_type syntax NULL 'in ./bundles/00-NULL-bundle.txt 1'
++ mode=syntax
++ asn=NULL
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ test xNULL '!=' x
++ echo NULL
++ grep -v ::=
++ asn='T ::= NULL'
++ echo 'Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
++ mkdir -p .tmp.00-NULL-bundle
++ '[' xsyntax = xsyntax ']'
++ asn1c_invoke .tmp.00-NULL-bundle/test.asn1 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1' -P
++ tmpfile=.tmp.00-NULL-bundle/test.asn1
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ echo 'Test DEFINITIONS ::= BEGIN T ::= NULL'
++ echo '-- in ./bundles/00-NULL-bundle.txt 1'
++ echo END
++ echo '/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons'
++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons -fnative-types -P .tmp.00-NULL-bundle/test.asn1
+-fnative-types: Deprecated option
++ echo 'ASN.1 compiled OK'
++ return 0
++ '[' 0 = 1 ']'
++ read asn
++ for mode in syntax full
++ '[' xfull = xsyntax ']'
++ max_failures=1
++ line=0
++ read asn
+++ expr 0 + 1
++ line=1
++ echo NULL
++ sed -e 's/--.*//;'
++ grep -vi '[A-Z]'
++ '[' x '!=' x ']'
++ verify_asn_type full NULL 'in ./bundles/00-NULL-bundle.txt 1'
++ mode=full
++ asn=NULL
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ test xNULL '!=' x
++ echo NULL
++ grep -v ::=
++ asn='T ::= NULL'
++ echo 'Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+Testing [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
++ mkdir -p .tmp.00-NULL-bundle
++ '[' xfull = xsyntax ']'
++ set -e
++ cd .tmp.00-NULL-bundle
++ compile_and_test 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1'
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ '[' xgcc = x ']'
++ CCSTR='CC=gcc '
++ reproduce_make='cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make'
++ env
++ set
++ make_clean_before_test
++ '[' 0 = 1 ']'
++ rm -f T.o libasncodec.a
++ asn_compile 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1'
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
+++ echo 'T ::= NULL'
+++ sed -e 's/ *--.*//;s/RMAX=[0-9]//;'
++ short_asn='T ::= NULL'
+++ echo 'T ::= NULL'
+++ grep -c ::=
++ '[' 1 = 1 ']'
+++ echo 'T ::= NULL'
+++ sed -e 's/.*::= *//'
++ short_asn=NULL
++ test '!' -f Makefile.am
++ asn1c_invoke test.asn1 'T ::= NULL' 'in ./bundles/00-NULL-bundle.txt 1' -flink-skeletons
++ tmpfile=test.asn1
++ asn='T ::= NULL'
++ where='in ./bundles/00-NULL-bundle.txt 1'
++ shift 3
++ echo 'Test DEFINITIONS ::= BEGIN T ::= NULL'
++ echo '-- in ./bundles/00-NULL-bundle.txt 1'
++ echo END
++ echo '/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons'
+/Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons
++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c -S /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons -fnative-types -flink-skeletons test.asn1
+-fnative-types: Deprecated option
+Compiled T.c
+Compiled T.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.h	-> OPEN_TYPE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE.c	-> OPEN_TYPE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.h	-> BOOLEAN.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BOOLEAN.c	-> BOOLEAN.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.h	-> NULL.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/NULL.c	-> NULL.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.h	-> asn_application.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_application.c	-> asn_application.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_ioc.h	-> asn_ioc.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_system.h	-> asn_system.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs.h	-> asn_codecs.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.h	-> asn_internal.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_internal.c	-> asn_internal.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.h	-> asn_random_fill.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_random_fill.c	-> asn_random_fill.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.h	-> asn_bit_data.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_bit_data.c	-> asn_bit_data.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.h	-> ber_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/ber_decoder.c	-> ber_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.h	-> der_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/der_encoder.c	-> der_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.h	-> constraints.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constraints.c	-> constraints.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.h	-> xer_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_support.c	-> xer_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.h	-> xer_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_decoder.c	-> xer_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.h	-> xer_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/xer_encoder.c	-> xer_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.h	-> per_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_support.c	-> per_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.h	-> per_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_decoder.c	-> per_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.h	-> per_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_encoder.c	-> per_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.h	-> per_opentype.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/per_opentype.c	-> per_opentype.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.h	-> oer_decoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.h	-> oer_encoder.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.h	-> oer_support.h
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_decoder.c	-> oer_decoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_encoder.c	-> oer_encoder.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/oer_support.c	-> oer_support.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/OPEN_TYPE_oer.c	-> OPEN_TYPE_oer.c
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/constr_CHOICE_oer.c	-> constr_CHOICE_oer.c
+Generated Makefile.am.libasncodec
+Symlinked /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c	-> converter-example.c implicit
+Generated pdu_collection.c
+Generated converter-example.mk
+File /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/skeletons/converter-example.c is already here as converter-example.c
+Generated pdu_collection.c
+Generated Makefile.am.asn1convert
++ echo 'ASN.1 compiled OK'
+ASN.1 compiled OK
++ '[' 0 '!=' 0 ']'
++ rm -f converter-example.c
++ ln -sf .././random-test-driver.c
++ echo 'CFLAGS+= -DASN1_TEXT='\''NULL'\'''
++ echo 'ASN_PROGRAM = random-test-driver'
++ echo 'ASN_PROGRAM_SRCS = random-test-driver.c'
++ echo
++ echo 'include converter-example.mk'
++ echo
++ echo 'all-tests-succeeded: /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/asn1c/asn1c $(ASN_PROGRAM_SRCS) $(ASN_MODULE_SRCS) $(ASN_MODULE_HDRS)'
++ echo '	@rm -f $@'
++ echo '	@echo Previous try did not go correctly. To reproduce:'
++ echo '	@cat .test-reproduce'
++ echo '	@exit 1'
++ echo
++ echo 'converter-example.mk -> Makefile'
+converter-example.mk -> Makefile
++ '[' 0 -ne 0 ']'
++ rm -f random-test-driver.o
++ rm -f random-test-driver
++ CFLAGS='-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99'
++ Make
++ /Applications/Xcode.app/Contents/Developer/usr/bin/make -j 1
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o T.o -c T.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE.o -c OPEN_TYPE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o BOOLEAN.o -c BOOLEAN.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o NULL.o -c NULL.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_CHOICE.o -c constr_CHOICE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_application.o -c asn_application.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_internal.o -c asn_internal.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_random_fill.o -c asn_random_fill.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_bit_data.o -c asn_bit_data.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OCTET_STRING.o -c OCTET_STRING.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o BIT_STRING.o -c BIT_STRING.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o asn_codecs_prim.o -c asn_codecs_prim.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_tlv_length.o -c ber_tlv_length.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_tlv_tag.o -c ber_tlv_tag.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o ber_decoder.o -c ber_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o der_encoder.o -c der_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_TYPE.o -c constr_TYPE.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constraints.o -c constraints.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_support.o -c xer_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_decoder.o -c xer_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o xer_encoder.o -c xer_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_support.o -c per_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_decoder.o -c per_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_encoder.o -c per_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o per_opentype.o -c per_opentype.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_decoder.o -c oer_decoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_encoder.o -c oer_encoder.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o oer_support.o -c oer_support.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o OPEN_TYPE_oer.o -c OPEN_TYPE_oer.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o constr_CHOICE_oer.o -c constr_CHOICE_oer.c
+ar rcs libasncodec.a T.o OPEN_TYPE.o BOOLEAN.o NULL.o constr_CHOICE.o asn_application.o asn_internal.o asn_random_fill.o asn_bit_data.o OCTET_STRING.o BIT_STRING.o asn_codecs_prim.o ber_tlv_length.o ber_tlv_tag.o ber_decoder.o der_encoder.o constr_TYPE.o constraints.o xer_support.o xer_decoder.o xer_encoder.o per_support.o per_decoder.o per_encoder.o per_opentype.o oer_decoder.o oer_encoder.o oer_support.o OPEN_TYPE_oer.o constr_CHOICE_oer.o
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I. -o random-test-driver.o -c random-test-driver.c
+gcc -std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99 -DASN1_TEXT='NULL'  -DASN_PDU_COLLECTION -I.  -o random-test-driver random-test-driver.o  libasncodec.a -lm
++ '[' 0 -ne 0 ']'
+++ get_param RMAX 128 'T ::= NULL'
+++ param=RMAX
+++ default=128
+++ asn='T ::= NULL'
+++ /Users/tasospsomadopoulos/Documents/asn1_sample/asn1c/tests/tests-randomized/test-param-helper RMAX 128 'T ::= NULL'
++ rmax=128
++ '[' 0128 -lt 1 ']'
++ echo 'Checking random data encode-decode'
+Checking random data encode-decode
++ round_trip_check_cmd=' ./random-test-driver -s 128  -c'
++ echo '(cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make &&  ./random-test-driver -s 128  -c)'
++ eval ' ./random-test-driver -s 128  -c'
+++ ./random-test-driver -s 128 -c
+Testing 100 iterations of round-trip for DER
+[000] round-trip in 2 bytes OK
+[001] round-trip in 2 bytes OK
+[002] round-trip in 2 bytes OK
+[003] round-trip in 2 bytes OK
+[004] round-trip in 2 bytes OK
+... and so on
+OK 100 iterations of round-trip for DER
+Testing 100 iterations of round-trip for OER
+[000] round-trip in 0 bytes OK
+[001] round-trip in 0 bytes OK
+[002] round-trip in 0 bytes OK
+[003] round-trip in 0 bytes OK
+[004] round-trip in 0 bytes OK
+... and so on
+OK 100 iterations of round-trip for OER
+Testing 100 iterations of round-trip for UPER
+[000] round-trip in 1 bytes OK
+[001] round-trip in 1 bytes OK
+[002] round-trip in 1 bytes OK
+[003] round-trip in 1 bytes OK
+[004] round-trip in 1 bytes OK
+... and so on
+OK 100 iterations of round-trip for UPER
+Testing 100 iterations of round-trip for XER
+[000] round-trip in 7 bytes OK
+[001] round-trip in 7 bytes OK
+[002] round-trip in 7 bytes OK
+[003] round-trip in 7 bytes OK
+[004] round-trip in 7 bytes OK
+... and so on
+OK 100 iterations of round-trip for XER
++ echo 'Random test OK'
+Random test OK
++ echo 'Generating new random data'
+Generating new random data
++ rm -rf random-data
++ cmd=' UBSAN_OPTIONS=print_stacktrace=1'
++ cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data'
++ echo '(cd ".tmp.00-NULL-bundle" && CC=gcc CFLAGS="-std=gnu99 -Wno-error=unused-variable  -fsanitize=undefined -fno-sanitize-recover=undefined -fsanitize=unsigned-integer-overflow -fno-sanitize-recover=unsigned-integer-overflow -fsanitize=nullability -fno-sanitize-recover=nullability -fno-omit-frame-pointer -fsanitize=address -fno-omit-frame-pointer -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=attributes -Wno-error=cast-align -Wno-error=visibility -Wno-error=parentheses-equality -std=gnu99" /Applications/Xcode.app/Contents/Developer/usr/bin/make &&  UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data)'
++ eval ' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -s 128  -g random-data'
+++ UBSAN_OPTIONS=print_stacktrace=1
+++ ./random-test-driver -s 128 -g random-data
+Generating 100 random DER values of T into random-data/der
+Generating 100 random OER values of T into random-data/oer
+Generating 100 random UPER values of T into random-data/uper
+Generating 100 random XER values of T into random-data/xer
++ echo 'Random data generated OK'
+Random data generated OK
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1'
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver'
++ fuzz_cmd=' UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -timeout=3 -max_total_time=10 -max_len=128'
++ grep '^fuzz:' Makefile
+++ echo random-data/der random-data/oer random-data/uper random-data/xer
+++ sed -e s/random-data./fuzz-/g
++ fuzz_targets='fuzz-der fuzz-oer fuzz-uper fuzz-xer'
++ echo 'fuzz: fuzz-der fuzz-oer fuzz-uper fuzz-xer'
++ echo 'fuzz-%: random-data/% random-test-driver'
++ echo '	ASN1_DATA_DIR=$<  UBSAN_OPTIONS=print_stacktrace=1 ./random-test-driver -timeout=3 -max_total_time=10 -max_len=128 $<'
++ echo ''
++ grep -i '[a-z]'
++ return 0
++ echo 'OK [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1'
+OK [T ::= NULL] in ./bundles/00-NULL-bundle.txt 1
+++ expr 1 + 1
++ tests_succeeded=2
++ '[' 0 = 1 ']'
++ read asn
++ echo ''
++ grep -i '[a-z]'
++ return 0
++ touch .tmp.00-NULL-bundle/all-tests-succeeded
++ break
++ '[' 2 '!=' 0 ']'
++ '[' 0 = 0 ']'
++ echo 'OK 2 tests'
+OK 2 tests
+PASS bundles/00-NULL-bundle.txt (exit status: 0)

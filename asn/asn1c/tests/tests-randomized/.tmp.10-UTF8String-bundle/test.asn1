@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= UTF8String (FROM("A".."Z") INTERSECTION SIZE(3))
+-- in ./bundles/10-UTF8String-bundle.txt 7
+END

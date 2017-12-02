@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= SEQUENCE { list SEQUENCE (SIZE(1..2,...)) OF OCTET STRING(SIZE(1)), guard OCTET STRING(SIZE(1)) }
+-- in ./bundles/16-SEQUENCE-bundle.txt 89
+END

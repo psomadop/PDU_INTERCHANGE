@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= RELATIVE-OID
+-- in ./bundles/09-RELATIVE-OID-bundle.txt 1
+END

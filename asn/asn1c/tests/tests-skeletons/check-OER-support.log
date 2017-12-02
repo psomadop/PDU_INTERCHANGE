@@ -1,0 +1,16 @@
+050: Round-trip for 0
+051: Round-trip for 1
+052: Round-trip for 127
+053: Round-trip for 128
+054: Round-trip for 129
+055: Round-trip for 255
+056: Round-trip for 256
+057: Round-trip for 65534
+058: Round-trip for 65535
+059: Round-trip for 65536
+060: Round-trip for 65538
+061: Round-trip for 16000000
+062: Round-trip for 16777216
+063: Round-trip for 2147483648
+064: Round-trip for 4294967295
+PASS check-OER-support (exit status: 0)

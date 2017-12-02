@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= BIT STRING { foo(0) } (SIZE(65537,...))   -- RMAX=65540
+-- in ./bundles/05-BIT-STRING-bundle.txt 25
+END

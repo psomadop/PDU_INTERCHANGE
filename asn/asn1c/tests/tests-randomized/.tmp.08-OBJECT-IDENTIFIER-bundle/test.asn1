@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= OBJECT IDENTIFIER
+-- in ./bundles/08-OBJECT-IDENTIFIER-bundle.txt 1
+END

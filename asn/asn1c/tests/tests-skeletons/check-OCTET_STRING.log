@@ -1,0 +1,52 @@
+090: [<OCTET_STRING>41424</OCTET_STRING>] => [AB@]:3 vs [AB@]:3, code 0
+094: [<!--comment--><OCTET_STRING>
+<!--comment-->41424</OCTET_STRING>] => [AB@]:3 vs [AB@]:3, code 0
+097: [<OCTET_STRING blah blah> 4 1 4 2 4 5 44 </OCTET_STRING>] => [ABED]:4 vs [ABED]:4, code 0
+100: [<z><!-- < -->40</z>] => [@]:1 vs [@]:1, code 0
+101: [<z><!-- <-->40</z>] => [@]:1 vs [@]:1, code 0
+102: [<z><!-- -->>40</z>] => []:0 vs []:0, code 2
+103: [<z><!-- <some <sometag>-->40</z>] => [@]:1 vs [@]:1, code 0
+104: [<z><!-- <some <sometag-->>40</z>] => []:0 vs []:0, code 2
+106: [ignored<z>40</z>stuff] => [@]:1 vs [@]:1, code 0
+108: [<tag>4</tag>] => [@]:1 vs [@]:1, code 0
+109: [<a-z>7 375 73 6c6 9<!--/-->6 b</a-z>] => [suslik]:6 vs [suslik]:6, code 0
+115: [<tag/>] => []:0 vs []:0, code 0
+116: [<tag>blah</tag>] => []:0 vs []:0, code 2
+117: [<tag>01000001</tag>] => [A]:1 vs [A]:1, code 0
+118: [<tag>01000<!--blah--> 00 101 00001</tag>] => [AB]:2 vs [AB]:2, code 0
+121: [<OCTET_STRING>one, two, three</OCTET_STRING>] => [one, two, three]:15 vs [one, two, three]:15, code 0
+123: [<z></z>] => []:0 vs []:0, code 0
+124: [<z z z>&lt;&amp;&gt;</z z z>] => [<&>]:3 vs [<&>]:3, code 0
+125: [<z z z>a&lt;b&amp;c&gt;d</z z z>] => [a<b&c>d]:7 vs [a<b&c>d]:7, code 0
+126: [<z z z>a&lt</z z z>] => [a&lt]:4 vs [a&lt]:4, code 0
+127: [<z z z>a&sdfsdfsdf;b</z z z>] => [a&sdfsdfsdf;b]:13 vs [a&sdfsdfsdf;b]:13, code 0
+128: [<z z z>a&#x20;b</z z z>] => [a b]:3 vs [a b]:3, code 0
+129: [<z z z>a&#32;b</z z z>] => [a b]:3 vs [a b]:3, code 0
+130: [<z>a&#32323;b</z>] => [a繃b]:5 vs [a繃b]:5, code 0
+131: [<z>a&#x4fc4;|</z>] => [a俄|]:5 vs [a俄|]:5, code 0
+133: [<z>a&#x10ffff;|</z>] => [a􏿿|]:6 vs [a􏿿|]:6, code 0
+134: [<z>a&#1114111;|</z>] => [a􏿿|]:6 vs [a􏿿|]:6, code 0
+136: [<z>a&#x110000;|</z>] => [a&#x110000;|]:12 vs [a&#x110000;|]:12, code 0
+137: [<z>a&#1114112;|</z>] => [a&#1114112;|]:12 vs [a&#1114112;|]:12, code 0
+138: [<z>a&#3000000000;b</z>] => [a&#3000000000;b]:15 vs [a&#3000000000;b]:15, code 0
+139: [<z>a&#5000000000;b</z>] => [a&#5000000000;b]:15 vs [a&#5000000000;b]:15, code 0
+140: [<z>a&#300</z>] => [a&#300]:6 vs [a&#300]:6, code 0
+141: [<z>a&#-300;</z>] => [a&#-300;]:8 vs [a&#-300;]:8, code 0
+142: [<z>a<ff/>b</z>] => [ab]:3 vs [ab]:3, code 0
+143: [<z>a<soh/>b</z>] => [ab]:3 vs [ab]:3, code 0
+144: [<z>a<bel/></z>] => [a]:2 vs [a]:2, code 0
+Orig: [], encoded: [], check []
+Orig: [a], encoded: [a], check [a]
+Orig: [a
+b], encoded: [a
+b], check [a
+b]
+Orig: [ac], encoded: [a<bs/>c], check [a<bs/>c]
+Orig: [abc
+def
+], encoded: [ab<soh/>c
+def
+], check [ab<soh/>c
+def
+]
+PASS check-OCTET_STRING (exit status: 0)

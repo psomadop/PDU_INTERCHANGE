@@ -1,0 +1,439 @@
+Testing in .....
+[=> 157-per-canonical-order-OK.asn1]
+[=> 133-per-constraints-OK.asn1]
+[=> 02-garbage-NP.asn1]
+Expecting error...
+ASN.1 grammar parse error near 02-garbage-NP.asn1:15 (token "garbage"): syntax error, unexpected identifier
+Previous error is EXPECTED, no worry
+[=> 146-ios-parameterization-per-OK.asn1]
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 146-ios-parameterization-per-OK.asn1
+[=> 150-with-components-OK.asn1]
+[=> 77-str-default-OK.asn1]
+[=> 14-resolver-OK.asn1]
+[=> 89-bit-string-enum-OK.asn1]
+[=> 46-redefine-OK.asn1]
+[=> 116-bit-string-SE.asn1]
+Expecting some problems...
+FATAL: Clash detected: "one" at line 14 has similar value with "another" at line 14 in 116-bit-string-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 24-sequence-OK.asn1]
+[=> 91-cond-int-blessSize-OK.asn1]
+[=> 66-ref-simple-OK.asn1]
+[=> 125-bitstring-constraint-OK.asn1]
+[=> 128-enum-SE.asn1]
+Expecting some problems...
+FATAL: Enumeration A at line 14: Explicit value "d(2)" is not greater than previous values (max 2) in 128-enum-SE.asn1
+FATAL: Enumeration A at line 14: Explicit value "d(2)" collides with previous values in 128-enum-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 153-single-value-constraint-OK.asn1]
+[=> 48-real-life-OK.asn1]
+[=> 68-enum-default-OK.asn1]
+[=> 67-embedded-choice-OK.asn1]
+[=> 132-per-choice-OK.asn1]
+[=> 149-with-components-SE.asn1]
+Expecting some problems...
+FATAL: Unknown type "ExplicitCertificate" referenced by "Certificate" at line 12 in 149-with-components-SE.asn1
+WARNING: Certificate at line 12: Constraints ignored: Unresolved parent type in 149-with-components-SE.asn1
+WARNING: Certificate at line 12: Constraints ignored: Unresolved parent type in 149-with-components-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 26-sequence-SE.asn1]
+Expecting some problems...
+FATAL: Processing T at line 15: component "b" at line 16 has the same tag as component "c" at line 18 in 26-sequence-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestSequenceTagsDistinct DEFINITIONS, or manually tag components in 26-sequence-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 93-asn1c-controls-OK.asn1]
+INFO: Directive <ASN1C:RepresentAsPointer> applied to INTEGER at 93-asn1c-controls-OK.asn1:18
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at 93-asn1c-controls-OK.asn1:24
+INFO: Directive <ASN1C:RepresentAsPointer> applied to SET OF at 93-asn1c-controls-OK.asn1:28
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at 93-asn1c-controls-OK.asn1:30
+[=> 17-tags-OK.asn1]
+[=> 28-tags-SE.asn1]
+Expecting some problems...
+FATAL: Processing S at line 15: component "..." at line 23 potentially has the same tag as component "..." at line 19 in 28-tags-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestTagsDistinct DEFINITIONS, or manually tag components in 28-tags-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 129-enum-SE.asn1]
+Expecting some problems...
+FATAL: Enumeration A at line 14: Explicit value "d(2)" is not greater than previous values (max 2) in 129-enum-SE.asn1
+FATAL: Enumeration A at line 14: Explicit value "d(2)" collides with previous values in 129-enum-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 80-chardefs-OK.asn1]
+Value "0, 0}" at line 15 is too large for this compiler! Please contact the asn1c author.
+Value "0}" at line 15 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 0, 0}" at line 16 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 0}" at line 16 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0}" at line 16 is too large for this compiler! Please contact the asn1c author.
+Value "0}" at line 16 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 0, 32}" at line 17 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 32}" at line 17 is too large for this compiler! Please contact the asn1c author.
+Value "0, 32}" at line 17 is too large for this compiler! Please contact the asn1c author.
+Value "32}" at line 17 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 0, 126}" at line 18 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 126}" at line 18 is too large for this compiler! Please contact the asn1c author.
+Value "0, 126}" at line 18 is too large for this compiler! Please contact the asn1c author.
+Value "126}" at line 18 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 3, 112}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "0, 3, 112}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "3, 112}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "112}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "0, 0, 3, 207}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "0, 3, 207}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "3, 207}" at line 21 is too large for this compiler! Please contact the asn1c author.
+Value "207}" at line 21 is too large for this compiler! Please contact the asn1c author.
+[=> 09-int-SE.asn1]
+Expecting some problems...
+FATAL: Clash detected: "value1" at line 15 has similar value with "value2-1" at line 17 in 09-int-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 100-class-ref-OK.asn1]
+[=> 21-tags-OK.asn1]
+[=> 88-integer-enum-OK.asn1]
+[=> 50-constraint-OK.asn1]
+[=> 65-multi-tag-OK.asn1]
+[=> 74-int-enum-constraints-OK.asn1]
+[=> 54-constraint-SE.asn1]
+Expecting some problems...
+FATAL: Constraint value 35 at line 15 is not within a parent constraint range (32..57)
+FATAL: This error happened for "StrBad" (meta 1) at line 15 in 54-constraint-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 49-real-life-OK.asn1]
+[=> 47-set-ext-OK.asn1]
+[=> 106-param-constr-OK.asn1]
+[=> 00-empty-OK.asn1]
+[=> 113-bit-string-SE.asn1]
+Expecting some problems...
+FATAL: Clash detected: "one" at line 14 has similar identifier with "one" at line 14 in 113-bit-string-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 145-empty-information-object-set-OK.asn1]
+[=> 72-same-names-OK.asn1]
+[=> 40-int-optional-SE.asn1]
+Expecting some problems...
+FATAL: Processing seq at line 16: component "alpha" at line 17 has the same tag as component "beta" at line 18 in 40-int-optional-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestIntOptional DEFINITIONS, or manually tag components in 40-int-optional-SE.asn1
+FATAL: Processing set at line 21: component "alpha" at line 22 has the same tag as component "beta" at line 23 in 40-int-optional-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestIntOptional DEFINITIONS, or manually tag components in 40-int-optional-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 138-oer-constraints-OK.asn1]
+[=> 23-bits-OK.asn1]
+[=> 99-class-sample-OK.asn1]
+[=> 81-type-default-OK.asn1]
+[=> 75-duplicate-modules-SE.asn1]
+Expecting some problems...
+FATAL: ASN.1 module ModuleDuplicateModuleName in 75-duplicate-modules-SE.asn1 has the same OBJECT IDENTIFIER as module ModuleDuplicateModuleName in 75-duplicate-modules-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 52-constraint-SE.asn1]
+Expecting some problems...
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type SizeConstraint is not applicable to INTEGER in 52-constraint-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 62-any-OK.asn1]
+[=> 83-with-comps-OK.asn1]
+[=> 61-any-1-SE.asn1]
+Expecting some problems...
+FATAL: Processing T at line 15: component "i1" at line 15 has the same tag as component "any" at line 17 in 61-any-1-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestBadANY1 DEFINITIONS, or manually tag components in 61-any-1-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 64-oid-constr-OK.asn1]
+[=> 148-der-default-set-sequence-values-OK.asn1]
+[=> 04-enum-SE.asn1]
+Expecting some problems...
+FATAL: Enumeration Enum1 at line 17: Explicit value "blue(1)" collides with previous values in 04-enum-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 147-inherit-per-constraints-OK.asn1]
+[=> 71-duplicate-types-SE.asn1]
+Expecting some problems...
+FATAL: ASN.1 expression "Type" at line 27 of module ModuleDuplicateTypes2
+clashes with expression "Type" at line 17 of module ModuleDuplicateTypes1.
+Rename or remove either instance to resolve the conflict in 71-duplicate-types-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 135-oer-short-OK.asn1]
+[=> 154-with-REAL-components-OK.asn1]
+[=> 105-param-2-OK.asn1]
+[=> 59-choice-extended-OK.asn1]
+[=> 119-per-strings-OK.asn1]
+[=> 34-class-OK.asn1]
+[=> 121-empty-imports-OK.asn1]
+[=> 36-indirect-choice-SE.asn1]
+Expecting some problems...
+FATAL: Processing T at line 15: component "c-b" at line 23 has the same tag as component "t-a" at line 15 in 36-indirect-choice-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestIndirectChoiceError DEFINITIONS, or manually tag components in 36-indirect-choice-SE.asn1
+FATAL: Processing T at line 15: component "c-a" at line 21 has the same tag as component "t-b" at line 16 in 36-indirect-choice-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestIndirectChoiceError DEFINITIONS, or manually tag components in 36-indirect-choice-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 127-per-long-OK.asn1]
+[=> 94-set-optionals-OK.asn1]
+[=> 33-misc-OK.asn1]
+[=> 84-param-tags-OK.asn1]
+[=> 131-per-empty-OK.asn1]
+[=> 104-param-1-OK.asn1]
+[=> 87-old-syntax-OK.asn1]
+WARNING: Line 15: expected lower-case member identifier, found an unnamed INTEGER.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "integer". Name clash may occur later.
+WARNING: Line 17: expected lower-case member identifier, found an unnamed BOOLEAN.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "boolean". Name clash may occur later.
+WARNING: Line 20: expected lower-case member identifier, found an unnamed INTEGER.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "integer". Name clash may occur later.
+WARNING: Line 21: expected lower-case member identifier, found an unnamed BOOLEAN.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "boolean". Name clash may occur later.
+WARNING: Line 23: expected lower-case member identifier, found an unnamed OBJECT IDENTIFIER.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "object_identifier". Name clash may occur later.
+WARNING: Line 24: expected lower-case member identifier, found an unnamed RELATIVE-OID.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "relative_oid". Name clash may occur later.
+WARNING: Line 26: expected lower-case member identifier, found an unnamed Tc.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "tc". Name clash may occur later.
+WARNING: Line 27: expected lower-case member identifier, found an unnamed SEQUENCE.
+WARNING: Obsolete X.208 syntax detected, please give the member a name.
+NOTE: Assigning temporary identifier "sequence". Name clash may occur later.
+[=> 16-constraint-OK.asn1]
+FATAL: EXPORTS section of module ModuleTestConstraint2 in 16-constraint-OK.asn1 does not mention ten at line 29 in 16-constraint-OK.asn1
+[=> 112-param-class-OK.asn1]
+[=> 137-oer-string-OK.asn1]
+[=> 51-constraint-SE.asn1]
+Expecting some problems...
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+FATAL: Int at line 14: Constraint type PermittedAlphabet is not applicable to INTEGER in 51-constraint-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 19-param-OK.asn1]
+[=> 37-indirect-choice-OK.asn1]
+[=> 05-enum-SE.asn1]
+Expecting some problems...
+FATAL: Enumeration Enum1 at line 18: Second extension marker is not allowed in 05-enum-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 122-pattern-OK.asn1]
+[=> 35-set-choice-OK.asn1]
+[=> 07-int-OK.asn1]
+[=> 155-parameterization-more-than-two-level-OK.asn1]
+WARNING: Parameterized type max-items expected for max-items at line 41 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 51 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 52 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+WARNING: Parameterized type PACKET expected for PACKET at line 53 in 155-parameterization-more-than-two-level-OK.asn1
+[=> 111-param-4-SE.asn1]
+Expecting some problems...
+FATAL: Terminal value for field->cyan not found in 111-param-4-SE.asn1
+FATAL: Terminal value for field->cyan not found in 111-param-4-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 42-real-life-OK.asn1]
+[=> 08-int-SE.asn1]
+Expecting some problems...
+FATAL: Clash detected: "value1" at line 15 has similar identifier with "value1" at line 16 in 08-int-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 60-any-OK.asn1]
+[=> 76-duplicate-modules-SW.asn1]
+Expecting some problems...
+WARNING: ASN.1 module ModuleDuplicateModuleName is defined more than once, with different OIDs in 76-duplicate-modules-SW.asn1
+Previous error is EXPECTED, no worry
+[=> 69-reserved-words-OK.asn1]
+[=> 143-inner-parameterization-OK.asn1]
+[=> 73-circular-OK.asn1]
+[=> 124-multiconstraint-OK.asn1]
+[=> 134-per-long-OK.asn1]
+[=> 32-sequence-of-OK.asn1]
+[=> 139-component-relation-OK.asn1]
+[=> 115-bit-string-OK.asn1]
+[=> 129-enum-OK.asn1]
+[=> 96-type-identifier-OK.asn1]
+[=> 31-set-of-OK.asn1]
+[=> 123-valueassignment-OK.asn1]
+[=> 53-constraint-SE.asn1]
+Expecting some problems...
+FATAL: Constraint value 63 at line 14 is not within a parent constraint range (1..32)
+FATAL: This error happened for "Int" (meta 1) at line 14 in 53-constraint-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 82-with-comps-OK.asn1]
+[=> 10-int-OK.asn1]
+[=> 117-real-constraint-OK.asn1]
+[=> 29-tags-OK.asn1]
+[=> 79-constrained-by-OK.asn1]
+[=> 151-per-b2110-OK.asn1]
+[=> 156-union-ios-OK.asn1]
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 42 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 43 in 156-union-ios-OK.asn1
+[=> 01-empty-OK.asn1]
+[=> 25-misc-OK.asn1]
+[=> 27-set-SE.asn1]
+Expecting some problems...
+FATAL: Processing T at line 15: component "c" at line 18 has the same tag as component "a" at line 15 in 27-set-SE.asn1
+FATAL: Consider adding AUTOMATIC TAGS after module ModuleTestSetTagsDistinct DEFINITIONS, or manually tag components in 27-set-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 11-int-SE.asn1]
+Expecting some problems...
+FATAL: Terminal value for alpha->beta not found in 11-int-SE.asn1
+FATAL: Terminal value for beta->alpha not found in 11-int-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 107-param-constr-2-OK.asn1]
+[=> 06-enum-SE.asn1]
+Expecting some problems...
+FATAL: Enumeration Enum1 at line 17: Explicit value "blue(6)" is not greater than previous values (max 7) in 06-enum-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 136-oer-long-OK.asn1]
+[=> 101-class-ref-SE.asn1]
+Expecting some problems...
+FATAL: Class field REF-ID.&id lookup at line 19 in something that is not a class: NOTCLASS at line 14 in 101-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&id" referenced by "field" at line 19 in 101-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&Type" referenced by "params" at line 21 in 101-class-ref-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 18-class-OK.asn1]
+[=> 98-attribute-class-OK.asn1]
+[=> 141-component-relation-OK.asn1]
+[=> 41-int-optional-OK.asn1]
+[=> 144-ios-parameterization-OK.asn1]
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 30 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+WARNING: Parameterized type MYID expected for MYID at line 31 in 144-ios-parameterization-OK.asn1
+[=> 86-atags-OK.asn1]
+[=> 45-undefined-type-SE.asn1]
+Expecting some problems...
+FATAL: Unknown type "KnownExt" referenced by "Type" at line 16 in 45-undefined-type-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 126-per-extensions-OK.asn1]
+[=> 130-enum-OK.asn1]
+[=> 30-set-OK.asn1]
+[=> 58-param-OK.asn1]
+WARNING: Parameterized type ub-name expected for ub-name at line 19 in 58-param-OK.asn1
+WARNING: Parameterized type ub-name expected for ub-name at line 19 in 58-param-OK.asn1
+[=> 57-components-of-OK.asn1]
+[=> 43-recursion-OK.asn1]
+[=> 12-int-SE.asn1]
+Expecting some problems...
+FATAL: Terminal value for alpha->beta not found in 12-int-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 78-str-default-SE.asn1]
+WARNING: GeneralString is not fully supported
+Expecting some problems...
+FATAL: Incompatible type of "country" (UTF8String) at line 15 with "country1" (GeneralString) at line 19 in 78-str-default-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 118-per-constraint-OK.asn1]
+[=> 142-anonymous-types-deco-OK.asn1]
+[=> 103-reference-SE.asn1]
+Expecting some problems...
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"!} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Unknown type "Type" referenced by "T" at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"!} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"!} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"} for Type at line 16 in 103-reference-SE.asn1
+FATAL: Excessive circular referencing detected in namespace {M:"ASN1C-UsefulInformationObjectClasses",M:"ModuleReference"!} for Type at line 16 in 103-reference-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 110-param-3-OK.asn1]
+[=> 140-component-relation-OK.asn1]
+[=> 102-class-ref-SE.asn1]
+Expecting some problems...
+FATAL: Unknown type "REF-ID2" referenced by "REF-ID" at line 15 in 102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID" referenced by "REF-ID2" at line 17 in 102-class-ref-SE.asn1
+FATAL: Class field REF-ID.&id lookup at line 18 in something that is not a class: REF-ID2 at line 17 in 102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&id" referenced by "field" at line 18 in 102-class-ref-SE.asn1
+FATAL: Unknown type "REF-ID.&Type" referenced by "params" at line 20 in 102-class-ref-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 63-any-2-SE.asn1]
+Expecting some problems...
+FATAL: any tagged in IMPLICIT mode but must be EXPLICIT at line 16 in 63-any-2-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 108-param-constr-3-OK.asn1]
+[=> 39-sequence-of-OK.asn1]
+[=> 20-constr-OK.asn1]
+[=> 70-xer-test-OK.asn1]
+[=> 55-components-of-OK.asn1]
+[=> 13-resolver-OK.asn1]
+[=> 15-resolver-SE.asn1]
+Expecting some problems...
+FATAL: EXPORTS section of module ModuleTestResolver5 in 15-resolver-SE.asn1 does not mention Enumeration at line 20 in 15-resolver-SE.asn1
+FATAL: Terminal type for alpha at line 20 not found in 15-resolver-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 97-type-identifier-SW.asn1]
+Expecting some problems...
+WARNING: ASN.1 expression "TYPE-IDENTIFIER" at line 17 of module ASN1C-UsefulInformationObjectClasses
+clashes with expression "TYPE-IDENTIFIER" at line 23 of module ModuleTypeIdentifier1 (97-type-identifier-SW.asn1).
+Rename or remove either instance to resolve the conflict in ./../../skeletons/standard-modules/ASN1C-UsefulInformationObjectClasses.asn1
+Previous error is EXPECTED, no worry
+[=> 92-circular-loops-OK.asn1]
+[=> 44-choice-in-sequence-OK.asn1]
+[=> 56-components-of-SE.asn1]
+Expecting some problems...
+FATAL: COMPONENTS OF at line 16 must reference a SEQUENCE type in 56-components-of-SE.asn1
+Previous error is EXPECTED, no worry
+[=> 38-comments-OK.asn1]
+[=> 85-comments-OK.asn1]
+[=> 158-sequence-of-sequence-nested-OK.asn1]
+[=> 114-bit-string-NP.asn1]
+Expecting error...
+ASN.1 grammar parse error near 114-bit-string-NP.asn1:14 (token "-2"): syntax error, unexpected negative number, expecting identifier or number or TOK_typereference or TOK_capitalreference
+Previous error is EXPECTED, no worry
+[=> 152-value-and-type-references-OK.asn1]
+[=> 95-choice-per-order-OK.asn1]
+[=> 22-tags-OK.asn1]
+[=> 03-enum-OK.asn1]
+[=> 90-cond-int-type-OK.asn1]
+[=> 109-bit-string-NP.asn1]
+Expecting error...
+ASN.1 grammar parse error near 109-bit-string-NP.asn1:14 (token "..."): syntax error, unexpected ..., expecting identifier
+Previous error is EXPECTED, no worry
+Tests COMPLETED: 159
+Tests FAILED:    0
+PASS check_fixer (exit status: 0)

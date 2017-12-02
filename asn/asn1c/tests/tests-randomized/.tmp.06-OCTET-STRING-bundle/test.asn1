@@ -1,0 +1,3 @@
+Test DEFINITIONS ::= BEGIN T ::= OCTET STRING (SIZE(65535..65550))    -- RMAX=66000
+-- in ./bundles/06-OCTET-STRING-bundle.txt 19
+END

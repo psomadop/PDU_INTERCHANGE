@@ -1,0 +1,13 @@
+Testing (MIN..20) x (10..15) => (MIN..9,10..15,16..20)
+[0].left = MIN
+[0].right = 9
+[1].left = 10
+[1].right = 15
+[2].left = 16
+[2].right = 20
+Testing (MIN..20) x (<min>..15) => (<min>..15,16..20)
+[0].left = -9223372036854775808
+[0].right = 15
+[1].left = 16
+[1].right = 20
+PASS check_crange (exit status: 0)
