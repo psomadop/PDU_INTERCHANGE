@@ -8,17 +8,27 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
+ * 
+ * @param   tx_pdu          TX_PDU structure to encode to ASN.1 binary format.
+ * @param   buffer          Byte buffer where encoded TX_PDU will be stored.
+ * @param   buffer_size     Size of supplied buffer.
+ * @param   enc_len         Will contain the number of encoded bytes, on success.
+ *
+ * @return  0               On success. 
+ *          -1              On failure.
+ */
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
     int         i;
-    Cell_t      *asn_cells;
-    struct PDU  asn_pdu;
+    Cell_t      *asn_cells;     //!< Will hold the equivalent ASN.1 structure for CELL.
+    struct PDU  asn_pdu;	//!< ASN.1 structure for TX_PDU, suitable for encoding.
 
-    asn_codec_ctx_t  context;
-    asn_enc_rval_t   asn_result;
+    asn_enc_rval_t er;		//!< Result of ASN.1 encode operation.
+    *enc_len = 0;		//!< Encoded bytes.
 
     asn_cells = malloc(tx_pdu->num_cells * sizeof(Cell_t));
-
     if (asn_cells == NULL)
     {
         return 0;
@@ -26,10 +36,14 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 
     memset(&asn_pdu, 0, sizeof(struct PDU));
 
+    /**
+     * Populate each ASN.1 Cell_t, with info from our
+     * human-friendly CELL structures.
+     */
     for (i = 0; i < tx_pdu->num_cells; i++)
     {
-        CELL *cur = &tx_pdu->cells[i];
-        Cell_t *asn_cur = &asn_cells[i];
+        CELL *cur       = &tx_pdu->cells[i];	//!< Current CELL to convert.
+        Cell_t *asn_cur = &asn_cells[i];	//!< Current ASN.1 Cell_t for encoding.
         memset(asn_cur, 0, sizeof(Cell_t));
 
         switch (cur->type)
@@ -53,10 +67,10 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
             case CELL_TYPE_MESSAGE:
                 asn_cur->present = Cell_PR_message;
                 asn_cur->choice.message.clockTicks = cur->u.message.clock_ticks;
-                for (int i = 0; i < sizeof(cur->u.message.integers); i++)
+                for (int i = 0; i < sizeof(cur->u.message.integers) / sizeof(int); i++)
                 {
                     if (0 != ASN_SEQUENCE_ADD( &asn_cur->choice.message.intSequence,
-                                                 &cur->u.message.integers[i]))
+                                               &cur->u.message.integers[i]))
                     {
                         return 0;
                     }
@@ -68,22 +82,21 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
                 break;
         }
 
-        if (0 != ASN_SEQUENCE_ADD( &asn_pdu.cells, cur ))
+        if (0 != ASN_SEQUENCE_ADD( &asn_pdu.cells, asn_cur ))
         {
             return 0;
         }
     }
     
-    //xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
-    asn_enc_rval_t er;  /* Encoder return value */
+    /* Let's see the XML representation of what we are about to encode. */
+    xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
+
     er.encoded = -1; 
 
+    /* And let God sort'em out... */
     er = der_encode_to_buffer( &asn_DEF_PDU, 
                                &asn_pdu, buffer, buffer_size );
 
-    printf ("ASN encode errno: %d\n", errno);
-    
-    *enc_len = 0;
     if(er.encoded == -1) 
     {
         return -1;
@@ -92,11 +105,17 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
     {
         if (enc_len)
         {
-            *enc_len = (int)asn_result.encoded;
+            *enc_len = (int)er.encoded;
         }
 
         return er.encoded;
     }
 
+    return 0;
+}
+
+int pdu_decode(TX_PDU* tx_pdu, char* buffer)
+{
+     
     return 0;
 }

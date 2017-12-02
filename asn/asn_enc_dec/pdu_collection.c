@@ -8,7 +8,7 @@ extern struct asn_TYPE_descriptor_s asn_DEF_PDU;
 
 
 struct asn_TYPE_descriptor_s *asn_pdu_collection[] = {
-	/* From module TestModule in ../asn/pdu_spec.asn */
+	/* From module TestModule in ../pdu_spec.asn */
 	&asn_DEF_PDU,	
 	0
 };

@@ -29,5 +29,5 @@ clean:
 regen: regenerate-from-asn1-source
 
 regenerate-from-asn1-source:
-	../asn1c/asn1c/asn1c ../asn/pdu_spec.asn
+	../asn1c/asn1c/asn1c ../pdu_spec.asn
 
