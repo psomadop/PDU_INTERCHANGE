@@ -16,17 +16,17 @@
  * @param   buffer_size     Size of supplied buffer.
  * @param   enc_len         Will contain the number of encoded bytes, on success.
  *
- * @return  0               On success. 
+ * @return  encoded bytes   On success, the number of encoded bytes is returned.
  *          -1              On failure.
  */
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
     int         i;
-    Cell_t      *asn_cells;     //!< Will hold the equivalent ASN.1 structure for CELL.
-    struct PDU  asn_pdu;	//!< ASN.1 structure for TX_PDU, suitable for encoding.
+    Cell_t      *asn_cells;   //!< Will hold the equivalent ASN.1 structure for CELL.
+    struct PDU  asn_pdu;	  //!< ASN.1 structure for TX_PDU, suitable for encoding.
 
-    asn_enc_rval_t er;		//!< Result of ASN.1 encode operation.
-    *enc_len = 0;		//!< Encoded bytes.
+    asn_enc_rval_t er;		  //!< Result of ASN.1 encode operation.
+    *enc_len = 0;		      //!< Encoded bytes.
 
     asn_cells = malloc(tx_pdu->num_cells * sizeof(Cell_t));
     if (asn_cells == NULL)
@@ -39,11 +39,14 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
     /**
      * Populate each ASN.1 Cell_t, with info from our
      * human-friendly CELL structures.
+     *
+     * We will use the facilities provided by asn1c generated code
+     * for populating this weird, monstrous structure.
      */
     for (i = 0; i < tx_pdu->num_cells; i++)
     {
-        CELL *cur       = &tx_pdu->cells[i];	//!< Current CELL to convert.
-        Cell_t *asn_cur = &asn_cells[i];	//!< Current ASN.1 Cell_t for encoding.
+        CELL    *cur     = &tx_pdu->cells[i];    //!< Current CELL to convert.
+        Cell_t  *asn_cur = &asn_cells[i];        //!< Current ASN.1 Cell_t for encoding.
         memset(asn_cur, 0, sizeof(Cell_t));
 
         switch (cur->type)
@@ -107,18 +110,27 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
         {
             *enc_len = (int)er.encoded;
         }
-
-        return er.encoded;
     }
 
-    return 0;
+    return er.encoded;
 }
 
+/**
+ * Decode ASN.1 encoded buffer to supplied TX_PDU structure;
+ *
+ * @param   tx_pdu          TX_PDU structure with decoded data.
+ * @param   buffer          Byte buffer where encoded TX_PDU is be stored.
+ * @param   buffer_size     Size of supplied buffer.
+ *
+ * @return  Consumed bytes  On success, the number of consumed bytes from buffer is returned.
+ *          -1              On failure.
+ */
 int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
 {
     asn_dec_rval_t   dr;        //!< Decoder's result.
     struct PDU       asn_pdu;   //!< Decoded PDU.
-  
+    int              i;
+
     memset(&asn_pdu, 0, sizeof(asn_pdu));    
 
     /** 
@@ -139,8 +151,51 @@ int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
     /* Let's see what we decoded. Not that I expect it to work...*/
     xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
    
-    /* Now let's take stuff from ASN.1 structure to human-friendly PDU. */
+    tx_pdu->num_cells = asn_pdu.cells.list.count;
+    tx_pdu->cells = malloc(tx_pdu->num_cells * sizeof(CELL));
 
+    /* Now let's take stuff from ASN.1 structure to human-friendly PDU. */
+    for (i = 0; i < asn_pdu.cells.list.count; i++)
+    {
+    	int 	str_len;
+        CELL     *cur  = &tx_pdu->cells[i];    //!< Current CELL to store decoded data to.
+        Cell_t 	 *asn_cur;                     //!< Current ASN.1 Cell_t for encoding.
+        memset(cur, 0, sizeof(CELL));
+
+        asn_cur = asn_pdu.cells.list.array[i];
+        switch (asn_cur->present)
+        {
+            case Cell_PR_intVal:
+        	cur->type = CELL_TYPE_INT;
+        	cur->u.int_val = asn_cur->choice.intVal;
+        	break;
+
+            case Cell_PR_boolVal:
+            	cur->type = CELL_TYPE_BOOL;
+            	cur->u.bool_val = asn_cur->choice.boolVal;
+            	break;
+
+            case Cell_PR_name:
+        	str_len = asn_cur->choice.name.size;
+            	cur->type = CELL_TYPE_NAME;
+        	cur->u.name_val = malloc(sizeof(char) * str_len);
+        	memcpy(cur->u.name_val, asn_cur->choice.name.buf, str_len);
+        	break;
+
+            case Cell_PR_message:
+        	cur->type = CELL_TYPE_MESSAGE;
+        	cur->u.message.clock_ticks = asn_cur->choice.message.clockTicks;
+        	for (int i = 0; i < asn_cur->choice.message.intSequence.list.count; i++)
+        	{
+        	    cur->u.message.integers[i] = *asn_cur->choice.message.intSequence.list.array[i];
+        	}
+        	break;
+
+            default:
+        	break;
+
+        }
+    }
      
     return dr.consumed;
 }

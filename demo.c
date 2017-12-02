@@ -19,6 +19,8 @@ int main(void)
     TX_PDU tx_pdu;      // I will encode this one.
     TX_PDU decoded;     // And I will decode it here.
 
+    memset(&tx_pdu, 0, sizeof(TX_PDU));
+    memset(&decoded, 0, sizeof(TX_PDU));
 
     /* Just populate my data types to encode. */
     cell_a.type = CELL_TYPE_INT;
@@ -53,7 +55,16 @@ int main(void)
     printf("\n");
 
     success = pdu_decode(&decoded, encoded, encoded_len);
-    printf ("ASN decored returned: %d\n", (int)success);
+    printf ("ASN decoder returned: %d\n", (int)success);
+
+    if (memcmp(&tx_pdu, &decoded, sizeof(TX_PDU)) == 0)
+    {
+        printf (" It all worked marvelously. Before and after TX_PDUs are the same.\n");
+    }
+    else
+    {
+        printf ("!! Before and after TX_PDUs are not the same !!\n");
+    }
 
     exit(0);
 }
