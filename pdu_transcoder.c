@@ -114,8 +114,29 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
     return 0;
 }
 
-int pdu_decode(TX_PDU* tx_pdu, char* buffer)
+int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
 {
-     
+    asn_dec_rval_t   dr;        //!< Decoder's result.
+    struct PDU       asn_pdu;   //!< Decoded PDU.
+
+    /** 
+     * Brain-damaged interface for the decoder, but I'm now used to that.
+     */
+    dr = asn_DEF_PDU.op->ber_decoder( 0, &asn_DEF_PDU, (void **)&asn_pdu,
+                                      buffer, buffer_size, 0 ); 
+
+    /**  
+     * There is another Return Code, which means that decoder needs more data. 
+     * That won't happen in this example so I'm ignoring it. 
+     */ 
+    if (dr.code != RC_OK)
+    {
+        return -1;
+    }
+
+    /* Let's see what we decoded. */
+    //xer_fprint(stdout, &asn_DEF_PDU, &asn_pdu);
+
+
     return 0;
 }

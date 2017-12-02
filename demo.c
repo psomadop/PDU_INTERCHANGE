@@ -10,11 +10,15 @@ int main(void)
     CELL    cell_a, cell_b, cell_c, cell_d;
     CELL    cells[4];
     memset(cells, 0, sizeof(cells));
-
+    
     /* Buffer for ASN.1 encoded data. */
     char    encoded[8192];
     int     encoded_len = 8192;
     int     bytes_encoded;    
+
+    TX_PDU tx_pdu;      // I will encode this one.
+    TX_PDU decoded;     // And I will decode it here.
+
 
     /* Just populate my data types to encode. */
     cell_a.type = CELL_TYPE_INT;
@@ -38,11 +42,18 @@ int main(void)
     cells[2] = cell_c;
     cells[3] = cell_d;
 
-    TX_PDU tx_pdu;
     tx_pdu.cells = cells;
     tx_pdu.num_cells = 4;
     int success = pdu_encode(&tx_pdu, encoded, encoded_len, &bytes_encoded);
+    printf ("ASN encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
+    for (int i = 0; i < bytes_encoded && success; i++)
+    {
+        printf("0x%2x,", (unsigned char)encoded[i]);
+    }
+    printf("\n");
 
-    printf ("ASN success indicator: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
+    success = pdu_decode(&decoded, encoded, encoded_len);
+    printf ("ASN decored returned: %d\n", (int)success);
+
     exit(0);
 }
