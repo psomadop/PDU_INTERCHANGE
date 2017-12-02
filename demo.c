@@ -46,6 +46,8 @@ int main(void)
 
     tx_pdu.cells = cells;
     tx_pdu.num_cells = 4;
+    
+    /* Encode here. */
     int success = pdu_encode(&tx_pdu, encoded, encoded_len, &bytes_encoded);
     printf ("ASN encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
     for (int i = 0; i < bytes_encoded && success; i++)
@@ -54,9 +56,9 @@ int main(void)
     }
     printf("\n");
 
+    /* Decode nad see what we get back. */
     success = pdu_decode(&decoded, encoded, encoded_len);
     printf ("ASN decoder returned: %d\n", (int)success);
-
     if (memcmp(&tx_pdu, &decoded, sizeof(TX_PDU)) == 0)
     {
         printf (" It all worked marvelously. Before and after TX_PDUs are the same.\n");
