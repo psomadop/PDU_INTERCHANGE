@@ -167,12 +167,12 @@ void AddDescriptorsImpl() {
       "ype\030\001 \001(\0162\t.CellType\022\016\n\006intVal\030\002 \001(\r\022\017\n\007"
       "boolVal\030\003 \001(\010\022\014\n\004name\030\004 \001(\t\022\031\n\003msg\030\005 \001(\013"
       "2\014.ComplexType\"\033\n\003PDU\022\024\n\005cells\030\001 \003(\0132\005.C"
-      "ell*\\\n\010CellType\022\021\n\rCELL_TYPE_INT\020\000\022\022\n\016CE"
-      "LL_TYPE_BOOL\020\001\022\022\n\016CELL_TYPE_NAME\020\002\022\025\n\021CE"
-      "LL_TYPE_MESSAGE\020\003b\006proto3"
+      "ell*X\n\010CellType\022\020\n\014CELLTYPE_INT\020\000\022\021\n\rCEL"
+      "LTYPE_BOOL\020\001\022\021\n\rCELLTYPE_NAME\020\002\022\024\n\020CELLT"
+      "YPE_MESSAGE\020\003b\006proto3"
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 305);
+      descriptor, 301);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "pdu.proto", &protobuf_RegisterTypes);
 }

@@ -66,16 +66,16 @@ class PDUDefaultTypeInternal;
 extern PDUDefaultTypeInternal _PDU_default_instance_;
 
 enum CellType {
-  CELL_TYPE_INT = 0,
-  CELL_TYPE_BOOL = 1,
-  CELL_TYPE_NAME = 2,
-  CELL_TYPE_MESSAGE = 3,
+  CELLTYPE_INT = 0,
+  CELLTYPE_BOOL = 1,
+  CELLTYPE_NAME = 2,
+  CELLTYPE_MESSAGE = 3,
   CellType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   CellType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
 bool CellType_IsValid(int value);
-const CellType CellType_MIN = CELL_TYPE_INT;
-const CellType CellType_MAX = CELL_TYPE_MESSAGE;
+const CellType CellType_MIN = CELLTYPE_INT;
+const CellType CellType_MAX = CELLTYPE_MESSAGE;
 const int CellType_ARRAYSIZE = CellType_MAX + 1;
 
 const ::google::protobuf::EnumDescriptor* CellType_descriptor();

@@ -1,4 +1,9 @@
 #include "pdu_transcoder.h"
+#include "pdu.pb.h"
+
+/**
+ * This is the mediator between demo app <-> protobuf.
+ */
 
 /**
  * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
@@ -13,7 +18,15 @@
  */
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
-	return 1;
+    printf ("ENCODING");
+    int i;
+    PDU p_pdu;
+
+    for (i = 0; i < tx_pdu->num_cells; i++)
+    {
+    }
+
+    return 1;
 }
 
 
@@ -29,5 +42,6 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
  */
 int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
 {
-	return 1;
+    printf("DECODING");
+    return 1;
 }
