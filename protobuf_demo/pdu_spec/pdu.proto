@@ -1,0 +1,30 @@
+syntax = "proto3"; 
+
+message ComplexType {
+    uint32              clockTicks = 1;
+    repeated uint32     intSequence = 2;
+}
+
+/**
+ * This is not really necessary, because all fields in Cell
+ * are optional, so I simply check for their presence. However,
+ * let's be explicit about what a Cell contains.
+ */
+enum CellType {
+    CELL_TYPE_INT = 0;
+    CELL_TYPE_BOOL = 1;
+    CELL_TYPE_NAME = 2;
+    CELL_TYPE_MESSAGE = 3;
+}
+
+message Cell {
+    CellType        type = 1;
+    uint32          intVal = 2;
+    bool            boolVal = 3;
+    string          name = 4;
+    ComplexType     msg = 5;
+}
+
+message PDU {
+    repeated Cell   cells = 1;
+}
