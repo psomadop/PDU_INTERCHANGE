@@ -130,14 +130,11 @@ int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
     asn_dec_rval_t   dr;        //!< Decoder's result.
     struct PDU       asn_pdu;   //!< Decoded PDU.
     int              i;
+    struct PDU       *ap = &asn_pdu;
 
     memset(&asn_pdu, 0, sizeof(asn_pdu));    
 
-    /** 
-     * Brain-damaged interface for the decoder, but I'm now used to that.
-     */
-    dr = asn_DEF_PDU.op->ber_decoder( 0, &asn_DEF_PDU, (void **)&asn_pdu,
-                                      buffer, buffer_size, 0 ); 
+    dr = ber_decode(NULL, &asn_DEF_PDU, (void**)&ap, buffer, buffer_size);
 
     /**  
      * There is another Return Code, which means that decoder needs more data. 
