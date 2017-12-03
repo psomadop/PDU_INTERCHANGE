@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/Users/tasospsomadopoulos/PDU_INTERCHANGE/protobuf_demo/protobuf-3.5.0
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

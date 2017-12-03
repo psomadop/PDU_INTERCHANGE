@@ -193,7 +193,7 @@ done
 
 # These have defaults filled in by the configure script but can also be
 # overridden by environment variables or command line parameters.
-prefix="${GMOCK_PREFIX:-/usr/local}"
+prefix="${GMOCK_PREFIX:-/Users/tasospsomadopoulos/PDU_INTERCHANGE/protobuf_demo/protobuf-3.5.0}"
 exec_prefix="${GMOCK_EXEC_PREFIX:-${prefix}}"
 libdir="${GMOCK_LIBDIR:-${exec_prefix}/lib}"
 includedir="${GMOCK_INCLUDEDIR:-${prefix}/include}"
@@ -227,7 +227,7 @@ if test "${this_bindir}" = "${this_bindir%${bindir}}"; then
   gmock_cxxflags=""
 
   # Directly invoke the gtest-config script used during the build process.
-  gtest_config="/Users/tasospsomadopoulos/ASN/protobuf_demo/protobuf-3.5.0/gmock/gtest/scripts/gtest-config"
+  gtest_config="/Users/tasospsomadopoulos/PDU_INTERCHANGE/protobuf_demo/protobuf-3.5.0/gmock/gtest/scripts/gtest-config"
 else
   # We're using an installed gmock, although it may be staged under some
   # prefix. Assume (as our own libraries do) that we can resolve the prefix,
