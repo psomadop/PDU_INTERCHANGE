@@ -20,7 +20,7 @@ TRANSCODER_SOURCES:=$(wildcard $(PROTOC_OUTPUT_PATH)/*.cc)
 CPP=g++ -c
 CC=gcc -c
 LD=gcc
-BLD=gcc
+BLD=gcc -g
 
 transcoder_src: $(PROTOC_INPUT_PATH)/pdu.proto
 	$(PROTOC_GEN) -I=$(PROTOC_INPUT_PATH) --cpp_out=$(PROTOC_OUTPUT_PATH) pdu.proto

@@ -49,7 +49,7 @@ int main(void)
     
     /* Encode here. */
     int success = pdu_encode(&tx_pdu, encoded, encoded_len, &bytes_encoded);
-    printf ("ASN encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
+    printf ("nanopb encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
     for (int i = 0; i < bytes_encoded && success; i++)
     {
         printf("0x%2x,", (unsigned char)encoded[i]);
@@ -58,7 +58,7 @@ int main(void)
 
     /* Decode nad see what we get back. */
     success = pdu_decode(&decoded, encoded, encoded_len);
-    printf ("ASN decoder returned: %d\n", (int)success);
+    printf ("nanopb decoder returned: %d\n", (int)success);
     if (memcmp(&tx_pdu, &decoded, sizeof(TX_PDU)) == 0)
     {
         printf (" It all worked marvelously. Before and after TX_PDUs are the same.\n");
