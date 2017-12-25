@@ -1,6 +1,8 @@
 #include "pdu_transcoder.h"
 #include "pdu_generated.h"
 
+using namespace PDU;
+
 /**
  * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
  *
@@ -14,32 +16,43 @@
  */
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
-    int             i, status;
-    PDU             p_pdu;
+    int                             i, status;
+    flatbuffers::FlatBufferBuilder  builder(1024);
+    auto        fcell;   // Encoding of PDU Cell.
+    auto        fpdu;    // Encoding of PDU.
+    std::vector<flatbuffers::Offset<Cell>> fcells;  // Collection of encoded PDU Cells.
 
     for (i = 0; i < tx_pdu->num_cells; i++)
     {
         CELL *cur = &tx_pdu->cells[i];
-        Cell p_cell;
         
         switch (cur->type)
         {
             case CELL_TYPE_INT:
-
+                fcell = CreateCell(builder, CellType_INT, cur->u.int_val);
                 break;
 
             case CELL_TYPE_BOOL:
-
+                fcell = CreateCell(builder, CellType_BOOL, 0, cur->u.bool_val);
                 break;
 
             case CELL_TYPE_NAME:
-
+                fcell = CreateCell(builder, CellType_NAME, 0, false, builder.CreateString(cur->u.name_val));
                 break;
 
             case CELL_TYPE_MESSAGE:
-
+                auto fmessage =  CreateComplexType(builder,
+                                     cur->u.message.clock_ticks,
+                                     builder.CreateVector(cur->u.message.integers, sizeof(cur->u.message.integers)));
+                fcell = CreateCell(builder, CellType_MESSAGE, 0, false, 0, fmessage);
                 break;
+        }
+
+        fcells.push_back(fcell);
     }
+
+    auto all_fcells = builder.CreateVector(fcells);
+    fcells = CreatePDU(builder, all_fcells);
 
     return 1;
 }
