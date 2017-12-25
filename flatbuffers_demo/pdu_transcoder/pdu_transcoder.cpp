@@ -1,7 +1,5 @@
 #include "pdu_transcoder.h"
-#include "pdu.pb.h"
-#include "pb_encode.h"
-#include "pb_decode.h"
+#include "pdu_generated.h"
 
 /**
  * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
@@ -16,11 +14,8 @@
  */
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
-    int 			i, status;
-    PDU 			p_pdu;
-    pb_ostream_t 	stream;
-
-    stream = pb_ostream_from_buffer((pb_byte_t*)buffer, buffer_size);
+    int             i, status;
+    PDU             p_pdu;
 
     for (i = 0; i < tx_pdu->num_cells; i++)
     {
@@ -30,42 +25,23 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
         switch (cur->type)
         {
             case CELL_TYPE_INT:
-                p_cell.type = CellType_CELLTYPE_INT;
-                p_cell.intVal = cur->u.int_val;
+
                 break;
 
             case CELL_TYPE_BOOL:
-                p_cell.type = CellType_CELLTYPE_BOOL;
-                p_cell.boolVal = cur->u.bool_val;
+
                 break;
 
             case CELL_TYPE_NAME:
-                p_cell.type = CellType_CELLTYPE_NAME;
-                p_cell.name.arg =
-                p_cell.name.funcs.encode = &encode_name;
+
                 break;
 
             case CELL_TYPE_MESSAGE:
-                p_cell.type = CellType_CELLTYPE_MESSAGE;
-                p_cell.msg.clockTicks = cur->u.message.clock_ticks;
-                p_cell.msg.intSequence.funcs.encode = &encode_complex;
+
                 break;
     }
 
-    status = pb_encode(&stream, Cell_fields, &p_cell);
-    if (enc_len)
-    {
-    	*enc_len = stream.bytes_written;
-    }
-
-    if (!status)
-    {
-    	return -1;
-    }
-    else
-    {
-    	return 1;
-    }
+    return 1;
 }
 
 
