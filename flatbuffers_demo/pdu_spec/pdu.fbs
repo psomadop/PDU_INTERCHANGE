@@ -1,0 +1,35 @@
+// IDL for PDU
+
+namespace PDU;
+
+// Defining this type, and I am using a horrible name.
+table ComplexType {
+    clockTicks:uint32;
+    intSequence:[int32];
+}
+
+
+// This is not really necessary, because all fields in Cell
+// are optional, so I simply check for their presence. However,
+// let's be explicit about what a Cell contains.
+enum CellType : byte {
+    INT = 0,
+    BOOL = 1,
+    NAME = 2,
+    MESSAGE = 3
+}
+
+// Cell is supposed to contain only one of the following fields.
+table Cell {
+    type:CellType;
+    intVal:uint32 = 0;
+    boolVal:bool = false;
+    name:string;
+    msg:ComplexType;
+}
+
+table PDU {
+    cells:[Cell];
+}
+
+root_type PDU;
