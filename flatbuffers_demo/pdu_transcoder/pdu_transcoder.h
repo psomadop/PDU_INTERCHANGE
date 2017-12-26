@@ -9,15 +9,7 @@
 #ifndef ASN_ASN_TRASNCODER_C_H
 #define ASN_ASN_TRASNCODER_C_H
 
-/** 
- * This is C API. 
- * Create C-style named symbols for C++ compiler. */
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #include "pdu_types.h"
-#include <stdio.h>
 
 /**
  * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
@@ -43,10 +35,5 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len);
  *          -1              On failure.
  */
 int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size);
-
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif //ASN_ASN_TRASNCODER_C_H

@@ -8,6 +8,7 @@ table ComplexType {
     intSequence:[int32];
 }
 
+// union CellValue { intVal:uint32, boolVal:bool, name:string, msg:ComplexType }
 
 // This is not really necessary, because all fields in Cell
 // are optional, so I simply check for their presence. However,
