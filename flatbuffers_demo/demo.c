@@ -11,7 +11,7 @@ int main(void)
     CELL    cells[4];
     memset(cells, 0, sizeof(cells));
     
-    /* Buffer for ASN.1 encoded data. */
+    /* Buffer for encoded data. */
     char    encoded[8192];
     int     encoded_len = 8192;
     int     bytes_encoded;    
@@ -49,14 +49,14 @@ int main(void)
     
     /* Encode here. */
     int success = pdu_encode(&tx_pdu, encoded, encoded_len, &bytes_encoded);
-    printf ("ASN encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
+    printf ("flatbuffers encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
     for (int i = 0; i < bytes_encoded && success; i++)
     {
         printf("0x%2x,", (unsigned char)encoded[i]);
     }
     printf("\n");
 
-    /* Decode nad see what we get back. */
+    /* Decode and see what we get back. */
     success = pdu_decode(&decoded, encoded, encoded_len);
     printf ("ASN decoder returned: %d\n", (int)success);
     if (memcmp(&tx_pdu, &decoded, sizeof(TX_PDU)) == 0)

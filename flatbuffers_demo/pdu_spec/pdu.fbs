@@ -1,6 +1,6 @@
 // IDL for PDU
 
-namespace PDU;
+namespace GTP;
 
 // Defining this type, and I am using a horrible name.
 table ComplexType {

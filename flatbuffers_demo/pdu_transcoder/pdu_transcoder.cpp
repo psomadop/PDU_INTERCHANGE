@@ -1,7 +1,8 @@
 #include "pdu_transcoder.h"
 #include "pdu_generated.h"
+#include "pdu_types.h"
 
-using namespace PDU;
+using namespace GTP;
 
 /**
  * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
@@ -18,8 +19,17 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 {
     int                             i, status;
     flatbuffers::FlatBufferBuilder  builder(1024);
-    auto        fcell;   // Encoding of PDU Cell.
-    auto        fpdu;    // Encoding of PDU.
+
+    /**
+     *  Not a C++ expert, but this will assign the right type at compile-time.
+     *  I'll reassign later.
+     */
+    auto fcell = CreateCell(builder);
+
+    /**
+     * I need a vector to store flatbuffer Cells.
+     * These will be converted to a flatbuffers vector.
+     */
     std::vector<flatbuffers::Offset<Cell>> fcells;  // Collection of encoded PDU Cells.
 
     for (i = 0; i < tx_pdu->num_cells; i++)
@@ -37,13 +47,16 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
                 break;
 
             case CELL_TYPE_NAME:
-                fcell = CreateCell(builder, CellType_NAME, 0, false, builder.CreateString(cur->u.name_val));
+                fcell = CreateCell(builder, CellType_NAME, 0, false,
+                                   builder.CreateString(std::string(cur->u.name_val)));
                 break;
 
             case CELL_TYPE_MESSAGE:
                 auto fmessage =  CreateComplexType(builder,
                                      cur->u.message.clock_ticks,
-                                     builder.CreateVector(cur->u.message.integers, sizeof(cur->u.message.integers)));
+                                     builder.CreateVector(cur->u.message.integers,
+                                                          sizeof(cur->u.message.integers)));
+
                 fcell = CreateCell(builder, CellType_MESSAGE, 0, false, 0, fmessage);
                 break;
         }
@@ -51,10 +64,18 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
         fcells.push_back(fcell);
     }
 
+    *enc_len = 0;
     auto all_fcells = builder.CreateVector(fcells);
-    fcells = CreatePDU(builder, all_fcells);
+    auto fpdu = CreatePDU(builder, all_fcells);
+    builder.Finish(fpdu);
 
-    return 1;
+    uint8_t *buf = builder.GetBufferPointer();
+    *enc_len = builder.GetSize();
+
+    if (*enc_len == 0)
+        return -1;
+
+    return *enc_len;
 }
 
 
