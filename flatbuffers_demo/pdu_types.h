@@ -2,8 +2,8 @@
 // Created by Tasos Psomadopoulos on 02/12/2017.
 //
 
-#ifndef ASN_PDU_TYPES_H
-#define ASN_PDU_TYPES_H
+#ifndef PDU_TYPES_H
+#define PDU_TYPES_H
 
 #define TRUE    (1)
 #define FALSE   (0)

@@ -11,9 +11,9 @@
 #define c_vec_len(V) (sizeof(V)/sizeof((V)[0]))
 
 /**
- * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
+ * Encode tx_pdu, to the supplied buffer of specified length.
  *
- * @param   tx_pdu          TX_PDU structure to encode to ASN.1 binary format.
+ * @param   tx_pdu          TX_PDU structure to encode to binary format.
  * @param   buffer          Byte buffer where encoded TX_PDU will be stored.
  * @param   buffer_size     Size of supplied buffer.
  * @param   enc_len         Will contain the number of encoded bytes, on success.
@@ -78,7 +78,7 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
     uint8_t* buf = flatcc_builder_get_direct_buffer(&builder, (size_t*)enc_len);
 
     if ( (*enc_len == 0) ||
-         (!GTP_PDU_verify_as_root(buf, (size_t)*enc_len)) )
+         (GTP_PDU_verify_as_root(buf, (size_t)*enc_len)) )
     {
         ret = -1;
     }
@@ -94,7 +94,7 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 
 
 /**
- * Decode ASN.1 encoded buffer to supplied TX_PDU structure;
+ * Decode encoded buffer to supplied TX_PDU structure;
  *
  * @param   tx_pdu          TX_PDU structure with decoded data.
  * @param   buffer          Byte buffer where encoded TX_PDU is be stored.

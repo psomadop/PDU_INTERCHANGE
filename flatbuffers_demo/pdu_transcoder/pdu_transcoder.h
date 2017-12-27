@@ -6,15 +6,15 @@
  * App <-> pdu_transcoder mediator.
  */
 
-#ifndef ASN_ASN_TRASNCODER_C_H
-#define ASN_ASN_TRASNCODER_C_H
+#ifndef PDU_TRASNCODER_H
+#define PDU_TRASNCODER_H
 
 #include "pdu_types.h"
 
 /**
- * ASN.1 Encode tx_pdu, to the supplied buffer of specified length.
+ * Encode tx_pdu, to the supplied buffer of specified length.
  *
- * @param   tx_pdu          TX_PDU structure to encode to ASN.1 binary format.
+ * @param   tx_pdu          TX_PDU structure to encode to binary format.
  * @param   buffer          Byte buffer where encoded TX_PDU will be stored.
  * @param   buffer_size     Size of supplied buffer.
  * @param   enc_len         Will contain the number of encoded bytes, on success.
@@ -25,7 +25,7 @@
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len);
 
 /**
- * Decode ASN.1 encoded buffer to supplied TX_PDU structure;
+ * Decode encoded buffer to supplied TX_PDU structure;
  *
  * @param   tx_pdu          TX_PDU structure with decoded data.
  * @param   buffer          Byte buffer where encoded TX_PDU is be stored.
