@@ -1,2 +1,1 @@
-# ASN
-ASN playground
+See flatbuffers_demo for more info.
