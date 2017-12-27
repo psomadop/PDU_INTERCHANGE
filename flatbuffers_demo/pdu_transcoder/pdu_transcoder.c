@@ -23,16 +23,22 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
     B = &builder;
     flatcc_builder_init(B);
 
+    // Let's make a PDU. I'm using the top-down approach here,
+    // as I find it a lot easier and comprehensible.
     GTP_PDU_start_as_root(B);
+    // Entering PDU cells vector.
     GTP_PDU_cells_start(B);
 
     for (i = 0; i < tx_pdu->num_cells; i++)
     {
         CELL *cur = &tx_pdu->cells[i];
         
+        // Pushing an element in cells vector
         GTP_PDU_cells_push_start(B);
+        // Creating a cell. Starting here.
         GTP_Cell_start(B);
 
+        // Here, we populate the new cell,
         switch (cur->type)
         {
             case CELL_TYPE_INT:
@@ -52,19 +58,25 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 
             case CELL_TYPE_MESSAGE:
                 GTP_Cell_type_add(B, GTP_CellType_MESSAGE);
+                // Need to create a ComplexType for this cell. Start it here.
                 GTP_ComplexType_start(B);
                 GTP_ComplexType_clockTicks_add(B, cur->u.message.clock_ticks);
                 GTP_ComplexType_intSequence_add(B,
                         flatbuffers_int32_vec_create(B, cur->u.message.integers, 4*sizeof(int)));
+                // Done with ComplexType creation. Tell builder.
                 GTP_ComplexType_end(B);
                 break;
         }
 
+        // Done with Cell creation. Tell builder
+        // and push it in the PDU cells vector.
         GTP_Cell_end(B);
         GTP_PDU_cells_push_end(B);
     }
 
+    // End PDU cells vector, tell builder.
     GTP_PDU_cells_end(B);
+    // Done with PDU. Tell builder.
     GTP_PDU_end_as_root(B);
 
     *enc_len = 0;
