@@ -74,7 +74,7 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
 
     *enc_len = 0;
 
-    /* Gen encoded buffer. */
+    /* Get encoded buffer. */
     uint8_t* buf = flatcc_builder_get_direct_buffer(&builder, (size_t*)enc_len);
 
     if ( (*enc_len == 0) ||
