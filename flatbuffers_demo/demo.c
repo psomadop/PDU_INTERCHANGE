@@ -60,6 +60,9 @@ int main(void)
     /* Decode and see what we get back. */
     success = pdu_decode(&decoded, encoded, encoded_len);
     printf ("flatbuffers decoder returned: %d\n", (int)success);
+
+    printf("num cells decoded %d\n", decoded.num_cells);
+
     if (memcmp(&tx_pdu, &decoded, sizeof(TX_PDU)) == 0)
     {
         printf (" It all worked marvelously. Before and after TX_PDUs are the same.\n");
