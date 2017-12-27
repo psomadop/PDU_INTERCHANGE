@@ -53,7 +53,7 @@ int main(void)
     printf ("flatbuffers encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
     for (int i = 0; i < bytes_encoded && success; i++)
     {
-        printf("0x%2x,", (unsigned char)encoded[i]);
+        printf("0x%02x,", (unsigned char)encoded[i]);
     }
     printf("\n");
 
