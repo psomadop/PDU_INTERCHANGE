@@ -38,6 +38,8 @@ void print_cell(CELL *c)
 
 int main(void)
 {
+    FILE *file_out = fopen("enc_pdu.bin", "wb");
+    
     /* My data types. */
     CELL    cell_a, cell_b, cell_c, cell_d;
     CELL    cells[4];
@@ -84,9 +86,11 @@ int main(void)
     /* Encode here. */
     int success = pdu_encode(&tx_pdu, encoded, encoded_len, &bytes_encoded);
     printf ("== ENCODE ==\nflatbuffers encoder returned: %d. Bytes encoded:%d\n", (int)success, bytes_encoded);
+    printf ("Encoded PDU written to enc_pdu.bin\n");
     for (int i = 0; i < bytes_encoded && success; i++)
     {
         printf("0x%02x,", (unsigned char)encoded[i]);
+        fwrite (encoded + i, sizeof(unsigned char), 1,file_out);
     }
     printf("\n");
 
