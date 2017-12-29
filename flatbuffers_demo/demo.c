@@ -52,7 +52,9 @@ int main(void)
 
     TX_PDU tx_pdu;      // I will encode this one.
     TX_PDU decoded;     // And I will decode it here.
-
+   
+    printf ("-> C demo.\n");
+            
     memset(&tx_pdu, 0, sizeof(TX_PDU));
     memset(&decoded, 0, sizeof(TX_PDU));
     memset(cells, 0, 4 * sizeof(CELL));

@@ -34,4 +34,5 @@ def decode_pdu_from_file(filename):
             for k in range(0, cell.Msg().IntSequenceLength()):
                 print cell.Msg().IntSequence(k)
 
+print ("\n-> Python demo. Decoding enc_pdu.bin")
 decode_pdu_from_file(os.path.join('..', 'enc_pdu.bin'))
