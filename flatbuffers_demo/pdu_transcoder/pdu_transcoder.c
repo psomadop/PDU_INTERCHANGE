@@ -36,9 +36,8 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
         
         // Pushing an element in cells vector
         GTP_PDU_cells_push_start(B);
-        // Creating a cell. Starting here.
-        //GTP_Cell_start(B);
-
+        
+        // Creating a cell.
         // Here, we populate the new cell,
         switch (cur->type)
         {
@@ -72,8 +71,7 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len)
         }
 
         // Done with Cell creation. Tell builder
-        // and push it in the PDU cells vector.
-        //GTP_Cell_end(B);
+        // to push it in the PDU cells vector.
         GTP_PDU_cells_push_end(B);
     }
 
@@ -156,8 +154,6 @@ int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size)
                 {
                     cur->u.message.integers[i] = flatbuffers_int32_vec_at(fintSeq, i);
                 }
-                
-                
                 break;
         }
     }
