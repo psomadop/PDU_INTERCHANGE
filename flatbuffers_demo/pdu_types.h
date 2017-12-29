@@ -36,8 +36,8 @@ typedef struct cell_t
     CELL_TYPE type;
     union
     {
-        int             int_val  : 4;
-        unsigned int    bool_val : 1;
+        int             int_val;
+        unsigned int    bool_val;
         char            *name_val;
         MESSAGE         message;
     }u;
