@@ -2,6 +2,7 @@ import sys
 import os.path
 sys.path.append(os.path.join('..', 'flatbuffers', 'python'))
 import flatbuffers
+# The following will be auto-generated once flatc compiles pdu.fbs schema.
 import GTP.Cell
 import GTP.CellType
 import GTP.ComplexType
@@ -16,6 +17,7 @@ def decode_pdu_from_file(filename):
     encFile = open(filename, 'rb')
     encoded = bytearray(encFile.read())
 
+    # Deserialise flatbuffer.
     pdu = GTP.PDU.PDU.GetRootAsPDU(encoded, 0)
 
     # DONE. Now let's print it!
@@ -23,6 +25,7 @@ def decode_pdu_from_file(filename):
         print ('=== Cell %s ===' % i)
         cell = pdu.Cells(i)
         print cell_type[ cell.Type() ]
+        
         if cell.Type() == 0:
             print cell.IntVal()
         elif cell.Type() == 1:
