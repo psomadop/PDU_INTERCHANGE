@@ -12,7 +12,7 @@
 #include "pdu_types.h"
 
 /**
- * Encode tx_pdu, to the supplied buffer of specified length.
+ * Encode tx_pdu to flatbuffer, to the supplied buffer of specified length.
  *
  * @param   tx_pdu          TX_PDU structure to encode to binary format.
  * @param   buffer          Byte buffer where encoded TX_PDU will be stored.
@@ -25,7 +25,7 @@
 int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len);
 
 /**
- * Decode encoded buffer to supplied TX_PDU structure;
+ * Decode encoded flatbuffer to supplied TX_PDU structure;
  *
  * @param   tx_pdu          TX_PDU structure with decoded data.
  * @param   buffer          Byte buffer where encoded TX_PDU is be stored.
@@ -36,4 +36,4 @@ int pdu_encode(TX_PDU* tx_pdu, char* buffer, int buffer_size, int *enc_len);
  */
 int pdu_decode(TX_PDU* tx_pdu, char* buffer, int buffer_size);
 
-#endif //ASN_ASN_TRASNCODER_C_H
+#endif //PDU_TRASNCODER_H
