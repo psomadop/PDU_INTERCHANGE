@@ -1,6 +1,6 @@
 Flatbuffers notes
 
-(-) Building flatcc compiler for your platform.
+(-) Building flatcc (flatbuffers C runtime) compiler for your platform.
 
 cd flatcc
 scripts/initbuild.sh make
@@ -8,3 +8,10 @@ scripts/build.sh
 
 * Flatbuffers interface headers inside /include directory.
 * The flatcc runtime is flatcc/lib/libflatccrt.a. Link it against your build artifact. 
+
+(-) Building flatc (flatbuffers) for your platform, for Python auto-generated decoder.
+cd flatbuffers
+cmake -G "Unix makefiles"
+make
+
+* Python modules under python/
